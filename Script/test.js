@@ -25,14 +25,14 @@ async function get_users_from_role(role_name) {
     */
     let list = []
 
-    return get_db_from_name("Role").then(data => {
+    get_db_from_name("Role").then(data => {
         // Find where to look for
         let role_data = data.find((elmt) => elmt.name == role_name)
         let role_category = role_data.category
         console.log(role_data)
 
         // Get all data from that category
-        return get_db_from_name(role_category).then(data => {
+        get_db_from_name(role_category).then(data => {
             data.forEach(elmt => {
 
                 // Did this person ever get the role?
@@ -44,12 +44,12 @@ async function get_users_from_role(role_name) {
                         current: elmt.current
                     })
                 }
-
+            console.log(list)
             })
-
-            return list
         })
     })
+
+    return list
 }
 
 get_users_from_role("helper").then(data => console.log(data))
