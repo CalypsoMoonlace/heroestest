@@ -28,10 +28,10 @@ async function get_users_from_role(role_name) {
         // Did this person ever get the role?
         if (elmt[role_name] != null) {
             // Yes, add to list
-            
-            if (elmt[role_name].toString().includes(" ")) {
+
+            if (typeof(elmt[role_name]) == "string") {
                 // only keep first occurence
-                new_time = elmt[role_name].split(" ")[0]
+                new_time = parseInt(elmt[role_name].split(" ")[0])
             } else {
                 new_time = elmt[role_name]
             }
