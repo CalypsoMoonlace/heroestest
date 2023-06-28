@@ -247,13 +247,13 @@ function loading() {
 
 let list_to_add = [],all_member_positions = [],all_role_members = [],all_role_members_languages = [];
 
-function Func() {
-    fetch("./data/Members.json")
-        .then((res) => {
-        return res.json();
-    })
-    .then((data) => console.log(data));
+async function Func() {
+    const response = await fetch('./Members.json')
+    const jsonData = await response.json()
+    return jsonData
 }
+
+Func().then(data => console.log(data))
 
 function get_user_from_name(member_name) {
 	/*
