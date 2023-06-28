@@ -38,6 +38,7 @@ async function get_users_from_role(role_name) {
 }
 
 async function loading() {
+    // get url parameters
     let page_url = new URLSearchParams(window.location.search);
     let member_name = page_url.get('member');
     let role_name = page_url.get('role')
@@ -50,24 +51,24 @@ async function loading() {
     }
 
     if (member_name && role_name) {
-        // member has priority over role, to avoid conflicts
+        // if both are set, member has priority over role, to avoid conflicts
         role_name = null
     }
 
     if (role_name) {
+        // load role info
+        document.title = "Role info"
         let users_data = await get_users_from_role(role_name)
 
-        document.title = "Role info"
-        //document.getElementsByClassName('sort_button')[0].style.visibility = "visible";
-
+        // sort accordingly
         if (sort_type == "language") {
-            //document.getElementsByClassName('bottom_button')[1].innerText = "Default sorting";
-            //document.getElementsByClassName('bottom_button')[1].href = `https://heroes.wolvesville.com/list.html?role=${role_name}`;
-        } else {
-            //document.getElementsByClassName('bottom_button')[1].href = `https://heroes.wolvesville.com/list.html?role=${role_name}&sort=language`;
+            //
+        } else if (sort_type == "name") {
             users_data.sort((a,b) => a.name.localeCompare(b.name))
             console.log(users_data)
+        } else {
+            users_data.sort((a,b) => a.time - b.time)
+            console.log(users_data)
         }
-
     }
 }
