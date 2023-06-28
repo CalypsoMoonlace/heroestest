@@ -1,12 +1,12 @@
-async function Func() {
-    const response = await fetch('./Members.json')
+async function get_db_from_name(db_name) {
+    const response = await fetch(`./data/${db_name}.json`)
     const jsonData = await response.json()
     return jsonData
 }
 
-Func().then(data => {
+get_db_from_name("Discords").then(data => {
     data.forEach(elmt => {
-        if (elmt.name.includes('A')) {
+        if (elmt.current != "resigned") {
             console.log(elmt)
         }
     })
