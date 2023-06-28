@@ -27,7 +27,8 @@ async function get_users_from_role(role_name) {
 
     get_db_from_name("Roles").then(data => {
         console.log(data)
-        let role_data = data[role_name]
+        let role_data = data.find((elmt) => elmt.name == role_name)
+        console.log(role_data)
         let role_category = role_data.category
         console.log(role_category)
 
