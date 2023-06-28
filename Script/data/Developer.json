@@ -1,34 +1,38 @@
 [
     {
-        "createdAt": "2023-06-28 12:05:31.495 +00:00",
+        "createdAt": "2023-06-28 17:43:40.989 +00:00",
         "current": "dev",
         "dev": 1518818453,
+        "languages": "German",
         "name": "Philipp",
         "resigned": null,
-        "updatedAt": "2023-06-28 12:05:31.495 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.989 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.495 +00:00",
+        "createdAt": "2023-06-28 17:43:40.989 +00:00",
         "current": "resigned",
         "dev": 1518818453,
+        "languages": "German",
         "name": "Emanuel",
         "resigned": 1619445473,
-        "updatedAt": "2023-06-28 12:05:31.495 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.989 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.495 +00:00",
+        "createdAt": "2023-06-28 17:43:40.989 +00:00",
         "current": "dev",
         "dev": 1606407988,
+        "languages": "German",
         "name": "Florian",
         "resigned": null,
-        "updatedAt": "2023-06-28 12:05:31.495 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.989 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.495 +00:00",
+        "createdAt": "2023-06-28 17:43:40.989 +00:00",
         "current": "dev",
         "dev": 1619618273,
+        "languages": "French",
         "name": "Hubble",
         "resigned": null,
-        "updatedAt": "2023-06-28 12:05:31.495 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.989 +00:00"
     }
 ]

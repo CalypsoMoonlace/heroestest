@@ -1,8 +1,9 @@
 [
     {
-        "createdAt": "2023-06-28 12:05:31.469 +00:00",
+        "createdAt": "2023-06-28 17:43:40.960 +00:00",
         "current": "resigned",
         "helper": 1526407710,
+        "languages": "English",
         "megamod": null,
         "minimod": 1526753310,
         "mod": null,
@@ -10,12 +11,13 @@
         "resigned": 1529777310,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.469 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.960 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.469 +00:00",
+        "createdAt": "2023-06-28 17:43:40.961 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": 1533125456,
         "mod": 1526404669,
@@ -23,12 +25,13 @@
         "resigned": "1535026256 1532520656",
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.469 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.961 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.469 +00:00",
+        "createdAt": "2023-06-28 17:43:40.961 +00:00",
         "current": "resigned",
         "helper": 1527527869,
+        "languages": "English",
         "megamod": null,
         "minimod": 1529083069,
         "mod": null,
@@ -36,12 +39,13 @@
         "resigned": 1532970651,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.469 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.961 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.469 +00:00",
+        "createdAt": "2023-06-28 17:43:40.961 +00:00",
         "current": "resigned",
         "helper": 1526404669,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -49,12 +53,13 @@
         "resigned": 1527268669,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.469 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.961 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.469 +00:00",
+        "createdAt": "2023-06-28 17:43:40.961 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -62,12 +67,13 @@
         "resigned": 1546274823,
         "trialhelper": 1545932690,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.469 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.961 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.469 +00:00",
+        "createdAt": "2023-06-28 17:43:40.961 +00:00",
         "current": "resigned",
         "helper": 1534676613,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -75,12 +81,13 @@
         "resigned": "1536605716 1543776916",
         "trialhelper": "1534331013 1542999316",
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.469 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.961 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.469 +00:00",
+        "createdAt": "2023-06-28 17:43:40.961 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "Filipino",
         "megamod": null,
         "minimod": 1533233433,
         "mod": 1525176650,
@@ -88,12 +95,13 @@
         "resigned": 1539713433,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.469 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.961 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.469 +00:00",
+        "createdAt": "2023-06-28 17:43:40.961 +00:00",
         "current": "mod",
         "helper": 1558311601,
+        "languages": "French",
         "megamod": null,
         "minimod": 1567210801,
         "mod": 1569802801,
@@ -101,12 +109,13 @@
         "resigned": null,
         "trialhelper": 1556670001,
         "trialminimod": 1565482801,
-        "updatedAt": "2023-06-28 12:05:31.469 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.961 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.469 +00:00",
+        "createdAt": "2023-06-28 17:43:40.961 +00:00",
         "current": "mod",
         "helper": 1548587013,
+        "languages": "Dutch",
         "megamod": null,
         "minimod": 1567210801,
         "mod": 1622892500,
@@ -114,12 +123,13 @@
         "resigned": null,
         "trialhelper": 1547856000,
         "trialminimod": 1565482801,
-        "updatedAt": "2023-06-28 12:05:31.469 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.961 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.469 +00:00",
+        "createdAt": "2023-06-28 17:43:40.961 +00:00",
         "current": "resigned",
         "helper": 1526410516,
+        "languages": "English",
         "megamod": null,
         "minimod": 1526583316,
         "mod": null,
@@ -127,12 +137,13 @@
         "resigned": 1533495316,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.469 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.961 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.470 +00:00",
+        "createdAt": "2023-06-28 17:43:40.961 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": 1525886269,
         "mod": null,
@@ -140,12 +151,13 @@
         "resigned": 1530724669,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.470 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.961 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.470 +00:00",
+        "createdAt": "2023-06-28 17:43:40.962 +00:00",
         "current": "resigned",
         "helper": 1540234516,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -153,12 +165,13 @@
         "resigned": 1544721051,
         "trialhelper": 1539543316,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.470 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.962 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.470 +00:00",
+        "createdAt": "2023-06-28 17:43:40.962 +00:00",
         "current": "resigned",
         "helper": 1550449201,
+        "languages": "German",
         "megamod": null,
         "minimod": 1557831813,
         "mod": null,
@@ -166,12 +179,13 @@
         "resigned": 1581346988,
         "trialhelper": 1549844401,
         "trialminimod": 1555412613,
-        "updatedAt": "2023-06-28 12:05:31.470 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.962 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.470 +00:00",
+        "createdAt": "2023-06-28 17:43:40.962 +00:00",
         "current": "resigned",
         "helper": 1540320916,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -179,12 +193,13 @@
         "resigned": 1541616916,
         "trialhelper": 1539543316,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.470 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.962 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.470 +00:00",
+        "createdAt": "2023-06-28 17:43:40.962 +00:00",
         "current": "resigned",
         "helper": 1540234516,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -192,12 +207,13 @@
         "resigned": 1542826516,
         "trialhelper": 1539543316,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.470 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.962 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.470 +00:00",
+        "createdAt": "2023-06-28 17:43:40.962 +00:00",
         "current": "resigned",
         "helper": 1526404669,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -205,12 +221,13 @@
         "resigned": 1530706256,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.470 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.962 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.470 +00:00",
+        "createdAt": "2023-06-28 17:43:40.962 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": 1527336656,
         "mod": null,
@@ -218,12 +235,13 @@
         "resigned": 1533471056,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.470 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.962 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.470 +00:00",
+        "createdAt": "2023-06-28 17:43:40.962 +00:00",
         "current": "resigned",
         "helper": 1526404669,
+        "languages": "Lithuanian",
         "megamod": null,
         "minimod": "1526123013 1535108613",
         "mod": "1533467013 1552561413",
@@ -231,12 +249,13 @@
         "resigned": 1569063813,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.470 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.962 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.470 +00:00",
+        "createdAt": "2023-06-28 17:43:40.962 +00:00",
         "current": "helper",
         "helper": 1559473413,
+        "languages": "English",
         "megamod": null,
         "minimod": 1581174188,
         "mod": null,
@@ -244,12 +263,13 @@
         "resigned": null,
         "trialhelper": 1558311601,
         "trialminimod": 1579888328,
-        "updatedAt": "2023-06-28 12:05:31.470 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.962 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.470 +00:00",
+        "createdAt": "2023-06-28 17:43:40.962 +00:00",
         "current": "resigned",
         "helper": 1528027856,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -257,12 +277,13 @@
         "resigned": 1531915856,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.470 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.962 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.470 +00:00",
+        "createdAt": "2023-06-28 17:43:40.962 +00:00",
         "current": "resigned",
         "helper": 1551658801,
+        "languages": "Portuguese_br",
         "megamod": null,
         "minimod": 1554894213,
         "mod": null,
@@ -270,12 +291,13 @@
         "resigned": 1561547013,
         "trialhelper": 1551783813,
         "trialminimod": 1554116613,
-        "updatedAt": "2023-06-28 12:05:31.470 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.962 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.470 +00:00",
+        "createdAt": "2023-06-28 17:43:40.962 +00:00",
         "current": "resigned",
         "helper": 1554116613,
+        "languages": "German Romanian",
         "megamod": 1532540047,
         "minimod": null,
         "mod": 1524591247,
@@ -283,12 +305,13 @@
         "resigned": "1540402357 1555436047",
         "trialhelper": 1553252613,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.470 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.962 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.470 +00:00",
+        "createdAt": "2023-06-28 17:43:40.962 +00:00",
         "current": "resigned",
         "helper": "1548587013 1552302213",
+        "languages": "Danish",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -296,12 +319,13 @@
         "resigned": 1565607813,
         "trialhelper": 1547856000,
         "trialminimod": 1551956613,
-        "updatedAt": "2023-06-28 12:05:31.470 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.962 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.470 +00:00",
+        "createdAt": "2023-06-28 17:43:40.962 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -309,12 +333,13 @@
         "resigned": 1552695601,
         "trialhelper": 1551783813,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.470 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.962 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.470 +00:00",
+        "createdAt": "2023-06-28 17:43:40.962 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -322,12 +347,13 @@
         "resigned": 1542135316,
         "trialhelper": 1541530516,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.470 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.962 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.470 +00:00",
+        "createdAt": "2023-06-28 17:43:40.962 +00:00",
         "current": "resigned",
         "helper": 1531656656,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -335,12 +361,13 @@
         "resigned": 1532088656,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.470 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.962 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.471 +00:00",
+        "createdAt": "2023-06-28 17:43:40.963 +00:00",
         "current": "resigned",
         "helper": 1554116613,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -348,12 +375,13 @@
         "resigned": 1558782213,
         "trialhelper": 1553252613,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.471 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.963 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.471 +00:00",
+        "createdAt": "2023-06-28 17:43:40.963 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": 1527613851,
         "mod": null,
@@ -361,12 +389,13 @@
         "resigned": 1530637851,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.471 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.963 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.471 +00:00",
+        "createdAt": "2023-06-28 17:43:40.963 +00:00",
         "current": "resigned",
         "helper": 1555671813,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -374,12 +403,13 @@
         "resigned": 1567163013,
         "trialhelper": 1554894213,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.471 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.963 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.471 +00:00",
+        "createdAt": "2023-06-28 17:43:40.963 +00:00",
         "current": "resigned",
         "helper": 1531156251,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -387,12 +417,13 @@
         "resigned": 1535389851,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.471 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.963 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.471 +00:00",
+        "createdAt": "2023-06-28 17:43:40.963 +00:00",
         "current": "resigned",
         "helper": 1526407710,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -400,12 +431,13 @@
         "resigned": 1527530910,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.471 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.963 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.471 +00:00",
+        "createdAt": "2023-06-28 17:43:40.963 +00:00",
         "current": "resigned",
         "helper": 1526407710,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -413,12 +445,13 @@
         "resigned": 1530727710,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.471 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.963 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.471 +00:00",
+        "createdAt": "2023-06-28 17:43:40.963 +00:00",
         "current": "resigned",
         "helper": 1545243031,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -426,12 +459,13 @@
         "resigned": 1547316631,
         "trialhelper": 1544724633,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.471 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.963 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.471 +00:00",
+        "createdAt": "2023-06-28 17:43:40.963 +00:00",
         "current": "resigned",
         "helper": 1550449201,
+        "languages": "Spanish",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -439,12 +473,13 @@
         "resigned": 1563150001,
         "trialhelper": 1549844401,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.471 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.963 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.471 +00:00",
+        "createdAt": "2023-06-28 17:43:40.963 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -452,12 +487,13 @@
         "resigned": 1558311601,
         "trialhelper": 1556670001,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.471 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.963 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.471 +00:00",
+        "createdAt": "2023-06-28 17:43:40.963 +00:00",
         "current": "resigned",
         "helper": "1527962910 1532196510",
+        "languages": "English",
         "megamod": null,
         "minimod": 1531764510,
         "mod": null,
@@ -465,12 +501,13 @@
         "resigned": 1532524549,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.471 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.963 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.471 +00:00",
+        "createdAt": "2023-06-28 17:43:40.963 +00:00",
         "current": "resigned",
         "helper": 1532175056,
+        "languages": "Hebrew",
         "megamod": null,
         "minimod": 1530533456,
         "mod": 1525176670,
@@ -478,12 +515,13 @@
         "resigned": 1535458256,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.471 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.963 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.471 +00:00",
+        "createdAt": "2023-06-28 17:43:40.964 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -491,12 +529,13 @@
         "resigned": 1553041201,
         "trialhelper": 1551783813,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.471 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.964 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.471 +00:00",
+        "createdAt": "2023-06-28 17:43:40.964 +00:00",
         "current": "helper",
         "helper": 1568027013,
+        "languages": "French",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -504,12 +543,13 @@
         "resigned": 1578245520,
         "trialhelper": 1567210801,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.471 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.964 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.471 +00:00",
+        "createdAt": "2023-06-28 17:43:40.964 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "Dutch",
         "megamod": null,
         "minimod": 1532540047,
         "mod": 1525973647,
@@ -517,12 +557,13 @@
         "resigned": "1533058447 1549128847",
         "trialhelper": 1547856000,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.471 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.964 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.472 +00:00",
+        "createdAt": "2023-06-28 17:43:40.964 +00:00",
         "current": "resigned",
         "helper": 1529518231,
+        "languages": "French",
         "megamod": null,
         "minimod": 1524161431,
         "mod": null,
@@ -530,12 +571,13 @@
         "resigned": 1536603031,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.472 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.964 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.472 +00:00",
+        "createdAt": "2023-06-28 17:43:40.964 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": 1525713469,
         "mod": 1525972669,
@@ -543,12 +585,13 @@
         "resigned": 1532539069,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.472 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.964 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.472 +00:00",
+        "createdAt": "2023-06-28 17:43:40.964 +00:00",
         "current": "resigned",
         "helper": 1566126213,
+        "languages": "Portuguese_br",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -556,12 +599,13 @@
         "resigned": 1570878213,
         "trialhelper": 1563534213,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.472 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.964 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.472 +00:00",
+        "createdAt": "2023-06-28 17:43:40.964 +00:00",
         "current": "resigned",
         "helper": 1552748345,
+        "languages": "German Romanian",
         "megamod": null,
         "minimod": 1572799623,
         "mod": 1579392000,
@@ -569,12 +613,13 @@
         "resigned": 1616158268,
         "trialhelper": 1551783813,
         "trialminimod": 1570014213,
-        "updatedAt": "2023-06-28 12:05:31.472 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.964 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.472 +00:00",
+        "createdAt": "2023-06-28 17:43:40.964 +00:00",
         "current": "resigned",
         "helper": 1539515013,
+        "languages": "Slovenian",
         "megamod": null,
         "minimod": 1542971013,
         "mod": null,
@@ -582,12 +627,13 @@
         "resigned": 1563707013,
         "trialhelper": 1537268613,
         "trialminimod": 1541502213,
-        "updatedAt": "2023-06-28 12:05:31.472 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.964 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.472 +00:00",
+        "createdAt": "2023-06-28 17:43:40.964 +00:00",
         "current": "resigned",
         "helper": 1550449201,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -595,12 +641,13 @@
         "resigned": 1554423601,
         "trialhelper": 1549844401,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.472 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.964 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.472 +00:00",
+        "createdAt": "2023-06-28 17:43:40.964 +00:00",
         "current": "resigned",
         "helper": 1600019090,
+        "languages": "Turkish",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -608,12 +655,13 @@
         "resigned": "1566385413 1606241618",
         "trialhelper": "1563534213 1595782560",
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.472 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.964 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.472 +00:00",
+        "createdAt": "2023-06-28 17:43:40.964 +00:00",
         "current": "resigned",
         "helper": "1534676613 1544660401",
+        "languages": "English",
         "megamod": null,
         "minimod": 1537316401,
         "mod": null,
@@ -621,12 +669,13 @@
         "resigned": 1547052423,
         "trialhelper": 1534331013,
         "trialminimod": 1536538801,
-        "updatedAt": "2023-06-28 12:05:31.472 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.964 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.472 +00:00",
+        "createdAt": "2023-06-28 17:43:40.964 +00:00",
         "current": "resigned",
         "helper": 1529088916,
+        "languages": "German",
         "megamod": null,
         "minimod": 1533495316,
         "mod": null,
@@ -634,12 +683,13 @@
         "resigned": 1536173716,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.472 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.964 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.472 +00:00",
+        "createdAt": "2023-06-28 17:43:40.964 +00:00",
         "current": "resigned",
         "helper": 1526407710,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -647,12 +697,13 @@
         "resigned": 1531591710,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.472 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.964 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.472 +00:00",
+        "createdAt": "2023-06-28 17:43:40.964 +00:00",
         "current": "resigned",
         "helper": 1530125716,
+        "languages": "Dutch",
         "megamod": null,
         "minimod": 1533495316,
         "mod": null,
@@ -660,12 +711,13 @@
         "resigned": 1541616916,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.472 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.964 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.472 +00:00",
+        "createdAt": "2023-06-28 17:43:40.964 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -673,12 +725,13 @@
         "resigned": 1542653716,
         "trialhelper": 1541530516,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.472 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.964 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.472 +00:00",
+        "createdAt": "2023-06-28 17:43:40.964 +00:00",
         "current": "resigned",
         "helper": 1559473413,
+        "languages": "Malay Indonesian",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -686,12 +739,13 @@
         "resigned": 1567163013,
         "trialhelper": 1558311601,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.472 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.964 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.472 +00:00",
+        "createdAt": "2023-06-28 17:43:40.965 +00:00",
         "current": "resigned",
         "helper": 1550449201,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -699,12 +753,13 @@
         "resigned": 1554137223,
         "trialhelper": 1549844401,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.472 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.965 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.472 +00:00",
+        "createdAt": "2023-06-28 17:43:40.965 +00:00",
         "current": "resigned",
         "helper": 1536603031,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -712,12 +767,13 @@
         "resigned": 1541012116,
         "trialhelper": 1535588401,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.472 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.965 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.472 +00:00",
+        "createdAt": "2023-06-28 17:43:40.965 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": 1525176680,
@@ -725,12 +781,13 @@
         "resigned": 1532520656,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.472 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.965 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.473 +00:00",
+        "createdAt": "2023-06-28 17:43:40.965 +00:00",
         "current": "resigned",
         "helper": 1532193469,
+        "languages": "English",
         "megamod": null,
         "minimod": 1525540669,
         "mod": null,
@@ -738,12 +795,13 @@
         "resigned": 1535390269,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.473 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.965 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.473 +00:00",
+        "createdAt": "2023-06-28 17:43:40.965 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -751,12 +809,13 @@
         "resigned": 1540234516,
         "trialhelper": 1539543316,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.473 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.965 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.473 +00:00",
+        "createdAt": "2023-06-28 17:43:40.965 +00:00",
         "current": "megamod",
         "helper": 1550449201,
+        "languages": "German French",
         "megamod": 1568766001,
         "minimod": 1552695601,
         "mod": 1562977201,
@@ -764,12 +823,13 @@
         "resigned": null,
         "trialhelper": 1549844401,
         "trialminimod": 1551658801,
-        "updatedAt": "2023-06-28 12:05:31.473 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.965 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.473 +00:00",
+        "createdAt": "2023-06-28 17:43:40.965 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -777,12 +837,13 @@
         "resigned": 1546274823,
         "trialhelper": 1545932690,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.473 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.965 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.473 +00:00",
+        "createdAt": "2023-06-28 17:43:40.965 +00:00",
         "current": "resigned",
         "helper": 1533748669,
+        "languages": "German French",
         "megamod": null,
         "minimod": "1525713469 1532539069 1534272916",
         "mod": 1529052841,
@@ -790,12 +851,13 @@
         "resigned": 1544721469,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.473 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.965 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.473 +00:00",
+        "createdAt": "2023-06-28 17:43:40.965 +00:00",
         "current": "resigned",
         "helper": 1542068401,
+        "languages": "Thai",
         "megamod": null,
         "minimod": 1544660401,
         "mod": null,
@@ -803,12 +865,13 @@
         "resigned": 1572308401,
         "trialhelper": 1541463601,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.473 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.965 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.473 +00:00",
+        "createdAt": "2023-06-28 17:43:40.965 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -816,12 +879,13 @@
         "resigned": 1546427013,
         "trialhelper": 1545932690,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.473 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.965 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.473 +00:00",
+        "createdAt": "2023-06-28 17:43:40.965 +00:00",
         "current": "resigned",
         "helper": 1566126213,
+        "languages": "Dutch",
         "megamod": null,
         "minimod": 1572799623,
         "mod": null,
@@ -829,12 +893,13 @@
         "resigned": 1613856245,
         "trialhelper": 1563534213,
         "trialminimod": 1570014213,
-        "updatedAt": "2023-06-28 12:05:31.473 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.965 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.473 +00:00",
+        "createdAt": "2023-06-28 17:43:40.965 +00:00",
         "current": "resigned",
         "helper": 1532026516,
+        "languages": "English",
         "megamod": null,
         "minimod": 1526410516,
         "mod": null,
@@ -842,12 +907,13 @@
         "resigned": 1533322516,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.473 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.965 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.473 +00:00",
+        "createdAt": "2023-06-28 17:43:40.965 +00:00",
         "current": "resigned",
         "helper": 1529172633,
+        "languages": "English",
         "megamod": 1547031813,
         "minimod": 1531764633,
         "mod": 1533207823,
@@ -855,12 +921,13 @@
         "resigned": 1553019033,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.473 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.965 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.473 +00:00",
+        "createdAt": "2023-06-28 17:43:40.965 +00:00",
         "current": "resigned",
         "helper": 1555671813,
+        "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -868,12 +935,13 @@
         "resigned": 1558004613,
         "trialhelper": 1554894213,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.473 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.965 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.473 +00:00",
+        "createdAt": "2023-06-28 17:43:40.966 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -881,12 +949,13 @@
         "resigned": 1542653716,
         "trialhelper": 1541530516,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.473 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.966 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.473 +00:00",
+        "createdAt": "2023-06-28 17:43:40.966 +00:00",
         "current": "resigned",
         "helper": 1526667033,
+        "languages": "English",
         "megamod": null,
         "minimod": 1530900633,
         "mod": 1533207810,
@@ -894,12 +963,13 @@
         "resigned": 1539713431,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.473 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.966 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.473 +00:00",
+        "createdAt": "2023-06-28 17:43:40.966 +00:00",
         "current": "resigned",
         "helper": 1537316401,
+        "languages": "French Russian",
         "megamod": 1547031813,
         "minimod": 1540426801,
         "mod": 1541463601,
@@ -907,12 +977,13 @@
         "resigned": 1553818801,
         "trialhelper": 1535588401,
         "trialminimod": 1540167601,
-        "updatedAt": "2023-06-28 12:05:31.473 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.966 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.473 +00:00",
+        "createdAt": "2023-06-28 17:43:40.966 +00:00",
         "current": "resigned",
         "helper": 1545178801,
+        "languages": "Thai",
         "megamod": null,
         "minimod": 1546884631,
         "mod": 1551918001,
@@ -920,12 +991,13 @@
         "resigned": 1560558002,
         "trialhelper": 1544660401,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.473 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.966 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.473 +00:00",
+        "createdAt": "2023-06-28 17:43:40.966 +00:00",
         "current": "resigned",
         "helper": 1570878213,
+        "languages": "German French",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -933,12 +1005,13 @@
         "resigned": 1583431166,
         "trialhelper": 1569755013,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.473 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.966 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.966 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "French",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -946,12 +1019,13 @@
         "resigned": 1566990213,
         "trialhelper": 1563534213,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.966 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.966 +00:00",
         "current": "resigned",
         "helper": "1537316401 1544660401",
+        "languages": "English",
         "megamod": null,
         "minimod": 1542932401,
         "mod": null,
@@ -959,12 +1033,13 @@
         "resigned": 1546474801,
         "trialhelper": 1535588401,
         "trialminimod": 1541463601,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.966 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.966 +00:00",
         "current": "resigned",
         "helper": 1570878213,
+        "languages": "English",
         "megamod": null,
         "minimod": 1593351726,
         "mod": null,
@@ -972,12 +1047,13 @@
         "resigned": 1620136673,
         "trialhelper": 1569755013,
         "trialminimod": 1590924636,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.966 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.966 +00:00",
         "current": "resigned",
         "helper": 1568027013,
+        "languages": "Italian",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -985,12 +1061,13 @@
         "resigned": 1594556021,
         "trialhelper": 1567210801,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.966 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.966 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -998,12 +1075,13 @@
         "resigned": 1545243033,
         "trialhelper": 1544724633,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.966 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.966 +00:00",
         "current": "resigned",
         "helper": 1574683856,
+        "languages": "Thai",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1011,12 +1089,13 @@
         "resigned": 1606241615,
         "trialhelper": 1573301456,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.966 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.966 +00:00",
         "current": "resigned",
         "helper": 1536605716,
+        "languages": "Turkish",
         "megamod": null,
         "minimod": 1525892116,
         "mod": null,
@@ -1024,12 +1103,13 @@
         "resigned": 1540407316,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.966 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.966 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "French",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1037,12 +1117,13 @@
         "resigned": 1545243033,
         "trialhelper": 1544724633,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.966 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.966 +00:00",
         "current": "resigned",
         "helper": 1546427013,
+        "languages": "English",
         "megamod": null,
         "minimod": "1528222233 1534011033",
         "mod": 1533207826,
@@ -1050,12 +1131,13 @@
         "resigned": "1534183833 1549844401",
         "trialhelper": 1545932690,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.966 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.966 +00:00",
         "current": "resigned",
         "helper": 1526407710,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1063,12 +1145,13 @@
         "resigned": 1531937310,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.966 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.966 +00:00",
         "current": "resigned",
         "helper": 1574683856,
+        "languages": "Italian",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1076,12 +1159,13 @@
         "resigned": 1591882926,
         "trialhelper": 1573301456,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.966 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.966 +00:00",
         "current": "resigned",
         "helper": "1543710001 1584094952",
+        "languages": "Thai",
         "megamod": 1560298801,
         "minimod": 1544660401,
         "mod": 1551918001,
@@ -1089,12 +1173,13 @@
         "resigned": "1564014001 1593697326",
         "trialhelper": "1542932401 1583085566",
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.966 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.967 +00:00",
         "current": "resigned",
         "helper": 1543710001,
+        "languages": "English",
         "megamod": 1553473201,
         "minimod": 1544660401,
         "mod": 1546859013,
@@ -1102,12 +1187,13 @@
         "resigned": 1557706801,
         "trialhelper": 1542932401,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.967 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.967 +00:00",
         "current": "resigned",
         "helper": "1533322516 1536605716",
+        "languages": "English",
         "megamod": null,
         "minimod": 1533495316,
         "mod": null,
@@ -1115,12 +1201,13 @@
         "resigned": 1536692116,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.967 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.967 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": 1525885851,
         "mod": null,
@@ -1128,12 +1215,13 @@
         "resigned": 1531761051,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.967 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.967 +00:00",
         "current": "resigned",
         "helper": 1530298516,
+        "languages": "Turkish",
         "megamod": null,
         "minimod": null,
         "mod": 1525176610,
@@ -1141,12 +1229,13 @@
         "resigned": 1533322516,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.967 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.967 +00:00",
         "current": "resigned",
         "helper": 1572308401,
+        "languages": "Vietnamese",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1154,12 +1243,13 @@
         "resigned": 1597136982,
         "trialhelper": 1569716401,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.967 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.967 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "Romanian",
         "megamod": null,
         "minimod": 1523818516,
         "mod": null,
@@ -1167,12 +1257,13 @@
         "resigned": 1531767316,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.967 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.967 +00:00",
         "current": "resigned",
         "helper": 1529774269,
+        "languages": "Dutch",
         "megamod": 1547031813,
         "minimod": 1531739013,
         "mod": 1533207816,
@@ -1180,12 +1271,13 @@
         "resigned": 1568027014,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.967 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.474 +00:00",
+        "createdAt": "2023-06-28 17:43:40.967 +00:00",
         "current": "mod",
         "helper": 1570878213,
+        "languages": "French",
         "megamod": null,
         "minimod": 1582480766,
         "mod": 1601634642,
@@ -1193,12 +1285,13 @@
         "resigned": null,
         "trialhelper": 1569755013,
         "trialminimod": 1581174188,
-        "updatedAt": "2023-06-28 12:05:31.474 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.967 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.475 +00:00",
+        "createdAt": "2023-06-28 17:43:40.967 +00:00",
         "current": "resigned",
         "helper": 1530811069,
+        "languages": "English",
         "megamod": null,
         "minimod": 1526404669,
         "mod": null,
@@ -1206,12 +1299,13 @@
         "resigned": 1532020669,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.475 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.967 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.475 +00:00",
+        "createdAt": "2023-06-28 17:43:40.967 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1219,12 +1313,13 @@
         "resigned": 1548522651,
         "trialhelper": 1544721051,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.475 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.967 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.475 +00:00",
+        "createdAt": "2023-06-28 17:43:40.967 +00:00",
         "current": "resigned",
         "helper": "1526407831 1544660401",
+        "languages": "Dutch",
         "megamod": null,
         "minimod": 1537316401,
         "mod": null,
@@ -1232,12 +1327,13 @@
         "resigned": 1548548401,
         "trialhelper": null,
         "trialminimod": 1536538801,
-        "updatedAt": "2023-06-28 12:05:31.475 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.967 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.475 +00:00",
+        "createdAt": "2023-06-28 17:43:40.967 +00:00",
         "current": "resigned",
         "helper": 1546388401,
+        "languages": "Turkish",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1245,12 +1341,13 @@
         "resigned": "1540254001 1550535601",
         "trialhelper": "1539476401 1545870001",
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.475 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.967 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.475 +00:00",
+        "createdAt": "2023-06-28 17:43:40.967 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1258,12 +1355,13 @@
         "resigned": 1545243033,
         "trialhelper": 1544724633,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.475 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.967 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.475 +00:00",
+        "createdAt": "2023-06-28 17:43:40.967 +00:00",
         "current": "resigned",
         "helper": 1528049431,
+        "languages": "English",
         "megamod": null,
         "minimod": "1529518231 1534359316",
         "mod": 1531940116,
@@ -1271,12 +1369,13 @@
         "resigned": "1533322516 1537210516",
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.475 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.967 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.475 +00:00",
+        "createdAt": "2023-06-28 17:43:40.968 +00:00",
         "current": "resigned",
         "helper": 1526404669,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1284,12 +1383,13 @@
         "resigned": 1529151056,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.475 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.968 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.475 +00:00",
+        "createdAt": "2023-06-28 17:43:40.968 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "Dutch",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1297,12 +1397,13 @@
         "resigned": 1540234516,
         "trialhelper": 1539543316,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.475 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.968 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.475 +00:00",
+        "createdAt": "2023-06-28 17:43:40.969 +00:00",
         "current": "resigned",
         "helper": 1531594516,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1310,12 +1411,13 @@
         "resigned": 1537556116,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.475 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.969 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.475 +00:00",
+        "createdAt": "2023-06-28 17:43:40.969 +00:00",
         "current": "resigned",
         "helper": "1526407710 1534010910",
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1323,12 +1425,13 @@
         "resigned": "1535393310 1533319710",
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.475 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.969 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.475 +00:00",
+        "createdAt": "2023-06-28 17:43:40.969 +00:00",
         "current": "resigned",
         "helper": 1555671813,
+        "languages": "Finnish",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1336,12 +1439,13 @@
         "resigned": 1566558213,
         "trialhelper": 1554894213,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.475 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.969 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.475 +00:00",
+        "createdAt": "2023-06-28 17:43:40.969 +00:00",
         "current": "minimod",
         "helper": 1546427013,
+        "languages": "Finnish",
         "megamod": null,
         "minimod": 1552695601,
         "mod": null,
@@ -1349,12 +1453,13 @@
         "resigned": null,
         "trialhelper": 1545868800,
         "trialminimod": 1551658801,
-        "updatedAt": "2023-06-28 12:05:31.475 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.969 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.475 +00:00",
+        "createdAt": "2023-06-28 17:43:40.969 +00:00",
         "current": "resigned",
         "helper": 1529088916,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1362,12 +1467,13 @@
         "resigned": 1534186516,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.475 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.969 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.475 +00:00",
+        "createdAt": "2023-06-28 17:43:40.969 +00:00",
         "current": "resigned",
         "helper": 1526663869,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1375,12 +1481,13 @@
         "resigned": 1530033469,
         "trialhelper": null,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.475 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.969 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.475 +00:00",
+        "createdAt": "2023-06-28 17:43:40.969 +00:00",
         "current": "resigned",
         "helper": 1581001388,
+        "languages": "Vietnamese",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1388,12 +1495,13 @@
         "resigned": 1590838236,
         "trialhelper": 1579801928,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.475 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.969 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.475 +00:00",
+        "createdAt": "2023-06-28 17:43:40.969 +00:00",
         "current": "resigned",
         "helper": 1581001388,
+        "languages": "Spanish",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1401,12 +1509,13 @@
         "resigned": 1618322271,
         "trialhelper": 1579801928,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.475 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.969 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.475 +00:00",
+        "createdAt": "2023-06-28 17:43:40.969 +00:00",
         "current": "resigned",
         "helper": 1581001388,
+        "languages": "Spanish",
         "megamod": null,
         "minimod": 1596099520,
         "mod": 1601634642,
@@ -1414,12 +1523,13 @@
         "resigned": 1624439845,
         "trialhelper": 1579801928,
         "trialminimod": 1595321920,
-        "updatedAt": "2023-06-28 12:05:31.475 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.969 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.475 +00:00",
+        "createdAt": "2023-06-28 17:43:40.969 +00:00",
         "current": "resigned",
         "helper": 1584094952,
+        "languages": "Dutch",
         "megamod": null,
         "minimod": 1593351726,
         "mod": 1601634642,
@@ -1427,12 +1537,13 @@
         "resigned": 1653237183,
         "trialhelper": 1583085566,
         "trialminimod": 1590924636,
-        "updatedAt": "2023-06-28 12:05:31.475 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.969 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.477 +00:00",
+        "createdAt": "2023-06-28 17:43:40.969 +00:00",
         "current": "mod",
         "helper": 1568027013,
+        "languages": "French",
         "megamod": null,
         "minimod": 1581174188,
         "mod": 1590924636,
@@ -1440,12 +1551,13 @@
         "resigned": null,
         "trialhelper": 1567210801,
         "trialminimod": 1579888328,
-        "updatedAt": "2023-06-28 12:05:31.477 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.969 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.477 +00:00",
+        "createdAt": "2023-06-28 17:43:40.969 +00:00",
         "current": "resigned",
         "helper": 1584094952,
+        "languages": "English",
         "megamod": null,
         "minimod": 1620136671,
         "mod": null,
@@ -1453,12 +1565,13 @@
         "resigned": 1651681984,
         "trialhelper": 1583085566,
         "trialminimod": 1615985468,
-        "updatedAt": "2023-06-28 12:05:31.477 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.969 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.477 +00:00",
+        "createdAt": "2023-06-28 17:43:40.969 +00:00",
         "current": "resigned",
         "helper": 1584094952,
+        "languages": "German French",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1466,12 +1579,13 @@
         "resigned": 1587027114,
         "trialhelper": 1583085566,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.477 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.969 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.477 +00:00",
+        "createdAt": "2023-06-28 17:43:40.969 +00:00",
         "current": "resigned",
         "helper": 1594556021,
+        "languages": "Dutch",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1479,12 +1593,13 @@
         "resigned": 1598800130,
         "trialhelper": 1589718269,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.477 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.969 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.477 +00:00",
+        "createdAt": "2023-06-28 17:43:40.969 +00:00",
         "current": "resigned",
         "helper": 1590688505,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1492,12 +1607,13 @@
         "resigned": 1610533338,
         "trialhelper": 1589718269,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.477 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.969 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.477 +00:00",
+        "createdAt": "2023-06-28 17:43:40.970 +00:00",
         "current": "resigned",
         "helper": 1593524526,
+        "languages": "Spanish",
         "megamod": null,
         "minimod": 1596099520,
         "mod": null,
@@ -1505,12 +1621,13 @@
         "resigned": 1628517721,
         "trialhelper": 1592919726,
         "trialminimod": 1595321920,
-        "updatedAt": "2023-06-28 12:05:31.477 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.970 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.477 +00:00",
+        "createdAt": "2023-06-28 17:43:40.970 +00:00",
         "current": "resigned",
         "helper": 1593524526,
+        "languages": "French",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1518,12 +1635,13 @@
         "resigned": 1610272931,
         "trialhelper": 1592919726,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.477 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.970 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.477 +00:00",
+        "createdAt": "2023-06-28 17:43:40.970 +00:00",
         "current": "mod",
         "helper": 1593524526,
+        "languages": "Hindi",
         "megamod": null,
         "minimod": 1596099520,
         "mod": 1622892501,
@@ -1531,12 +1649,13 @@
         "resigned": null,
         "trialhelper": 1592919726,
         "trialminimod": 1595321920,
-        "updatedAt": "2023-06-28 12:05:31.477 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.970 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.477 +00:00",
+        "createdAt": "2023-06-28 17:43:40.970 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1544,12 +1663,13 @@
         "resigned": 1596356936,
         "trialhelper": 1595782560,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.477 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.970 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.477 +00:00",
+        "createdAt": "2023-06-28 17:43:40.970 +00:00",
         "current": "resigned",
         "helper": 1600019090,
+        "languages": "Portuguese_br",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1557,12 +1677,13 @@
         "resigned": 1613930080,
         "trialhelper": 1595782560,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.477 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.970 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.477 +00:00",
+        "createdAt": "2023-06-28 17:43:40.970 +00:00",
         "current": "resigned",
         "helper": 1600019090,
+        "languages": "Dutch",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1570,12 +1691,13 @@
         "resigned": 1627314159,
         "trialhelper": 1595782560,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.477 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.970 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.477 +00:00",
+        "createdAt": "2023-06-28 17:43:40.970 +00:00",
         "current": "helper",
         "helper": "1600019090 1639308555",
+        "languages": "German Vietnamese",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1583,12 +1705,13 @@
         "resigned": 1616158268,
         "trialhelper": "1595782560 1638617355",
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.477 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.970 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.477 +00:00",
+        "createdAt": "2023-06-28 17:43:40.970 +00:00",
         "current": "resigned",
         "helper": 1600019090,
+        "languages": "Chinese",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1596,12 +1719,13 @@
         "resigned": 1620223073,
         "trialhelper": 1596356936,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.477 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.970 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.477 +00:00",
+        "createdAt": "2023-06-28 17:43:40.970 +00:00",
         "current": "helper",
         "helper": 1600019090,
+        "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1609,12 +1733,13 @@
         "resigned": null,
         "trialhelper": 1596356936,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.477 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.970 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.478 +00:00",
+        "createdAt": "2023-06-28 17:43:40.970 +00:00",
         "current": "resigned",
         "helper": 1600019090,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1622,12 +1747,13 @@
         "resigned": 1616680272,
         "trialhelper": 1596356936,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.478 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.970 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.478 +00:00",
+        "createdAt": "2023-06-28 17:43:40.970 +00:00",
         "current": "resigned",
         "helper": 1600019090,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1635,12 +1761,13 @@
         "resigned": 1617112272,
         "trialhelper": 1596356936,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.478 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.970 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.478 +00:00",
+        "createdAt": "2023-06-28 17:43:40.970 +00:00",
         "current": "resigned",
         "helper": 1600019090,
+        "languages": "French",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1648,12 +1775,13 @@
         "resigned": 1622978900,
         "trialhelper": 1596356936,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.478 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.970 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.478 +00:00",
+        "createdAt": "2023-06-28 17:43:40.970 +00:00",
         "current": "resigned",
         "helper": 1600019090,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1661,12 +1789,13 @@
         "resigned": 1634290429,
         "trialhelper": 1596964181,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.478 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.970 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.478 +00:00",
+        "createdAt": "2023-06-28 17:43:40.970 +00:00",
         "current": "resigned",
         "helper": 1600019090,
+        "languages": "Spanish",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1674,12 +1803,13 @@
         "resigned": 1616072068,
         "trialhelper": 1596964181,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.478 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.970 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.478 +00:00",
+        "createdAt": "2023-06-28 17:43:40.971 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1687,12 +1817,13 @@
         "resigned": 1597400789,
         "trialhelper": 1596964181,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.478 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.971 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.478 +00:00",
+        "createdAt": "2023-06-28 17:43:40.971 +00:00",
         "current": "resigned",
         "helper": 1600019090,
+        "languages": "Filipino",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1700,12 +1831,13 @@
         "resigned": 1625651350,
         "trialhelper": 1596964181,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.478 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.971 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.478 +00:00",
+        "createdAt": "2023-06-28 17:43:40.971 +00:00",
         "current": "resigned",
         "helper": 1600019090,
+        "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1713,12 +1845,13 @@
         "resigned": 1616071988,
         "trialhelper": 1597574832,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.478 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.971 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.478 +00:00",
+        "createdAt": "2023-06-28 17:43:40.971 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1726,12 +1859,13 @@
         "resigned": 1598713730,
         "trialhelper": 1597574832,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.478 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.971 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.478 +00:00",
+        "createdAt": "2023-06-28 17:43:40.971 +00:00",
         "current": "resigned",
         "helper": 1600019090,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1739,12 +1873,13 @@
         "resigned": "1614016480 1630523339",
         "trialhelper": "1597574832 1629313739",
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.478 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.971 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.478 +00:00",
+        "createdAt": "2023-06-28 17:43:40.971 +00:00",
         "current": "minimod",
         "helper": 1600019090,
+        "languages": "Portuguese_br Spanish",
         "megamod": null,
         "minimod": 1620136671,
         "mod": null,
@@ -1752,12 +1887,13 @@
         "resigned": null,
         "trialhelper": 1598195330,
         "trialminimod": 1615985468,
-        "updatedAt": "2023-06-28 12:05:31.478 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.971 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.478 +00:00",
+        "createdAt": "2023-06-28 17:43:40.971 +00:00",
         "current": "resigned",
         "helper": 1600019090,
+        "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1765,12 +1901,13 @@
         "resigned": 1616071868,
         "trialhelper": 1598195330,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.478 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.971 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.478 +00:00",
+        "createdAt": "2023-06-28 17:43:40.971 +00:00",
         "current": "helper",
         "helper": 1600019090,
+        "languages": "Vietnamese",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1778,12 +1915,13 @@
         "resigned": 1611311240,
         "trialhelper": 1598195330,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.478 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.971 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.478 +00:00",
+        "createdAt": "2023-06-28 17:43:40.971 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1791,12 +1929,13 @@
         "resigned": 1598713730,
         "trialhelper": 1598195330,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.478 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.971 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.478 +00:00",
+        "createdAt": "2023-06-28 17:43:40.971 +00:00",
         "current": "resigned",
         "helper": 1600019090,
+        "languages": "Portuguese_br",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1804,12 +1943,13 @@
         "resigned": 1632337619,
         "trialhelper": 1598800130,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.478 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.971 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.478 +00:00",
+        "createdAt": "2023-06-28 17:43:40.971 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "Hebrew",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1817,12 +1957,13 @@
         "resigned": 1615467070,
         "trialhelper": 1598800130,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.478 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.971 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.478 +00:00",
+        "createdAt": "2023-06-28 17:43:40.971 +00:00",
         "current": "minimod",
         "helper": 1600019090,
+        "languages": "Dutch",
         "megamod": null,
         "minimod": 1621942041,
         "mod": null,
@@ -1830,12 +1971,13 @@
         "resigned": null,
         "trialhelper": 1598800130,
         "trialminimod": 1620741473,
-        "updatedAt": "2023-06-28 12:05:31.478 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.971 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.479 +00:00",
+        "createdAt": "2023-06-28 17:43:40.971 +00:00",
         "current": "minimod",
         "helper": 1600019090,
+        "languages": "German",
         "megamod": null,
         "minimod": 1638444555,
         "mod": null,
@@ -1843,12 +1985,13 @@
         "resigned": null,
         "trialhelper": 1598800130,
         "trialminimod": 1635802582,
-        "updatedAt": "2023-06-28 12:05:31.479 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.971 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.479 +00:00",
+        "createdAt": "2023-06-28 17:43:40.971 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1856,12 +1999,13 @@
         "resigned": 1600019090,
         "trialhelper": 1597574832,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.479 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.971 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.479 +00:00",
+        "createdAt": "2023-06-28 17:43:40.971 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "Italian",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1869,12 +2013,13 @@
         "resigned": 1600019090,
         "trialhelper": 1597574832,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.479 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.971 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.479 +00:00",
+        "createdAt": "2023-06-28 17:43:40.971 +00:00",
         "current": "resigned",
         "helper": 1542107013,
+        "languages": "German",
         "megamod": null,
         "minimod": 1543921413,
         "mod": 1546859013,
@@ -1882,12 +2027,13 @@
         "resigned": 1568027013,
         "trialhelper": 1541502213,
         "trialminimod": 1542971013,
-        "updatedAt": "2023-06-28 12:05:31.479 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.971 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.479 +00:00",
+        "createdAt": "2023-06-28 17:43:40.971 +00:00",
         "current": "helper",
         "helper": 1618754271,
+        "languages": "Dutch",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1895,12 +2041,13 @@
         "resigned": null,
         "trialhelper": 1618149471,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.479 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.971 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.479 +00:00",
+        "createdAt": "2023-06-28 17:43:40.972 +00:00",
         "current": "mod",
         "helper": 1618754271,
+        "languages": "Spanish",
         "megamod": null,
         "minimod": 1627912921,
         "mod": 1635706305,
@@ -1908,12 +2055,13 @@
         "resigned": null,
         "trialhelper": 1618149471,
         "trialminimod": 1626968555,
-        "updatedAt": "2023-06-28 12:05:31.479 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.972 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.479 +00:00",
+        "createdAt": "2023-06-28 17:43:40.972 +00:00",
         "current": "resigned",
         "helper": 1618754271,
+        "languages": "Portuguese_br",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -1921,12 +2069,13 @@
         "resigned": 1629036121,
         "trialhelper": 1618149471,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.479 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.972 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.479 +00:00",
+        "createdAt": "2023-06-28 17:43:40.972 +00:00",
         "current": "mod",
         "helper": 1618754271,
+        "languages": "German",
         "megamod": null,
         "minimod": 1627912921,
         "mod": 1641227509,
@@ -1934,12 +2083,13 @@
         "resigned": null,
         "trialhelper": 1618149471,
         "trialminimod": 1626968555,
-        "updatedAt": "2023-06-28 12:05:31.479 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.972 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.479 +00:00",
+        "createdAt": "2023-06-28 17:43:40.972 +00:00",
         "current": "resigned",
         "helper": 1618754271,
+        "languages": "German",
         "megamod": null,
         "minimod": 1621942040,
         "mod": "1626968559 1635274305",
@@ -1947,12 +2097,13 @@
         "resigned": "1634031229 1651941184",
         "trialhelper": 1618149471,
         "trialminimod": 1620741473,
-        "updatedAt": "2023-06-28 12:05:31.479 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.972 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.479 +00:00",
+        "createdAt": "2023-06-28 17:43:40.972 +00:00",
         "current": "minimod",
         "helper": 1624526243,
+        "languages": "German",
         "megamod": null,
         "minimod": 1645367752,
         "mod": null,
@@ -1960,12 +2111,13 @@
         "resigned": null,
         "trialhelper": 1623670101,
         "trialminimod": 1643812552,
-        "updatedAt": "2023-06-28 12:05:31.479 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.972 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.479 +00:00",
+        "createdAt": "2023-06-28 17:43:40.972 +00:00",
         "current": "minimod",
         "helper": 1624526243,
+        "languages": "Hindi",
         "megamod": null,
         "minimod": 1627912921,
         "mod": null,
@@ -1973,12 +2125,13 @@
         "resigned": null,
         "trialhelper": 1623670101,
         "trialminimod": 1626968555,
-        "updatedAt": "2023-06-28 12:05:31.479 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.972 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.479 +00:00",
+        "createdAt": "2023-06-28 17:43:40.972 +00:00",
         "current": "mod",
         "helper": 1624526243,
+        "languages": "Italian",
         "megamod": null,
         "minimod": 1627912921,
         "mod": 1641227509,
@@ -1986,12 +2139,13 @@
         "resigned": null,
         "trialhelper": 1623670101,
         "trialminimod": 1626968555,
-        "updatedAt": "2023-06-28 12:05:31.479 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.972 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.479 +00:00",
+        "createdAt": "2023-06-28 17:43:40.972 +00:00",
         "current": "minimod",
         "helper": 1624526243,
+        "languages": "German",
         "megamod": null,
         "minimod": 1645367752,
         "mod": null,
@@ -1999,12 +2153,13 @@
         "resigned": null,
         "trialhelper": 1623670101,
         "trialminimod": 1643812552,
-        "updatedAt": "2023-06-28 12:05:31.479 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.972 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.479 +00:00",
+        "createdAt": "2023-06-28 17:43:40.972 +00:00",
         "current": "helper",
         "helper": 1624526243,
+        "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2012,12 +2167,13 @@
         "resigned": null,
         "trialhelper": 1623670101,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.479 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.972 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.479 +00:00",
+        "createdAt": "2023-06-28 17:43:40.972 +00:00",
         "current": "helper",
         "helper": 1624526243,
+        "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2025,12 +2181,13 @@
         "resigned": null,
         "trialhelper": 1623670101,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.479 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.972 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.479 +00:00",
+        "createdAt": "2023-06-28 17:43:40.972 +00:00",
         "current": "helper",
         "helper": 1630868939,
+        "languages": "Italian Ukrainian Russian Macedonian",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2038,12 +2195,13 @@
         "resigned": null,
         "trialhelper": 1629313739,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.479 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.972 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.479 +00:00",
+        "createdAt": "2023-06-28 17:43:40.972 +00:00",
         "current": "minimod",
         "helper": 1630868939,
+        "languages": "Hindi French",
         "megamod": null,
         "minimod": 1638444555,
         "mod": null,
@@ -2051,12 +2209,13 @@
         "resigned": null,
         "trialhelper": 1629313739,
         "trialminimod": 1635802582,
-        "updatedAt": "2023-06-28 12:05:31.479 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.972 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.480 +00:00",
+        "createdAt": "2023-06-28 17:43:40.972 +00:00",
         "current": "resigned",
         "helper": 1635706305,
+        "languages": "Malay",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2064,12 +2223,13 @@
         "resigned": 1649082952,
         "trialhelper": 1634376829,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.480 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.972 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.480 +00:00",
+        "createdAt": "2023-06-28 17:43:40.972 +00:00",
         "current": "resigned",
         "helper": 1635706305,
+        "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2077,12 +2237,13 @@
         "resigned": 1650385984,
         "trialhelper": 1634376829,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.480 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.972 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.480 +00:00",
+        "createdAt": "2023-06-28 17:43:40.972 +00:00",
         "current": "resigned",
         "helper": 1635706305,
+        "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2090,12 +2251,13 @@
         "resigned": 1651941184,
         "trialhelper": 1634376829,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.480 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.972 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.480 +00:00",
+        "createdAt": "2023-06-28 17:43:40.972 +00:00",
         "current": "resigned",
         "helper": 1635706305,
+        "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2103,12 +2265,13 @@
         "resigned": 1649781184,
         "trialhelper": 1634376829,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.480 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.972 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.480 +00:00",
+        "createdAt": "2023-06-28 17:43:40.972 +00:00",
         "current": "helper",
         "helper": 1639308555,
+        "languages": "Spanish",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2116,12 +2279,13 @@
         "resigned": null,
         "trialhelper": 1638617355,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.480 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.972 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.480 +00:00",
+        "createdAt": "2023-06-28 17:43:40.973 +00:00",
         "current": "helper",
         "helper": 1639308555,
+        "languages": "Hindi",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2129,12 +2293,13 @@
         "resigned": null,
         "trialhelper": 1638617355,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.480 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.973 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.480 +00:00",
+        "createdAt": "2023-06-28 17:43:40.973 +00:00",
         "current": "helper",
         "helper": 1639308555,
+        "languages": "Spanish Russian",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2142,12 +2307,13 @@
         "resigned": null,
         "trialhelper": 1638617355,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.480 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.973 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.480 +00:00",
+        "createdAt": "2023-06-28 17:43:40.973 +00:00",
         "current": "resigned",
         "helper": 1639308555,
+        "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2155,12 +2321,13 @@
         "resigned": 1649781184,
         "trialhelper": 1638617355,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.480 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.973 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.480 +00:00",
+        "createdAt": "2023-06-28 17:43:40.973 +00:00",
         "current": "helper",
         "helper": 1639308555,
+        "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2168,12 +2335,13 @@
         "resigned": null,
         "trialhelper": 1638617355,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.480 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.973 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.480 +00:00",
+        "createdAt": "2023-06-28 17:43:40.973 +00:00",
         "current": "resigned",
         "helper": null,
+        "languages": "Portuguese_br",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2181,12 +2349,13 @@
         "resigned": 1651336384,
         "trialhelper": 1649176384,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.480 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.973 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.480 +00:00",
+        "createdAt": "2023-06-28 17:43:40.973 +00:00",
         "current": "resigned",
         "helper": 1651336384,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2194,12 +2363,13 @@
         "resigned": 1654705984,
         "trialhelper": 1649176384,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.480 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.973 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.480 +00:00",
+        "createdAt": "2023-06-28 17:43:40.973 +00:00",
         "current": "helper",
         "helper": 1655310784,
+        "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2207,12 +2377,13 @@
         "resigned": null,
         "trialhelper": 1653323584,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.480 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.973 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.480 +00:00",
+        "createdAt": "2023-06-28 17:43:40.973 +00:00",
         "current": "helper",
         "helper": 1655310784,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2220,12 +2391,13 @@
         "resigned": null,
         "trialhelper": 1653323584,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.480 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.973 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.480 +00:00",
+        "createdAt": "2023-06-28 17:43:40.973 +00:00",
         "current": "helper",
         "helper": 1655310784,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2233,12 +2405,13 @@
         "resigned": null,
         "trialhelper": 1653323584,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.480 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.973 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.480 +00:00",
+        "createdAt": "2023-06-28 17:43:40.973 +00:00",
         "current": "helper",
         "helper": 1655310784,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2246,12 +2419,13 @@
         "resigned": null,
         "trialhelper": 1653323584,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.480 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.973 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.480 +00:00",
+        "createdAt": "2023-06-28 17:43:40.973 +00:00",
         "current": "helper",
         "helper": 1655310784,
+        "languages": "French",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2259,12 +2433,13 @@
         "resigned": null,
         "trialhelper": 1653323584,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.480 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.973 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.480 +00:00",
+        "createdAt": "2023-06-28 17:43:40.973 +00:00",
         "current": "helper",
         "helper": 1655310784,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2272,12 +2447,13 @@
         "resigned": null,
         "trialhelper": 1653323584,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.480 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.973 +00:00"
     },
     {
-        "createdAt": "2023-06-28 12:05:31.480 +00:00",
+        "createdAt": "2023-06-28 17:43:40.973 +00:00",
         "current": "helper",
         "helper": 1655310784,
+        "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2285,6 +2461,6 @@
         "resigned": null,
         "trialhelper": 1653323584,
         "trialminimod": null,
-        "updatedAt": "2023-06-28 12:05:31.480 +00:00"
+        "updatedAt": "2023-06-28 17:43:40.973 +00:00"
     }
 ]
