@@ -58,13 +58,13 @@ function loading() {
         let users_data = get_users_from_role(role_name)
 
         document.title = "Role info"
-        document.getElementsByClassName('sort_button')[0].style.visibility = "visible";
+        //document.getElementsByClassName('sort_button')[0].style.visibility = "visible";
 
         if (sort_type == "language") {
-            document.getElementsByClassName('bottom_button')[1].innerText = "Default sorting";
-            document.getElementsByClassName('bottom_button')[1].href = `https://heroes.wolvesville.com/list.html?role=${role_name}`;
+            //document.getElementsByClassName('bottom_button')[1].innerText = "Default sorting";
+            //document.getElementsByClassName('bottom_button')[1].href = `https://heroes.wolvesville.com/list.html?role=${role_name}`;
         } else {
-            document.getElementsByClassName('bottom_button')[1].href = `https://heroes.wolvesville.com/list.html?role=${role_name}&sort=language`;
+            //document.getElementsByClassName('bottom_button')[1].href = `https://heroes.wolvesville.com/list.html?role=${role_name}&sort=language`;
             users_data.sort((a,b) => a.name.localeCompare(b.name))
             console.log(users_data)
         }
