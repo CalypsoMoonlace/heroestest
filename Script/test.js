@@ -23,7 +23,7 @@ async function get_users_from_role(role_name) {
     "guardian" returns [ {name: Lisa, time: 1598006832, current: guardianmanagerhelper}, ...]
 
     */
-    list = []
+    let list = []
 
     get_db_from_name("Roles").then(data => {
         role_data = data[role_name]
