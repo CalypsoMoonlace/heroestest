@@ -44,8 +44,8 @@ async function get_users_from_role(role_name) {
                         current: elmt.current
                     })
                 }
-            console.log(list)
             })
+            console.log(list)
         })
     })
 
