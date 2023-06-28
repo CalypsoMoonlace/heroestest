@@ -46,5 +46,3 @@ function loading() {
     sort_type = page_url.get('sort');
     get_users_from_role(role_name).then(data => console.log(data))
 }
-
-loading()
