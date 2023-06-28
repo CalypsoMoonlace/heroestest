@@ -36,7 +36,7 @@ async function get_users_from_role(role_name) {
             data.forEach(elmt => {
 
                 // Did this person ever get the role?
-                if (elmt.role_name != null) {
+                if (elmt[role_name] != null) {
                     // Yes, add to list
                     list.push({
                         name: elmt.name,
