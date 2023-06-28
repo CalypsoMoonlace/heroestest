@@ -32,7 +32,7 @@ async function get_users_from_role(role_name) {
         console.log(role_data)
 
         // Get all data from that category
-        get_db_from_name(role_category).then(data => {
+        return get_db_from_name(role_category).then(data => {
             data.forEach(elmt => {
 
                 // Did this person ever get the role?
@@ -44,9 +44,9 @@ async function get_users_from_role(role_name) {
                         current: elmt.current
                     })
                 }
-                
+
             })
-            // end here
+
             return list
         })
     })
