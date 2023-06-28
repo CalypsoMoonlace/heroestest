@@ -7,7 +7,7 @@
 	How to reset:
 	- Set "creation = true"
 	- Run the code ("node sql_conversion.js") in terminal
-	- Set "creation = false" rerun in terminal
+	- Set "creation = false" and rerun in terminal
 
 */
 let creation = false
@@ -198,13 +198,25 @@ SocialMedia.init({
         type: DataTypes.TEXT,
         allowNull: false
     },
-    smm: {
-        type: DataTypes.INTEGER,
-        allowNull: false
-    },
-    media: {
+    socialmedia: {
         type: DataTypes.TEXT,
         allowNull: false
+    },
+    instagram: {
+        type: DataTypes.TEXT,
+        allowNull: true
+    },
+    facebook: {
+        type: DataTypes.TEXT,
+        allowNull: true
+    },
+    twitter: {
+        type: DataTypes.TEXT,
+        allowNull: true
+    },
+    reddit: {
+        type: DataTypes.TEXT,
+        allowNull: true
     },
     resigned: {
         type: DataTypes.INTEGER,
@@ -576,8 +588,11 @@ whole_staff_list[3].forEach(staff => {
 	SocialMedia.create({
 		name: sane_staff.name,
 		current: sane_staff.current_value,
-		smm: sane_staff.smm,
-		media: sane_staff.media,
+		socialmedia: sane_staff.smm,
+		instagram: sane_staff.instagram,
+		facebook: sane_staff.facebook,
+		twitter: sane_staff.twitter,
+		reddit: sane_staff.reddit,
 		resigned: sane_staff.no_more_staff
 	})
 })

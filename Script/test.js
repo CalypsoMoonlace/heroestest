@@ -18,7 +18,6 @@ async function get_users_from_role(role_name) {
     // Find which db to look into
     let role_db = await get_db_from_name("Role")
     let role_data = role_db.find((elmt) => elmt.name == role_name)
-    console.log(role_data)
     if (!role_data) { return [] } // invalid name, no data
     let role_category = role_data.category
 
@@ -75,7 +74,6 @@ async function loading() {
     let role_name = page_url.get('role')
     let language_parameter = page_url.get('language');
     let sort_type = page_url.get('sort');
-    console.log(await get_users_from_role(role_name))
 
     if (language_parameter) { // making it case insensitive
         language_parameter = language_parameter.substring(0,1).toUpperCase() + page_url.get('language').substring(1).toLowerCase()
