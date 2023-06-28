@@ -18,12 +18,15 @@ async function get_users_from_role(role_name) {
     // Find which db to look into
     let role_db = await get_db_from_name("Role")
     let role_data = role_db.find((elmt) => elmt.name == role_name)
+    console.log(role_data)
     if (!role_data) { return [] } // invalid name, no data
     let role_category = role_data.category
 
     // Get the role data
     let data = await get_db_from_name(role_category)
     data.forEach(elmt => {
+
+        console.log(elmt)
 
         // Did this person ever get the role?
         if (elmt[role_name] != null) {
