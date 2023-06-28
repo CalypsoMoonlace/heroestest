@@ -114,6 +114,10 @@ Discord.init({
     resigned: {
         type: DataTypes.INTEGER,
         allowNull: true
+    },
+    languages: {
+        type: DataTypes.INTEGER,
+        allowNull: false
     }
 }, {sequelize});
 
@@ -147,6 +151,10 @@ Mentor.init({
     resigned: {
         type: DataTypes.INTEGER,
         allowNull: true
+    },
+    languages: {
+        type: DataTypes.INTEGER,
+        allowNull: false
     }
 }, {sequelize});
 
@@ -180,6 +188,10 @@ Guardian.init({
     resigned: {
         type: DataTypes.INTEGER,
         allowNull: true
+    },
+    languages: {
+        type: DataTypes.INTEGER,
+        allowNull: false
     }
 }, {sequelize});
 
@@ -221,6 +233,10 @@ SocialMedia.init({
     resigned: {
         type: DataTypes.INTEGER,
         allowNull: true
+    },
+    languages: {
+        type: DataTypes.INTEGER,
+        allowNull: false
     }
 }, {sequelize});
 
@@ -250,6 +266,10 @@ TesterClub.init({
     resigned: {
         type: DataTypes.INTEGER,
         allowNull: true
+    },
+    languages: {
+        type: DataTypes.INTEGER,
+        allowNull: false
     }
 }, {sequelize});
 
@@ -275,6 +295,10 @@ Developer.init({
     resigned: {
         type: DataTypes.INTEGER,
         allowNull: true
+    },
+    languages: {
+        type: DataTypes.INTEGER,
+        allowNull: false
     }
 }, {sequelize});
 
@@ -475,7 +499,6 @@ function sanitize_object(staff) {
 	{current_value: "no_more_staff", no_more_staff: abc} => {current_value: "resigned", no_more_staff: abc}
 	*/
 	staff = JSON.parse(JSON.stringify(staff)) // deep copy
-	keys = Object.keys(staff)
 	media = ""
 	smm = ""
 
@@ -520,6 +543,20 @@ function sanitize_object(staff) {
 		staff.current_value = new_currents[staff.current_value]
 	}
 
+	// Add the flag values BUT without "English" prefix (unless user only speaks English)
+	// This is to make filter & sort simpler at the cost of data redundancy
+	flag_name = staff.name.toLowerCase()
+	flag_name = flag_name.replace(/\s/g,'').replace('7',''); // removing spaces and "7" because of 7mlapine
+
+	temp_string = ""
+	if (staff_languages[flag_name]) {
+		staff_languages[flag_name].forEach(elmt => temp_string += " " + elmt) // ["German", "Dutch"] => "German Dutch"
+	}
+	if (!temp_string) {
+		temp_string = "English"
+	}
+	staff.languages = temp_string.trim()
+
 	return staff;
 }
 
@@ -549,7 +586,8 @@ whole_staff_list[0].forEach(staff => {
 		minimod: sane_staff.minimod,
 		mod: sane_staff.mod,
 		megamod: sane_staff.megamod,
-		resigned: sane_staff.no_more_staff
+		resigned: sane_staff.no_more_staff,
+		languages: sane_staff.languages
 	})
 })
 
@@ -563,7 +601,8 @@ whole_staff_list[1].forEach(staff => {
 		mentor: sane_staff.mentor,
 		mentormanagerhelper: sane_staff.mentormanagerhelper,
 		mentormanager: sane_staff.mentormanager,
-		resigned: sane_staff.no_more_staff
+		resigned: sane_staff.no_more_staff,
+		languages: sane_staff.languages
 	})
 })
 
@@ -577,7 +616,8 @@ whole_staff_list[2].forEach(staff => {
 		guardian: sane_staff.guardian,
 		guardianmanagerhelper: sane_staff.guardianmanagerhelper,
 		guardianmanager: sane_staff.guardianmanager,
-		resigned: sane_staff.no_more_staff
+		resigned: sane_staff.no_more_staff,
+		languages: sane_staff.languages
 	})
 })
 
@@ -593,7 +633,8 @@ whole_staff_list[3].forEach(staff => {
 		facebook: sane_staff.facebook,
 		twitter: sane_staff.twitter,
 		reddit: sane_staff.reddit,
-		resigned: sane_staff.no_more_staff
+		resigned: sane_staff.no_more_staff,
+		languages: sane_staff.languages
 	})
 })
 
@@ -606,7 +647,8 @@ whole_staff_list[4].forEach(staff => {
 		current: sane_staff.current_value,
 		tc_mod: sane_staff.tc_mod,
 		tc_admin: sane_staff.tc_admin,
-		resigned: sane_staff.no_more_staff
+		resigned: sane_staff.no_more_staff,
+		languages: sane_staff.languages
 	})
 })
 
@@ -618,7 +660,8 @@ whole_staff_list[5].forEach(staff => {
 		name: sane_staff.name,
 		current: sane_staff.current_value,
 		dev: sane_staff.dev,
-		resigned: sane_staff.no_more_staff
+		resigned: sane_staff.no_more_staff,
+		languages: sane_staff.languages
 	})
 })
 
