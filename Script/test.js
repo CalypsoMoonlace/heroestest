@@ -37,13 +37,13 @@ async function get_users_from_role(role_name) {
     return list
 }
 
-function loading() {
+async function loading() {
     let page_url = new URLSearchParams(window.location.search);
     let member_name = page_url.get('member');
     let role_name = page_url.get('role')
     let language_parameter = page_url.get('language');
     let sort_type = page_url.get('sort');
-    get_users_from_role(role_name).then(data => console.log(data))
+    console.log(await get_users_from_role(role_name))
 
     if (language_parameter) { // making it case insensitive
         language_parameter = language_parameter.substring(0,1).toUpperCase() + page_url.get('language').substring(1).toLowerCase()
@@ -55,7 +55,7 @@ function loading() {
     }
 
     if (role_name) {
-        let users_data = get_users_from_role(role_name)
+        let users_data = await get_users_from_role(role_name)
 
         document.title = "Role info"
         //document.getElementsByClassName('sort_button')[0].style.visibility = "visible";
