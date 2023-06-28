@@ -25,7 +25,7 @@ async function get_users_from_role(role_name) {
     */
     let list = []
 
-    get_db_from_name("Role").then(data => {
+    return get_db_from_name("Role").then(data => {
         // Find where to look for
         let role_data = data.find((elmt) => elmt.name == role_name)
         let role_category = role_data.category
