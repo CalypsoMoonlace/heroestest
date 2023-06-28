@@ -28,6 +28,10 @@ async function get_users_from_role(role_name) {
         // Did this person ever get the role?
         if (elmt[role_name] != null) {
             // Yes, add to list
+            
+            console.log(elmt)
+            console.log(Object.keys(elmt))
+            console.log(elmt.languages)
 
             if (typeof(elmt[role_name]) == "string") {
                 // only keep first occurence
