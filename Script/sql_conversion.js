@@ -80,31 +80,31 @@ Discord.init({
         allowNull: false
     },
     trialhelper: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     },
     helper: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     },
     trialminimod: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     },
     minimod: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     },
     mod: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     },
     megamod: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     },
     resigned: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     }
 }, {sequelize});
@@ -125,19 +125,19 @@ Mentor.init({
         allowNull: false
     },
     mentor: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     },
     mentormanagerhelper: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     },
     mentormanager: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     },
     resigned: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     }
 }, {sequelize});
@@ -158,19 +158,19 @@ Guardian.init({
         allowNull: false
     },
     guardian: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     },
     guardianmanagerhelper: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     },
     guardianmanager: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     },
     resigned: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     }
 }, {sequelize});
@@ -191,7 +191,7 @@ SocialMedia.init({
         allowNull: false
     },
     smm: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: false
     },
     media: {
@@ -199,7 +199,7 @@ SocialMedia.init({
         allowNull: false
     },
     resigned: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     }
 }, {sequelize});
@@ -220,15 +220,15 @@ TesterClub.init({
         allowNull: false
     },
     tc_mod: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     },
     tc_admin: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     },
     resigned: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     }
 }, {sequelize});
@@ -249,15 +249,45 @@ Developer.init({
         allowNull: false
     },
     dev: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: false
     },
     resigned: {
-        type: DataTypes.TEXT,
+        type: DataTypes.INTEGER,
         allowNull: true
     }
 }, {sequelize});
 
+class Role extends Model{}
+Role.init({
+    name: {
+        type: DataTypes.TEXT,
+        allowNull: false,
+        primaryKey: true
+    },
+    category: {
+        type: DataTypes.TEXT,
+        allowNull: false
+    },
+    display_name: {
+        type: DataTypes.TEXT,
+        allowNull: false
+    },
+    description: {
+        type: DataTypes.TEXT,
+        allowNull: false
+    },
+    colour: {
+        type: DataTypes.TEXT,
+        allowNull: false
+    },
+    creation: {
+        type: DataTypes.INTEGER,
+        allowNull: false
+    }
+}, {sequelize});
+
+// Save the empty tables
 sequelize.sync()
 
 // Database setup (entering values into the database)
@@ -268,6 +298,111 @@ let languages = [];
 let birthdays = [];
 
 let category_names = ["Discord", "Mentor", "Guardian", "SocialMedia", "TesterClub", "Developer"]
+
+// Add to Roles
+let role_categories = {
+	trialhelper: "Discord",
+	helper: "Discord",
+	trialminimod: "Discord",
+	minimod: "Discord",
+	mod: "Discord",
+	megamod: "Discord",
+	guardian: "Guardian",
+	guardianmanagerhelper: "Guardian",
+	guardianmanager: "Guardian",
+	mentor: "Mentor",
+	mentormanagerhelper: "Mentor",
+	mentormanager: "Mentor",
+	reddit: "SocialMedia",
+	instagram: "SocialMedia",
+	facebook: "SocialMedia",
+	twitter: "SocialMedia",
+	socialmedia: "SocialMedia",
+	dev: "Developer",
+	tc_mod: "TesterClub",
+	tc_admin: "TesterClub"
+}
+
+let role_descriptions = {
+	trialhelper: 'A <a class="role_link">helper<a> over time with the same rights as a <a class="role_link">helper<a> to prove that they can be a good <a class="role_link">helper<a>.<br><br> After a few days, higher ranked staff members will decide whether this person becomes a normal <a class="role_link">helper<a> or not. <br><br> Applications for trial helpers are sometimes opened in <span style="color: #7289da">#discord-announcements.</span>',
+	helper: 'Helpers are users who have passed the <a class="role_link">trial helper<a> phase. Helpers take care of <span style="color: #7289da">#feedback, #bugs</span> and <span style="color: #7289da">#questions</span>. They help keeping the server a clean and safe place.',
+	trialminimod: 'A <a class="role_link">minimod<a> over time with the same rights as a <a class="role_link">minimod<a> to prove that they can be a good <a class="role_link">minimod<a>.<br><br> After a few days, higher ranked staff members will decide whether this person becomes a normal <a class="role_link">minimod<a> or not.',
+	minimod: 'Minimods are users who have passed the <a class="role_link">trial minimod<a> phase. Minimods have the same tasks as <a class="role_link">helper<a> but can also take care of misbehaving users.<br><br>They also handle submissions for <span style="color: #7289da">#vote.</span>',
+	mod: 'Moderators can ban users from the discord. They manage the staff team and events.<br><br>They also take care of most <a href="http://bit.ly/RewardsGuideline" class="yellow" target="_blank">badges<a> and some game-related topics.',
+	megamod: 'They are the admins of the server. They manage all staff and focus on things such as rules, bans from the server, and other related topics. Megamod is the highest rank in staff and also the hardest one to get.',
+	guardian: 'Guardians take care of ingame reports and bans. They also handle GuardianChat tickets.<br><br>All guardians are over 18, speak english and never had any ingame ban.<br><br>Guardians are picked by the <a class="role_link">guardian manager<a> and <a class="role_link">guardian manager helper<a>.',
+	guardianmanagerhelper: 'The guardian manager helpers handles <a class="role_link">guardian<a>-related reports.<br><br>They help the <a class="role_link">guardian manager<a> manage the <a class="role_link">guardian<a> team.',
+	guardianmanager: 'The guardian manager handles <a class="role_link">guardian<a>-related reports.<br><br>They manage the team and decide if it is necessary to open <a class="role_link">guardian<a> applications.',
+	mentor: 'Mentors answer game-related questions via mentor chat. This is via another platform than discord.<br><br>All mentors are over 18 and speak english.<br><br>Mentors are picked by the <a class="role_link">mentor manager<a> and <a class="role_link">mentor manager helper<a>',
+	mentormanagerhelper: 'The mentor manager helpers handles <a class="role_link">mentor<a>-related reports.<br><br>They help the <a class="role_link">mentor manager<a> manage the <a class="role_link">mentor<a> team.',
+	mentormanager: 'The mentor managers handle the <a class="role_link">mentor<a> team and take care of more aspects of it.<br><br>They manage the team and decide if it is necessary to open <a class="role_link">mentor<a> applications.',
+	socialmedia: 'Each social media manager handles one of the official account/platform on <a class="role_link">twitter<a>, <a class="role_link">reddit<a>, <a class="role_link">instagram<a> or <a class="role_link">facebook<a>',
+	twitter: 'They take care of the official <a href="https://twitter.com/wolvesville_app" target="_blank" class="yellow">twitter<a> account.',
+	facebook: 'They take care of the official <a href="https://www.facebook.com/wolvesville.wov/" target="_blank" class="yellow">facebook<a> account.',
+	instagram: 'They take care of the official <a href="https://www.instagram.com/wolvesville.wov/" target="_blank" class="yellow">instagram<a> account.',
+	reddit: 'They take care of the official <a href="https://www.reddit.com/r/werewolfonline/" target="_blank" class="yellow">subreddit<a>.',
+	dev: 'The game!<br><br>They are ones behind all new features and evil bugs, if they\'re not busy looking for squids.',
+	tc_mod: 'They handle tests of weird and funky scenarios in the <a href="https://discord.gg/SDujygY" target="_blank" class="yellow">Tester Club</a> sideserver and the server in itself.',
+	tc_admin: 'They take care of the <a href="https://discord.gg/SDujygY" target="_blank" class="yellow">Tester Club</a> sideserver with almost all permissions.'
+}
+
+let role_colours = {
+	trialhelper: "#d7bf4c",
+	helper: "#dfac39",
+	trialminimod: "#ed904a",
+	minimod: "#e1823b",
+	mod: "#da685c",
+	megamod: "#CF5050",
+	guardian: "#18d0ff",
+	guardianmanagerhelper: "#18d0ff",
+	guardianmanager: "#00b1ff",
+	mentor: "#f26f93",
+	mentormanagerhelper: "#eb6a8c",
+	mentormanager: "#f2557f",
+	reddit: "#4962fd",
+	instagram: "#4962fd",
+	facebook: "#4962fd",
+	twitter: "#4962fd",
+	socialmedia: "#4962fd",
+	dev: "#F1C40F",
+	tc_mod: "#00bfff",
+	tc_admin: "#17afbd"
+}
+
+let display_names = {
+	trialhelper: "Trial Helper",
+	helper: "Helper",
+	trialminimod: "Trial Minimod",
+	minimod: "Minimod",
+	mod: "Moderator",
+	megamod: "Megamod",
+	guardian: "Guardian",
+	guardianmanagerhelper: "Guardian Manager Helper",
+	guardianmanager: "Guardian Manager",
+	mentor: "Mentor",
+	mentormanagerhelper: "Mentor Manager Helper",
+	mentormanager: "Mentor Manager",
+	instagram: "Social media manager <img src='Pictures/instagram logo.png' class='mini_img'>",
+	facebook: "Social media manager <img src='Pictures/facebook logo.png' class='mini_img'>",
+	reddit: "Social media manager <img src='Pictures/reddit logo.png' class='mini_img'>",
+	twitter: "Social media manager <img src='Pictures/twitter logo.png' class='mini_img'>",
+	socialmedia: "Social media manager",
+	dev: "Developer",
+	tc_mod: "Moderator <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>",
+	tc_admin: "Admin <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>",
+	tc_manager: "Manager <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>"
+}
+
+Object.keys(role_colours).forEach(key => {
+	Role.create({
+		name: key,
+		category: role_categories[key],
+		display_name: display_names[key],
+		description: role_descriptions[key],
+		colour: role_colours[key],
+		creation: 0
+	})
+})
 
 // Add to Members
 for (var i = 0; i < whole_staff_list.length; i++) {
@@ -300,7 +435,6 @@ for (var i = 0; i < whole_staff_list.length; i++) {
 			// Add the other category to already-existing profile
 			categories[names.indexOf(staff.name)] += " " + category_names[i]
 		}
-
 	}
 }
 
@@ -323,9 +457,7 @@ function sanitize_object(staff) {
 	smm = ""
 
 	// Merge values
-	for (var i = 0; i < keys.length; i++) {
-		key = keys[i]
-
+	Object.keys(staff).forEach(key => {
 		if (staff[key + "_duplicate"]) {
 			staff[key] += " " + staff[key + "_duplicate"];
 		}
@@ -338,7 +470,7 @@ function sanitize_object(staff) {
 			media += " " + key
 			smm += " " + staff[key]
 		}
-	}
+	})
 
 	staff.media = media.trim() // remove extra space
 	staff.smm = smm.trim()
