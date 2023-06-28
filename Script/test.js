@@ -1,7 +1,7 @@
 function Func() {
-    fetch('./Members.json')
-    .then((response) => response.json())
-    .then((json) => console.log(json));
+    const response = await fetch('./Members.json')
+    const jsonData = await response.json()
+    return jsonData
 }
 
-Func()
+console.log(Func())
