@@ -4,4 +4,4 @@ async function Func() {
     return jsonData
 }
 
-console.log(Func())
+(Func().then(data => console.log(data))
