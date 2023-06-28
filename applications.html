@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Role explanation</title>
+	<link rel="stylesheet" type="text/css" href="Style/applications.css">
+	<link rel="stylesheet" type="text/css" href="Style/nav_bar.css">
+	<script src="Script/roles.js" type="text/javascript"></script>
+	<link rel="icon" href="Pictures/website_icon.png">
+	<meta name="description" content="Learn more about the users behind Wolvesville!">
+	<meta name="og:description" content="Learn more about the users behind Wolvesville!">
+	<meta property="og:title" content="WOV heroes">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://heroes.wolvesville.com/">
+	<meta property="og:image:type" content="Pictures/website_icon.png">
+	<meta property="og:image:width" content="86">
+	<meta property="og:image:height" content="94">
+</head>
+<body onload="adding_links()">
+	<div class="main-rectangle">
+
+		<div class="navigation"> <!-- For pc/tablet --> 
+			<a href="https://heroes.wolvesville.com/" class="header_picture_container"> <!-- For some reason, containers don't work, hence the style tag in html -->
+				<img src="Pictures/staff_sticker.png" class="contained"  style="max-height: 75px;"> 
+			</a>
+			<a href="https://heroes.wolvesville.com/" class="nav_option"><p>Home</p></a>
+			<a href="https://heroes.wolvesville.com/overview" class="nav_option"><p>Overview</p></a>
+			<a href="https://heroes.wolvesville.com/applications" class="nav_option"><p>Applications</p></a>
+			<a href="https://heroes.wolvesville.com/updates" class="nav_option"><p>Updates</p></a>
+			<div class="nav_show_more" onclick="show_menu()"><img src="Pictures/menu_icon.png"></div>
+		</div>
+		<div class="mobile_navigation"> <!-- For phone -->
+			<div class="nav_show_more" onclick="hide_menu()"><img src="Pictures/close_icon.png"></div>
+			<a href="https://heroes.wolvesville.com/" class="mobile_header_picture"> <!-- For some reason, containers don't work, hence the style tag in html -->
+				<img src="Pictures/staff_sticker.png" class="contained"  style="max-width: 100%;"> 
+			</a>
+			<div class="mobile_nav_options">
+				<a href="https://heroes.wolvesville.com/" class="nav_option"><p>Home</p></a>
+				<a href="https://heroes.wolvesville.com/overview" class="nav_option"><p>Overview</p></a>
+				<a href="https://heroes.wolvesville.com/applications" class="nav_option"><p>Applications</p></a>
+				<a href="https://heroes.wolvesville.com/updates" class="nav_option"><p>Updates</p></a>
+				<a href="https://discord.gg/wolvesville" class="nav_option"><p>Join the discord</p></a>
+			</div>
+		</div>
+		
+		<div class="header">
+			<h1>How can I get those roles?</h1>
+			<p>Here you will see more detailed explanations on how to apply for various roles.</p>
+			<p>For all positions, you have to be on the <a href="https://discord.gg/wolvesville" target="_blank" class="yellow">discord server</a>.</p><br>
+			<p>What does each position take care of?<br>
+				<ul>
+					<li>You can find all role-related information <a href="https://heroes.wolvesville.com/" class="yellow">here</a></li>
+				</ul>
+		</div>
+
+
+		<div class="category">
+			<div class="position_intro">
+				<h2>Developers</h2>
+				<div class="spacer"></div>
+				<img src="Pictures/dev_hat.png" class="dev_wreath">
+			</div>
+
+				<div class="line"></div>
+
+			<div class="position_grid">
+				<div class="explanation">
+					<p>It is currently impossible to join the <a class="role_link" href="https://heroes.wolvesville.com/list?role=dev">developer</a> team.</p>
+				</div>
+				<div class="badges">
+					<p>This skin is only available to devs</p>
+					<div class="image_wrap">
+						<img class="skin_pic" src="https://cdn.discordapp.com/attachments/568002467149774858/763414622627692604/253451736300698.png">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="category">
+			<div class="position_intro">
+				<h2>Discord staff</h2>
+				<div class="spacer"></div>
+				<img src="https://cdn.wolvesville.com/avatarItems/badge-mod.store.png">
+			</div>
+
+			<div class="line"></div>
+
+			<div class="position_grid">
+				<div class="explanation">
+					<p>Applications for <a class="role_link">trial helper</a> are sometimes available.<br>
+					The requirements are:</p>
+					<ul>
+						<li>English understanding</li>
+						<li>Preferably being over 15</li>
+						<li>Overall maturity</li>
+						<li>Game knowledge</li>
+					</ul>
+				<p>It is not possible to apply for <a class="role_link">minimod</a> or <a class="role_link">mod</a> as those roles are earned from doing a good work as helper.</p>
+				</div>
+				<div class="badges">
+					<div class="split">
+						<p>These items are available to those who passed their trial phase and successfuly became staff members for good.</p>
+						<div class="image_wrap">
+							<img class="skin_pic" src="https://cdn.discordapp.com/attachments/587307618155102257/763086789698125874/22491970909834.png">
+						</div>
+					</div>
+					<div class="split">
+						<p>The whole outfit (gravestone included) is available to those who remained staff members for over a year.</p>
+						<div class="image_wrap">
+							<img class="skin_pic" src="https://cdn.discordapp.com/attachments/587307618155102257/763087768753668167/22731922346290.png">
+						</div>
+					</div>
+					<div class="split">
+						<p>The above also applies to <a class="role_link">mod</a> items, with an additional badge.</p>
+						<div class="image_wrap">
+							<img class="skin_pic" src="https://cdn.discordapp.com/attachments/587307618155102257/763127740692955216/25423977994262.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="category">
+			<div class="position_intro">
+					<h2>Guardians</h2>
+					<div class="spacer"></div>
+					<img src="https://cdn.wolvesville.com/avatarItems/badge-guardian.store.png">
+			</div>
+
+			<div class="line"></div>
+
+			<div class="position_grid">
+				<div class="explanation">
+					<p>Applications for <a class="role_link">guardian</a> are sometimes available.<br>
+					The requirements are:</p>
+					<ul>
+						<li>English understanding</li>
+						<li>Has to be over 18</li>
+						<li>No ingame ban</li>
+						<li>Overall maturity</li>
+					</ul>
+					<p>It not possible to apply for <a class="role_link">guardian manager</a> as it is exceptionally earned from hard work</p>
+				</div>
+				<div class="badges">
+					<div class="split">
+						<p>These items are available to those who have officially become guardians and did their work.</p>
+						<div class="image_wrap">
+							<img class="skin_pic" src="https://cdn.discordapp.com/attachments/561566575325609997/763119743724158996/140039277276951.png">
+						</div>
+					</div>
+					<div class="split">
+						<p>The whole outfit (gravestone included) and an additional badge is available to epic guardians, who gave over 5000 bans.</p>
+						<div class="image_wrap">
+							<img class="skin_pic" src="https://cdn.discordapp.com/attachments/561566575325609997/763119641161629737/140018558111543.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="category">
+			<div class="position_intro">
+					<h2>Mentors</h2>
+					<div class="spacer"></div>
+					<img src="https://cdn.wolvesville.com/avatarItems/badge-mentor.store.png">
+			</div>
+
+			<div class="line"></div>
+
+			<div class="position_grid">
+				<div class="explanation">
+					<p>Applications for <a class="role_link">mentor</a> are sometimes available.<br>
+					The requirements are:</p>
+					<ul>
+						<li>English understanding</li>
+						<li>Has to be over 18</li>
+						<li>Overall maturity</li>
+						<li>Game knowledge</li>
+					</ul>
+					<p>It is not possible to apply for <a class="role_link">mentor manager</a> as it is exceptionally earned from hard work</p>
+				</div>
+				<div class="badges">
+					<div class="split">
+						<p>These items are available to those who have officially become mentors and did their work.</p>
+						<div class="image_wrap">
+							<img class="skin_pic" src="https://cdn.discordapp.com/attachments/587307618155102257/763094489341624330/23126249546770.png">
+						</div>
+					</div>
+					<div class="split">
+						<p>The whole outfit (gravestone included) and additional badge is available to epic mentors, who have been there for a long time and contributed a lot.</p>
+						<div class="image_wrap">
+							<img class="skin_pic" src="https://cdn.discordapp.com/attachments/651157326832599078/763095541076197386/43290094840380.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="category">
+			<div class="position_intro">
+					<div>
+						<h2>Social media managers</h2>
+					</div>
+					<div class="spacer"></div>
+					<img src="https://cdn.wolvesville.com/avatarItems/badge-social-media-manager.store.png">
+			</div>
+
+			<div class="line"></div>
+
+			<div class="position_grid">
+				<div class="explanation">
+					<p>It is not possible to apply for <a class="role_link" href="https://heroes.wolvesville.com/list?role=socialmedia">social media manager</a> as they are handpicked when they are needed.</p>
+				</div>
+				<div class="badges">
+					<div class="split">
+						<p>These items are available to those who have officially become social media managers and did their work.</p>
+						<div class="image_wrap">
+							<img class="skin_pic" src="https://cdn.discordapp.com/attachments/561566575325609997/763119431282196520/139965095360889.png">
+						</div>
+					</div>
+					<div class="split">
+						<p>The whole outfit (gravestone included) is available to those who remained staff members for over a year.</p>
+						<div class="image_wrap">
+							<img class="skin_pic" src="https://cdn.discordapp.com/attachments/561566575325609997/763119287748526121/139913798662772.png">
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<!--<div class="category">
+			<div class="position_intro">
+					<h2>Tester Club</h2>
+					<div class="spacer"></div>
+					<img src="https://cdn.wolvesville.com/avatarItems/badge-bug-hunter.store.png">
+			</div>
+
+			<div class="line"></div>
+
+			<div class="position_grid">
+				<div class="explanation">
+					<p>Applications for <a class="role_link" href="https://heroes.wolvesville.com/list?role=tc_mod">moderator</a> are sometimes available on Tester club (not the main server!).<br>
+					The requirements are:</p>
+					<ul>
+						<li>English understanding</li>
+						<li>Having a decent amount of tests</li>
+						<li>Being available during testing times</li>
+						<li>Overall maturity</li>
+					</ul>
+					<p>It is not possible to apply for <a class="role_link">admin</a> as it is earned from hard work</p>
+				</div>
+				<div class="badges">
+					<div class="split">
+						<p>This badge is given to those who have done 7 tests.</p>
+						<div class="image_wrap">
+							<img class="skin_pic" src="https://cdn.wolvesville.com/avatarItems/badge-bug-hunter.store@3x.png">
+						</div>
+					</div>
+					<div class="split">
+						<p>This badge is given to those who have greatly contributed to TC.</p>
+						<div class="image_wrap">
+							<img class="skin_pic" src="https://cdn.wolvesville.com/avatarItems/badge-bug-hunter-epic.store@3x.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+
+		<div class="category">
+			<div class="position_intro">
+					<h2>Translators</h2>
+					<div class="spacer"></div>
+					<img src="https://cdn.wolvesville.com/avatarItems/badge-translator.store.png">
+			</div>
+
+			<div class="line"></div>
+
+			<div class="position_grid">
+				<div class="explanation">
+					<p>To become a <a class="role_link">translator</a>, check the dedicated channel: <a class="channel_link" target="_blank" href="https://discord.com/channels/414179354814185498/733400067398172743">#become-a-translator</a><br>
+						If your language is opened (with a number beside it), contact the <a class="role_link">translator helper</a> of your language.<br>
+					You need to be able to speak:</p>
+					<ul>
+						<li>English</li>
+						<li>The language you're applying for</li>
+					</ul>
+					<p>It not possible to apply for <a class="role_link">translator manager</a> as it is a mod only role.</p>
+				</div>
+				<div class="badges">
+					<div class="split">
+						<p>These items are available to those who have translated 200 strings.</p>
+						<div class="image_wrap">
+							<img class="skin_pic" src="https://cdn.discordapp.com/attachments/587307618155102257/763123033862045696/24947359987459.png">
+						</div>
+					</div>
+					<div class="split">
+						<p>The whole outfit (gravestone included) and additional badge is available to those who have translated 500 strings.</p>
+						<div class="image_wrap">
+							<img class="skin_pic" src="https://cdn.discordapp.com/attachments/587307618155102257/763122841537216572/24908071721670.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="category">
+			<div class="position_intro">
+					<h2>Designers</h2>
+					<div class="spacer"></div>
+					<img src="https://cdn.wolvesville.com/avatarItems/badge-designer.store.png">
+			</div>
+
+			<div class="line"></div>
+
+			<div class="position_grid">
+				<div class="explanation">
+					<p>To become a <span class="role_link">designer</span>, you have to submit new avatars for the game. For that, you can use the dedicated channel (to get feedback): 
+						<a class="channel_link" target="_blank" href="https://discord.com/channels/414179354814185498/426721136701603840">#avatar-ideas</a>
+						To submit it for <a class="channel_link" target="_blank" href="https://discord.com/channels/414179354814185498/441607711403278336">#vote</a>, contact a <a class="role_link">minimod</a> in dms with the final version and any reference used.<br>
+					You need to:</p>
+					<ul>
+						<li>Respect copyright</li>
+						<li>Follow the <a href="https://docs.google.com/document/d/1jXkaU-YrAObJjs6YZvffFZNXQAh67VV8ErLFnUNqLFc/edit?usp=sharing" class="yellow">style guideline</a></li>
+						<li>Be over 18 or have a legal guardian to sign a copyright contract</li>
+					</ul>
+					<p>It not possible to apply for <span class="role_link">designer manager</span> or <span class="role_link">designer supervisor</span>.</p>
+				</div>
+				<div class="badges">
+					<div class="split">
+						<p>These items are available to those who have gotten a skin ingame.</p>
+						<div class="image_wrap">
+							<img class="skin_pic" src="https://cdn.discordapp.com/attachments/561566575325609997/763120307086426162/140176600389545.png">
+						</div>
+					</div>
+					<div class="split">
+						<p>The whole outfit (gravestone included) and additional badge is available to those who have gotten 10 or more skins ingame.</p>
+						<div class="image_wrap">
+							<img class="skin_pic" src="https://cdn.discordapp.com/attachments/571413729728528386/794523863090200586/474486276724005.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="buttons">
+			<a href="javascript:scrollTo({top: 0, left: 0, behavior: 'smooth'})" class="bottom_button">Back to top</a>
+			<div class="white_hover_line"></div>
+		</div>
+
+		<div class="credits">
+				<p>
+					Designed and coded by <a href="https://heroes.wolvesville.com/list?member=Arnaud" class="yellow">Arnaud#0865</a><br><br>
+					Background-image by <span class="artist">Lazarck#4756.</span>
+				</p>
+		</div>
+
+	</div>
+</body>
+</html>

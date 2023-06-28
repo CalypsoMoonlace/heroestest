@@ -1,0 +1,218 @@
+html {
+}
+
+body {
+	text-align: center;
+	color: white;
+	font-size: 16.5px;
+	font-family: Verdana;
+	overflow-wrap: break-word;
+	margin: 0;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+.backgroundImage {
+	background-image: url(https://cdn.discordapp.com/attachments/587307618155102257/730354502208847962/wwo_world.png);
+	background-attachment: fixed;
+	background-position: 50% 40%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.page {
+	background-color: rgb(0, 0, 0,0.8);
+	position: relative;
+}
+
+#date {
+	width: 100%;
+	font-size: 45px;
+}
+
+.list_and_buttons {
+	width: 80%;
+	padding: 1% 10% 5% 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.list_categories {
+	display: grid;
+	width: 80%;
+	grid-template-columns: 1fr 1fr;
+}
+
+.list_category {
+	text-align: center;
+    display: default;
+    width: 95%;
+    margin: 10px;
+	background-color: rgba(0, 0, 0,0.5);
+}
+
+.anniversary_notifications {
+	background-color: rgba(0, 0, 0,0.5);
+	margin: 10px;
+}
+
+.double_span {
+	grid-column-end: span 2;
+	width: 97.5%;
+}
+
+.events_log_boxes {
+	display: flex;
+	flex-direction: row;
+}
+.event_log_box {
+	width: 50%;
+}
+
+.events_log {
+	line-height: 28px;
+	margin: 10px;
+}
+
+@media screen and (max-device-width: 800px) {
+  .list_and_buttons {
+  	width: 100%;
+  	padding: 1% 0%;
+  }
+  .list_categories {
+	grid-template-columns: 1fr;
+  }
+  .list_category, .anniversary_notifications {
+    margin: 10px 0px;
+    width: 100%;
+  }
+  .anniversary_notifications {
+	grid-column-end: span 1;
+  }
+  .events_log_boxes {
+  	flex-direction: column;
+  }
+  .event_log_box {
+	width: 90%;
+	margin: 0 5%;
+  }
+}
+
+[class*="titre"] {
+	font-size: 22px;
+	margin-bottom: 4px;
+	margin: 15px 0 5px 0;
+}
+
+.rang:not(.double_span:last-of-type) { /* Not double span makes it so it doesn't apply to the last one if it's an odd amount of categories*/ 
+	justify-content: center;
+	margin: 5% 25%;
+	width: 50%;
+}
+
+.rang:last-of-type {
+	padding-bottom: 20px;
+}
+
+.double_span:last-of-type > .role_list { /* Change manually if even amount of categories */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 1% 0;
+}
+
+h3 {
+	background: rgb(0, 0, 0,0.3);
+	margin: auto;
+	padding: 20px;
+	font-size: 35px;
+}
+
+button {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 70px;
+	height: 68px;
+	overflow-wrap: break-word;
+}
+
+.date_pick {
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+	background: white;
+}
+
+.button_row {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+}
+
+.spacer {
+	height: 100%;
+}
+
+.bouton_back, .bouton_forward {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  	display: inline-block;
+}
+
+.bouton_back {
+	justify-content: right;
+	align-items: right;
+	text-align: right;
+	width: 100px;
+}
+
+.bouton_forward {
+	justify-content: left;
+	align-items: left;
+	text-align: left;
+	width: 100px;
+}
+
+.bouton_bas {
+	display: inline-block;
+	justify-content: bottom;
+	align-items: bottom;
+	text-align: bottom;
+	margin: 0% 25% 0% 0%;
+}
+.copy {
+	margin: 0% 0% 0% 25%;
+}
+
+.yellow,.yellow:visited {
+  color: yellow;
+  text-decoration: none;
+}
+
+.role_link,.role_link:visited,.name_link,.name_link:visited {
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.name_link, .name_link:visited {
+  line-height: 25px;
+  color: white;
+  transition: color 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.name_link:hover {
+  color: #66ccff
+}
+
+.mini_img {
+	width: 20px;
+	height: 20px;
+	border-radius: 3px;
+	vertical-align: middle;
+}

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Staff list overview</title>
+	<link rel="stylesheet" type="text/css" href="Style/nav_bar.css">
+	<link rel="stylesheet" type="text/css" href="Style/overview.css">
+	<script src="Script/roles.js" type="text/javascript"></script>
+	<link rel="icon" href="Pictures/website_icon.png">
+	<meta name="description" content="Learn more about the users behind Wolvesville!">
+	<meta name="og:description" content="Learn more about the users behind Wolvesville!">
+	<meta property="og:title" content="WOV heroes">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://heroes.wolvesville.com/">
+	<meta property="og:image:type" content="Pictures/website_icon.png">
+	<meta property="og:image:width" content="86">
+	<meta property="og:image:height" content="94">
+</head>
+<body onload="adding_links()">
+	<div class="main-rectangle">
+
+		<div class="navigation"> <!-- For pc/tablet --> 
+			<a href="https://heroes.wolvesville.com/" class="header_picture_container"> <!-- For some reason, containers don't work, hence the style tag in html -->
+				<img src="Pictures/staff_sticker.png" class="contained"  style="max-height: 75px;"> 
+			</a>
+			<a href="https://heroes.wolvesville.com/" class="nav_option"><p>Home</p></a>
+			<a href="https://heroes.wolvesville.com/overview" class="nav_option"><p>Overview</p></a>
+			<a href="https://heroes.wolvesville.com/applications" class="nav_option"><p>Applications</p></a>
+			<a href="https://heroes.wolvesville.com/updates" class="nav_option"><p>Updates</p></a>
+			<div class="nav_show_more" onclick="show_menu()"><img src="Pictures/menu_icon.png"></div>
+		</div>
+		<div class="mobile_navigation"> <!-- For phone -->
+			<div class="nav_show_more" onclick="hide_menu()"><img src="Pictures/close_icon.png"></div>
+			<a href="https://heroes.wolvesville.com/" class="mobile_header_picture"> <!-- For some reason, containers don't work, hence the style tag in html -->
+				<img src="Pictures/staff_sticker.png" class="contained"  style="max-width: 100%;"> 
+			</a>
+			<div class="mobile_nav_options">
+				<a href="https://heroes.wolvesville.com/" class="nav_option"><p>Home</p></a>
+				<a href="https://heroes.wolvesville.com/overview" class="nav_option"><p>Overview</p></a>
+				<a href="https://heroes.wolvesville.com/applications" class="nav_option"><p>Applications</p></a>
+				<a href="https://heroes.wolvesville.com/updates" class="nav_option"><p>Updates</p></a>
+				<a href="https://discord.gg/wolvesville" class="nav_option"><p>Join the discord</p></a>
+			</div>
+		</div>
+
+		<div class="header">
+			<h1>Who is the WOV staff?</h1>
+			<p>Here you will find the current members in each staff position</p><br>
+			<p>What does each position take care of?<br>
+				<ul>
+					<li>You can all role-related information <a href="https://heroes.wolvesville.com/" class="yellow">here</a></li>
+				</ul>
+			</p> <br>
+			<p>Curious about a specific user/role? Click on it and you'll see all details!</p>
+		</div>
+
+		<div class="category">
+			<div class="position_intro">
+				<h2>Developers</h2>
+				<div class="spacer"></div>
+				<img src="https://cdn.wolvesville.com/avatarItems/staff-dev-hat.store@2x.png" class="dev_hat">
+			</div>
+
+				<div class="line"></div>
+
+				<div class="position_grid">
+					<div class="position">
+						<a class="name_link">Philipp</a>
+					</div>
+					<div class="position">
+						<a class="name_link">Florian</a>
+					</div>
+					<div class="position">
+						<a class="name_link">Hubble</a>
+					</div>
+				</div>
+		</div>
+
+		<div class="category">
+			<div class="position_intro">
+				<div style="width: 100%">
+					<h2>Discord staff</h2>
+					<p style="white-space: nowrap;">Trial helper/minimod is not shown</p>
+				</div>
+				<div class="spacer"></div>
+				<img src="https://cdn.wolvesville.com/avatarItems/badge-mod.store.png">
+			</div>
+
+			<div class="line"></div>
+
+			<div class="position_grid">
+
+				<div>
+					<div class="position">
+					    <h3 style="color: #dfac39"><a class="role_link">Helper</a></h3> 
+						<div class="position_description">
+							<a class="name_link">Duden</a><br>
+							<a class="name_link">Annelotte</a><br>
+							<a class="name_link">Backfischii</a><br>
+							<a class="name_link">Eiskruemel</a><br>
+							<a class="name_link">Leam</a><br>
+							<a class="name_link">Krabbs</a><br>
+							<a class="name_link">Miku</a><br>
+							<a class="name_link">Ocean</a><br>
+							<a class="name_link">Mayo</a><br>
+							<a class="name_link">Aleroka</a><br>
+							<a class="name_link">Aquamarine</a><br>
+							<a class="name_link">Duplo</a><br>
+							<a class="name_link">Elin</a><br>
+							<a class="name_link">Fawais</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="space_between">
+					<div class="position">
+					    <h3 style="color: #e1823b"><a class="role_link">Minimod</a></h3> 
+						<div class="position_description">
+							<a class="name_link">Wire</a><br>
+							<a class="name_link">Captain</a><br>
+							<a class="name_link">Flayer</a><br>
+							<a class="name_link">Petal</a><br>
+							<a class="name_link">Leon</a><br>
+							<a class="name_link">Riya</a><br>
+							<a class="name_link">Nachti</a><br>
+							<a class="name_link">Tekisui</a><br>
+							<a class="name_link">Lealand</a><br>
+							<a class="name_link">Marie</a>
+						</div>
+					</div>
+
+					<div class="position">
+					    <h3 style="color: #da685c"><a class="role_link">Mod</a></h3> 
+						<div class="position_description">
+							<a class="name_link">Arnaud</a><br>
+							<a class="name_link">Nexo</a><br>
+							<a class="name_link">Surprise</a><br>
+							<a class="name_link">Theking465</a><br>
+							<a class="name_link">Sonblo</a><br>
+							<a class="name_link">Weri</a><br>
+							<a class="name_link">Blueburned</a><br>
+							<a class="name_link">Logan</a><br>
+							<a class="name_link">Ro5in</a><br>
+							<a class="name_link">Foibos</a>
+						</div>
+					</div>
+
+					<div class="position">
+					    <h3 style="color: #CF5050"><a class="role_link">Megamod</a></h3> 
+						<div class="position_description">
+							<a class="name_link">Lisa</a>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<div class="category">
+			<div class="position_intro">
+					<h2>Guardians</h2>
+					<div class="spacer"></div>
+					<img src="https://cdn.wolvesville.com/avatarItems/badge-guardian.store.png">
+			</div>
+
+			<div class="line"></div>
+
+			<div class="position_grid">
+				<div class="position">
+				    <h3 style="color: #18d0ff"><a class="role_link">Guardian</a></h3> 
+					<div class="position_description">
+						<a class="name_link">Boy</a><br>
+						<a class="name_link">Renardeau</a><br>
+						<a class="name_link">ClankFilippo</a><br>
+						<a class="name_link">Surprise</a><br>
+						<a class="name_link">LouveBlanche</a><br>
+						<a class="name_link">Doraemon</a><br>
+						<a class="name_link">Dr_Raymond</a><br>
+						<a class="name_link">Florian9</a><br>
+						<a class="name_link">Jnsc</a><br>
+						<a class="name_link">Migi_migi</a><br>
+						<a class="name_link">Theking465</a><br>
+						<a class="name_link">Yurii</a><br>
+						<a class="name_link">Bittertwee</a><br>
+						<a class="name_link">Imge</a><br>
+						<a class="name_link">Saori</a><br>
+						<a class="name_link">Captain</a><br>
+						<a class="name_link">ZetaPhoenix</a><br>
+						<a class="name_link">Ravenpuff</a>
+					</div>
+				</div>
+
+				<div class="space_around">
+					<div class="position">
+					    <h3 style="color: #00b1ff"><a class="role_link">Guardian Manager</a></h3> 
+						<div class="position_description">
+						<a class="name_link">Weri</a>
+						</div>
+					</div>
+					<div class="position">
+					    <h3 style="color: #00b1ff"><a class="role_link">Guardian Manager Helper</a></h3> 
+						<div class="position_description">
+						<a class="name_link">Lisa</a>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<div class="category">
+			<div class="position_intro">
+					<h2>Mentors</h2>
+					<div class="spacer"></div>
+					<img src="https://cdn.wolvesville.com/avatarItems/badge-mentor.store.png">
+			</div>
+
+			<div class="line"></div>
+
+			<div class="position_grid">
+				<div class="position">
+				    <h3 style="color: #f26f93"><a class="role_link">Mentor</a></h3> 
+					<div class="position_description">
+						<a class="name_link">Maffin</a><br>
+						<a class="name_link">Boy</a><br>
+						<a class="name_link">Briann</a><br>
+						<a class="name_link">Sonblo</a><br>
+						<a class="name_link">LouveBlanche</a><br>
+						<a class="name_link">Weri</a><br>
+						<a class="name_link">Raind</a><br>
+						<a class="name_link">Nachti</a><br>
+						<a class="name_link">Theking465</a><br>
+						<a class="name_link">Dimitri</a><br>
+						<a class="name_link">Kornel</a><br>
+						<a class="name_link">Marie</a><br>
+						<a class="name_link">Scout</a><br>
+						<a class="name_link">Eiskruemel</a><br>
+						<a class="name_link">Agusio</a><br>
+						<a class="name_link">Asiabby</a><br>
+						<a class="name_link">Bomber</a><br>
+						<a class="name_link">Memava</a><br>
+						<a class="name_link">Dr_Raymond</a><br>
+						<a class="name_link">TigerPuppy</a><br>
+						<a class="name_link">WOLFY</a><br>
+						<a class="name_link">Blueburned</a><br>
+						<a class="name_link">Captain</a><br>
+						<a class="name_link">Danish</a><br>
+						<a class="name_link">Doraemon</a><br>
+						<a class="name_link">Fremder</a><br>
+						<a class="name_link">Lealand</a><br>
+						<a class="name_link">Migi_migi</a><br>
+						<a class="name_link">Tekisui</a><br>
+						<a class="name_link">Saori</a><br>
+						<a class="name_link">Spultor</a><br>
+						<a class="name_link">Xie</a>
+					</div>
+				</div>
+
+				<div class="space_around">
+					<div class="position">
+					    <h3 style="color: #f2557f"><a class="role_link">Mentor Manager</a></h3> 
+						<div class="position_description">
+						<a class="name_link">Lisa</a>
+						</div>
+					</div>
+					<div class="position">
+					    <h3 style="color: #eb6a8c"><a class="role_link">Mentor Manager Helper</a></h3> 
+						<div class="position_description">
+						<a class="name_link">Arnaud</a>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<div class="category">
+			<div class="position_intro">
+					<div>
+						<h2>Social media managers</h2>
+					</div>
+					<div class="spacer"></div>
+					<img src="https://cdn.wolvesville.com/avatarItems/badge-social-media-manager.store.png">
+			</div>
+
+			<div class="line"></div>
+
+			<div class="social_media_grid">
+				<div class="position">
+					<div class="position_description">
+						<a href="https://www.reddit.com/r/werewolfonline/" target="_blank">
+							<img src="Pictures/reddit logo.png">
+						</a>
+						<p>
+							<a class="name_link">Maffin</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="position">
+					<div class="position_description">
+						<a href="https://www.instagram.com/wolvesville.wov/" target="_blank">
+							<img src="Pictures/instagram logo.png">
+						</a>
+						<p>
+							<a class="name_link">Duden</a><br>
+							<a class="name_link">Sharon</a><br>
+							<a class="name_link">Bunno</a><br>
+							<a class="name_link">Leon</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="position">
+					<div class="position_description">
+						<a href="https://www.facebook.com/wolvesville.wov/" target="_blank">
+							<img src="Pictures/facebook logo.png">
+						</a>
+						<p>
+							<a class="name_link">Chris Phil</a><br>
+							<a class="name_link">Arnaud</a><br>
+							<a class="name_link">Lisa</a><br>
+							<a class="name_link">Hyde</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="position">
+					<div class="position_description">
+						<a href="https://twitter.com/wolvesville_app" target="_blank">
+							<img src="Pictures/twitter logo.png">
+						</a>
+						<p>
+							<a class="name_link">Chris Phil</a><br>
+							<a class="name_link">Arnaud</a><br>
+							<a class="name_link">Duden</a>
+						</p>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<div class="category">
+			<div class="position_intro">
+					<h2>Tester Club</h2>
+					<div class="spacer"></div>
+					<img src="https://cdn.wolvesville.com/avatarItems/badge-bug-hunter.store.png">
+			</div>
+
+			<div class="line"></div>
+
+			<div class="position_grid">
+				<div class="position">
+				    <h3 style="color: #00bfff"><a class="role_link" href="https://heroes.wolvesville.com/list?role=tc_mod">Moderator</a></h3> 
+					<div class="position_description">
+						<a class="name_link">Arnaud</a><br>
+						<a class="name_link">Dimitri</a>
+					</div>
+				</div>
+
+				<div class="position">
+				    <h3 style="color: #17afbd"><a class="role_link" href="https://heroes.wolvesville.com/list?role=tc_admin">Admin</a></h3> 
+					<div class="position_description">
+						<a class="name_link">Sharon</a><br>
+						<a class="name_link">Maffin</a><br>
+						<a class="name_link">Lisa</a><br>
+						<a class="name_link">Geekid</a>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<div class="credits">
+				<p>
+					Designed and coded by <a href="https://heroes.wolvesville.com/list?member=Arnaud" class="yellow">Arnaud#0865</a><br><br>
+					Background-image by <span class="artist">Lazarck#4756.</span>
+				</p>
+		</div>
+
+	</div>
+</body>
+</html>

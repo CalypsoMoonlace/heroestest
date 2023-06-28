@@ -1,0 +1,171 @@
+html {
+	background-color: rgb(0, 0, 0,0.85);
+}
+
+body {
+	text-align: center;
+	color: white;
+	font-family: Verdana;
+	font-size: 16.5px;
+	margin: 0;
+}
+
+li {
+	padding: 5px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.name_link, .name_link:visited {
+	color: white;
+	transition: color 0.2s ease-in-out;
+	/*display: flex; Don't, unless you want a linebreak
+	flex-direction: row;*/
+	white-space: nowrap;
+}
+
+.current_roles_list .name_link{
+	/*justify-content: center;*/
+}
+
+.current_roles_list {
+	display: flex;
+	align-items: center;
+	line-height: 30px;
+	justify-content: center;
+	text-align: center;
+}
+
+.name_link img {
+	margin: 0 5px;
+}
+
+.name_link:hover {
+	color: #66ccff;
+}
+
+.backgroundImage {
+	background-image: url(wwo_world.png);
+	background-attachment: fixed;
+	background-position: 50% 40%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.yellow {
+	color: yellow;
+}
+
+.page {
+	background-color: rgb(0, 0, 0,0.8);
+	min-height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+	min-height: calc(var(--vh, 1vh) * 100);
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.list_and_buttons {
+	height: 100%;
+	min-height: 90vh;
+	padding: 0 10%;
+	display: flex;
+	flex-direction: column;
+	padding: none;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.list_category {
+	background-color: rgba(0, 0, 0,0.5);
+	text-align: center;
+    width: 47.5%;
+    margin: 10px;
+}
+
+.rang:not(:first-of-type) {
+	text-align: left;
+}
+.rang {
+	padding: 10px;
+}
+
+.mini_img {
+	width: 20px;
+	height: 20px;
+	border-radius: 3px;
+	vertical-align: middle;
+}
+
+@media screen and (max-device-width: 1200px) {
+  .list_category {
+    min-width: 70%;
+  }
+}
+@media screen and (max-device-width: 800px) {
+  .list_and_buttons {
+  	width: 90%;
+  	padding: 1% 5%;
+  }
+  .list_category {
+    margin: 10px 0px;
+    min-width: 95%;
+  }
+}
+
+.role_list {
+	display: flex;
+	text-align: left;
+	flex-direction: column;
+}
+
+.date_list li {
+	list-style-type: none;
+	text-align: left;
+}
+
+h3 {
+	background: rgb(0, 0, 0,0.3);
+	margin: auto;
+	padding: 20px;
+	font-size: 35px;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	width: 40%;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+.show_more {
+	margin: 25px 0;
+	cursor: pointer;
+}
+.bottom_button, .bottom_button:visited {
+	color: white;
+}
+
+.white_hover_line {
+	width: 0%;
+	transition: width 0.2s ease-in-out;
+	background-color: white;
+	height: 1px;
+	margin-top: 8px;
+}
+
+.spacer {
+	height: 100%;
+}
+.spacer_flag {
+	width: 100%;
+	margin: 0 20px;
+}
+
+.flag_container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}

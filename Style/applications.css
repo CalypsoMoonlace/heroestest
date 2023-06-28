@@ -1,0 +1,229 @@
+html {
+  background-color: rgb(0, 0, 0,0.8);
+}
+
+body {
+	background-image: url(wwo_world.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+	color: white;
+	font-family: Verdana;
+  font-size: 16.5px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px; /* Trying to fix some browser bugs */
+  text-align: center;
+}
+
+.yellow,.yellow:visited {
+  color: yellow;
+  text-decoration: none;
+}
+
+.role_link,.role_link:visited,.name_link,.name_link:visited {
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.channel_link,.channel_link:visited {
+  text-decoration: none;
+  color: #7289da;
+}
+
+.main-rectangle {
+	width: 100%;
+  background-color: rgb(0, 0, 0,0.85);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  padding-bottom: 150px;
+  position: relative;
+}
+
+.header_picture {
+  width: 50%;
+}
+
+.category {
+	width: 50%;
+	margin: 5% 25% 0% 25%;
+}
+
+.space_between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-device-width: 1400px) {
+  .category {
+    width: 60%;
+    margin: 5% 20% 0% 20%;
+  }
+}
+@media screen and (max-device-width: 1200px) {
+  .category {
+    width: 70%;
+    margin: 5% 15% 0% 15%;
+  }
+}
+@media screen and (max-device-width: 1000px) {
+  .category {
+    width: 80%;
+    margin: 5% 10% 0% 10%;
+  }
+}
+
+.position_intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.position_intro h2 {
+  white-space: nowrap;
+}
+
+.position_intro img:not(.dev_hat) {
+  min-width: 73px;
+  min-height: 80px;
+}
+
+.dev_wreath {
+  min-height: 80px;
+}
+
+.spacer {
+  width: 100%;
+}
+
+.line {
+  border-bottom: 1px solid white; 
+}
+.vertical_line {
+  width: 1px;
+  background-color: white;
+}
+
+.position_grid {
+  width: 90%;
+  padding: 0 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.explanation, .badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5% 5%;
+}
+
+.explanation {
+  border-right: 1px solid white;
+}
+
+.badges {
+  justify-content: space-between;
+}
+
+.split {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px; 
+}
+.split > p {
+  width: 60%;
+}
+.image_wrap {
+  width: 40%;
+  margin-left: 10px;
+}
+.skin_pic {
+  width: 100%;
+}
+
+@media screen and (max-device-width: 800px) {
+  .position_grid {
+  grid-template-columns: 1fr;
+  }
+  .explanation {
+  border-right: none;
+  }
+}
+
+.social_media_grid {
+  width: 90%;
+  padding: 0 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+
+.social_media_grid img {
+  width: 50%;
+  margin: 0% 25%;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.social_media_grid .position {
+  height: 90%;
+}
+
+.social_media_grid .position_description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.position_description {
+  text-align: center;
+}
+
+.name_link, .name_link:visited {
+  line-height: 25px;
+  color: white;
+  transition: color 0.2s ease-in-out;
+}
+
+.name_link:hover {
+  color: #66ccff
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 10%;
+  justify-content: center;
+  align-items: center;
+  scroll-behavior: smooth;
+  margin-top: 60px;
+}
+.bottom_button, .bottom_button:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.white_hover_line {
+  width: 0%;
+  transition: width 0.2s ease-in-out;
+  background-color: white;
+  height: 1px;
+  margin-top: 8px;
+}
+
+.buttons:hover .white_hover_line {
+  width: 100px;
+}

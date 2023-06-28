@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WOV staff profiles</title>
+	<link rel="stylesheet" type="text/css" href="Style/list.css">
+	<link rel="stylesheet" type="text/css" href="Style/nav_bar.css">
+	<script src="Script/TimeMachineData.js"></script>
+	<script src="Script/list.js"></script>
+	<link rel="icon" href="Pictures/website_icon.png">
+	<meta name="description" content="Learn more about the users behind Wolvesville!">
+	<meta name="og:description" content="Learn more about the users behind Wolvesville!">
+	<meta property="og:title" content="WOV heroes">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://heroes.wolvesville.com/">
+	<meta property="og:image:type" content="Pictures/website_icon.png">
+	<meta property="og:image:width" content="86">
+	<meta property="og:image:height" content="94">
+</head>
+
+<body onload="loading()">
+	<div class="backgroundImage">
+		<div class="page">
+
+			<div class="navigation"> <!-- For pc/tablet --> 
+				<a href="https://heroes.wolvesville.com/" class="header_picture_container"> <!-- For some reason, containers don't work, hence the style tag in html -->
+					<img src="Pictures/staff_sticker.png" class="contained"  style="max-height: 75px;"> 
+				</a>
+				<a href="https://heroes.wolvesville.com/" class="nav_option"><p>Home</p></a>
+				<a href="https://heroes.wolvesville.com/overview" class="nav_option"><p>Overview</p></a>
+				<a href="https://heroes.wolvesville.com/applications" class="nav_option"><p>Applications</p></a>
+				<a href="https://heroes.wolvesville.com/updates" class="nav_option"><p>Updates</p></a>
+				<div class="nav_show_more" onclick="show_menu()"><img src="Pictures/menu_icon.png"></div>
+			</div>
+			<div class="mobile_navigation"> <!-- For phone -->
+				<div class="nav_show_more" onclick="hide_menu()"><img src="Pictures/close_icon.png"></div>
+				<a href="https://heroes.wolvesville.com/" class="mobile_header_picture"> <!-- For some reason, containers don't work, hence the style tag in html -->
+					<img src="Pictures/staff_sticker.png" class="contained"  style="max-width: 100%;"> 
+				</a>
+				<div class="mobile_nav_options">
+					<a href="https://heroes.wolvesville.com/" class="nav_option"><p>Home</p></a>
+					<a href="https://heroes.wolvesville.com/overview" class="nav_option"><p>Overview</p></a>
+					<a href="https://heroes.wolvesville.com/applications" class="nav_option"><p>Applications</p></a>
+					<a href="https://heroes.wolvesville.com/updates" class="nav_option"><p>Updates</p></a>
+					<a href="https://discord.gg/wolvesville" class="nav_option"><p>Join the discord</p></a>
+				</div>
+		</div>
+
+			<div class="list_and_buttons">
+
+				<div>
+					<div id="staff_member_name"></div>
+					<h4 class="birthday"></h4>
+					<h4 class="languages"></h4>
+				</div>
+
+				<div class="list_category">
+					<h3>What do they do?</h3>
+					<p class="role_explanation">
+					</p>
+				</div>
+
+				<div class="list_category">
+					<h3 class="current_info"></h3>
+					<div class="current_roles_list">
+
+						<div class="rang">
+							<!--Generated automatically-->
+						</div>
+					</div>
+				</div>
+
+				<div class="list_category minwidth">
+					<h3>Update dates</h3>
+					<div class="category_content">
+						<div class="role_list">
+							<ul class="rang">
+								<!--Generated automatically-->
+							</ul>
+						</div>
+						<div class="date_list">
+							<ul class="rang">
+								<!--Generated automatically-->
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="buttons">
+					<div class="home_button">
+						<a href="https://heroes.wolvesville.com/" class="bottom_button">Home</a>
+						<div class="white_hover_line"></div>
+					</div>
+					<div class="sort_button">
+						<a href="?filter=language" class="bottom_button">Sort by language</a>
+						<div class="white_hover_line"></div>
+					</div>
+					<div class="random_button">
+						<a href="https://heroes.wolvesville.com/list?member=Philipp" class="bottom_button">Random</a>
+						<div class="white_hover_line"></div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="credits">
+				<p>
+					Designed and coded by <a href="?member=Arnaud" class="yellow">Arnaud#0865</a> <br><br>
+					Background-image by <span class="artist">Lazarck#4756.</span>
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+/* This file is common to all pages of the website */
+
+.navigation {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #2C2F33;
+}
+
+.header_picture {
+  max-width: 50%;
+  max-height: 75px;
+}
+
+.nav_option, .nav_option:visited {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  transition: background-color 0.2s ease-in-out;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_option:hover {
+  background-color: #23272A;
+}
+
+.nav_show_more {
+  display: none;
+  width: 10%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.nav_show_more img {
+  width: 40px;
+}
+
+.mobile_navigation {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  min-height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+  min-height: calc(var(--vh, 1vh) * 100);
+  width: 100%;
+  z-index: 10;
+  background-color: #2C2F33;
+}
+
+.mobile_nav_options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40%;
+  padding: 0 30%;
+}
+
+.mobile_header_picture {
+  max-width: 50%;
+  padding: 0 25%;
+} 
+
+@media screen and (max-device-width: 800px) {
+  .navigation {
+    justify-content: space-between;
+  }
+  .nav_option {
+    display: none;
+  }
+  .mobile_nav_options .nav_option {
+    display: block;
+    font-size: 40px;
+  }
+  .nav_show_more {
+    display: flex;
+    min-height: 80px;
+  }
+}
+
+.credits {
+  position: absolute;
+  bottom: 0%;
+  right: 1%;
+  font-size: 15px;
+}
