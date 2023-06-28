@@ -26,26 +26,30 @@ async function get_users_from_role(role_name) {
     let list = []
 
     get_db_from_name("Role").then(data => {
-        console.log(data)
+        // Find where to look for
         let role_data = data.find((elmt) => elmt.name == role_name)
-        console.log(role_data)
         let role_category = role_data.category
-        console.log(role_category)
+        console.log(role_data)
 
+        // Get all data from that category
         get_db_from_name(role_category).then(data => {
             data.forEach(elmt => {
+
+                // Did this person ever get the role?
                 if (elmt.role_name != null) {
+                    // Yes, add to list
                     list.push({
                         name: elmt.name,
                         time: elmt[role_name],
                         current: elmt.current
                     })
                 }
+                
             })
+            // end here
+            return list
         })
     })
-
-    return list
 }
 
 get_users_from_role("helper").then(data => console.log(data))
