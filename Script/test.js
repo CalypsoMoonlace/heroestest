@@ -26,8 +26,8 @@ async function get_users_from_role(role_name) {
     let list = []
 
     get_db_from_name("Roles").then(data => {
-        role_data = data[role_name]
-        role_category = role_data.category
+        let role_data = data[role_name]
+        let role_category = role_data.category
         console.log(role_category)
 
         get_db_from_name(role_category).then(data => {
