@@ -1,155 +1,155 @@
 [
     {
-        "createdAt": "2023-06-28 11:42:01.642 +00:00",
+        "createdAt": "2023-06-28 12:05:31.493 +00:00",
         "current": "socialmedia",
         "media": "reddit",
         "name": "Maffin",
         "resigned": null,
         "smm": 1563015740,
-        "updatedAt": "2023-06-28 11:42:01.642 +00:00"
+        "updatedAt": "2023-06-28 12:05:31.493 +00:00"
     },
     {
-        "createdAt": "2023-06-28 11:42:01.643 +00:00",
+        "createdAt": "2023-06-28 12:05:31.493 +00:00",
         "current": "socialmedia",
         "media": "facebook",
         "name": "Lisa",
         "resigned": null,
         "smm": 1578826940,
-        "updatedAt": "2023-06-28 11:42:01.643 +00:00"
+        "updatedAt": "2023-06-28 12:05:31.493 +00:00"
     },
     {
-        "createdAt": "2023-06-28 11:42:01.643 +00:00",
+        "createdAt": "2023-06-28 12:05:31.494 +00:00",
         "current": "socialmedia",
         "media": "facebook twitter",
         "name": "Arnaud",
         "resigned": null,
         "smm": "1578826940 1605105445",
-        "updatedAt": "2023-06-28 11:42:01.643 +00:00"
+        "updatedAt": "2023-06-28 12:05:31.494 +00:00"
     },
     {
-        "createdAt": "2023-06-28 11:42:01.643 +00:00",
+        "createdAt": "2023-06-28 12:05:31.494 +00:00",
         "current": "resigned",
         "media": "facebook",
         "name": "Hyde",
         "resigned": 1650126784,
         "smm": 1578826940,
-        "updatedAt": "2023-06-28 11:42:01.643 +00:00"
+        "updatedAt": "2023-06-28 12:05:31.494 +00:00"
     },
     {
-        "createdAt": "2023-06-28 11:42:01.643 +00:00",
+        "createdAt": "2023-06-28 12:05:31.494 +00:00",
         "current": "resigned",
         "media": "facebook",
         "name": "Camp",
         "resigned": 1578826940,
         "smm": 1552993340,
-        "updatedAt": "2023-06-28 11:42:01.643 +00:00"
+        "updatedAt": "2023-06-28 12:05:31.494 +00:00"
     },
     {
-        "createdAt": "2023-06-28 11:42:01.643 +00:00",
+        "createdAt": "2023-06-28 12:05:31.494 +00:00",
         "current": "socialmedia",
         "media": "instagram",
         "name": "Sharon",
         "resigned": null,
         "smm": 1552820540,
-        "updatedAt": "2023-06-28 11:42:01.643 +00:00"
+        "updatedAt": "2023-06-28 12:05:31.494 +00:00"
     },
     {
-        "createdAt": "2023-06-28 11:42:01.643 +00:00",
+        "createdAt": "2023-06-28 12:05:31.494 +00:00",
         "current": "resigned",
         "media": "instagram",
         "name": "Crush",
         "resigned": 1573556540,
         "smm": 1561460540,
-        "updatedAt": "2023-06-28 11:42:01.643 +00:00"
+        "updatedAt": "2023-06-28 12:05:31.494 +00:00"
     },
     {
-        "createdAt": "2023-06-28 11:42:01.643 +00:00",
+        "createdAt": "2023-06-28 12:05:31.494 +00:00",
         "current": "socialmedia",
         "media": "instagram twitter",
         "name": "Duden",
         "resigned": null,
         "smm": "1573556540 1605105445",
-        "updatedAt": "2023-06-28 11:42:01.643 +00:00"
+        "updatedAt": "2023-06-28 12:05:31.494 +00:00"
     },
     {
-        "createdAt": "2023-06-28 11:42:01.643 +00:00",
+        "createdAt": "2023-06-28 12:05:31.494 +00:00",
         "current": "resigned",
         "media": "instagram",
         "name": "Stef",
         "resigned": 1623497301,
         "smm": 1567508540,
-        "updatedAt": "2023-06-28 11:42:01.643 +00:00"
+        "updatedAt": "2023-06-28 12:05:31.494 +00:00"
     },
     {
-        "createdAt": "2023-06-28 11:42:01.644 +00:00",
+        "createdAt": "2023-06-28 12:05:31.494 +00:00",
         "current": "socialmedia",
         "media": "instagram",
         "name": "Bunno",
         "resigned": 1611311243,
         "smm": "1595502140 1622028501",
-        "updatedAt": "2023-06-28 11:42:01.644 +00:00"
+        "updatedAt": "2023-06-28 12:05:31.494 +00:00"
     },
     {
-        "createdAt": "2023-06-28 11:42:01.644 +00:00",
+        "createdAt": "2023-06-28 12:05:31.494 +00:00",
         "current": "resigned",
         "media": "facebook",
         "name": "Maya",
         "resigned": 1553019021,
         "smm": 1539594154,
-        "updatedAt": "2023-06-28 11:42:01.644 +00:00"
+        "updatedAt": "2023-06-28 12:05:31.494 +00:00"
     },
     {
-        "createdAt": "2023-06-28 11:42:01.644 +00:00",
+        "createdAt": "2023-06-28 12:05:31.494 +00:00",
         "current": "resigned",
         "media": "twitter",
         "name": "Lucienbl",
         "resigned": 1569920554,
         "smm": 1539594154,
-        "updatedAt": "2023-06-28 11:42:01.644 +00:00"
+        "updatedAt": "2023-06-28 12:05:31.494 +00:00"
     },
     {
-        "createdAt": "2023-06-28 11:42:01.644 +00:00",
+        "createdAt": "2023-06-28 12:05:31.494 +00:00",
         "current": "resigned",
         "media": "twitter",
         "name": "Milky",
         "resigned": 1554282154,
         "smm": 1540890154,
-        "updatedAt": "2023-06-28 11:42:01.644 +00:00"
+        "updatedAt": "2023-06-28 12:05:31.494 +00:00"
     },
     {
-        "createdAt": "2023-06-28 11:42:01.644 +00:00",
+        "createdAt": "2023-06-28 12:05:31.494 +00:00",
         "current": "resigned",
         "media": "facebook",
         "name": "Prometheus",
         "resigned": 1557738154,
         "smm": 1554627754,
-        "updatedAt": "2023-06-28 11:42:01.644 +00:00"
+        "updatedAt": "2023-06-28 12:05:31.494 +00:00"
     },
     {
-        "createdAt": "2023-06-28 11:42:01.644 +00:00",
+        "createdAt": "2023-06-28 12:05:31.494 +00:00",
         "current": "resigned",
         "media": "instagram",
         "name": "Pan",
         "resigned": 1632337615,
         "smm": 1611341921,
-        "updatedAt": "2023-06-28 11:42:01.644 +00:00"
+        "updatedAt": "2023-06-28 12:05:31.494 +00:00"
     },
     {
-        "createdAt": "2023-06-28 11:42:01.644 +00:00",
+        "createdAt": "2023-06-28 12:05:31.494 +00:00",
         "current": "socialmedia",
         "media": "facebook twitter",
         "name": "Chris Phil",
         "resigned": null,
         "smm": "1558004540 1558004541",
-        "updatedAt": "2023-06-28 11:42:01.644 +00:00"
+        "updatedAt": "2023-06-28 12:05:31.494 +00:00"
     },
     {
-        "createdAt": "2023-06-28 11:42:01.644 +00:00",
+        "createdAt": "2023-06-28 12:05:31.494 +00:00",
         "current": "socialmedia",
         "media": "instagram",
         "name": "Leon",
         "resigned": null,
         "smm": 1624302539,
-        "updatedAt": "2023-06-28 11:42:01.644 +00:00"
+        "updatedAt": "2023-06-28 12:05:31.494 +00:00"
     }
 ]

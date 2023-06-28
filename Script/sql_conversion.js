@@ -36,7 +36,11 @@ const { Sequelize , DataTypes , Model } = require ("sequelize")
 // Creation of database link
 const sequelize = new Sequelize ({
 	dialect : "sqlite" ,
-	storage : "finalproject.sqlite"
+	storage : "finalproject.sqlite",
+    define: {
+        //prevent sequelize from pluralizing table names
+        freezeTableName: true
+    }
 })
 
 check_connection()
@@ -297,7 +301,7 @@ let categories = [];
 let languages = [];
 let birthdays = [];
 
-let category_names = ["Discord", "Mentor", "Guardian", "SocialMedia", "TesterClub", "Developer"]
+let category_names = ["Discords", "Mentors", "Guardians", "SocialMedia", "TesterClubs", "Developers"]
 
 // Add to Roles
 let role_categories = {
