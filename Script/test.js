@@ -4,4 +4,10 @@ async function Func() {
     return jsonData
 }
 
-Func().then(data => console.log(JSON.parse(data)))
+Func().then(data => {
+    data.forEach(elmt => {
+        if (elmt.name.includes('A')) {
+            console.log(elmt)
+        }
+    })
+})
