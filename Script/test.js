@@ -4,7 +4,7 @@ async function get_db_from_name(db_name) {
     return jsonData
 }
 
-get_db_from_name("Discords").then(data => {
+get_db_from_name("Discord").then(data => {
     data.forEach(elmt => {
         if (elmt.current != "resigned") {
             console.log(elmt.name)
@@ -25,7 +25,7 @@ async function get_users_from_role(role_name) {
     */
     let list = []
 
-    get_db_from_name("Roles").then(data => {
+    get_db_from_name("Role").then(data => {
         console.log(data)
         let role_data = data.find((elmt) => elmt.name == role_name)
         console.log(role_data)

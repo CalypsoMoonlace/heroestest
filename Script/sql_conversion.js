@@ -5,11 +5,12 @@
 	DO NOT USE unless you know what you're doing!
 
 	How to reset:
-	- Remove the comments on line 23 & 24 and put all ".create()" in comments
+	- Set "creation = true"
 	- Run the code ("node sql_conversion.js") in terminal
-	- Undo the modifications you made above and rerun in terminal
+	- Set "creation = false" rerun in terminal
 
 */
+let creation = false
 
 // Import data
 const {whole_staff_list} = require('./TimeMachineData.js')
@@ -22,8 +23,11 @@ async function check_connection() {
 	try {
 		await sequelize.authenticate();
 		console.log('Connection has been established successfully.');
-		//await sequelize.sync({ force: true });
-		//console.log('Database reset successfully.');
+
+		if (creation) {
+			await sequelize.sync({ force: true });
+			console.log('Database reset successfully.');
+		}
 	} catch (error) {
 		console.error('Unable to connect to the database:', error);
 	};
@@ -293,6 +297,9 @@ Role.init({
 
 // Save the empty tables
 sequelize.sync()
+if (creation) {
+	return // stop here
+}
 
 // Database setup (entering values into the database)
 // Initialise
@@ -301,7 +308,7 @@ let categories = [];
 let languages = [];
 let birthdays = [];
 
-let category_names = ["Discords", "Mentors", "Guardians", "SocialMedia", "TesterClubs", "Developers"]
+let category_names = ["Discord", "Mentor", "Guardian", "SocialMedia", "TesterClub", "Developer"]
 
 // Add to Roles
 let role_categories = {
