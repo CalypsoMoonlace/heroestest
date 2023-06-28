@@ -247,30 +247,6 @@ function loading() {
 
 let list_to_add = [],all_member_positions = [],all_role_members = [],all_role_members_languages = [];
 
-async function Func() {
-    const response = await fetch('./Members.json')
-    const jsonData = await response.json()
-    return jsonData
-}
-
-Func().then(data => console.log(data))
-
-function get_user_from_name(member_name) {
-	/*
-	pre: member_name is the name of a staff member from the "Members" table
-	post: returns a list of objects corresponding to the database entries with the same name
-
-	Example:
-	"Arnaud" will return a list of length 4 (Discord, Mentor, SMM, TC)
-	"Mmaarten" will return a list of length 1 (Mentor)
-	"InvalidName" will return an empty list
-	
-	The values in the list correspond to the json objects
-	*/
-
-	members = 
-}
-
 function search_member_data(member_name) {
 	// pre: Staff member is defined
 	// post: Creates a page with all member data

@@ -4,14 +4,6 @@ async function get_db_from_name(db_name) {
     return jsonData
 }
 
-get_db_from_name("Discord").then(data => {
-    data.forEach(elmt => {
-        if (elmt.current != "resigned") {
-            console.log(elmt.name)
-        }
-    })
-})
-
 async function get_users_from_role(role_name) {
     /* 
     pre: role_name is the name of a role (trialhelper, helper, guardian, etc)
@@ -46,4 +38,13 @@ async function get_users_from_role(role_name) {
     return list
 }
 
-get_users_from_role("guardianmanager").then(data => console.log(data))
+function loading() {
+    page_url = new URLSearchParams(window.location.search);
+    member_name = page_url.get('member');
+    role_name = page_url.get('role')
+    language_parameter = page_url.get('language');
+    sort_type = page_url.get('sort');
+    get_users_from_role(role_name).then(data => console.log(data))
+}
+
+loading()
