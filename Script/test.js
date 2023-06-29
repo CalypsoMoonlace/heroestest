@@ -96,7 +96,7 @@ async function get_roles_from_user(user_name) {
                 category_data[key].split(" ").forEach(entry => {
                     result.roles.push({
                         name: key,
-                        time: entry
+                        time: parseInt(entry)
                     })
                 })
             }
