@@ -111,7 +111,9 @@ async function get_roles_from_user(user_name) {
         result.current = "resigned"
     }
 
+    console.log(result.roles)
     result.roles.sort((a, b) => a.time - b.time) // sort by time
+    console.log(result.roles)
 
     return result
 }
