@@ -125,7 +125,7 @@ function unix_to_date(timestamp) {
     // pre: timestamp is a unix timestamp from the database
     // post: returns "dd month yyyy"
     // example: 0 -> "01 January 1900"
-    let date = new Date(list_to_add[i]*1000); // from unix to object
+    let date = new Date(timestamp*1000); // from unix to object
     
     day = date.getDate()
     if (day<10) {
