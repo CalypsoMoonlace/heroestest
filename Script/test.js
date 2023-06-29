@@ -28,10 +28,6 @@ async function get_users_from_role(role_name) {
         // Did this person ever get the role?
         if (elmt[role_name] != null) {
             // Yes, add to list
-            
-            console.log(elmt)
-            console.log(Object.keys(elmt))
-            console.log(elmt.languages)
 
             if (typeof(elmt[role_name]) == "string") {
                 // only keep first occurence
@@ -50,6 +46,10 @@ async function get_users_from_role(role_name) {
     })
 
     return list
+}
+
+function filter_by_language(member_list,language) {
+    return member_list.filter(member => member.languages.includes(language));
 }
 
 function unix_to_date(timestamp) {
@@ -93,6 +93,11 @@ async function loading() {
         // load role info
         document.title = "Role info"
         let users_data = await get_users_from_role(role_name)
+
+        // filter accordingly
+        if (language_parameter) {
+            users_data = filter_by_language(users_data,language_parameter)
+        }
 
         // sort accordingly
         if (sort_type == "language") {
