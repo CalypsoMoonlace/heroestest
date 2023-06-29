@@ -78,7 +78,7 @@ async function get_roles_from_user(user_name) {
     let member_categories = member_data.categories.split(" ") // eg: member_categories = ["Discord", "Mentor"]
     result.languages = member_data.languages.split(" ") // eg: results.languages = ["English", "French", "German"]
 
-    for (var i = member_categories.length - 1; i >= 0; i--) {
+    for (var i = 0; i < member_categories.length; i++) {
         
         // Add category by category
         let category_db = await get_db_from_name(member_categories[i])
