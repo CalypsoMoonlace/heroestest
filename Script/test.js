@@ -1,3 +1,42 @@
+// text_to_flag is temporary and should be replaced by static files to ensure it remains functional at all times
+
+let text_to_flag = { // use https://github.com/twitter/twemoji/tree/master/assets/72x72 and lookup the unicode of the flag
+    Albanian: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1e6-1f1f1.png",
+    Arabic: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ef-1f1f4.png",
+    Azerbaijan: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1e6-1f1ff.png",
+    Canadian: "https://twemoji.maxcdn.com/v/13.0.1/72x72/1f1e8-1f1e6.png",
+    Chinese: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1e8-1f1f3.png",
+    Czech: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1e8-1f1ff.png",
+    Danish: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1e9-1f1f0.png",
+    Dutch: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f3-1f1f1.png",
+    Finnish: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1eb-1f1ee.png",
+    Filipino: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f5-1f1ed.png",
+    French: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1eb-1f1f7.png",
+    English: "https://www.wolvesville.com/static/media/flag_en.72a22873.svg", // mix from GB and american flag, to avoid cultural issues
+    German: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1e9-1f1ea.png",
+    Greek: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ec-1f1f7.png",
+    Hindi: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ee-1f1f3.png",
+    Indonesian: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ee-1f1e9.png",
+    Hungarian: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ed-1f1fa.png",
+    Hebrew: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ee-1f1f1.png",
+    Italian: "https://twemoji.maxcdn.com/v/13.0.1/72x72/1f1ee-1f1f9.png",
+    Lithuanian: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f1-1f1f9.png",
+    Macedonian: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f2-1f1f0.png",
+    Malay: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f2-1f1fe.png",
+    Portuguese: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f5-1f1f9.png",
+    Portuguese_br: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1e7-1f1f7.png",
+    Russian: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f7-1f1fa.png",
+    Romanian: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f7-1f1f4.png",
+    Spanish: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ea-1f1e6.png",
+    Slovenian: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f8-1f1ee.png",
+    Slovak: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f8-1f1f0.png",
+    Swedish: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f8-1f1ea.png",
+    Thai: "https://twemoji.maxcdn.com/v/13.0.1/72x72/1f1f1-1f1e6.png",
+    Turkish: "https://twemoji.maxcdn.com/v/13.0.1/72x72/1f1f9-1f1f7.png",
+    Ukrainian: "https://twemoji.maxcdn.com/v/13.0.1/72x72/1f1fa-1f1e6.png",
+    Vietnamese: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1fb-1f1f3.png"
+}
+
 async function get_db_from_name(db_name) {
     const response = await fetch(`./Script/data/${db_name}.json`)
     const jsonData = await response.json()
@@ -10,7 +49,7 @@ async function get_users_from_role(role_name) {
     post: returns a list of names, unix value and current value
     
     Example:
-    "guardian" returns [ {name: Lisa, time: 1598006832, current: "guardianmanagerhelper"}, ...]
+    "guardian" returns [ {name: Lisa, time: 1598006832, current: "guardianmanagerhelper", languages: "German French"}, ...]
     "invalid_role_name" returns []
     */
     let list = []
@@ -51,7 +90,7 @@ async function get_users_from_role(role_name) {
 async function get_roles_from_user(user_name) {
     /* 
     pre: user_name is the name of a user (Lisa, Arnaud, etc)
-    post: returns an object with "roles" and "current" as keys 
+    post: returns an object with "roles", "current" and "languages" as keys 
           -> "roles" is a list of {name, time} objects corresponding to when a role was obtained
           -> the values are split so that if there are two unix values, they are shown separately
           -> it is sorted by time
@@ -142,6 +181,12 @@ function unix_to_date(timestamp) {
 }
 
 async function loading() {
+    /*
+    pre: body is loaded
+    post: adds all relevant information on body
+    note: this is the main function, from where everything is called
+    */
+
     // get url parameters
     let page_url = new URLSearchParams(window.location.search);
     let member_name = page_url.get('member');
@@ -190,23 +235,57 @@ async function loading() {
 }
 
 function show_role_info(users_data) {
+    /*
+    pre: body is loaded
+         users_data is a list of user objects (keys: name, roles, current, languages)
+         => see get_users_from_role
+
+    post: adds all the data to the "rang" class elements
+          doesn't return anything
+    */
     let current_staff = 0
 
     for (var i = 0; i < users_data.length; i++) {
         // Add to updates
         let new_user = document.createElement('div');
         let new_date = document.createElement('div');
-        new_user.innerText = users_data[i].name
+        new_user.innerHTML = user_to_flags(users_data[i])
         new_date.innerText = unix_to_date(users_data[i].time)
         document.getElementsByClassName("rang")[1].appendChild(new_user)
         document.getElementsByClassName("rang")[2].appendChild(new_date)
 
         // Add to current
         if (users_data[i].current != "resigned") {
-            document.getElementsByClassName("rang")[0].appendChild(new_user.cloneNode(true))
+            document.getElementsByClassName("rang")[0].appendChild(new_user.cloneNode(true)) // clone cause an element can only be in one place
             current_staff++
         }
     }
 
     document.getElementsByClassName("current_info")[0].innerText = `Current members (${current_staff})`
+}
+
+function user_to_flags(user_data) {
+    /*
+    pre: user_data is a user object (keys: name, roles, current, languages)
+    post: returns the HTML equivalent of a link to the user page and displays the flags next to the name
+    example: <a href="?member=Arnaud">Arnaud <div> (flags here) </div> </a>
+    */
+    // Create link
+    let user_html = document.createElement('a');
+    user_html.innerText = user_data.name
+    user_html.href = "?member=" + user_data.name
+    user_html.classList = "name_link"
+
+    // Add flags inside a flag container
+    let flag_container = document.createElement('div')
+    flag_container.classList = "flag_container"
+    user_data.languages.forEach(language => {
+        // for each flag to add
+        temp_img = document.createElement('img')
+        temp_img.src = text_to_flag[language]
+        temp_img.classList = "mini_img"
+        flag_container.appendChild(temp_img)
+    })
+
+    return user_html
 }
