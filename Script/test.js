@@ -125,17 +125,17 @@ function unix_to_date(timestamp) {
     // pre: timestamp is a unix timestamp from the database
     // post: returns "dd month yyyy"
     // example: 0 -> "01 January 1900"
-    let date = new Date(timestamp*1000); // from unix to object
+    let date_obj = new Date(timestamp*1000); // from unix to object
     
-    day = date.getDate()
+    day = date_obj.getDate()
     if (day<10) {
         day = "0" + day
     }
 
     let months = ["January","February","March","April","May","June","July","August","September","October","November","December"]
-    month = months[date.getMonth()] // going from number to string
+    month = months[date_obj.getMonth()] // going from number to string
 
-    year = temp_time.getYear() + 1900
+    year = date_obj.getYear() + 1900
 
     result = day + " " + month + " " + year
     return result
