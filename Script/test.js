@@ -167,7 +167,7 @@ async function loading() {
     if (member_name) {
         // load user info
         document.title = "User info"
-        roles_data = get_roles_from_user(member_name)
+        roles_data = await get_roles_from_user(member_name)
         console.log(roles_data)
     }
 }
