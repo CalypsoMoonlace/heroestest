@@ -178,6 +178,7 @@ async function loading() {
             users_data.sort((a,b) => a.time - b.time)
         }
         console.log(users_data)
+        show_role_info(users_data)
     }
 
     if (member_name) {
@@ -186,4 +187,26 @@ async function loading() {
         roles_data = await get_roles_from_user(member_name)
         console.log(roles_data)
     }
+}
+
+function show_role_info(users_data) {
+    let current_staff = 0
+
+    for (var i = 0; i < users_data.length; i++) {
+        // Add to updates
+        let new_user = document.createElement('div');
+        let new_date = document.createElement('div');
+        new_user.innerText = users_data[i].name
+        new_date.innerText = unix_to_date(users_data[i].time)
+        document.getElementsByClassName("rang")[1].appendChild(new_user)
+        document.getElementsByClassName("rang")[2].appendChild(new_date)
+
+        // Add to current
+        if (users_data[i].current != "resigned") {
+            document.getElementsByClassName("rang")[0].appendChild(new_user)
+            current_staff++
+        }
+    }
+
+    document.getElementsByClassName("current_info")[0].innerText = `Current members (${current_staff})`
 }
