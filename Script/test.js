@@ -311,7 +311,7 @@ function show_user_info(roles_data) {
     // Add role history
     roles_data.roles.forEach(role => {
         // Create role item container
-        let role_html = document.createElement('div')
+        let new_role = document.createElement('div')
 
         // Create role item
         role_to_link(new_role, role)
@@ -321,7 +321,7 @@ function show_user_info(roles_data) {
         new_date.innerText = unix_to_date(role.time)
 
         // Append
-        document.getElementsByClassName("rang")[0].appendChild(role_html)
+        document.getElementsByClassName("rang")[0].appendChild(new_role)
         document.getElementsByClassName("rang")[2].appendChild(new_date)
     })
 
