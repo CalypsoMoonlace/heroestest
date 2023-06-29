@@ -108,8 +108,8 @@ async function get_roles_from_user(user_name) {
         }
     }
 
-    if (!result.current.length == 0) { // no current role = resigned
-        result.current = "resigned"
+    if (result.current.length == 0) { // no current role = resigned
+        result.current = ["resigned"]
     }
 
     console.log(result.roles)
