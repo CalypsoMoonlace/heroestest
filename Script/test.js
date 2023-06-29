@@ -141,25 +141,6 @@ function unix_to_date(timestamp) {
     return result
 }
 
-async function time_test() {
-    var date1 = new Date();
-    for (var i = 9; i >= 0; i--) {
-        roles_data = await get_roles_from_user("Lisa")
-    }
-    var date2 = new Date();
-    var diff = (date2 - date1)/10; //milliseconds interval
-    console.log(`secondes: ${diff/1000}`)
-
-
-    var date1 = new Date();
-    for (var i = 9; i >= 0; i--) {
-        roles_data = await get_users_from_role("helper")
-    }
-    var date2 = new Date();
-    var diff = (date2 - date1)/10; //milliseconds interval
-    console.log(`secondes: ${diff/1000}`)
-}
-
 async function loading() {
     // get url parameters
     let page_url = new URLSearchParams(window.location.search);
@@ -205,6 +186,4 @@ async function loading() {
         roles_data = await get_roles_from_user(member_name)
         console.log(roles_data)
     }
-
-    time_test()
 }
