@@ -275,8 +275,8 @@ function role_to_link(html_parent, role_data) {
     let role_html = document.createElement('a');
 
     // Add all tags to the html element
-    role_html.innerText = role.name
-    role_html.href = `?role=${role.name}`
+    role_html.innerText = role_data.name
+    role_html.href = `?role=${role_data.name}`
     role_html.classList = "role_link"
     role_html.style.color = "white" // to fix
 
