@@ -287,7 +287,7 @@ function role_to_link(html_parent, role_name, role_db) {
     html_parent.appendChild(role_html)
 }
 
-function show_user_info(roles_data) {
+async function show_user_info(roles_data) {
     /*
     pre: body is loaded
          roles_data is an object (keys: roles, current, languages)
@@ -333,7 +333,7 @@ function show_user_info(roles_data) {
     document.getElementsByClassName("current_info")[0].innerText = `Current status`
 }
 
-function show_role_info(users_data) {
+async function show_role_info(users_data) {
     /*
     pre: body is loaded
          users_data is a list of user objects (keys: name, roles, current, languages)
@@ -342,6 +342,10 @@ function show_role_info(users_data) {
     post: adds all the data to the "rang" class elements
           doesn't return anything
     */
+    // Get info from role db
+    let role_db = await get_db_from_name("Role")
+    let role_data = role_db.find((elmt) => elmt.name == role_name)
+
     let current_staff = 0
 
     users_data.forEach(user => {
@@ -362,5 +366,9 @@ function show_role_info(users_data) {
 
     })
 
+    // Display data
     document.getElementsByClassName("current_info")[0].innerText = `Current members (${current_staff})`
+    document.getElementById("staff_member_name").innerHTML = role_data.display_name
+    document.getElementById("staff_member_name").style.color = role_data.colour
+    document.getElementsByClassName('role_explanation')[0].innerHTML = role_data.description
 }
