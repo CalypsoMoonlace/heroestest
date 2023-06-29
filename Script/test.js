@@ -249,7 +249,7 @@ function show_role_info(users_data) {
         // Add to updates
         let new_user = document.createElement('div');
         let new_date = document.createElement('div');
-        new_user.innerHTML = user_to_flags(users_data[i])
+        user_to_flags(new_user, users_data[i])
         new_date.innerText = unix_to_date(users_data[i].time)
         document.getElementsByClassName("rang")[1].appendChild(new_user)
         document.getElementsByClassName("rang")[2].appendChild(new_date)
@@ -264,7 +264,7 @@ function show_role_info(users_data) {
     document.getElementsByClassName("current_info")[0].innerText = `Current members (${current_staff})`
 }
 
-function user_to_flags(user_data) {
+function user_to_flags(html_parent, user_data) {
     /*
     pre: user_data is a user object (keys: name, roles, current, languages)
     post: returns the HTML equivalent of a link to the user page and displays the flags next to the name
@@ -291,5 +291,5 @@ function user_to_flags(user_data) {
     user_html.appendChild(flag_container)
     console.log(user_html)
     console.log(flag_container)
-    return user_html
+    html_parent.appendChild(user_html)
 }
