@@ -275,8 +275,8 @@ function role_to_link(html_parent, role_data) {
     let role_html = document.createElement('a');
 
     // Add all tags to the html element
-    role_html.innerText = role_data.name
-    role_html.href = `?role=${role_data.name}`
+    role_html.innerText = role_data
+    role_html.href = `?role=${role_data}`
     role_html.classList = "role_link"
     role_html.style.color = "white" // to fix
 
@@ -314,14 +314,14 @@ function show_user_info(roles_data) {
         let new_role = document.createElement('div')
 
         // Create role item
-        role_to_link(new_role, role)
+        role_to_link(new_role, role.name)
 
         // Create role date
         let new_date = document.createElement('div');
         new_date.innerText = unix_to_date(role.time)
 
         // Append
-        document.getElementsByClassName("rang")[0].appendChild(new_role)
+        document.getElementsByClassName("rang")[1].appendChild(new_role)
         document.getElementsByClassName("rang")[2].appendChild(new_date)
     })
 
