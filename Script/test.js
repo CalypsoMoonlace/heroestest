@@ -203,7 +203,7 @@ function show_role_info(users_data) {
 
         // Add to current
         if (users_data[i].current != "resigned") {
-            document.getElementsByClassName("rang")[0].appendChild(new_user)
+            document.getElementsByClassName("rang")[0].appendChild(new_user.cloneNode(true))
             current_staff++
         }
     }
