@@ -299,7 +299,7 @@ async function show_user_info(roles_data) {
           doesn't return anything
     */
     // Get info from role db
-    let role_db = get_db_from_name("Role")
+    let role_db = await get_db_from_name("Role")
 
     // Add current roles
     roles_data.current.forEach(role => {
