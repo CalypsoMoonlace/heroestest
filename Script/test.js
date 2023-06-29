@@ -348,12 +348,6 @@ async function show_user_info(user_data) {
     }
     document.getElementsByClassName('languages')[0].innerText = lang_string
 
-    if (has_resigned) {
-        document.getElementsByClassName("rang")[0].innerHTML = "This user no longer has any staff role."
-    }
-    if (max_years!=0) {
-        document.getElementsByClassName("rang")[0].innerHTML += "<br>Has been staff for over " + years_to_text[max_years-1] + " <img src='https://cdn.discordapp.com/emojis/590721116990078997.png' class='mini_img'>"
-    }
 
     // Display birthday or hide it
     if (user_data.birthday) {
