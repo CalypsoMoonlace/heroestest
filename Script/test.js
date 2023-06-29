@@ -56,19 +56,27 @@ async function get_roles_from_user(user_name) {
           -> the values are split so that if there are two unix values, they are shown separately
           -> it is sorted by time
           -> "current" is a list of strings that are the current role(s) the user has
+          -> "languages" is a list of strings of the languages the user speaks
     
     Example:
-    "Sonblo" returns { roles: [ {name: "trialhelper", time: 1547856000}, {name: "helper", time: 1548587013}, ... ], current: ["mod", "mentor"]}
-    "Boon" returns { roles: [ {name: "trialhelper", time: 1542932401}, {name: "trialhelper", time: 1583085566}, ... ], current: ["resigned"]}
-    "invalid_user_name" returns { roles: [], current: []}
+    "Sonblo" returns { roles: [ {name: "trialhelper", time: 1547856000}, {name: "helper", time: 1548587013}, ... ], 
+                       current: ["mod", "mentor"],
+                       languages: ["English", "Dutch"]
+                     }
+    "Boon" returns { roles: [ {name: "trialhelper", time: 1542932401}, {name: "trialhelper", time: 1583085566}, ... ],
+                     current: ["resigned"],
+                     languages: ["English", "Thai"]
+                   }
+    "invalid_user_name" returns { roles: [], current: [], languages: []}
     */
-    let result = { roles: [], current: [] }
+    let result = { roles: [], current: [], languages: [] }
 
     // Find which db to look into
     let member_db = await get_db_from_name("Member")
     let member_data = member_db.find((elmt) => elmt.name == user_name)
     if (!member_data) { return result } // invalid name, no data
-    let member_categories = member_data.categories.split(" ") // => eg: member_categories = ["Discord", "Mentor"]
+    let member_categories = member_data.categories.split(" ") // eg: member_categories = ["Discord", "Mentor"]
+    result.languages = member_data.languages.split(" ") // eg: results.languages = ["English", "French", "German"]
 
     member_categories.forEach(async category => {
         // Add category by category
@@ -83,8 +91,8 @@ async function get_roles_from_user(user_name) {
                     time: category_data[key]
                 })
             }
-            
-            if (typeof(category_data[key]) == "string") { // two or more entries
+
+            if (typeof(category_data[key]) == "string" && key != "languages") { // two or more entries
                 category_data[key].split(" ").forEach(entry => {
                     result.roles.push({
                         name: key,
