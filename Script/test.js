@@ -224,7 +224,7 @@ async function loading() {
         }
 
         // show the data
-        show_role_info(users_data)
+        show_role_info(users_data, role_name)
     }
 
     if (member_name) {
@@ -234,7 +234,7 @@ async function loading() {
         console.log(roles_data)
 
         // show the data
-        show_user_info(roles_data)
+        show_user_info(roles_data, member_name)
     }
 }
 
@@ -278,7 +278,7 @@ function role_to_link(html_parent, role_name, role_db) {
     let role_html = document.createElement('a');
 
     // Add all tags to the html element
-    role_html.innerText = role_data.display_name
+    role_html.innerHTML = role_data.display_name
     role_html.href = `?role=${role_name}`
     role_html.classList = "role_link"
     role_html.style.color = role_data.colour
@@ -287,7 +287,7 @@ function role_to_link(html_parent, role_name, role_db) {
     html_parent.appendChild(role_html)
 }
 
-async function show_user_info(roles_data) {
+async function show_user_info(roles_data, member_name) {
     /*
     pre: body is loaded
          roles_data is an object (keys: roles, current, languages)
@@ -333,7 +333,7 @@ async function show_user_info(roles_data) {
     document.getElementsByClassName("current_info")[0].innerText = `Current status`
 }
 
-async function show_role_info(users_data) {
+async function show_role_info(users_data, role_name) {
     /*
     pre: body is loaded
          users_data is a list of user objects (keys: name, roles, current, languages)
