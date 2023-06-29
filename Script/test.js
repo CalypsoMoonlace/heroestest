@@ -79,7 +79,7 @@ async function get_users_from_role(role_name) {
                 name: elmt.name,
                 time: new_time,
                 current: elmt.current,
-                languages: elmt.languages
+                languages: elmt.languages.split(" ")
             })
         }
     })
