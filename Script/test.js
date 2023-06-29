@@ -222,7 +222,8 @@ async function loading() {
             // default = sort by date
             users_data.sort((a,b) => a.time - b.time)
         }
-        console.log(users_data)
+
+        // show the data
         show_role_info(users_data)
     }
 
@@ -231,44 +232,16 @@ async function loading() {
         document.title = "User info"
         roles_data = await get_roles_from_user(member_name)
         console.log(roles_data)
+
+        // show the data
+        show_user_info(roles_data)
     }
-}
-
-function show_role_info(users_data) {
-    /*
-    pre: body is loaded
-         users_data is a list of user objects (keys: name, roles, current, languages)
-         => see get_users_from_role
-
-    post: adds all the data to the "rang" class elements
-          doesn't return anything
-    */
-    let current_staff = 0
-
-    for (var i = 0; i < users_data.length; i++) {
-        // Add to updates
-        let new_user = document.createElement('div');
-        let new_date = document.createElement('div');
-        user_to_flags(new_user, users_data[i])
-        new_date.innerText = unix_to_date(users_data[i].time)
-        document.getElementsByClassName("rang")[1].appendChild(new_user)
-        document.getElementsByClassName("rang")[2].appendChild(new_date)
-
-        // Add to current
-        if (users_data[i].current != "resigned") {
-            document.getElementsByClassName("rang")[0].appendChild(new_user.cloneNode(true)) // clone cause an element can only be in one place
-            current_staff++
-        }
-    }
-
-    document.getElementsByClassName("current_info")[0].innerText = `Current members (${current_staff})`
 }
 
 function user_to_flags(html_parent, user_data) {
     /*
-    pre: user_data is a user object (keys: name, roles, current, languages)
-    post: returns the HTML equivalent of a link to the user page and displays the flags next to the name
-    example: <a href="?member=Arnaud">Arnaud <div> (flags here) </div> </a>
+    pre: html_parent is a HTML element, user_data is a user object (keys: name, roles, current, languages)
+    post: adds text & a link to the user page and displays the flags next to the name
     */
     // Create link
     let user_html = document.createElement('a');
@@ -288,8 +261,101 @@ function user_to_flags(html_parent, user_data) {
         flag_container.appendChild(temp_img)
     })
 
+    // Add changes
     user_html.appendChild(flag_container)
-    console.log(user_html)
-    console.log(flag_container)
     html_parent.appendChild(user_html)
+}
+
+function role_to_link(html_parent, role_data) {
+    /*
+    pre: html_parent is a HTML element, role_data is a role object (keys: name, time)
+    post: adds text & a link to the role page and changes display colour to role colour
+    */
+    // Create link
+    let role_html = document.createElement('a');
+
+    // Add all tags to the html element
+    role_html.innerText = role.name
+    role_html.href = `?role=${role.name}`
+    role_html.classList = "role_link"
+    role_html.style.color = "white" // to fix
+
+    // Add changes
+    html_parent.appendChild(role_html)
+}
+
+function show_user_info(roles_data) {
+    /*
+    pre: body is loaded
+         roles_data is an object (keys: roles, current, languages)
+         => roles is a list of objects (keys: name, time)
+         => current & languages are a list of strings
+         => see get_roles_from_user
+
+    post: adds all the data to the "rang" class elements
+          doesn't return anything
+    */
+
+    // Add current roles
+    roles_data.current.forEach(role => {
+        // Create role item container
+        let new_role = document.createElement('div')
+
+        // Create role item
+        role_to_link(new_role, role)
+
+        // Append
+        document.getElementsByClassName("rang")[0].appendChild(new_role)
+    })
+
+    // Add role history
+    roles_data.roles.forEach(role => {
+        // Create role item container
+        let role_html = document.createElement('div')
+
+        // Create role item
+        role_to_link(new_role, role)
+
+        // Create role date
+        let new_date = document.createElement('div');
+        new_date.innerText = unix_to_date(role.time)
+
+        // Append
+        document.getElementsByClassName("rang")[0].appendChild(role_html)
+        document.getElementsByClassName("rang")[2].appendChild(new_date)
+    })
+
+    document.getElementsByClassName("current_info")[0].innerText = `Current status`
+}
+
+function show_role_info(users_data) {
+    /*
+    pre: body is loaded
+         users_data is a list of user objects (keys: name, roles, current, languages)
+         => see get_users_from_role
+
+    post: adds all the data to the "rang" class elements
+          doesn't return anything
+    */
+    let current_staff = 0
+
+    users_data.forEach(user => {
+
+        // Add to updates
+        let new_user = document.createElement('div');
+        let new_date = document.createElement('div');
+        user_to_flags(new_user, user)
+        new_date.innerText = unix_to_date(user.time)
+        document.getElementsByClassName("rang")[1].appendChild(new_user)
+        document.getElementsByClassName("rang")[2].appendChild(new_date)
+
+        // Add to current
+        if (user.current != "resigned") {
+            document.getElementsByClassName("rang")[0].appendChild(new_user.cloneNode(true)) // clone cause an element can only be in one place
+            current_staff++
+        }
+
+    })
+
+    document.getElementsByClassName("current_info")[0].innerText = `Current members (${current_staff})`
 }
