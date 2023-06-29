@@ -90,7 +90,7 @@ async function get_users_from_role(role_name) {
 async function get_roles_from_user(user_name) {
     /* 
     pre: user_name is the name of a user (Lisa, Arnaud, etc)
-    post: returns an object with "roles", "current" and "languages" as keys 
+    post: returns an object with "roles", "current", "languages" and "birthday" as keys 
           -> "roles" is a list of {name, time} objects corresponding to when a role was obtained
           -> the values are split so that if there are two unix values, they are shown separately
           -> it is sorted by time
@@ -100,11 +100,13 @@ async function get_roles_from_user(user_name) {
     Example:
     "Sonblo" returns { roles: [ {name: "trialhelper", time: 1547856000}, {name: "helper", time: 1548587013}, ... ], 
                        current: ["mod", "mentor"],
-                       languages: ["English", "Dutch"]
+                       languages: ["English", "Dutch"],
+                       birthday: "29/9"
                      }
     "Boon" returns { roles: [ {name: "trialhelper", time: 1542932401}, {name: "trialhelper", time: 1583085566}, ... ],
                      current: ["resigned"],
-                     languages: ["English", "Thai"]
+                     languages: ["English", "Thai"],
+                     birthday: null
                    }
     "invalid_user_name" returns { roles: [], current: [], languages: []}
     */
@@ -116,6 +118,7 @@ async function get_roles_from_user(user_name) {
     if (!member_data) { return result } // invalid name, no data
     let member_categories = member_data.categories.split(" ") // eg: member_categories = ["Discord", "Mentor"]
     result.languages = member_data.languages.split(" ") // eg: results.languages = ["English", "French", "German"]
+    result.birthday = member_data.birthday
 
     for (var i = 0; i < member_categories.length; i++) {
         
@@ -330,13 +333,16 @@ async function show_user_info(roles_data, member_name) {
         document.getElementsByClassName("rang")[2].appendChild(new_date)
     })
 
-    document.getElementsByClassName("current_info")[0].innerText = `Current status`
+    // Display data
+    document.getElementById("staff_member_name").innerText = member_name
+    document.getElementsByClassName("list_category")[0].style.display = "none" // role info -> if not a role, disappear
+    document.getElementsByClassName("current_info")[0].innerText = "Current status"
 }
 
 async function show_role_info(users_data, role_name) {
     /*
     pre: body is loaded
-         users_data is a list of user objects (keys: name, roles, current, languages)
+         users_data is a list of user objects (keys: name, roles, current, languages, birthday)
          => see get_users_from_role
 
     post: adds all the data to the "rang" class elements
@@ -365,6 +371,13 @@ async function show_role_info(users_data, role_name) {
         }
 
     })
+
+    // Display birthday or hide it
+    if (users_data.birthday) {
+        document.getElementsByClassName('birthday')[0].innerText = `Birthday: ${users_data.birthday}`
+    } else {
+        document.getElementsByClassName('birthday')[0].style.display = "none"
+    }
 
     // Display data
     document.getElementsByClassName("current_info")[0].innerText = `Current members (${current_staff})`
