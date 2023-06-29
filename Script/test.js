@@ -46,10 +46,10 @@ async function get_db_from_name(db_name) {
 async function get_users_from_role(role_name) {
     /* 
     pre: role_name is the name of a role (trialhelper, helper, guardian, etc)
-    post: returns a list of names, unix value and current value
+    post: returns a list of names, unix value, current value and languages
     
     Example:
-    "guardian" returns [ {name: Lisa, time: 1598006832, current: "guardianmanagerhelper", languages: "German French"}, ...]
+    "guardian" returns [ {name: Lisa, time: 1598006832, current: "guardianmanagerhelper", languages: ["German", "Dutch"]}, ...]
     "invalid_role_name" returns []
     */
     let list = []
@@ -279,6 +279,7 @@ function user_to_flags(user_data) {
     // Add flags inside a flag container
     let flag_container = document.createElement('div')
     flag_container.classList = "flag_container"
+
     user_data.languages.forEach(language => {
         // for each flag to add
         temp_img = document.createElement('img')
