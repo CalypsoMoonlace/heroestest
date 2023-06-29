@@ -1,6 +1,6 @@
 // text_to_flag is temporary and should be replaced by static files to ensure it remains functional at all times
 
-let text_to_flag = { // use https://github.com/twitter/twemoji/tree/master/assets/72x72 and lookup the unicode of the flag
+let text_to_flag = { // use https://github.com/twitter/twemoji/tree/master/assets/72x72 and lookup the unicode of the flag 
     Albanian: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1e6-1f1f1.png",
     Arabic: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ef-1f1f4.png",
     Azerbaijan: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1e6-1f1ff.png",
