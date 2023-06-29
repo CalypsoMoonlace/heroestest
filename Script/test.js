@@ -78,9 +78,10 @@ async function get_roles_from_user(user_name) {
     let member_categories = member_data.categories.split(" ") // eg: member_categories = ["Discord", "Mentor"]
     result.languages = member_data.languages.split(" ") // eg: results.languages = ["English", "French", "German"]
 
-    member_categories.forEach(async category => {
+    for (var i = member_categories.length - 1; i >= 0; i--) {
+        
         // Add category by category
-        let category_db = await get_db_from_name(category)
+        let category_db = await get_db_from_name(member_categories[i])
         let category_data = category_db.find((elmt) => elmt.name == user_name)
 
         Object.keys(category_data).forEach(key => {
@@ -105,7 +106,7 @@ async function get_roles_from_user(user_name) {
         if (category_data.current != "resigned") { // avoid getting "resigned" several times
             result.current.push(category_data.current)
         }
-    })
+    }
 
     if (!result.current.length == 0) { // no current role = resigned
         result.current = "resigned"
