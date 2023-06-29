@@ -117,9 +117,11 @@ async function get_roles_from_user(user_name) {
     let member_data = member_db.find((elmt) => elmt.name == user_name)
     if (!member_data) { return result } // invalid name, no data
     let member_categories = member_data.categories.split(" ") // eg: member_categories = ["Discord", "Mentor"]
-    result.languages = member_data.languages.split(" ") // eg: results.languages = ["English", "French", "German"]
-    result.birthday = member_data.birthday
+
+    // Basic information
     result.name = user_name
+    result.birthday = member_data.birthday
+    result.languages = member_data.languages.split(" ") // eg: results.languages = ["English", "French", "German"]
 
     for (var i = 0; i < member_categories.length; i++) {
         
@@ -333,6 +335,26 @@ async function show_user_info(user_data) {
         document.getElementsByClassName("rang")[2].appendChild(new_date)
     })
 
+    // Display languages
+    let lang_string = "Languages spoken:"
+    for (var i = 0; i < user_data.languages.length; i++) {
+        if (i = user_data.languages.length - 1) {
+            // last one
+            lang_string += ` ${user_data.languages[i]}`
+        } else {
+            // adding all spoken languages one by one, space after the comma
+            lang_string += ` ${user_data.languages[i]},`
+        }
+    }
+    document.getElementsByClassName('languages')[0].innerText = lang_string
+
+    if (has_resigned) {
+        document.getElementsByClassName("rang")[0].innerHTML = "This user no longer has any staff role."
+    }
+    if (max_years!=0) {
+        document.getElementsByClassName("rang")[0].innerHTML += "<br>Has been staff for over " + years_to_text[max_years-1] + " <img src='https://cdn.discordapp.com/emojis/590721116990078997.png' class='mini_img'>"
+    }
+
     // Display birthday or hide it
     if (user_data.birthday) {
         document.getElementsByClassName('birthday')[0].innerText = `Birthday: ${user_data.birthday}`
@@ -340,7 +362,7 @@ async function show_user_info(user_data) {
         document.getElementsByClassName('birthday')[0].style.display = "none"
     }
 
-    // Display data
+    // Display the rest of the data
     document.getElementById("staff_member_name").innerText = user_data.name
     document.getElementsByClassName("list_category")[0].style.display = "none" // role info -> if not a role, disappear
     document.getElementsByClassName("current_info")[0].innerText = "Current status"

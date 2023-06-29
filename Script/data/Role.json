@@ -158,5 +158,13 @@
         "description": "They take care of the <a href=\"https://discord.gg/SDujygY\" target=\"_blank\" class=\"yellow\">Tester Club</a> sideserver with almost all permissions.",
         "display_name": "Admin <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>",
         "name": "tc_admin"
+    },
+    {
+        "category": null,
+        "colour": "#FFFFFF",
+        "creation": 0,
+        "description": "They no longer are a staff member.",
+        "display_name": "No longer a staff member",
+        "name": "resigned"
     }
 ]

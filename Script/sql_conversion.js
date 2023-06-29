@@ -311,7 +311,7 @@ Role.init({
     },
     category: {
         type: DataTypes.TEXT,
-        allowNull: false
+        allowNull: true
     },
     display_name: {
         type: DataTypes.TEXT,
@@ -390,7 +390,8 @@ let role_descriptions = {
 	reddit: 'They take care of the official <a href="https://www.reddit.com/r/werewolfonline/" target="_blank" class="yellow">subreddit<a>.',
 	dev: 'The game!<br><br>They are ones behind all new features and evil bugs, if they\'re not busy looking for squids.',
 	tc_mod: 'They handle tests of weird and funky scenarios in the <a href="https://discord.gg/SDujygY" target="_blank" class="yellow">Tester Club</a> sideserver and the server in itself.',
-	tc_admin: 'They take care of the <a href="https://discord.gg/SDujygY" target="_blank" class="yellow">Tester Club</a> sideserver with almost all permissions.'
+	tc_admin: 'They take care of the <a href="https://discord.gg/SDujygY" target="_blank" class="yellow">Tester Club</a> sideserver with almost all permissions.',
+	resigned: 'They no longer are a staff member.'
 }
 
 let role_colours = {
@@ -413,7 +414,8 @@ let role_colours = {
 	socialmedia: "#4962fd",
 	dev: "#F1C40F",
 	tc_mod: "#00bfff",
-	tc_admin: "#17afbd"
+	tc_admin: "#17afbd",
+	resigned: "#FFFFFF"
 }
 
 let display_names = {
@@ -437,7 +439,8 @@ let display_names = {
 	dev: "Developer",
 	tc_mod: "Moderator <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>",
 	tc_admin: "Admin <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>",
-	tc_manager: "Manager <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>"
+	tc_manager: "Manager <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>",
+	resigned: "No longer a staff member"
 }
 
 Object.keys(role_colours).forEach(key => {
