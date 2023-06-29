@@ -338,7 +338,7 @@ async function show_user_info(user_data) {
     // Display languages
     let lang_string = "Languages spoken:"
     for (var i = 0; i < user_data.languages.length; i++) {
-        if (i = user_data.languages.length - 1) {
+        if (i == user_data.languages.length - 1) {
             // last one
             lang_string += ` ${user_data.languages[i]}`
         } else {
@@ -347,7 +347,6 @@ async function show_user_info(user_data) {
         }
     }
     document.getElementsByClassName('languages')[0].innerText = lang_string
-
 
     // Display birthday or hide it
     if (user_data.birthday) {
