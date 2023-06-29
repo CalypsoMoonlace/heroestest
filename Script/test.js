@@ -266,19 +266,22 @@ function user_to_flags(html_parent, user_data) {
     html_parent.appendChild(user_html)
 }
 
-function role_to_link(html_parent, role_data) {
+function role_to_link(html_parent, role_name, role_db) {
     /*
-    pre: html_parent is a HTML element, role_data is a role object (keys: name, time)
+    pre: html_parent is a HTML element, role_data is a role object (keys: name, time), role_db is the content of the Role database
     post: adds text & a link to the role page and changes display colour to role colour
     */
+    // Find the required data
+    let role_data = role_db.find((elmt) => elmt.name == role_name)
+
     // Create link
     let role_html = document.createElement('a');
 
     // Add all tags to the html element
-    role_html.innerText = role_data
-    role_html.href = `?role=${role_data}`
+    role_html.innerText = role_data.display_name
+    role_html.href = `?role=${role_name}`
     role_html.classList = "role_link"
-    role_html.style.color = "white" // to fix
+    role_html.style.color = role_data.colour
 
     // Add changes
     html_parent.appendChild(role_html)
@@ -295,6 +298,8 @@ function show_user_info(roles_data) {
     post: adds all the data to the "rang" class elements
           doesn't return anything
     */
+    // Get info from role db
+    let role_db = get_db_from_name("Role")
 
     // Add current roles
     roles_data.current.forEach(role => {
@@ -302,7 +307,7 @@ function show_user_info(roles_data) {
         let new_role = document.createElement('div')
 
         // Create role item
-        role_to_link(new_role, role)
+        role_to_link(new_role, role, role_db)
 
         // Append
         document.getElementsByClassName("rang")[0].appendChild(new_role)
@@ -314,7 +319,7 @@ function show_user_info(roles_data) {
         let new_role = document.createElement('div')
 
         // Create role item
-        role_to_link(new_role, role.name)
+        role_to_link(new_role, role.name, role_db)
 
         // Create role date
         let new_date = document.createElement('div');
