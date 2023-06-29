@@ -334,7 +334,7 @@ async function show_user_info(user_data) {
 
     // Display birthday or hide it
     if (user_data.birthday) {
-        document.getElementsByClassName('birthday')[0].innerText = `Birthday: ${users_data.birthday}`
+        document.getElementsByClassName('birthday')[0].innerText = `Birthday: ${user_data.birthday}`
     } else {
         document.getElementsByClassName('birthday')[0].style.display = "none"
     }
