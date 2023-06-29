@@ -288,5 +288,8 @@ function user_to_flags(user_data) {
         flag_container.appendChild(temp_img)
     })
 
+    user_html.appendChild(flag_container)
+    console.log(user_html)
+    console.log(flag_container)
     return user_html
 }
