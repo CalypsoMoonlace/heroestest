@@ -76,15 +76,16 @@ async function get_roles_from_user(user_name) {
         let category_data = category_db.find((elmt) => elmt.name == user_name)
 
         Object.keys(category_data).forEach(key => {
-            // Add all keys
-            category_data[key].split(" ").forEach(entry => {
-                // Split in case there's two values for the same key
-                result.roles.push({
-                    name: key,
-                    time: entry
+            // Add all keys with data
+            if (category_data[key] != null) {
+                category_data[key].split(" ").forEach(entry => {
+                    // Split in case there's two values for the same key
+                    result.roles.push({
+                        name: key,
+                        time: entry
+                    })
                 })
-            })
-
+            }
         })
 
         if (category_data.current != "resigned") { // avoid getting "resigned" several times
