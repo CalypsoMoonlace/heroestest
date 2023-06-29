@@ -10,8 +10,8 @@ async function get_users_from_role(role_name) {
     post: returns a list of names, unix value and current value
     
     Example:
-    "guardian" returns [ {name: Lisa, time: 1598006832, current: guardianmanagerhelper}, ...]
-    "invalidrolename" returns []
+    "guardian" returns [ {name: Lisa, time: 1598006832, current: "guardianmanagerhelper"}, ...]
+    "invalid_role_name" returns []
     */
     let list = []
 
@@ -46,6 +46,59 @@ async function get_users_from_role(role_name) {
     })
 
     return list
+}
+
+async function get_roles_from_user(user_name) {
+    /* 
+    pre: user_name is the name of a user (Lisa, Arnaud, etc)
+    post: returns an object with "roles" and "current" as keys 
+          -> "roles" is a list of {name, time} objects corresponding to when a role was obtained
+          -> the values are split so that if there are two unix values, they are shown separately
+          -> it is sorted by time
+          -> "current" is a list of strings that are the current role(s) the user has
+    
+    Example:
+    "Sonblo" returns { roles: [ {name: "trialhelper", time: 1547856000}, {name: "helper", time: 1548587013}, ... ], current: ["mod", "mentor"]}
+    "Boon" returns { roles: [ {name: "trialhelper", time: 1542932401}, {name: "trialhelper", time: 1583085566}, ... ], current: ["resigned"]}
+    "invalid_user_name" returns { roles: [], current: []}
+    */
+    let result = { roles: [], current: []}
+
+    // Find which db to look into
+    let member_db = await get_db_from_name("Member")
+    let member_data = member_db.find((elmt) => elmt.name == user_name)
+    if (!member_data) { return result } // invalid name, no data
+    let member_categories = role_data.categories.split(" ") // => eg: member_categories = ["Discord", "Mentor"]
+
+    member_categories.forEach(category => {
+        // Add category by category
+        let category_db = await get_db_from_name(category)
+        let category_data = category_db.find((elmt) => elmt.name == user_name)
+
+        Object.keys(category_data).forEach(key => {
+            // Add all keys
+            category_data[key].split(" ").forEach(entry => {
+                // Split in case there's two values for the same key
+                result.roles.push({
+                    name: key,
+                    time: entry
+                })
+            })
+
+        })
+
+        if (category_data.current != "resigned") { // avoid getting "resigned" several times
+            result.current.push(category_data.current)
+        }
+    })
+
+    if (!result.current.length == 0) { // no current role = resigned
+        result.current = "resigned"
+    }
+
+    result.roles.sort((a, b) => a.time - b.time) // sort by time
+
+    return result
 }
 
 function filter_by_language(member_list,language) {
@@ -109,5 +162,12 @@ async function loading() {
             users_data.sort((a,b) => a.time - b.time)
         }
         console.log(users_data)
+    }
+
+    if (member_name) {
+        // load user info
+        document.title = "User info"
+        roles_data = get_roles_from_user(member_name)
+        console.log(roles_data)
     }
 }
