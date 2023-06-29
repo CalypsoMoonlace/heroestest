@@ -92,7 +92,7 @@ async function get_roles_from_user(user_name) {
                 })
             }
 
-            if (typeof(category_data[key]) == "string" && key != "languages") { // two or more entries
+            if (typeof(category_data[key]) == "string" && key != "languages" && key != "current" && key != "name") { // two or more entries, avoid fields that aren't time
                 category_data[key].split(" ").forEach(entry => {
                     result.roles.push({
                         name: key,
