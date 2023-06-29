@@ -67,6 +67,8 @@ async function get_roles_from_user(user_name) {
     // Find which db to look into
     let member_db = await get_db_from_name("Member")
     let member_data = member_db.find((elmt) => elmt.name == user_name)
+    console.log(member_db)
+    console.log(member_data)
     if (!member_data) { return result } // invalid name, no data
     let member_categories = role_data.categories.split(" ") // => eg: member_categories = ["Discord", "Mentor"]
     console.log(member_categories)
