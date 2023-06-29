@@ -119,6 +119,7 @@ async function get_roles_from_user(user_name) {
     let member_categories = member_data.categories.split(" ") // eg: member_categories = ["Discord", "Mentor"]
     result.languages = member_data.languages.split(" ") // eg: results.languages = ["English", "French", "German"]
     result.birthday = member_data.birthday
+    result.name = user_name
 
     for (var i = 0; i < member_categories.length; i++) {
         
