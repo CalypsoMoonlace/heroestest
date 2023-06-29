@@ -77,9 +77,15 @@ async function get_roles_from_user(user_name) {
 
         Object.keys(category_data).forEach(key => {
             // Add all keys with data
-            if (category_data[key] != null) {
+            if (typeof(category_data[key]) == "number") { // one entry
+                result.roles.push({
+                    name: key,
+                    time: category_data[key]
+                })
+            }
+            
+            if (typeof(category_data[key]) == "string") { // two or more entries
                 category_data[key].split(" ").forEach(entry => {
-                    // Split in case there's two values for the same key
                     result.roles.push({
                         name: key,
                         time: entry
