@@ -233,11 +233,10 @@ async function loading() {
     if (member_name) {
         // load user info
         document.title = "User info"
-        roles_data = await get_roles_from_user(member_name)
-        console.log(roles_data)
+        user_data = await get_roles_from_user(member_name)
 
         // show the data
-        show_user_info(roles_data, member_name)
+        show_user_info(user_data)
     }
 }
 
@@ -290,10 +289,10 @@ function role_to_link(html_parent, role_name, role_db) {
     html_parent.appendChild(role_html)
 }
 
-async function show_user_info(roles_data, member_name) {
+async function show_user_info(user_data) {
     /*
     pre: body is loaded
-         roles_data is an object (keys: roles, current, languages)
+         user_data is an object (keys: name, roles, current, languages, birthday)
          => roles is a list of objects (keys: name, time)
          => current & languages are a list of strings
          => see get_roles_from_user
@@ -305,7 +304,7 @@ async function show_user_info(roles_data, member_name) {
     let role_db = await get_db_from_name("Role")
 
     // Add current roles
-    roles_data.current.forEach(role => {
+    user_data.current.forEach(role => {
         // Create role item container
         let new_role = document.createElement('div')
 
@@ -317,7 +316,7 @@ async function show_user_info(roles_data, member_name) {
     })
 
     // Add role history
-    roles_data.roles.forEach(role => {
+    user_data.roles.forEach(role => {
         // Create role item container
         let new_role = document.createElement('div')
 
@@ -333,16 +332,23 @@ async function show_user_info(roles_data, member_name) {
         document.getElementsByClassName("rang")[2].appendChild(new_date)
     })
 
+    // Display birthday or hide it
+    if (user_data.birthday) {
+        document.getElementsByClassName('birthday')[0].innerText = `Birthday: ${users_data.birthday}`
+    } else {
+        document.getElementsByClassName('birthday')[0].style.display = "none"
+    }
+
     // Display data
-    document.getElementById("staff_member_name").innerText = member_name
+    document.getElementById("staff_member_name").innerText = user_data.name
     document.getElementsByClassName("list_category")[0].style.display = "none" // role info -> if not a role, disappear
     document.getElementsByClassName("current_info")[0].innerText = "Current status"
 }
 
-async function show_role_info(users_data, role_name) {
+async function show_role_info(role_joins, role_name) {
     /*
     pre: body is loaded
-         users_data is a list of user objects (keys: name, roles, current, languages, birthday)
+         role_joins is a list of user objects (keys: name, roles, current, languages, birthday)
          => see get_users_from_role
 
     post: adds all the data to the "rang" class elements
@@ -354,7 +360,7 @@ async function show_role_info(users_data, role_name) {
 
     let current_staff = 0
 
-    users_data.forEach(user => {
+    role_joins.forEach(user => {
 
         // Add to updates
         let new_user = document.createElement('div');
@@ -371,13 +377,6 @@ async function show_role_info(users_data, role_name) {
         }
 
     })
-
-    // Display birthday or hide it
-    if (users_data.birthday) {
-        document.getElementsByClassName('birthday')[0].innerText = `Birthday: ${users_data.birthday}`
-    } else {
-        document.getElementsByClassName('birthday')[0].style.display = "none"
-    }
 
     // Display data
     document.getElementsByClassName("current_info")[0].innerText = `Current members (${current_staff})`
