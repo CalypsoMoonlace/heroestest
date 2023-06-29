@@ -112,9 +112,7 @@ async function get_roles_from_user(user_name) {
         result.current = ["resigned"]
     }
 
-    console.log(result.roles)
     result.roles.sort((a, b) => a.time - b.time) // sort by time
-    console.log(result.roles)
 
     return result
 }
@@ -185,7 +183,11 @@ async function loading() {
     if (member_name) {
         // load user info
         document.title = "User info"
+        var date1 = new Date();
         roles_data = await get_roles_from_user(member_name)
+        var date2 = new Date();
+        var diff = date2 - date1; //milliseconds interval
         console.log(roles_data)
+        console.log(diff)
     }
 }
