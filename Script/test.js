@@ -69,11 +69,13 @@ async function get_roles_from_user(user_name) {
     let member_data = member_db.find((elmt) => elmt.name == user_name)
     if (!member_data) { return result } // invalid name, no data
     let member_categories = role_data.categories.split(" ") // => eg: member_categories = ["Discord", "Mentor"]
+    console.log(member_categories)
 
     member_categories.forEach(async category => {
         // Add category by category
         let category_db = await get_db_from_name(category)
         let category_data = category_db.find((elmt) => elmt.name == user_name)
+        console.log(category_data)
 
         Object.keys(category_data).forEach(key => {
             // Add all keys
