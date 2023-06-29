@@ -35,15 +35,15 @@ async function check_connection() {
 
 
 // Import Sequelize
-const { Sequelize , DataTypes , Model } = require ("sequelize")
+const { Sequelize , DataTypes , Model } = require("sequelize")
 
 // Creation of database link
 const sequelize = new Sequelize ({
 	dialect : "sqlite" ,
-	storage : "finalproject.sqlite",
-    define: {
-        //prevent sequelize from pluralizing table names
-        freezeTableName: true
+	storage : "finalproject.sqlite", // file name
+    define: { 
+		timestamps: false, // disable createdAt & updatedAt
+        freezeTableName: true //prevent sequelize from pluralizing table names
     }
 })
 
