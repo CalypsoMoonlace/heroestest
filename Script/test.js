@@ -398,7 +398,6 @@ function get_years_from_user(role_joins, role_db) {
     let time = 0
 
     for (var i = 0; i < role_joins.length; i++) {
-        console.log(role_joins[i])
         // Add time since previous check
         if (i > 0 && current_categories.length > 0) {
             time += role_joins[i].time - role_joins[i-1].time
@@ -417,11 +416,13 @@ function get_years_from_user(role_joins, role_db) {
         } else if (current_index < 0) { // not found, add category
             current_categories.push(role_data.category)
         }
-        console.log(current_categories)
-        console.log(time)
     }
 
-    console.log(time)
+    if (current_categories.length > 0) {
+        // if still has a role, add time until today
+        var unix_today = (new Date()).getTime() / 1000; // today in unix
+        time += unix_today - role_joins[role_joins.length-1].time
+    }
 
     return Math.floor(time/31536000)
 }
