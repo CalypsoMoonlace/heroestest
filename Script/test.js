@@ -132,6 +132,13 @@ async function get_roles_from_user(user_name) {
         Object.keys(category_data).forEach(key => {
             // Add all keys with data
             
+            if (category_data[key] == null) { // Empty value, nothing to add
+                continue
+            }
+            if (key == "languages" || key == "current" || key == "name" || key == "resigned_from") { // Those keys should not be added as they are not unix values
+                continue
+            } 
+
             // Resigns are treated differently because I need to know from which role they resigned
             if (key == "resigned") {
                 // split data
@@ -146,16 +153,10 @@ async function get_roles_from_user(user_name) {
                         from: resigned_from[i]
                     })
                 }
-
-            } else if (typeof(category_data[key]) == "number") { // one entry
-                result.roles.push({
-                    name: key,
-                    time: category_data[key]
-                })
-                
-            } else if (typeof(category_data[key]) == "string" && key != "languages" && key != "current" && key != "name" && key != "resigned_from") { 
-                // two or more entries, avoid fields that aren't time
-                category_data[key].split(" ").forEach(entry => {
+            } else { 
+                // split data
+                category_data[key].toString().split(" ").forEach(entry => {
+                    // add all of them
                     result.roles.push({
                         name: key,
                         time: parseInt(entry)
