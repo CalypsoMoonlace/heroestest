@@ -262,6 +262,9 @@ async function loading() {
         document.title = "User info"
         user_data = await get_roles_from_user(member_name)
 
+        // hide sort button 
+        document.getElementsByClassName('sort_button')[0].style.visibility = "hidden";
+
         // show the data
         show_user_info(user_data)
     }
