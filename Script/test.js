@@ -418,6 +418,7 @@ function get_years_from_user(role_joins, role_db) {
             current_categories.push(role_data.category)
         }
         console.log(current_categories)
+        console.log(time)
     }
 
     console.log(time)
