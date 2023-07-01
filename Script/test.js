@@ -302,6 +302,7 @@ async function show_user_info(user_data) {
          => see get_roles_from_user
 
     post: adds all the data to the "rang" class elements
+          shows 404 error if no data
           doesn't return anything
     */
     if (!user_data.name) {
@@ -384,6 +385,7 @@ async function show_role_info(role_joins, role_name, sort_type) {
          sort_type is the selected sort type 
 
     post: adds all the data to the "rang" class elements
+          shows 404 error if no data
           doesn't return anything
     */
     // Get info from role db
@@ -410,6 +412,7 @@ async function show_role_info(role_joins, role_name, sort_type) {
     })
 
     // Reverse order if sort == time because the newest should show up first
+    console.log(role_joins)
     if (sort_type == "time") {
         role_joins = role_joins.toReversed() // reverse but avoid modifying given array (won't break anything, but better to avoid) 
     }
