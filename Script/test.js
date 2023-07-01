@@ -491,6 +491,8 @@ function show_error(error_num) {
     pre: body is loaded, error_num is an integer
     post: shows the error on the page
     */
+    document.getElementsByClassName('birthday')[0].style.display = "block"
+    
     if (error_num == 400) { // Invalid request (e.g. no role nor user request)
         // show error on website
         document.getElementById("staff_member_name").innerText = "Invalid arguments"
@@ -510,9 +512,4 @@ function show_error(error_num) {
     document.getElementsByClassName("list_category")[2].style.display = "none"
     document.getElementsByClassName("languages")[0].style.display = "none"
     document.getElementsByClassName('sort_button')[0].style.visibility = "hidden";
-
-    // change bg pfp (might be removed)
-    document.getElementsByClassName("artist")[0].innerText = "Jaküm Astrotel#3772"
-    document.getElementsByClassName('birthday')[0].style.display = "block"
-    document.getElementsByClassName('backgroundImage')[0].style.backgroundImage = "url(Pictures/404.png)"
 }
