@@ -237,14 +237,20 @@ async function loading() {
             users_data = filter_by_language(users_data,language_parameter)
         }
 
-        // sort accordingly
+        // sort accordingly and show sort suggestion
         if (sort_type == "language") {
             users_data.sort((a,b) => a.languages.toString().localeCompare(b.languages.toString()))
+            document.getElementsByClassName('bottom_button')[1].innerText = "Sort by name";
+            document.getElementsByClassName('bottom_button')[1].href = `?role=${role_name}&sort=name`;
         } else if (sort_type == "name") {
             users_data.sort((a,b) => a.name.localeCompare(b.name))
+            document.getElementsByClassName('bottom_button')[1].innerText = "Sort by time";
+            document.getElementsByClassName('bottom_button')[1].href = `?role=${role_name}`;
         } else { 
             // default = sort by date
             users_data.sort((a,b) => a.time - b.time)
+            document.getElementsByClassName('bottom_button')[1].innerText = "Sort by language";
+            document.getElementsByClassName('bottom_button')[1].href = `?role=${role_name}&sort=language`;
         }
 
         // show the data
@@ -454,7 +460,7 @@ function show_error(error_num) {
     pre: body is loaded, error_num is an integer
     post: shows the error on the page
     */
-    if (error_num == 400) { // Nothing found (e.g. wrong role/user name)
+    if (error_num == 400) { // Invalid request (e.g. no role nor user request)
         document.getElementById("staff_member_name").innerText = "Invalid arguments"
         document.getElementsByClassName("list_category")[0].style.display = "none"
         document.getElementsByClassName("list_category")[1].style.display = "none"
