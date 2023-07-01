@@ -345,7 +345,7 @@ async function show_user_info(user_data) {
         if (role.name == "resigned") {
             new_role.innerText = `No longer was a ${role.from}`
         } else {
-            role_to_link(new_role, role, role_db)
+            role_to_link(new_role, role.name, role_db)
         }
 
 
