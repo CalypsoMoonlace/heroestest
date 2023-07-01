@@ -6,7 +6,8 @@
         "mentormanager": 1545921760,
         "mentormanagerhelper": null,
         "name": "7mlapine",
-        "resigned": 1566841490
+        "resigned": 1566841490,
+        "resigned_from": "mentormanager"
     },
     {
         "current": "mentormanager",
@@ -15,7 +16,8 @@
         "mentormanager": 1566862067,
         "mentormanagerhelper": null,
         "name": "Lisa",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "resigned",
@@ -24,7 +26,8 @@
         "mentormanager": 1591693120,
         "mentormanagerhelper": null,
         "name": "Mmaarten",
-        "resigned": 1635802582
+        "resigned": 1635802582,
+        "resigned_from": "mentormanager"
     },
     {
         "current": "mentor",
@@ -33,7 +36,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Maffin",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "resigned",
@@ -42,7 +46,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Ratbaby",
-        "resigned": 1599327890
+        "resigned": 1599327890,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -51,7 +56,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Terka",
-        "resigned": 1620309473
+        "resigned": 1620309473,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -60,7 +66,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Leo",
-        "resigned": 1573894720
+        "resigned": 1573894720,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -69,7 +76,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Chef_ntt",
-        "resigned": 1590838246
+        "resigned": 1590838246,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
@@ -78,7 +86,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Boy",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "resigned",
@@ -87,7 +96,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Rider",
-        "resigned": 1610619738
+        "resigned": 1610619738,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -96,7 +106,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Jojolapin",
-        "resigned": 1637339016
+        "resigned": 1637339016,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -105,7 +116,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "ZetaPhoenix",
-        "resigned": 1610272911
+        "resigned": 1610272911,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -114,7 +126,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Gui",
-        "resigned": 1607174748
+        "resigned": 1607174748,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -123,7 +136,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Mirreska",
-        "resigned": 1606566162
+        "resigned": 1606566162,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -132,7 +146,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Amelia",
-        "resigned": 1615467068
+        "resigned": 1615467068,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -141,7 +156,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Cherry",
-        "resigned": 1616071968
+        "resigned": 1616071968,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -150,7 +166,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Hyde",
-        "resigned": 1616158271
+        "resigned": 1616158271,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentormanagerhelper",
@@ -159,7 +176,8 @@
         "mentormanager": null,
         "mentormanagerhelper": 1642100087,
         "name": "Arnaud",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "resigned",
@@ -168,7 +186,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Vasi",
-        "resigned": 1610186521
+        "resigned": 1610186521,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -177,7 +196,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "oNeko",
-        "resigned": 1606241618
+        "resigned": 1606241618,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -186,7 +206,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Aitor",
-        "resigned": 1626104555
+        "resigned": 1626104555,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
@@ -195,7 +216,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Briann",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "mentor",
@@ -204,7 +226,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Sonblo",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "resigned",
@@ -213,7 +236,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Prof XV",
-        "resigned": 1610619738
+        "resigned": 1610619738,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
@@ -222,7 +246,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "LouveBlanche",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "mentor",
@@ -231,7 +256,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Weri",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "resigned",
@@ -240,7 +266,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Mashi",
-        "resigned": 1610533335
+        "resigned": 1610533335,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
@@ -249,7 +276,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Raind",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "resigned",
@@ -258,7 +286,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Tisery",
-        "resigned": 1630004759
+        "resigned": 1630004759,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -267,7 +296,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Seho",
-        "resigned": 1597136981
+        "resigned": 1597136981,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -276,7 +306,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Imge",
-        "resigned": "1566377920 1617544272"
+        "resigned": "1566377920 1617544272",
+        "resigned_from": "mentor mentor"
     },
     {
         "current": "resigned",
@@ -285,7 +316,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Cloudy",
-        "resigned": 1591195360
+        "resigned": 1591195360,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -294,7 +326,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Jack",
-        "resigned": 1563979360
+        "resigned": 1563979360,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -303,7 +336,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "N0ob",
-        "resigned": 1581872710
+        "resigned": 1581872710,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -312,7 +346,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Ioannis",
-        "resigned": "1562087271 1565975110"
+        "resigned": "1562087271 1565975110",
+        "resigned_from": "mentor mentor"
     },
     {
         "current": "resigned",
@@ -321,7 +356,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Lucienbl",
-        "resigned": 1564938310
+        "resigned": 1564938310,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -330,7 +366,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Petal",
-        "resigned": "1562346310 1635706305"
+        "resigned": "1562346310 1635706305",
+        "resigned_from": "mentor mentor"
     },
     {
         "current": "resigned",
@@ -339,7 +376,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Wepi",
-        "resigned": 1564333510
+        "resigned": 1564333510,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -348,7 +386,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Maya",
-        "resigned": 1553015112
+        "resigned": 1553015112,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -357,7 +396,8 @@
         "mentormanager": 1532624710,
         "mentormanagerhelper": null,
         "name": "Sharon",
-        "resigned": 1568027015
+        "resigned": 1568027015,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -366,7 +406,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "William",
-        "resigned": 1556535740
+        "resigned": 1556535740,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -375,7 +416,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "MisterZ",
-        "resigned": 1560558001
+        "resigned": 1560558001,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -384,7 +426,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Apmai",
-        "resigned": 1547550140
+        "resigned": 1547550140,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -393,7 +436,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Johnysaur",
-        "resigned": 1547550140
+        "resigned": 1547550140,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -402,7 +446,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Karou",
-        "resigned": 1549537340
+        "resigned": 1549537340,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -411,7 +456,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Nathaniel",
-        "resigned": 1546513340
+        "resigned": 1546513340,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -420,7 +466,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Milky",
-        "resigned": 1553818811
+        "resigned": 1553818811,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -429,7 +476,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Lakerboy",
-        "resigned": 1547550140
+        "resigned": 1547550140,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -438,7 +486,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Lgcc",
-        "resigned": 1547550140
+        "resigned": 1547550140,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -447,7 +496,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "AlphaBeauchmin",
-        "resigned": 1547550140
+        "resigned": 1547550140,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -456,7 +506,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Dolan",
-        "resigned": 1542279740
+        "resigned": 1542279740,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -465,7 +516,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Khang",
-        "resigned": 1542279740
+        "resigned": 1542279740,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -474,7 +526,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "CinderS",
-        "resigned": 1542279740
+        "resigned": 1542279740,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -483,7 +536,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Jort",
-        "resigned": 1538218940
+        "resigned": 1538218940,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -492,7 +546,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Stops",
-        "resigned": 1538910140
+        "resigned": 1538910140,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -501,7 +556,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Miller",
-        "resigned": 1539713433
+        "resigned": 1539713433,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -510,7 +566,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Casper",
-        "resigned": 1534330910
+        "resigned": 1534330910,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -519,7 +576,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "TheAlexGamer",
-        "resigned": 1534158140
+        "resigned": 1534158140,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -528,7 +586,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Discape",
-        "resigned": 1532862140
+        "resigned": 1532862140,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -537,7 +596,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Moon",
-        "resigned": 1534158140
+        "resigned": 1534158140,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -546,7 +606,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Aushy",
-        "resigned": 1534244540
+        "resigned": 1534244540,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -555,7 +616,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Brendan",
-        "resigned": 1532862140
+        "resigned": 1532862140,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -564,7 +626,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Rolino",
-        "resigned": 1538218940
+        "resigned": 1538218940,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -573,7 +636,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Dario",
-        "resigned": 1532862140
+        "resigned": 1532862140,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -582,7 +646,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Sockboi",
-        "resigned": 1534158140
+        "resigned": 1534158140,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -591,7 +656,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Kryss",
-        "resigned": 1534158140
+        "resigned": 1534158140,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -600,7 +666,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Zanny",
-        "resigned": 1534158140
+        "resigned": 1534158140,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -609,7 +676,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Owl",
-        "resigned": 1534150954
+        "resigned": 1534150954,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -618,7 +686,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Ale637",
-        "resigned": 1620655073
+        "resigned": 1620655073,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -627,7 +696,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Groot",
-        "resigned": 1627314160
+        "resigned": 1627314160,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
@@ -636,7 +706,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Nachti",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "resigned",
@@ -645,7 +716,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Theking465",
-        "resigned": 1653237185
+        "resigned": 1653237185,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -654,7 +726,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Dimitri",
-        "resigned": 1654619584
+        "resigned": 1654619584,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -663,7 +736,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Necrie",
-        "resigned": 1631646359
+        "resigned": 1631646359,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -672,7 +746,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Pan",
-        "resigned": 1632337617
+        "resigned": 1632337617,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -681,7 +756,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Peppa",
-        "resigned": 1622978901
+        "resigned": 1622978901,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -690,7 +766,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Eva fg",
-        "resigned": 1632424139
+        "resigned": 1632424139,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
@@ -699,7 +776,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Kornel",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "mentor",
@@ -708,7 +786,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Marie",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "mentor",
@@ -717,7 +796,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Scout",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "resigned",
@@ -726,7 +806,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Eiskruemel",
-        "resigned": 1646231752
+        "resigned": 1646231752,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -735,7 +816,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Lucien champi",
-        "resigned": 1624180643
+        "resigned": 1624180643,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -744,7 +826,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Sootygippo",
-        "resigned": 1621164441
+        "resigned": 1621164441,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -753,7 +836,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Foibos",
-        "resigned": 1637339016
+        "resigned": 1637339016,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
@@ -762,7 +846,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Agusio",
-        "resigned": 1649867584
+        "resigned": 1649867584,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
@@ -771,7 +856,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Asiabby",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "mentor",
@@ -780,7 +866,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Bomber",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "resigned",
@@ -789,7 +876,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Memava",
-        "resigned": 1652891584
+        "resigned": 1652891584,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
@@ -798,7 +886,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Dr_Raymond",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "mentor",
@@ -807,7 +896,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "TigerPuppy",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "mentor",
@@ -816,7 +906,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "WOLFY",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "mentor",
@@ -825,7 +916,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Blueburned",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "mentor",
@@ -834,7 +926,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Captain",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "resigned",
@@ -843,7 +936,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Danish",
-        "resigned": 1649082951
+        "resigned": 1649082951,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
@@ -852,7 +946,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Doraemon",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "mentor",
@@ -861,7 +956,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Fremder",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "mentor",
@@ -870,7 +966,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Lealand",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "mentor",
@@ -879,7 +976,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Migi_migi",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "mentor",
@@ -888,7 +986,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Tekisui",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "mentor",
@@ -897,7 +996,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Saori",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "mentor",
@@ -906,7 +1006,8 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Spultor",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "mentor",
@@ -915,6 +1016,7 @@
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Xie",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     }
 ]

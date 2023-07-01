@@ -131,14 +131,30 @@ async function get_roles_from_user(user_name) {
 
         Object.keys(category_data).forEach(key => {
             // Add all keys with data
-            if (typeof(category_data[key]) == "number") { // one entry
+            
+            // Resigns are treated differently because I need to know from which role they resigned
+            if (key == "resigned") {
+                // split data
+                resigns = category_data[key].toString().split(" ")
+                resigned_from = category_data["resigned_from"].toString().split(" ")
+
+                // add all of them
+                for (var i = 0; i < resigns.length; i++) {
+                    result.roles.push({
+                        name: key,
+                        time: parseInt(resigns[i]),
+                        from: resigned_from[i]
+                    })
+                }
+
+            } else if (typeof(category_data[key]) == "number") { // one entry
                 result.roles.push({
                     name: key,
                     time: category_data[key]
                 })
-            }
-
-            if (typeof(category_data[key]) == "string" && key != "languages" && key != "current" && key != "name") { // two or more entries, avoid fields that aren't time
+                
+            } else if (typeof(category_data[key]) == "string" && key != "languages" && key != "current" && key != "name" && key != "resigned_from") { 
+                // two or more entries, avoid fields that aren't time
                 category_data[key].split(" ").forEach(entry => {
                     result.roles.push({
                         name: key,
@@ -296,7 +312,7 @@ async function show_user_info(user_data) {
     /*
     pre: body is loaded
          user_data is an object (keys: name, roles, current, languages, birthday)
-         => roles is a list of objects (keys: name, time)
+         => roles is a list of objects (keys: name, time) or (keys: name, time, from) for resigns
          => current & languages are a list of strings
          => see get_roles_from_user
 
@@ -312,7 +328,11 @@ async function show_user_info(user_data) {
         let new_role = document.createElement('div')
 
         // Create role item
-        role_to_link(new_role, role, role_db)
+        if (role == "resigned") {
+            new_role.innerText = `No longer was a ${role.from}`
+        } else {
+            role_to_link(new_role, role, role_db)
+        }
 
         // Append
         document.getElementsByClassName("rang")[0].appendChild(new_role)

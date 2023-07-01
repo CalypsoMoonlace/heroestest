@@ -115,6 +115,10 @@ Discord.init({
         type: DataTypes.INTEGER,
         allowNull: true
     },
+    resigned_from: {
+        type: DataTypes.TEXT,
+        allowNull: true
+    },
     languages: {
         type: DataTypes.INTEGER,
         allowNull: false
@@ -152,6 +156,10 @@ Mentor.init({
         type: DataTypes.INTEGER,
         allowNull: true
     },
+    resigned_from: {
+        type: DataTypes.TEXT,
+        allowNull: true
+    },
     languages: {
         type: DataTypes.INTEGER,
         allowNull: false
@@ -187,6 +195,10 @@ Guardian.init({
     },
     resigned: {
         type: DataTypes.INTEGER,
+        allowNull: true
+    },
+    resigned_from: {
+        type: DataTypes.TEXT,
         allowNull: true
     },
     languages: {
@@ -234,6 +246,10 @@ SocialMedia.init({
         type: DataTypes.INTEGER,
         allowNull: true
     },
+    resigned_from: {
+        type: DataTypes.TEXT,
+        allowNull: true
+    },
     languages: {
         type: DataTypes.INTEGER,
         allowNull: false
@@ -267,6 +283,10 @@ TesterClub.init({
         type: DataTypes.INTEGER,
         allowNull: true
     },
+    resigned_from: {
+        type: DataTypes.TEXT,
+        allowNull: true
+    },
     languages: {
         type: DataTypes.INTEGER,
         allowNull: false
@@ -294,6 +314,10 @@ Developer.init({
     },
     resigned: {
         type: DataTypes.INTEGER,
+        allowNull: true
+    },
+    resigned_from: {
+        type: DataTypes.TEXT,
         allowNull: true
     },
     languages: {
@@ -546,6 +570,31 @@ function sanitize_object(staff) {
 		staff.current_value = new_currents[staff.current_value]
 	}
 
+	// Get last value before each resign (if any)
+	if (staff.no_more_staff) {
+		staff.resigned_from = ""
+
+		// do it for all resigns, one by one
+		staff.no_more_staff.toString().split(" ").forEach(resign => {
+			let last = 0
+			let last_key = ""
+
+			Object.keys(staff).forEach(key => { // for each key
+				staff[key].toString().split(" ").forEach(value => { // in case a key has 2+ values
+					if (value < resign && value > last) {
+						// found a new role closer to the resign
+						last = value
+						last_key = key
+					}
+				})
+				
+			})
+			staff.resigned_from += " " + last_key.split("_")[0] // avoid _duplicates and so on
+		})
+
+		staff.resigned_from = staff.resigned_from.trim()
+	}
+
 	// Add the flag values BUT without "English" prefix (unless user only speaks English)
 	// This is to make filter & sort simpler at the cost of data redundancy
 	flag_name = staff.name.toLowerCase()
@@ -590,6 +639,7 @@ whole_staff_list[0].forEach(staff => {
 		mod: sane_staff.mod,
 		megamod: sane_staff.megamod,
 		resigned: sane_staff.no_more_staff,
+		resigned_from: sane_staff.resigned_from,
 		languages: sane_staff.languages
 	})
 })
@@ -605,6 +655,7 @@ whole_staff_list[1].forEach(staff => {
 		mentormanagerhelper: sane_staff.mentormanagerhelper,
 		mentormanager: sane_staff.mentormanager,
 		resigned: sane_staff.no_more_staff,
+		resigned_from: sane_staff.resigned_from,
 		languages: sane_staff.languages
 	})
 })
@@ -620,6 +671,7 @@ whole_staff_list[2].forEach(staff => {
 		guardianmanagerhelper: sane_staff.guardianmanagerhelper,
 		guardianmanager: sane_staff.guardianmanager,
 		resigned: sane_staff.no_more_staff,
+		resigned_from: sane_staff.resigned_from,
 		languages: sane_staff.languages
 	})
 })
@@ -637,6 +689,7 @@ whole_staff_list[3].forEach(staff => {
 		twitter: sane_staff.twitter,
 		reddit: sane_staff.reddit,
 		resigned: sane_staff.no_more_staff,
+		resigned_from: sane_staff.resigned_from,
 		languages: sane_staff.languages
 	})
 })
@@ -651,6 +704,7 @@ whole_staff_list[4].forEach(staff => {
 		tc_mod: sane_staff.tc_mod,
 		tc_admin: sane_staff.tc_admin,
 		resigned: sane_staff.no_more_staff,
+		resigned_from: sane_staff.resigned_from,
 		languages: sane_staff.languages
 	})
 })
@@ -664,6 +718,7 @@ whole_staff_list[5].forEach(staff => {
 		current: sane_staff.current_value,
 		dev: sane_staff.dev,
 		resigned: sane_staff.no_more_staff,
+		resigned_from: sane_staff.resigned_from,
 		languages: sane_staff.languages
 	})
 })

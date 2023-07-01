@@ -6,7 +6,8 @@
         "guardianmanagerhelper": null,
         "languages": "Dutch",
         "name": "Sharon",
-        "resigned": "1568027012 1632251159"
+        "resigned": "1568027012 1632251159",
+        "resigned_from": "guardian guardianmanager"
     },
     {
         "current": "resigned",
@@ -15,7 +16,8 @@
         "guardianmanagerhelper": null,
         "languages": "English",
         "name": "Koreanking",
-        "resigned": 1575543429
+        "resigned": 1575543429,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -24,7 +26,8 @@
         "guardianmanagerhelper": null,
         "languages": "Dutch French Italian Spanish",
         "name": "Artemiis",
-        "resigned": 1589453829
+        "resigned": 1589453829,
+        "resigned_from": "guardianmanager"
     },
     {
         "current": "resigned",
@@ -33,7 +36,8 @@
         "guardianmanagerhelper": null,
         "languages": "Vietnamese",
         "name": "Kem",
-        "resigned": 1587034629
+        "resigned": 1587034629,
+        "resigned_from": "guardianmanager"
     },
     {
         "current": "resigned",
@@ -42,7 +46,8 @@
         "guardianmanagerhelper": null,
         "languages": "German",
         "name": "Ioannis",
-        "resigned": 1570532229
+        "resigned": 1570532229,
+        "resigned_from": "guardianmanager"
     },
     {
         "current": "resigned",
@@ -51,7 +56,8 @@
         "guardianmanagerhelper": null,
         "languages": "Thai",
         "name": "7mlapine",
-        "resigned": 1566841491
+        "resigned": 1566841491,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -60,7 +66,8 @@
         "guardianmanagerhelper": null,
         "languages": "English",
         "name": "Prometheus",
-        "resigned": 1557706811
+        "resigned": 1557706811,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -69,7 +76,8 @@
         "guardianmanagerhelper": null,
         "languages": "German French",
         "name": "Lucienbl",
-        "resigned": 1553770629
+        "resigned": 1553770629,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -78,7 +86,8 @@
         "guardianmanagerhelper": null,
         "languages": "Dutch",
         "name": "Jort",
-        "resigned": 1540637829
+        "resigned": 1540637829,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -87,7 +96,8 @@
         "guardianmanagerhelper": null,
         "languages": "German Romanian",
         "name": "Casper",
-        "resigned": 1540402347
+        "resigned": 1540402347,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -96,7 +106,8 @@
         "guardianmanagerhelper": null,
         "languages": "English",
         "name": "Penguin",
-        "resigned": 1540637829
+        "resigned": 1540637829,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -105,7 +116,8 @@
         "guardianmanagerhelper": null,
         "languages": "English",
         "name": "NotTapl",
-        "resigned": 1540637829
+        "resigned": 1540637829,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -114,7 +126,8 @@
         "guardianmanagerhelper": null,
         "languages": "English",
         "name": "Quinn",
-        "resigned": 1544525829
+        "resigned": 1544525829,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -123,7 +136,8 @@
         "guardianmanagerhelper": null,
         "languages": "English",
         "name": "Miller",
-        "resigned": 1541588229
+        "resigned": 1541588229,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -132,7 +146,8 @@
         "guardianmanagerhelper": null,
         "languages": "Turkish",
         "name": "William",
-        "resigned": 1556535750
+        "resigned": 1556535750,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -141,7 +156,8 @@
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "Myrros",
-        "resigned": "1569841029 1603124421"
+        "resigned": "1569841029 1603124421",
+        "resigned_from": "guardian guardian"
     },
     {
         "current": "resigned",
@@ -150,7 +166,8 @@
         "guardianmanagerhelper": null,
         "languages": "German",
         "name": "Jan",
-        "resigned": 1563879429
+        "resigned": 1563879429,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -159,7 +176,8 @@
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "Lylysonn",
-        "resigned": 1599155090
+        "resigned": 1599155090,
+        "resigned_from": "guardian"
     },
     {
         "current": "guardian",
@@ -168,7 +186,8 @@
         "guardianmanagerhelper": null,
         "languages": "Vietnamese",
         "name": "Boy",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "resigned",
@@ -177,7 +196,8 @@
         "guardianmanagerhelper": null,
         "languages": "German",
         "name": "Catjojo",
-        "resigned": 1648046152
+        "resigned": 1648046152,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -186,7 +206,8 @@
         "guardianmanagerhelper": null,
         "languages": "German",
         "name": "Oliver",
-        "resigned": 1602351164
+        "resigned": 1602351164,
+        "resigned_from": "guardian"
     },
     {
         "current": "guardian",
@@ -195,7 +216,8 @@
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "Renardeau",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "resigned",
@@ -204,7 +226,8 @@
         "guardianmanagerhelper": null,
         "languages": "Thai",
         "name": "Sionny",
-        "resigned": "1594033029 1622892441"
+        "resigned": "1594033029 1622892441",
+        "resigned_from": "guardian guardian"
     },
     {
         "current": "resigned",
@@ -213,7 +236,8 @@
         "guardianmanagerhelper": null,
         "languages": "Romanian",
         "name": "Jake",
-        "resigned": 1588762629
+        "resigned": 1588762629,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -222,7 +246,8 @@
         "guardianmanagerhelper": null,
         "languages": "Turkish",
         "name": "Judetta",
-        "resigned": 1632337739
+        "resigned": 1632337739,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -231,7 +256,8 @@
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "Rikslyde",
-        "resigned": 1601026590
+        "resigned": 1601026590,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -240,7 +266,8 @@
         "guardianmanagerhelper": null,
         "languages": "Spanish",
         "name": "Puigui",
-        "resigned": 1598627330
+        "resigned": 1598627330,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -249,7 +276,8 @@
         "guardianmanagerhelper": null,
         "languages": "Portuguese_br",
         "name": "Anemona",
-        "resigned": 1596964181
+        "resigned": 1596964181,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -258,7 +286,8 @@
         "guardianmanagerhelper": null,
         "languages": "Russian",
         "name": "Vertrudo",
-        "resigned": 1596964181
+        "resigned": 1596964181,
+        "resigned_from": "guardian"
     },
     {
         "current": "guardian",
@@ -267,7 +296,8 @@
         "guardianmanagerhelper": null,
         "languages": "Italian",
         "name": "ClankFilippo",
-        "resigned": 1630609559
+        "resigned": 1630609559,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -276,7 +306,8 @@
         "guardianmanagerhelper": null,
         "languages": "English",
         "name": "Maya",
-        "resigned": 1553019131
+        "resigned": 1553019131,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -285,7 +316,8 @@
         "guardianmanagerhelper": null,
         "languages": "Portuguese_br",
         "name": "Pan",
-        "resigned": 1632337613
+        "resigned": 1632337613,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -294,7 +326,8 @@
         "guardianmanagerhelper": null,
         "languages": "Thai",
         "name": "Master",
-        "resigned": 1616248272
+        "resigned": 1616248272,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -303,7 +336,8 @@
         "guardianmanagerhelper": null,
         "languages": "Chinese",
         "name": "Cathy",
-        "resigned": 1610619748
+        "resigned": 1610619748,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -312,7 +346,8 @@
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "Hubble",
-        "resigned": "1604315163 1632337619"
+        "resigned": "1604315163 1632337619",
+        "resigned_from": "guardian guardian"
     },
     {
         "current": "resigned",
@@ -321,7 +356,8 @@
         "guardianmanagerhelper": null,
         "languages": "English",
         "name": "Raven",
-        "resigned": 1606507009
+        "resigned": 1606507009,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -330,7 +366,8 @@
         "guardianmanagerhelper": null,
         "languages": "Turkish",
         "name": "Teyzeniz",
-        "resigned": 1602102875
+        "resigned": 1602102875,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -339,7 +376,8 @@
         "guardianmanagerhelper": null,
         "languages": "French Arabic",
         "name": "Prof XV",
-        "resigned": 1610619739
+        "resigned": 1610619739,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -348,7 +386,8 @@
         "guardianmanagerhelper": 1604828950,
         "languages": "Spanish",
         "name": "Aitor",
-        "resigned": 1624439843
+        "resigned": 1624439843,
+        "resigned_from": "guardianmanagerhelper"
     },
     {
         "current": "resigned",
@@ -357,7 +396,8 @@
         "guardianmanagerhelper": null,
         "languages": "Italian",
         "name": "Notkar",
-        "resigned": 1608475377
+        "resigned": 1608475377,
+        "resigned_from": "guardian"
     },
     {
         "current": "guardianmanagerhelper",
@@ -366,7 +406,8 @@
         "guardianmanagerhelper": 1624787350,
         "languages": "German French",
         "name": "Lisa",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -375,7 +416,8 @@
         "guardianmanagerhelper": null,
         "languages": "Vietnamese",
         "name": "Bunno",
-        "resigned": 1611311239
+        "resigned": 1611311239,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -384,7 +426,8 @@
         "guardianmanagerhelper": null,
         "languages": "German Romanian",
         "name": "Hyde",
-        "resigned": 1615812668
+        "resigned": 1615812668,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -393,7 +436,8 @@
         "guardianmanagerhelper": null,
         "languages": "Portuguese_br",
         "name": "KiubsK",
-        "resigned": 1614343868
+        "resigned": 1614343868,
+        "resigned_from": "guardian"
     },
     {
         "current": "guardianmanager",
@@ -402,7 +446,8 @@
         "guardianmanagerhelper": 1624787350,
         "languages": "Hindi",
         "name": "Weri",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -411,7 +456,8 @@
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "Surprise",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "resigned",
@@ -420,7 +466,8 @@
         "guardianmanagerhelper": null,
         "languages": "Russian",
         "name": "Eva K",
-        "resigned": 1614603068
+        "resigned": 1614603068,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -429,7 +476,8 @@
         "guardianmanagerhelper": null,
         "languages": "Italian",
         "name": "Euphelianne",
-        "resigned": 1628517721
+        "resigned": 1628517721,
+        "resigned_from": "guardian"
     },
     {
         "current": "guardian",
@@ -438,7 +486,8 @@
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "LouveBlanche",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "resigned",
@@ -447,7 +496,8 @@
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "FrostiesKiller",
-        "resigned": 1617630672
+        "resigned": 1617630672,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -456,7 +506,8 @@
         "guardianmanagerhelper": null,
         "languages": "Turkish",
         "name": "LuckyBalboa",
-        "resigned": "1615639868 1636110354"
+        "resigned": "1615639868 1636110354",
+        "resigned_from": "guardian guardian"
     },
     {
         "current": "guardian",
@@ -465,7 +516,8 @@
         "guardianmanagerhelper": null,
         "languages": "Spanish",
         "name": "Doraemon",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "resigned",
@@ -474,7 +526,8 @@
         "guardianmanagerhelper": null,
         "languages": "Turkish",
         "name": "Noflii",
-        "resigned": 1631127959
+        "resigned": 1631127959,
+        "resigned_from": "guardian"
     },
     {
         "current": "guardian",
@@ -483,7 +536,8 @@
         "guardianmanagerhelper": null,
         "languages": "Chinese",
         "name": "Dr_Raymond",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "resigned",
@@ -492,7 +546,8 @@
         "guardianmanagerhelper": null,
         "languages": "Russian",
         "name": "Scarecrow",
-        "resigned": 1632769739
+        "resigned": 1632769739,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -501,7 +556,8 @@
         "guardianmanagerhelper": null,
         "languages": "Italian",
         "name": "Fabb",
-        "resigned": 1635274305
+        "resigned": 1635274305,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -510,7 +566,8 @@
         "guardianmanagerhelper": null,
         "languages": "Vietnamese",
         "name": "Choco",
-        "resigned": 1632337739
+        "resigned": 1632337739,
+        "resigned_from": "guardian"
     },
     {
         "current": "guardian",
@@ -519,7 +576,8 @@
         "guardianmanagerhelper": null,
         "languages": "German Albanian",
         "name": "Florian9",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -528,7 +586,8 @@
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "Jnsc",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -537,7 +596,8 @@
         "guardianmanagerhelper": null,
         "languages": "Thai",
         "name": "Migi_migi",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "resigned",
@@ -546,7 +606,8 @@
         "guardianmanagerhelper": null,
         "languages": "Dutch",
         "name": "Youp_dijk",
-        "resigned": 1623574071
+        "resigned": 1623574071,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -555,7 +616,8 @@
         "guardianmanagerhelper": null,
         "languages": "Dutch",
         "name": "Theking465",
-        "resigned": 1653237184
+        "resigned": 1653237184,
+        "resigned_from": "guardian"
     },
     {
         "current": "guardian",
@@ -564,7 +626,8 @@
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "Yurii",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -573,7 +636,8 @@
         "guardianmanagerhelper": null,
         "languages": "Italian",
         "name": "Bittertwee",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -582,7 +646,8 @@
         "guardianmanagerhelper": null,
         "languages": "Turkish",
         "name": "Imge",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -591,7 +656,8 @@
         "guardianmanagerhelper": null,
         "languages": "Portuguese_br",
         "name": "Saori",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -600,7 +666,8 @@
         "guardianmanagerhelper": null,
         "languages": "English",
         "name": "Captain",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -609,7 +676,8 @@
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "ZetaPhoenix",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -618,7 +686,8 @@
         "guardianmanagerhelper": null,
         "languages": "English",
         "name": "Ravenpuff",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -627,7 +696,8 @@
         "guardianmanagerhelper": null,
         "languages": "German",
         "name": "Depata",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -636,7 +706,8 @@
         "guardianmanagerhelper": null,
         "languages": "German",
         "name": "Kattwho",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -645,7 +716,8 @@
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "Shiryo",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -654,7 +726,8 @@
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "Meduza",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -663,7 +736,8 @@
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "Nexo",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -672,7 +746,8 @@
         "guardianmanagerhelper": null,
         "languages": "Romanian",
         "name": "Wolfy",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -681,7 +756,8 @@
         "guardianmanagerhelper": null,
         "languages": "Thai",
         "name": "Kleinekatze",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -690,7 +766,8 @@
         "guardianmanagerhelper": null,
         "languages": "Portuguese_br",
         "name": "Shadow",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -699,7 +776,8 @@
         "guardianmanagerhelper": null,
         "languages": "Dutch",
         "name": "Epinephrine",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -708,7 +786,8 @@
         "guardianmanagerhelper": null,
         "languages": "Turkish",
         "name": "Uxy",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     },
     {
         "current": "guardian",
@@ -717,6 +796,7 @@
         "guardianmanagerhelper": null,
         "languages": "Italian",
         "name": "Spultor",
-        "resigned": null
+        "resigned": null,
+        "resigned_from": null
     }
 ]

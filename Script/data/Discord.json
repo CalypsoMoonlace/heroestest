@@ -8,6 +8,7 @@
         "mod": null,
         "name": "Ace",
         "resigned": 1529777310,
+        "resigned_from": "minimod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -20,6 +21,7 @@
         "mod": 1526404669,
         "name": "Hascan",
         "resigned": "1535026256 1532520656",
+        "resigned_from": "minimod mod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -32,6 +34,7 @@
         "mod": null,
         "name": "TheAlexGamer",
         "resigned": 1532970651,
+        "resigned_from": "minimod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -44,6 +47,7 @@
         "mod": null,
         "name": "AlexRTM",
         "resigned": 1527268669,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -56,6 +60,7 @@
         "mod": null,
         "name": "Angel",
         "resigned": 1546274823,
+        "resigned_from": "trialhelper",
         "trialhelper": 1545932690,
         "trialminimod": null
     },
@@ -68,6 +73,7 @@
         "mod": null,
         "name": "Apmai",
         "resigned": "1536605716 1543776916",
+        "resigned_from": "helper trialhelper",
         "trialhelper": "1534331013 1542999316",
         "trialminimod": null
     },
@@ -80,6 +86,7 @@
         "mod": 1525176650,
         "name": "Armads",
         "resigned": 1539713433,
+        "resigned_from": "minimod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -92,6 +99,7 @@
         "mod": 1569802801,
         "name": "Arnaud",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1556670001,
         "trialminimod": 1565482801
     },
@@ -104,6 +112,7 @@
         "mod": 1622892500,
         "name": "Sonblo",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1547856000,
         "trialminimod": 1565482801
     },
@@ -116,6 +125,7 @@
         "mod": null,
         "name": "Aushy",
         "resigned": 1533495316,
+        "resigned_from": "minimod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -128,6 +138,7 @@
         "mod": null,
         "name": "BeeHYPE",
         "resigned": 1530724669,
+        "resigned_from": "minimod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -140,6 +151,7 @@
         "mod": null,
         "name": "Bestbud",
         "resigned": 1544721051,
+        "resigned_from": "helper",
         "trialhelper": 1539543316,
         "trialminimod": null
     },
@@ -152,6 +164,7 @@
         "mod": null,
         "name": "Blep",
         "resigned": 1581346988,
+        "resigned_from": "minimod",
         "trialhelper": 1549844401,
         "trialminimod": 1555412613
     },
@@ -164,6 +177,7 @@
         "mod": null,
         "name": "Dani",
         "resigned": 1541616916,
+        "resigned_from": "helper",
         "trialhelper": 1539543316,
         "trialminimod": null
     },
@@ -176,6 +190,7 @@
         "mod": null,
         "name": "Lakerboy",
         "resigned": 1542826516,
+        "resigned_from": "helper",
         "trialhelper": 1539543316,
         "trialminimod": null
     },
@@ -188,6 +203,7 @@
         "mod": null,
         "name": "Bryduz",
         "resigned": 1530706256,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -200,6 +216,7 @@
         "mod": null,
         "name": "Brendan",
         "resigned": 1533471056,
+        "resigned_from": "minimod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -212,6 +229,7 @@
         "mod": "1533467013 1552561413",
         "name": "Camp",
         "resigned": 1569063813,
+        "resigned_from": "mod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -224,6 +242,7 @@
         "mod": null,
         "name": "Captain",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1558311601,
         "trialminimod": 1579888328
     },
@@ -236,6 +255,7 @@
         "mod": null,
         "name": "CRC-7",
         "resigned": 1531915856,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -248,6 +268,7 @@
         "mod": null,
         "name": "Leo",
         "resigned": 1561547013,
+        "resigned_from": "minimod",
         "trialhelper": 1551783813,
         "trialminimod": 1554116613
     },
@@ -260,6 +281,7 @@
         "mod": 1524591247,
         "name": "Casper",
         "resigned": "1540402357 1555436047",
+        "resigned_from": "megamod helper",
         "trialhelper": 1553252613,
         "trialminimod": null
     },
@@ -272,6 +294,7 @@
         "mod": null,
         "name": "Cherry",
         "resigned": 1565607813,
+        "resigned_from": "helper",
         "trialhelper": 1547856000,
         "trialminimod": 1551956613
     },
@@ -284,6 +307,7 @@
         "mod": null,
         "name": "Cloudy",
         "resigned": 1552695601,
+        "resigned_from": "trialhelper",
         "trialhelper": 1551783813,
         "trialminimod": null
     },
@@ -296,6 +320,7 @@
         "mod": null,
         "name": "Coolguy",
         "resigned": 1542135316,
+        "resigned_from": "trialhelper",
         "trialhelper": 1541530516,
         "trialminimod": null
     },
@@ -308,6 +333,7 @@
         "mod": null,
         "name": "Copelia",
         "resigned": 1532088656,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -320,6 +346,7 @@
         "mod": null,
         "name": "Crush",
         "resigned": 1558782213,
+        "resigned_from": "helper",
         "trialhelper": 1553252613,
         "trialminimod": null
     },
@@ -332,6 +359,7 @@
         "mod": null,
         "name": "Dario",
         "resigned": 1530637851,
+        "resigned_from": "minimod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -344,6 +372,7 @@
         "mod": null,
         "name": "Devi",
         "resigned": 1567163013,
+        "resigned_from": "helper",
         "trialhelper": 1554894213,
         "trialminimod": null
     },
@@ -356,6 +385,7 @@
         "mod": null,
         "name": "Deniz",
         "resigned": 1535389851,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -368,6 +398,7 @@
         "mod": null,
         "name": "Dievaitis",
         "resigned": 1527530910,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -380,6 +411,7 @@
         "mod": null,
         "name": "Djocko",
         "resigned": 1530727710,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -392,6 +424,7 @@
         "mod": null,
         "name": "Dice",
         "resigned": 1547316631,
+        "resigned_from": "helper",
         "trialhelper": 1544724633,
         "trialminimod": null
     },
@@ -404,6 +437,7 @@
         "mod": null,
         "name": "Doorfruit",
         "resigned": 1563150001,
+        "resigned_from": "helper",
         "trialhelper": 1549844401,
         "trialminimod": null
     },
@@ -416,6 +450,7 @@
         "mod": null,
         "name": "Dunzap",
         "resigned": 1558311601,
+        "resigned_from": "trialhelper",
         "trialhelper": 1556670001,
         "trialminimod": null
     },
@@ -428,6 +463,7 @@
         "mod": null,
         "name": "Drakarta",
         "resigned": 1532524549,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -440,6 +476,7 @@
         "mod": 1525176670,
         "name": "Eyal100",
         "resigned": 1535458256,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -452,6 +489,7 @@
         "mod": null,
         "name": "Falvader",
         "resigned": 1553041201,
+        "resigned_from": "trialhelper",
         "trialhelper": 1551783813,
         "trialminimod": null
     },
@@ -464,6 +502,7 @@
         "mod": null,
         "name": "Geekid",
         "resigned": 1578245520,
+        "resigned_from": "helper",
         "trialhelper": 1567210801,
         "trialminimod": null
     },
@@ -476,6 +515,7 @@
         "mod": 1525973647,
         "name": "Goati",
         "resigned": "1533058447 1549128847",
+        "resigned_from": "minimod trialhelper",
         "trialhelper": 1547856000,
         "trialminimod": null
     },
@@ -488,6 +528,7 @@
         "mod": null,
         "name": "G0lem",
         "resigned": 1536603031,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -500,6 +541,7 @@
         "mod": 1525972669,
         "name": "Gryduz",
         "resigned": 1532539069,
+        "resigned_from": "mod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -512,6 +554,7 @@
         "mod": null,
         "name": "Henriql",
         "resigned": 1570878213,
+        "resigned_from": "helper",
         "trialhelper": 1563534213,
         "trialminimod": null
     },
@@ -524,6 +567,7 @@
         "mod": 1579392000,
         "name": "Hyde",
         "resigned": 1616158268,
+        "resigned_from": "mod",
         "trialhelper": 1551783813,
         "trialminimod": 1570014213
     },
@@ -536,6 +580,7 @@
         "mod": null,
         "name": "Icy",
         "resigned": 1563707013,
+        "resigned_from": "minimod",
         "trialhelper": 1537268613,
         "trialminimod": 1541502213
     },
@@ -548,6 +593,7 @@
         "mod": null,
         "name": "Inky",
         "resigned": 1554423601,
+        "resigned_from": "helper",
         "trialhelper": 1549844401,
         "trialminimod": null
     },
@@ -560,6 +606,7 @@
         "mod": null,
         "name": "Imge",
         "resigned": "1566385413 1606241618",
+        "resigned_from": "trialhelper helper",
         "trialhelper": "1563534213 1595782560",
         "trialminimod": null
     },
@@ -572,6 +619,7 @@
         "mod": null,
         "name": "Ivjo",
         "resigned": 1547052423,
+        "resigned_from": "helper",
         "trialhelper": 1534331013,
         "trialminimod": 1536538801
     },
@@ -584,6 +632,7 @@
         "mod": null,
         "name": "Ioannis",
         "resigned": 1536173716,
+        "resigned_from": "minimod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -596,6 +645,7 @@
         "mod": null,
         "name": "Ja",
         "resigned": 1531591710,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -608,6 +658,7 @@
         "mod": null,
         "name": "Jort",
         "resigned": 1541616916,
+        "resigned_from": "minimod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -620,6 +671,7 @@
         "mod": null,
         "name": "Johnysaur",
         "resigned": 1542653716,
+        "resigned_from": "trialhelper",
         "trialhelper": 1541530516,
         "trialminimod": null
     },
@@ -632,6 +684,7 @@
         "mod": null,
         "name": "Kingsho",
         "resigned": 1567163013,
+        "resigned_from": "helper",
         "trialhelper": 1558311601,
         "trialminimod": null
     },
@@ -644,6 +697,7 @@
         "mod": null,
         "name": "Koreanking",
         "resigned": 1554137223,
+        "resigned_from": "helper",
         "trialhelper": 1549844401,
         "trialminimod": null
     },
@@ -656,6 +710,7 @@
         "mod": null,
         "name": "Suishi",
         "resigned": 1541012116,
+        "resigned_from": "helper",
         "trialhelper": 1535588401,
         "trialminimod": null
     },
@@ -668,6 +723,7 @@
         "mod": 1525176680,
         "name": "Kryss",
         "resigned": 1532520656,
+        "resigned_from": "mod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -680,6 +736,7 @@
         "mod": null,
         "name": "Lextrin",
         "resigned": 1535390269,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -692,6 +749,7 @@
         "mod": null,
         "name": "LGcc",
         "resigned": 1540234516,
+        "resigned_from": "trialhelper",
         "trialhelper": 1539543316,
         "trialminimod": null
     },
@@ -704,6 +762,7 @@
         "mod": 1562977201,
         "name": "Lisa",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1549844401,
         "trialminimod": 1551658801
     },
@@ -716,6 +775,7 @@
         "mod": null,
         "name": "Loyinhung",
         "resigned": 1546274823,
+        "resigned_from": "trialhelper",
         "trialhelper": 1545932690,
         "trialminimod": null
     },
@@ -728,6 +788,7 @@
         "mod": 1529052841,
         "name": "Lucienbl",
         "resigned": 1544721469,
+        "resigned_from": "minimod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -740,6 +801,7 @@
         "mod": null,
         "name": "Master",
         "resigned": 1572308401,
+        "resigned_from": "minimod",
         "trialhelper": 1541463601,
         "trialminimod": null
     },
@@ -752,6 +814,7 @@
         "mod": null,
         "name": "Martinec",
         "resigned": 1546427013,
+        "resigned_from": "trialhelper",
         "trialhelper": 1545932690,
         "trialminimod": null
     },
@@ -764,6 +827,7 @@
         "mod": null,
         "name": "Majestical",
         "resigned": 1613856245,
+        "resigned_from": "minimod",
         "trialhelper": 1563534213,
         "trialminimod": 1570014213
     },
@@ -776,6 +840,7 @@
         "mod": null,
         "name": "Majestic pink",
         "resigned": 1533322516,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -788,6 +853,7 @@
         "mod": 1533207823,
         "name": "Maya",
         "resigned": 1553019033,
+        "resigned_from": "megamod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -800,6 +866,7 @@
         "mod": null,
         "name": "Mh622",
         "resigned": 1558004613,
+        "resigned_from": "helper",
         "trialhelper": 1554894213,
         "trialminimod": null
     },
@@ -812,6 +879,7 @@
         "mod": null,
         "name": "Malex",
         "resigned": 1542653716,
+        "resigned_from": "trialhelper",
         "trialhelper": 1541530516,
         "trialminimod": null
     },
@@ -824,6 +892,7 @@
         "mod": 1533207810,
         "name": "Miller",
         "resigned": 1539713431,
+        "resigned_from": "mod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -836,6 +905,7 @@
         "mod": 1541463601,
         "name": "Milky",
         "resigned": 1553818801,
+        "resigned_from": "megamod",
         "trialhelper": 1535588401,
         "trialminimod": 1540167601
     },
@@ -848,6 +918,7 @@
         "mod": 1551918001,
         "name": "MisterZ",
         "resigned": 1560558002,
+        "resigned_from": "mod",
         "trialhelper": 1544660401,
         "trialminimod": null
     },
@@ -860,6 +931,7 @@
         "mod": null,
         "name": "Min",
         "resigned": 1583431166,
+        "resigned_from": "helper",
         "trialhelper": 1569755013,
         "trialminimod": null
     },
@@ -872,6 +944,7 @@
         "mod": null,
         "name": "Myrros",
         "resigned": 1566990213,
+        "resigned_from": "trialhelper",
         "trialhelper": 1563534213,
         "trialminimod": null
     },
@@ -884,6 +957,7 @@
         "mod": null,
         "name": "Nathaniel",
         "resigned": 1546474801,
+        "resigned_from": "helper",
         "trialhelper": 1535588401,
         "trialminimod": 1541463601
     },
@@ -896,6 +970,7 @@
         "mod": null,
         "name": "Necrie",
         "resigned": 1620136673,
+        "resigned_from": "minimod",
         "trialhelper": 1569755013,
         "trialminimod": 1590924636
     },
@@ -908,6 +983,7 @@
         "mod": null,
         "name": "Notkar",
         "resigned": 1594556021,
+        "resigned_from": "helper",
         "trialhelper": 1567210801,
         "trialminimod": null
     },
@@ -920,6 +996,7 @@
         "mod": null,
         "name": "Obey",
         "resigned": 1545243033,
+        "resigned_from": "trialhelper",
         "trialhelper": 1544724633,
         "trialminimod": null
     },
@@ -932,6 +1009,7 @@
         "mod": null,
         "name": "oNeko",
         "resigned": 1606241615,
+        "resigned_from": "helper",
         "trialhelper": 1573301456,
         "trialminimod": null
     },
@@ -944,6 +1022,7 @@
         "mod": null,
         "name": "Sockboi",
         "resigned": 1540407316,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -956,6 +1035,7 @@
         "mod": null,
         "name": "Omnes",
         "resigned": 1545243033,
+        "resigned_from": "trialhelper",
         "trialhelper": 1544724633,
         "trialminimod": null
     },
@@ -968,6 +1048,7 @@
         "mod": 1533207826,
         "name": "Owl",
         "resigned": "1534183833 1549844401",
+        "resigned_from": "minimod helper",
         "trialhelper": 1545932690,
         "trialminimod": null
     },
@@ -980,6 +1061,7 @@
         "mod": null,
         "name": "Pancake",
         "resigned": 1531937310,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -992,6 +1074,7 @@
         "mod": null,
         "name": "Pumpkin",
         "resigned": 1591882926,
+        "resigned_from": "helper",
         "trialhelper": 1573301456,
         "trialminimod": null
     },
@@ -1004,6 +1087,7 @@
         "mod": 1551918001,
         "name": "Boon",
         "resigned": "1564014001 1593697326",
+        "resigned_from": "megamod helper",
         "trialhelper": "1542932401 1583085566",
         "trialminimod": null
     },
@@ -1016,6 +1100,7 @@
         "mod": 1546859013,
         "name": "Prometheus",
         "resigned": 1557706801,
+        "resigned_from": "megamod",
         "trialhelper": 1542932401,
         "trialminimod": null
     },
@@ -1028,6 +1113,7 @@
         "mod": null,
         "name": "Quinn",
         "resigned": 1536692116,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -1040,6 +1126,7 @@
         "mod": null,
         "name": "Rolino",
         "resigned": 1531761051,
+        "resigned_from": "minimod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -1052,6 +1139,7 @@
         "mod": 1525176610,
         "name": "Selim",
         "resigned": 1533322516,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -1064,6 +1152,7 @@
         "mod": null,
         "name": "Seho",
         "resigned": 1597136982,
+        "resigned_from": "helper",
         "trialhelper": 1569716401,
         "trialminimod": null
     },
@@ -1076,6 +1165,7 @@
         "mod": null,
         "name": "Sergiu",
         "resigned": 1531767316,
+        "resigned_from": "minimod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -1088,6 +1178,7 @@
         "mod": 1533207816,
         "name": "Sharon",
         "resigned": 1568027014,
+        "resigned_from": "megamod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -1100,6 +1191,7 @@
         "mod": 1601634642,
         "name": "Surprise",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1569755013,
         "trialminimod": 1581174188
     },
@@ -1112,6 +1204,7 @@
         "mod": null,
         "name": "Space",
         "resigned": 1532020669,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -1124,6 +1217,7 @@
         "mod": null,
         "name": "Squidly",
         "resigned": 1548522651,
+        "resigned_from": "trialhelper",
         "trialhelper": 1544721051,
         "trialminimod": null
     },
@@ -1136,6 +1230,7 @@
         "mod": null,
         "name": "Levi",
         "resigned": 1548548401,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": 1536538801
     },
@@ -1148,6 +1243,7 @@
         "mod": null,
         "name": "Steamy",
         "resigned": "1540254001 1550535601",
+        "resigned_from": "trialhelper helper",
         "trialhelper": "1539476401 1545870001",
         "trialminimod": null
     },
@@ -1160,6 +1256,7 @@
         "mod": null,
         "name": "Torochan",
         "resigned": 1545243033,
+        "resigned_from": "trialhelper",
         "trialhelper": 1544724633,
         "trialminimod": null
     },
@@ -1172,6 +1269,7 @@
         "mod": 1531940116,
         "name": "TMR",
         "resigned": "1533322516 1537210516",
+        "resigned_from": "mod minimod",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -1184,6 +1282,7 @@
         "mod": null,
         "name": "TezLie",
         "resigned": 1529151056,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -1196,6 +1295,7 @@
         "mod": null,
         "name": "Tytgamer",
         "resigned": 1540234516,
+        "resigned_from": "trialhelper",
         "trialhelper": 1539543316,
         "trialminimod": null
     },
@@ -1208,6 +1308,7 @@
         "mod": null,
         "name": "Ubksu",
         "resigned": 1537556116,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -1220,6 +1321,7 @@
         "mod": null,
         "name": "Vic",
         "resigned": "1535393310 1533319710",
+        "resigned_from": "helper helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -1232,6 +1334,7 @@
         "mod": null,
         "name": "Wepi",
         "resigned": 1566558213,
+        "resigned_from": "helper",
         "trialhelper": 1554894213,
         "trialminimod": null
     },
@@ -1244,6 +1347,7 @@
         "mod": null,
         "name": "Wire",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1545868800,
         "trialminimod": 1551658801
     },
@@ -1256,6 +1360,7 @@
         "mod": null,
         "name": "Moon moon",
         "resigned": 1534186516,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -1268,6 +1373,7 @@
         "mod": null,
         "name": "Zevroy",
         "resigned": 1530033469,
+        "resigned_from": "helper",
         "trialhelper": null,
         "trialminimod": null
     },
@@ -1280,6 +1386,7 @@
         "mod": null,
         "name": "Chef_ntt",
         "resigned": 1590838236,
+        "resigned_from": "helper",
         "trialhelper": 1579801928,
         "trialminimod": null
     },
@@ -1292,6 +1399,7 @@
         "mod": null,
         "name": "Uninstall",
         "resigned": 1618322271,
+        "resigned_from": "helper",
         "trialhelper": 1579801928,
         "trialminimod": null
     },
@@ -1304,6 +1412,7 @@
         "mod": 1601634642,
         "name": "Aitor",
         "resigned": 1624439845,
+        "resigned_from": "mod",
         "trialhelper": 1579801928,
         "trialminimod": 1595321920
     },
@@ -1316,6 +1425,7 @@
         "mod": 1601634642,
         "name": "Theking465",
         "resigned": 1653237183,
+        "resigned_from": "mod",
         "trialhelper": 1583085566,
         "trialminimod": 1590924636
     },
@@ -1328,6 +1438,7 @@
         "mod": 1590924636,
         "name": "Nexo",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1567210801,
         "trialminimod": 1579888328
     },
@@ -1340,6 +1451,7 @@
         "mod": null,
         "name": "Flayer",
         "resigned": 1651681984,
+        "resigned_from": "minimod",
         "trialhelper": 1583085566,
         "trialminimod": 1615985468
     },
@@ -1352,6 +1464,7 @@
         "mod": null,
         "name": "CAPS",
         "resigned": 1587027114,
+        "resigned_from": "helper",
         "trialhelper": 1583085566,
         "trialminimod": null
     },
@@ -1364,6 +1477,7 @@
         "mod": null,
         "name": "Bae",
         "resigned": 1598800130,
+        "resigned_from": "helper",
         "trialhelper": 1589718269,
         "trialminimod": null
     },
@@ -1376,6 +1490,7 @@
         "mod": null,
         "name": "Mashi",
         "resigned": 1610533338,
+        "resigned_from": "helper",
         "trialhelper": 1589718269,
         "trialminimod": null
     },
@@ -1388,6 +1503,7 @@
         "mod": null,
         "name": "Yan",
         "resigned": 1628517721,
+        "resigned_from": "minimod",
         "trialhelper": 1592919726,
         "trialminimod": 1595321920
     },
@@ -1400,6 +1516,7 @@
         "mod": null,
         "name": "ZetaPhoenix",
         "resigned": 1610272931,
+        "resigned_from": "helper",
         "trialhelper": 1592919726,
         "trialminimod": null
     },
@@ -1412,6 +1529,7 @@
         "mod": 1622892501,
         "name": "Weri",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1592919726,
         "trialminimod": 1595321920
     },
@@ -1424,6 +1542,7 @@
         "mod": null,
         "name": "FlamingoBoi",
         "resigned": 1596356936,
+        "resigned_from": "trialhelper",
         "trialhelper": 1595782560,
         "trialminimod": null
     },
@@ -1436,6 +1555,7 @@
         "mod": null,
         "name": "Shadow",
         "resigned": 1613930080,
+        "resigned_from": "helper",
         "trialhelper": 1595782560,
         "trialminimod": null
     },
@@ -1448,6 +1568,7 @@
         "mod": null,
         "name": "Groot",
         "resigned": 1627314159,
+        "resigned_from": "helper",
         "trialhelper": 1595782560,
         "trialminimod": null
     },
@@ -1460,6 +1581,7 @@
         "mod": null,
         "name": "Mayo",
         "resigned": 1616158268,
+        "resigned_from": "helper",
         "trialhelper": "1595782560 1638617355",
         "trialminimod": null
     },
@@ -1472,6 +1594,7 @@
         "mod": null,
         "name": "KryptonOmega",
         "resigned": 1620223073,
+        "resigned_from": "helper",
         "trialhelper": 1596356936,
         "trialminimod": null
     },
@@ -1484,6 +1607,7 @@
         "mod": null,
         "name": "Duden",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1596356936,
         "trialminimod": null
     },
@@ -1496,6 +1620,7 @@
         "mod": null,
         "name": "Joko",
         "resigned": 1616680272,
+        "resigned_from": "helper",
         "trialhelper": 1596356936,
         "trialminimod": null
     },
@@ -1508,6 +1633,7 @@
         "mod": null,
         "name": "King Lion",
         "resigned": 1617112272,
+        "resigned_from": "helper",
         "trialhelper": 1596356936,
         "trialminimod": null
     },
@@ -1520,6 +1646,7 @@
         "mod": null,
         "name": "Peppa",
         "resigned": 1622978900,
+        "resigned_from": "helper",
         "trialhelper": 1596356936,
         "trialminimod": null
     },
@@ -1532,6 +1659,7 @@
         "mod": null,
         "name": "Raji",
         "resigned": 1634290429,
+        "resigned_from": "helper",
         "trialhelper": 1596964181,
         "trialminimod": null
     },
@@ -1544,6 +1672,7 @@
         "mod": null,
         "name": "Ricky",
         "resigned": 1616072068,
+        "resigned_from": "helper",
         "trialhelper": 1596964181,
         "trialminimod": null
     },
@@ -1556,6 +1685,7 @@
         "mod": null,
         "name": "Lucky",
         "resigned": 1597400789,
+        "resigned_from": "trialhelper",
         "trialhelper": 1596964181,
         "trialminimod": null
     },
@@ -1568,6 +1698,7 @@
         "mod": null,
         "name": "Box",
         "resigned": 1625651350,
+        "resigned_from": "helper",
         "trialhelper": 1596964181,
         "trialminimod": null
     },
@@ -1580,6 +1711,7 @@
         "mod": null,
         "name": "Nougat",
         "resigned": 1616071988,
+        "resigned_from": "helper",
         "trialhelper": 1597574832,
         "trialminimod": null
     },
@@ -1592,6 +1724,7 @@
         "mod": null,
         "name": "Boris",
         "resigned": 1598713730,
+        "resigned_from": "trialhelper",
         "trialhelper": 1597574832,
         "trialminimod": null
     },
@@ -1604,6 +1737,7 @@
         "mod": null,
         "name": "Lexi37",
         "resigned": "1614016480 1630523339",
+        "resigned_from": "helper trialhelper",
         "trialhelper": "1597574832 1629313739",
         "trialminimod": null
     },
@@ -1616,6 +1750,7 @@
         "mod": null,
         "name": "Petal",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1598195330,
         "trialminimod": 1615985468
     },
@@ -1628,6 +1763,7 @@
         "mod": null,
         "name": "Goldini",
         "resigned": 1616071868,
+        "resigned_from": "helper",
         "trialhelper": 1598195330,
         "trialminimod": null
     },
@@ -1640,6 +1776,7 @@
         "mod": null,
         "name": "Bunno",
         "resigned": 1611311240,
+        "resigned_from": "helper",
         "trialhelper": 1598195330,
         "trialminimod": null
     },
@@ -1652,6 +1789,7 @@
         "mod": null,
         "name": "Adren",
         "resigned": 1598713730,
+        "resigned_from": "trialhelper",
         "trialhelper": 1598195330,
         "trialminimod": null
     },
@@ -1664,6 +1802,7 @@
         "mod": null,
         "name": "Pan",
         "resigned": 1632337619,
+        "resigned_from": "helper",
         "trialhelper": 1598800130,
         "trialminimod": null
     },
@@ -1676,6 +1815,7 @@
         "mod": null,
         "name": "Amelia",
         "resigned": 1615467070,
+        "resigned_from": "trialhelper",
         "trialhelper": 1598800130,
         "trialminimod": null
     },
@@ -1688,6 +1828,7 @@
         "mod": null,
         "name": "Leon",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1598800130,
         "trialminimod": 1620741473
     },
@@ -1700,6 +1841,7 @@
         "mod": null,
         "name": "Nachti",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1598800130,
         "trialminimod": 1635802582
     },
@@ -1712,6 +1854,7 @@
         "mod": null,
         "name": "Rem",
         "resigned": 1600019090,
+        "resigned_from": "trialhelper",
         "trialhelper": 1597574832,
         "trialminimod": null
     },
@@ -1724,6 +1867,7 @@
         "mod": null,
         "name": "Dion",
         "resigned": 1600019090,
+        "resigned_from": "trialhelper",
         "trialhelper": 1597574832,
         "trialminimod": null
     },
@@ -1736,6 +1880,7 @@
         "mod": 1546859013,
         "name": "Maffin",
         "resigned": 1568027013,
+        "resigned_from": "mod",
         "trialhelper": 1541502213,
         "trialminimod": 1542971013
     },
@@ -1748,6 +1893,7 @@
         "mod": null,
         "name": "Annelotte",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1618149471,
         "trialminimod": null
     },
@@ -1760,6 +1906,7 @@
         "mod": 1635706305,
         "name": "Logan",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1618149471,
         "trialminimod": 1626968555
     },
@@ -1772,6 +1919,7 @@
         "mod": null,
         "name": "Tensyl",
         "resigned": 1629036121,
+        "resigned_from": "helper",
         "trialhelper": 1618149471,
         "trialminimod": null
     },
@@ -1784,6 +1932,7 @@
         "mod": 1641227509,
         "name": "Ro5in",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1618149471,
         "trialminimod": 1626968555
     },
@@ -1796,6 +1945,7 @@
         "mod": "1626968559 1635274305",
         "name": "Blueburned",
         "resigned": "1634031229 1651941184",
+        "resigned_from": "mod mod",
         "trialhelper": 1618149471,
         "trialminimod": 1620741473
     },
@@ -1808,6 +1958,7 @@
         "mod": null,
         "name": "Lealand",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1623670101,
         "trialminimod": 1643812552
     },
@@ -1820,6 +1971,7 @@
         "mod": null,
         "name": "Riya",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1623670101,
         "trialminimod": 1626968555
     },
@@ -1832,6 +1984,7 @@
         "mod": 1641227509,
         "name": "Foibos",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1623670101,
         "trialminimod": 1626968555
     },
@@ -1844,6 +1997,7 @@
         "mod": null,
         "name": "Marie",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1623670101,
         "trialminimod": 1643812552
     },
@@ -1856,6 +2010,7 @@
         "mod": null,
         "name": "Backfischii",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1623670101,
         "trialminimod": null
     },
@@ -1868,6 +2023,7 @@
         "mod": null,
         "name": "Eiskruemel",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1623670101,
         "trialminimod": null
     },
@@ -1880,6 +2036,7 @@
         "mod": null,
         "name": "Leam",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1629313739,
         "trialminimod": null
     },
@@ -1892,6 +2049,7 @@
         "mod": null,
         "name": "Tekisui",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1629313739,
         "trialminimod": 1635802582
     },
@@ -1904,6 +2062,7 @@
         "mod": null,
         "name": "Danish",
         "resigned": 1649082952,
+        "resigned_from": "helper",
         "trialhelper": 1634376829,
         "trialminimod": null
     },
@@ -1916,6 +2075,7 @@
         "mod": null,
         "name": "Krabbs",
         "resigned": 1650385984,
+        "resigned_from": "helper",
         "trialhelper": 1634376829,
         "trialminimod": null
     },
@@ -1928,6 +2088,7 @@
         "mod": null,
         "name": "Miku",
         "resigned": 1651941184,
+        "resigned_from": "helper",
         "trialhelper": 1634376829,
         "trialminimod": null
     },
@@ -1940,6 +2101,7 @@
         "mod": null,
         "name": "Ocean",
         "resigned": 1649781184,
+        "resigned_from": "helper",
         "trialhelper": 1634376829,
         "trialminimod": null
     },
@@ -1952,6 +2114,7 @@
         "mod": null,
         "name": "Aleroka",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1638617355,
         "trialminimod": null
     },
@@ -1964,6 +2127,7 @@
         "mod": null,
         "name": "Aquamarine",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1638617355,
         "trialminimod": null
     },
@@ -1976,6 +2140,7 @@
         "mod": null,
         "name": "Duplo",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1638617355,
         "trialminimod": null
     },
@@ -1988,6 +2153,7 @@
         "mod": null,
         "name": "Elin",
         "resigned": 1649781184,
+        "resigned_from": "helper",
         "trialhelper": 1638617355,
         "trialminimod": null
     },
@@ -2000,6 +2166,7 @@
         "mod": null,
         "name": "Fawais",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1638617355,
         "trialminimod": null
     },
@@ -2012,6 +2179,7 @@
         "mod": null,
         "name": "Scout",
         "resigned": 1651336384,
+        "resigned_from": "trialhelper",
         "trialhelper": 1649176384,
         "trialminimod": null
     },
@@ -2024,6 +2192,7 @@
         "mod": null,
         "name": "CyberAiron",
         "resigned": 1654705984,
+        "resigned_from": "helper",
         "trialhelper": 1649176384,
         "trialminimod": null
     },
@@ -2036,6 +2205,7 @@
         "mod": null,
         "name": "TigerPuppy",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1653323584,
         "trialminimod": null
     },
@@ -2048,6 +2218,7 @@
         "mod": null,
         "name": "Rikka",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1653323584,
         "trialminimod": null
     },
@@ -2060,6 +2231,7 @@
         "mod": null,
         "name": "Bratii",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1653323584,
         "trialminimod": null
     },
@@ -2072,6 +2244,7 @@
         "mod": null,
         "name": "Hyk",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1653323584,
         "trialminimod": null
     },
@@ -2084,6 +2257,7 @@
         "mod": null,
         "name": "Renardeau",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1653323584,
         "trialminimod": null
     },
@@ -2096,6 +2270,7 @@
         "mod": null,
         "name": "WerewolfofNether",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1653323584,
         "trialminimod": null
     },
@@ -2108,6 +2283,7 @@
         "mod": null,
         "name": "Kaito",
         "resigned": null,
+        "resigned_from": null,
         "trialhelper": 1653323584,
         "trialminimod": null
     }
