@@ -79,7 +79,7 @@ async function get_users_from_role(role_name) {
                 name: elmt.name,
                 time: new_time,
                 current: elmt.current,
-                languages: elmt.languages
+                languages: elmt.languages.split(" ")
             })
         }
     })
@@ -239,7 +239,7 @@ async function loading() {
 
         // sort accordingly
         if (sort_type == "language") {
-            users_data.sort((a,b) => a.languages.localeCompare(b.languages))
+            users_data.sort((a,b) => a.languages.toString().localeCompare(b.languages.toString()))
         } else if (sort_type == "name") {
             users_data.sort((a,b) => a.name.localeCompare(b.name))
         } else { 
@@ -264,7 +264,6 @@ async function loading() {
 function user_to_flags(html_parent, user_data) {
     /*
     pre: html_parent is a HTML element, user_data is a user object (keys: name, roles, current, languages)
-         languages is a string, eg: "Dutch German"
     post: adds text & a link to the user page and displays the flags next to the name
     */
     // Create link
@@ -277,7 +276,7 @@ function user_to_flags(html_parent, user_data) {
     let flag_container = document.createElement('div')
     flag_container.classList = "flag_container"
 
-    user_data.languages.split(" ").forEach(language => {
+    user_data.languages.forEach(language => {
         // for each flag to add
         temp_img = document.createElement('img')
         temp_img.src = text_to_flag[language]
