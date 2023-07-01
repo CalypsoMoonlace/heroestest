@@ -371,10 +371,57 @@ async function show_user_info(user_data) {
         document.getElementsByClassName('birthday')[0].style.display = "none"
     }
 
+    // Display years of service, if any
+    let years = get_years_from_user(user_data.roles, role_db)
+    if (years == 1) {
+        document.getElementsByClassName("rang")[0].innerHTML += `<br>Has been staff for over a year <img src='https://cdn.discordapp.com/emojis/590721116990078997.png' class='mini_img'>`
+    }
+    if (years >= 2) {
+        document.getElementsByClassName("rang")[0].innerHTML += `<br>Has been staff for over ${years} years <img src='https://cdn.discordapp.com/emojis/590721116990078997.png' class='mini_img'>`
+    }
+
     // Display the rest of the data
     document.getElementById("staff_member_name").innerText = user_data.name
     document.getElementsByClassName("list_category")[0].style.display = "none" // role info -> if not a role, disappear
     document.getElementsByClassName("current_info")[0].innerText = "Current status"
+}
+
+
+function get_years_from_user(role_joins, role_db) {
+    /*
+    pre: role_joins is a list of objects (keys: name, time) or (keys: name, time, from) for resigns
+         role_db is the data from the Role database
+
+    post: returns the amount of years spent as a staff member
+    */
+    let current_categories = []
+    let time = 0
+
+    for (var i = 0; i < role_joins.length; i++) {
+        // Add time since previous check
+        if (i > 0 && current_categories.length > 0) {
+            time += role_joins[i].time - role_joins[i-1].time
+        }
+
+        let role_data = role_db.find(elmt => elmt.name == role_joins[i].name)
+        let current_index = current_categories.indexOf(role_data.category); // find which category to update
+
+        // Update current_categories
+        if (role_joins[i].name == "resigned") { 
+
+            let role_data = role_db.find(elmt => elmt.name == role_joins[i].from)
+            let remove_index = current_categories.indexOf(role_data.category); // find which category to remove
+            current_categories.splice(remove_index, 1); // remove one value, starting at remove_index
+
+        } else if (!current_index) {
+            current_categories.push(role_data.category)
+        }
+        console.log(current_categories)
+    }
+
+    console.log(time)
+
+    return Math.floor(time/31536000)
 }
 
 async function show_role_info(role_joins, role_name, sort_type) {
@@ -412,7 +459,6 @@ async function show_role_info(role_joins, role_name, sort_type) {
     })
 
     // Reverse order if sort == time because the newest should show up first
-    console.log(role_joins)
     if (sort_type == "time") {
         role_joins.reverse() 
         // NOTE: this is in place. The reason being that toReversed(), the not in place counterpart is not compatible with some browsers.
