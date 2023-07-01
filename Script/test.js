@@ -330,11 +330,7 @@ async function show_user_info(user_data) {
         let new_role = document.createElement('div')
 
         // Create role item
-        if (role == "resigned") {
-            new_role.innerText = `No longer was a ${role.from}`
-        } else {
-            role_to_link(new_role, role, role_db)
-        }
+        role_to_link(new_role, role, role_db)
 
         // Append
         document.getElementsByClassName("rang")[0].appendChild(new_role)
@@ -346,7 +342,12 @@ async function show_user_info(user_data) {
         let new_role = document.createElement('div')
 
         // Create role item
-        role_to_link(new_role, role.name, role_db)
+        if (role == "resigned") {
+            new_role.innerText = `No longer was a ${role.from}`
+        } else {
+            role_to_link(new_role, role, role_db)
+        }
+
 
         // Create role date
         let new_date = document.createElement('div');

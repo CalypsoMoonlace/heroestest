@@ -164,7 +164,7 @@
         "colour": "#FFFFFF",
         "creation": 0,
         "description": "They no longer are a staff member.",
-        "display_name": "No longer a staff member",
+        "display_name": "This user no longer has any staff role.",
         "name": "resigned"
     }
 ]

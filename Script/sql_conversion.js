@@ -464,7 +464,7 @@ let display_names = {
 	tc_mod: "Moderator <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>",
 	tc_admin: "Admin <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>",
 	tc_manager: "Manager <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>",
-	resigned: "No longer a staff member"
+	resigned: "This user no longer has any staff role."
 }
 
 Object.keys(role_colours).forEach(key => {
