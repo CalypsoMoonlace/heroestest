@@ -129,9 +129,10 @@ async function get_roles_from_user(user_name) {
         let category_db = await get_db_from_name(member_categories[i])
         let category_data = category_db.find((elmt) => elmt.name == user_name)
 
-        Object.keys(category_data).forEach(key => {
-            // Add all keys with data
+        for (var j = 0; j < Object.keys(category_data).length; j++) {
+            key = Object.keys(category_data)[j]
             
+            // Add all keys with data
             if (category_data[key] == null) { // Empty value, nothing to add
                 continue
             }
@@ -146,11 +147,11 @@ async function get_roles_from_user(user_name) {
                 resigned_from = category_data["resigned_from"].toString().split(" ")
 
                 // add all of them
-                for (var i = 0; i < resigns.length; i++) {
+                for (var k = 0; k < resigns.length; k++) {
                     result.roles.push({
                         name: key,
-                        time: parseInt(resigns[i]),
-                        from: resigned_from[i]
+                        time: parseInt(resigns[k]),
+                        from: resigned_from[k]
                     })
                 }
             } else { 
@@ -163,7 +164,7 @@ async function get_roles_from_user(user_name) {
                     })
                 })
             }
-        })
+        }
 
         if (category_data.current != "resigned") { // avoid getting "resigned" several times
             result.current.push(category_data.current)
