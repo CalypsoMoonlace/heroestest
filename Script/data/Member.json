@@ -756,7 +756,7 @@
         "name": "King Lion"
     },
     {
-        "birthday": "2/7",
+        "birthday": null,
         "categories": "Discord Mentor",
         "languages": "English French",
         "name": "Peppa"
@@ -804,7 +804,7 @@
         "name": "Lexi37"
     },
     {
-        "birthday": "23/10",
+        "birthday": null,
         "categories": "Discord Mentor",
         "languages": "English Portuguese_br Spanish",
         "name": "Petal"
