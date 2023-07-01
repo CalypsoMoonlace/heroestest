@@ -427,26 +427,27 @@ function show_error(error_num) {
     post: shows the error on the page
     */
     if (error_num == 400) { // Invalid request (e.g. no role nor user request)
+        // show error on website
         document.getElementById("staff_member_name").innerText = "Invalid arguments"
-        document.getElementsByClassName("list_category")[0].style.display = "none"
-        document.getElementsByClassName("list_category")[1].style.display = "none"
-        document.getElementsByClassName("list_category")[2].style.display = "none"
-        document.getElementsByClassName("languages")[0].style.display = "none"
-        document.getElementsByClassName("artist")[0].innerText = "Jaküm Astrotel#3772"
-        document.getElementsByClassName('birthday')[0].style.display = "block"
         document.getElementsByClassName("birthday")[0].innerHTML = "You found yourself in a weird place... <br> <br> Go back <a class='yellow' href='https://heroes.wolvesville.com/'>home?</a>"
-        document.getElementsByClassName('backgroundImage')[0].style.backgroundImage = "url(Pictures/404.png)"
     }
 
     if (error_num == 404) { // Nothing found (e.g. wrong role/user name)
+        // show error on website
         document.getElementById("staff_member_name").innerText = "Nothing found"
-        document.getElementsByClassName("list_category")[0].style.display = "none"
-        document.getElementsByClassName("list_category")[1].style.display = "none"
-        document.getElementsByClassName("list_category")[2].style.display = "none"
-        document.getElementsByClassName("languages")[0].style.display = "none"
-        document.getElementsByClassName("artist")[0].innerText = "Jaküm Astrotel#3772"
-        document.getElementsByClassName('birthday')[0].style.display = "block"
         document.getElementsByClassName("birthday")[0].innerHTML = "You found yourself in a weird place... <br> <br> Go back <a class='yellow' href='https://heroes.wolvesville.com/'>home?</a>"
-        document.getElementsByClassName('backgroundImage')[0].style.backgroundImage = "url(Pictures/404.png)"
+        
     }
+
+    // hide empty stuff
+    document.getElementsByClassName("list_category")[0].style.display = "none"
+    document.getElementsByClassName("list_category")[1].style.display = "none"
+    document.getElementsByClassName("list_category")[2].style.display = "none"
+    document.getElementsByClassName("languages")[0].style.display = "none"
+    document.getElementsByClassName('sort_button')[0].style.visibility = "hidden";
+
+    // change bg pfp (might be removed)
+    document.getElementsByClassName("artist")[0].innerText = "Jaküm Astrotel#3772"
+    document.getElementsByClassName('birthday')[0].style.display = "block"
+    document.getElementsByClassName('backgroundImage')[0].style.backgroundImage = "url(Pictures/404.png)"
 }
