@@ -1,42 +1,3 @@
-// text_to_flag is temporary and should be replaced by static files to ensure it remains functional at all times
- 
-let text_to_flag = { // use https://github.com/twitter/twemoji/tree/master/assets/72x72 and lookup the unicode of the flag 
-    Albanian: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1e6-1f1f1.png",
-    Arabic: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ef-1f1f4.png",
-    Azerbaijan: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1e6-1f1ff.png",
-    Canadian: "https://twemoji.maxcdn.com/v/13.0.1/72x72/1f1e8-1f1e6.png",
-    Chinese: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1e8-1f1f3.png",
-    Czech: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1e8-1f1ff.png",
-    Danish: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1e9-1f1f0.png",
-    Dutch: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f3-1f1f1.png",
-    Finnish: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1eb-1f1ee.png",
-    Filipino: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f5-1f1ed.png",
-    French: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1eb-1f1f7.png",
-    English: "https://www.wolvesville.com/static/media/flag_en.72a22873.svg", // mix from GB and american flag, to avoid cultural issues
-    German: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1e9-1f1ea.png",
-    Greek: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ec-1f1f7.png",
-    Hindi: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ee-1f1f3.png",
-    Indonesian: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ee-1f1e9.png",
-    Hungarian: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ed-1f1fa.png",
-    Hebrew: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ee-1f1f1.png",
-    Italian: "https://twemoji.maxcdn.com/v/13.0.1/72x72/1f1ee-1f1f9.png",
-    Lithuanian: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f1-1f1f9.png",
-    Macedonian: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f2-1f1f0.png",
-    Malay: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f2-1f1fe.png",
-    Portuguese: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f5-1f1f9.png",
-    Portuguese_br: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1e7-1f1f7.png",
-    Russian: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f7-1f1fa.png",
-    Romanian: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f7-1f1f4.png",
-    Spanish: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1ea-1f1e6.png",
-    Slovenian: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f8-1f1ee.png",
-    Slovak: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f8-1f1f0.png",
-    Swedish: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1f8-1f1ea.png",
-    Thai: "https://twemoji.maxcdn.com/v/13.0.1/72x72/1f1f1-1f1e6.png",
-    Turkish: "https://twemoji.maxcdn.com/v/13.0.1/72x72/1f1f9-1f1f7.png",
-    Ukrainian: "https://twemoji.maxcdn.com/v/13.0.1/72x72/1f1fa-1f1e6.png",
-    Vietnamese: "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f1fb-1f1f3.png"
-}
-
 async function get_db_from_name(db_name) {
     const response = await fetch(`./Script/data/${db_name}.json`)
     const jsonData = await response.json()
@@ -284,6 +245,8 @@ function user_to_flags(html_parent, user_data) {
     /*
     pre: html_parent is a HTML element, user_data is a user object (keys: name, roles, current, languages)
     post: adds text & a link to the user page and displays the flags next to the name
+
+    Note: to download new flags, use https://github.com/twitter/twemoji/tree/master/assets/72x72 and lookup the unicode of the flag 
     */
     // Create link
     let user_html = document.createElement('a');
@@ -298,7 +261,7 @@ function user_to_flags(html_parent, user_data) {
     user_data.languages.forEach(language => {
         // for each flag to add
         temp_img = document.createElement('img')
-        temp_img.src = text_to_flag[language]
+        temp_img.src = `flags/${language}.png`
         temp_img.classList = "mini_img"
         flag_container.appendChild(temp_img)
     })
