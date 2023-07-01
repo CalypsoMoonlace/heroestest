@@ -342,7 +342,7 @@ async function show_user_info(user_data) {
         let new_role = document.createElement('div')
 
         // Create role item
-        if (role == "resigned") {
+        if (role.name == "resigned") {
             new_role.innerText = `No longer was a ${role.from}`
         } else {
             role_to_link(new_role, role, role_db)
