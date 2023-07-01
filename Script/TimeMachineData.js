@@ -2845,7 +2845,6 @@ var staff_birthdays = {
 	Nachti: "14/10",
 	Teyzeniz: "18/10",
 	Box: "21/10",
-	Petal: "23/10",
 	Lucienbl: "25/10",
 	Raven: "30/10",
 	Shadow: "30/10",

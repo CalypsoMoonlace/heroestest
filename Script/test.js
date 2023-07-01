@@ -261,7 +261,7 @@ function user_to_flags(html_parent, user_data) {
     user_data.languages.forEach(language => {
         // for each flag to add
         temp_img = document.createElement('img')
-        temp_img.src = `flags/${language}.png`
+        temp_img.src = `Pictures/flags/${language}.png`
         temp_img.classList = "mini_img"
         flag_container.appendChild(temp_img)
     })
