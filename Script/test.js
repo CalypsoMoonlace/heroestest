@@ -345,7 +345,7 @@ async function show_user_info(user_data) {
         if (role.name == "resigned") {
             // Resign case, find the previous role
             let role_data = role_db.find((elmt) => elmt.name == role.from)
-            new_role.innerText = `No longer was a ${role_data.display_name}`
+            new_role.innerHTML = `No longer was a ${role_data.display_name}`
 
         } else {
             role_to_link(new_role, role.name, role_db)
