@@ -145,7 +145,7 @@ a {
 	flex-direction: column;
 }
 
-.date_list li {
+.date_list div {
 	list-style-type: none;
 	text-align: left;
 }
