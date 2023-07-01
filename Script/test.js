@@ -414,7 +414,9 @@ async function show_role_info(role_joins, role_name, sort_type) {
     // Reverse order if sort == time because the newest should show up first
     console.log(role_joins)
     if (sort_type == "time") {
-        role_joins = role_joins.toReversed() // reverse but avoid modifying given array (won't break anything, but better to avoid) 
+        role_joins.reverse() 
+        // NOTE: this is in place. The reason being that toReversed(), the not in place counterpart is not compatible with some browsers.
+        // In theory, this doesn't break anything, but keep it in mind if adding new features.
     }
 
     // Add to updates
