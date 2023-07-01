@@ -209,7 +209,7 @@ async function loading() {
             document.getElementsByClassName('bottom_button')[1].href = `?role=${role_name}`;
         } else { 
             // default = sort by date
-            sort_type == "time"
+            sort_type = "time"
             users_data.sort((a,b) => a.time - b.time)
             document.getElementsByClassName('bottom_button')[1].innerText = "Sort by language";
             document.getElementsByClassName('bottom_button')[1].href = `?role=${role_name}&sort=language`;
