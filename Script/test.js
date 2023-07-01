@@ -352,16 +352,7 @@ async function show_user_info(user_data) {
     })
 
     // Display languages
-    let lang_string = "Languages spoken:"
-    for (var i = 0; i < user_data.languages.length; i++) {
-        if (i == user_data.languages.length - 1) {
-            // last one
-            lang_string += ` ${user_data.languages[i]}`
-        } else {
-            // adding all spoken languages one by one, space after the comma
-            lang_string += ` ${user_data.languages[i]},`
-        }
-    }
+    let lang_string = "Languages spoken: " + user_data.languages.join(", ")
     document.getElementsByClassName('languages')[0].innerText = lang_string
 
     // Display birthday or hide it
@@ -492,7 +483,7 @@ function show_error(error_num) {
     post: shows the error on the page
     */
     document.getElementsByClassName('birthday')[0].style.display = "block"
-    
+
     if (error_num == 400) { // Invalid request (e.g. no role nor user request)
         // show error on website
         document.getElementById("staff_member_name").innerText = "Invalid arguments"
