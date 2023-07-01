@@ -414,10 +414,8 @@ function get_years_from_user(role_joins, role_db) {
             let remove_index = current_categories.indexOf(role_data.category); // find which category to remove
             current_categories.splice(remove_index, 1); // remove one value, starting at remove_index
 
-        } else if (!current_index) {
+        } else if (current_index > 0) {
             current_categories.push(role_data.category)
-        } else {
-            console.log(current_index)
         }
         console.log(current_categories)
     }
