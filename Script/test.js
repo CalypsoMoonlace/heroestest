@@ -260,6 +260,11 @@ async function loading() {
         show_user_info(user_data)
     }
 
+    if (!member_name && !role_name) {
+        // Error 400, bad request
+        show_error(400)
+    }
+
     // Add random button
     let member_db = await get_db_from_name("Member")
     let random_index = Math.floor(Math.random()*member_db.length)
@@ -327,7 +332,7 @@ async function show_user_info(user_data) {
           doesn't return anything
     */
     if (!user_data.name) {
-        // Error 404
+        // Error 404, nothing found
         show_error(404)
         return
     }
@@ -412,7 +417,7 @@ async function show_role_info(role_joins, role_name) {
     let role_data = role_db.find((elmt) => elmt.name == role_name)
 
     if (!role_data) {
-        // Error 404
+        // Error 404, nothing found
         show_error(404)
         return
     }
@@ -449,6 +454,18 @@ function show_error(error_num) {
     pre: body is loaded, error_num is an integer
     post: shows the error on the page
     */
+    if (error_num == 400) { // Nothing found (e.g. wrong role/user name)
+        document.getElementById("staff_member_name").innerText = "Invalid arguments"
+        document.getElementsByClassName("list_category")[0].style.display = "none"
+        document.getElementsByClassName("list_category")[1].style.display = "none"
+        document.getElementsByClassName("list_category")[2].style.display = "none"
+        document.getElementsByClassName("languages")[0].style.display = "none"
+        document.getElementsByClassName("artist")[0].innerText = "Jaküm Astrotel#3772"
+        document.getElementsByClassName('birthday')[0].style.display = "block"
+        document.getElementsByClassName("birthday")[0].innerHTML = "You found yourself in a weird place... <br> <br> Go back <a class='yellow' href='https://heroes.wolvesville.com/'>home?</a>"
+        document.getElementsByClassName('backgroundImage')[0].style.backgroundImage = "url(Pictures/404.png)"
+    }
+
     if (error_num == 404) { // Nothing found (e.g. wrong role/user name)
         document.getElementById("staff_member_name").innerText = "Nothing found"
         document.getElementsByClassName("list_category")[0].style.display = "none"
