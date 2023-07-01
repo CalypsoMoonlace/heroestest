@@ -400,8 +400,12 @@ async function show_role_info(role_joins, role_name, sort_type) {
     let current_staff = 0
     role_joins.forEach(user => {
         if (user.current != "resigned") {
-            document.getElementsByClassName("rang")[0].appendChild(new_user.cloneNode(true)) // clone cause an element can only be in one place
             current_staff++
+
+            // Create element
+            let new_user = document.createElement('div');
+            user_to_flags(new_user, user)
+            document.getElementsByClassName("rang")[0].appendChild(new_user.cloneNode(true)) // clone cause an element can only be in one place
         }
     })
 
@@ -412,6 +416,7 @@ async function show_role_info(role_joins, role_name, sort_type) {
 
     // Add to updates
     role_joins.forEach(user => {
+        // Create element
         let new_user = document.createElement('div');
         let new_date = document.createElement('div');
         user_to_flags(new_user, user)
