@@ -209,13 +209,14 @@ async function loading() {
             document.getElementsByClassName('bottom_button')[1].href = `?role=${role_name}`;
         } else { 
             // default = sort by date
+            sort_type == "time"
             users_data.sort((a,b) => a.time - b.time)
             document.getElementsByClassName('bottom_button')[1].innerText = "Sort by language";
             document.getElementsByClassName('bottom_button')[1].href = `?role=${role_name}&sort=language`;
         }
 
         // show the data
-        show_role_info(users_data, role_name)
+        show_role_info(users_data, role_name, sort_type)
     }
 
     if (member_name) {
@@ -375,11 +376,12 @@ async function show_user_info(user_data) {
     document.getElementsByClassName("current_info")[0].innerText = "Current status"
 }
 
-async function show_role_info(role_joins, role_name) {
+async function show_role_info(role_joins, role_name, sort_type) {
     /*
     pre: body is loaded
          role_joins is a list of user objects (keys: name, roles, current, languages, birthday)
          => see get_users_from_role
+         sort_type is the selected sort type 
 
     post: adds all the data to the "rang" class elements
           doesn't return anything
@@ -394,24 +396,28 @@ async function show_role_info(role_joins, role_name) {
         return
     }
 
+    // Add to current
     let current_staff = 0
-
     role_joins.forEach(user => {
+        if (user.current != "resigned") {
+            document.getElementsByClassName("rang")[0].appendChild(new_user.cloneNode(true)) // clone cause an element can only be in one place
+            current_staff++
+        }
+    })
 
-        // Add to updates
+    // Reverse order if sort == time because the newest should show up first
+    if (sort_type == "time") {
+        role_joins = role_joins.toReversed() // reverse but avoid modifying given array (won't break anything, but better to avoid) 
+    }
+
+    // Add to updates
+    role_joins.forEach(user => {
         let new_user = document.createElement('div');
         let new_date = document.createElement('div');
         user_to_flags(new_user, user)
         new_date.innerText = unix_to_date(user.time)
         document.getElementsByClassName("rang")[1].appendChild(new_user)
         document.getElementsByClassName("rang")[2].appendChild(new_date)
-
-        // Add to current
-        if (user.current != "resigned") {
-            document.getElementsByClassName("rang")[0].appendChild(new_user.cloneNode(true)) // clone cause an element can only be in one place
-            current_staff++
-        }
-
     })
 
     // Display data
