@@ -259,6 +259,11 @@ async function loading() {
         // show the data
         show_user_info(user_data)
     }
+
+    // Add random button
+    let member_db = await get_db_from_name("Member")
+    let random_index = Math.floor(Math.random()*member_db.length)
+    document.getElementsByClassName('bottom_button')[2].href = "?member=" + member_db[random_index].name
 }
 
 function user_to_flags(html_parent, user_data) {
@@ -321,6 +326,12 @@ async function show_user_info(user_data) {
     post: adds all the data to the "rang" class elements
           doesn't return anything
     */
+    if (!user_data.name) {
+        // Error 404
+        show_error(404)
+        return
+    }
+
     // Get info from role db
     let role_db = await get_db_from_name("Role")
 
@@ -400,6 +411,12 @@ async function show_role_info(role_joins, role_name) {
     let role_db = await get_db_from_name("Role")
     let role_data = role_db.find((elmt) => elmt.name == role_name)
 
+    if (!role_data) {
+        // Error 404
+        show_error(404)
+        return
+    }
+
     let current_staff = 0
 
     role_joins.forEach(user => {
@@ -425,4 +442,22 @@ async function show_role_info(role_joins, role_name) {
     document.getElementById("staff_member_name").innerHTML = role_data.display_name
     document.getElementById("staff_member_name").style.color = role_data.colour
     document.getElementsByClassName('role_explanation')[0].innerHTML = role_data.description
+}
+
+function show_error(error_num) {
+    /*
+    pre: body is loaded, error_num is an integer
+    post: shows the error on the page
+    */
+    if (error_num == 404) { // Nothing found (e.g. wrong role/user name)
+        document.getElementById("staff_member_name").innerText = "Nothing found"
+        document.getElementsByClassName("list_category")[0].style.display = "none"
+        document.getElementsByClassName("list_category")[1].style.display = "none"
+        document.getElementsByClassName("list_category")[2].style.display = "none"
+        document.getElementsByClassName("languages")[0].style.display = "none"
+        document.getElementsByClassName("artist")[0].innerText = "Jaküm Astrotel#3772"
+        document.getElementsByClassName('birthday')[0].style.display = "block"
+        document.getElementsByClassName("birthday")[0].innerHTML = "You found yourself in a weird place... <br> <br> Go back <a class='yellow' href='https://heroes.wolvesville.com/'>home?</a>"
+        document.getElementsByClassName('backgroundImage')[0].style.backgroundImage = "url(Pictures/404.png)"
+    }
 }
