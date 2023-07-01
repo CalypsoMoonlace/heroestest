@@ -405,7 +405,7 @@ function get_years_from_user(role_joins, role_db) {
         }
 
         let role_data = role_db.find(elmt => elmt.name == role_joins[i].name)
-        let current_index = current_categories.indexOf(role_data.category); // find which category to update
+        let current_index = current_categories.indexOf(role_data.category); // find if category is present
 
         // Update current_categories
         if (role_joins[i].name == "resigned") { 
@@ -414,7 +414,7 @@ function get_years_from_user(role_joins, role_db) {
             let remove_index = current_categories.indexOf(role_data.category); // find which category to remove
             current_categories.splice(remove_index, 1); // remove one value, starting at remove_index
 
-        } else if (current_index > 0) {
+        } else if (current_index < 0) { // not found, add category
             current_categories.push(role_data.category)
         }
         console.log(current_categories)
