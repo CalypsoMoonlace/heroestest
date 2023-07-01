@@ -398,6 +398,7 @@ function get_years_from_user(role_joins, role_db) {
     let time = 0
 
     for (var i = 0; i < role_joins.length; i++) {
+        console.log(role_joins[i])
         // Add time since previous check
         if (i > 0 && current_categories.length > 0) {
             time += role_joins[i].time - role_joins[i-1].time
@@ -415,6 +416,8 @@ function get_years_from_user(role_joins, role_db) {
 
         } else if (!current_index) {
             current_categories.push(role_data.category)
+        } else {
+            console.log(current_index)
         }
         console.log(current_categories)
     }
