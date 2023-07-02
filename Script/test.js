@@ -490,7 +490,7 @@ function add_rank_link(role_db) {
     // pre: body is loaded, role_db is the data from the Role database and all role_link elements contain the text of a role
     // post: adds a link & the colour of the role
     Array.from(document.getElementsByClassName("role_link")).forEach(link => {
-        let role_data = role_db.find(elmt => elmt.name.toLowerCase() == link.innerText.toLowerCase())
+        let role_data = role_db.find(elmt => elmt.display_name.toLowerCase() == link.innerText.toLowerCase())
         link.href = `?role=${link.innerText}`
         link.color = role_data.colour
     })
