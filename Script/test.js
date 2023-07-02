@@ -481,6 +481,19 @@ async function show_role_info(role_joins, role_name, sort_type) {
     document.getElementById("staff_member_name").innerHTML = role_data.display_name
     document.getElementById("staff_member_name").style.color = role_data.colour
     document.getElementsByClassName('role_explanation')[0].innerHTML = role_data.description
+
+    // Add links and colours
+    add_rank_link(role_db)
+}
+
+function add_rank_link(role_db) {
+    // pre: body is loaded, role_db is the data from the Role database and all role_link elements contain the text of a role
+    // post: adds a link & the colour of the role
+    document.getElementsByClassName("role_link").forEach(link => {
+        let role_data = role_db.find(elmt => elmt.name.toLowerCase() == link.innerText.toLowerCase())
+        link.href = `?role=${link.innerText}`
+        link.color = role_data.colour
+    })
 }
 
 function show_error(error_num) {
