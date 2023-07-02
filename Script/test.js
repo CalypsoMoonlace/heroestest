@@ -128,7 +128,7 @@ async function get_roles_from_user(user_name) {
         }
 
         if (category_data.current != "resigned") { // avoid getting "resigned" several times
-            result.current.push(category_data.current)
+            result.current.concat(category_data.current.split(" "))
         }
     }
 
@@ -495,7 +495,6 @@ function show_error(error_num) {
         // show error on website
         document.getElementById("staff_member_name").innerText = "Nothing found"
         document.getElementsByClassName("birthday")[0].innerHTML = "You found yourself in a weird place... <br> <br> Go back <a class='yellow' href='https://heroes.wolvesville.com/'>home?</a>"
-        
     }
 
     // hide empty stuff

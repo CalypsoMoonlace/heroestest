@@ -564,11 +564,7 @@ function sanitize_object(staff) {
 		mod_duplicate: "mod",
 		mentor_duplicate: "mentor",
 		guardian_duplicate: "guardian",
-		instagram: "socialmedia",
-		instagram_duplicate: "socialmedia",
-		facebook: "socialmedia",
-		twitter: "socialmedia",
-		reddit: "socialmedia",
+		instagram_duplicate: "instagram",
 		no_more_staff: "resigned",
 		no_more_staff_duplicate: "resigned"
 	}

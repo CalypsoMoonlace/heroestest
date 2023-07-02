@@ -1,6 +1,6 @@
 [
     {
-        "current": "socialmedia",
+        "current": "reddit",
         "facebook": null,
         "instagram": null,
         "languages": "German",
@@ -12,7 +12,7 @@
         "twitter": null
     },
     {
-        "current": "socialmedia",
+        "current": "facebook",
         "facebook": "1578826940",
         "instagram": null,
         "languages": "German French",
@@ -24,7 +24,7 @@
         "twitter": null
     },
     {
-        "current": "socialmedia",
+        "current": "facebook twitter",
         "facebook": "1578826940",
         "instagram": null,
         "languages": "French",
@@ -60,7 +60,7 @@
         "twitter": null
     },
     {
-        "current": "socialmedia",
+        "current": "instagram",
         "facebook": null,
         "instagram": "1552820540",
         "languages": "Dutch",
@@ -84,7 +84,7 @@
         "twitter": null
     },
     {
-        "current": "socialmedia",
+        "current": "instagram twitter",
         "facebook": null,
         "instagram": "1573556540",
         "languages": "German",
@@ -108,7 +108,7 @@
         "twitter": null
     },
     {
-        "current": "socialmedia",
+        "current": "instagram",
         "facebook": null,
         "instagram": "1595502140 1622028501",
         "languages": "Vietnamese",
@@ -180,7 +180,7 @@
         "twitter": null
     },
     {
-        "current": "socialmedia",
+        "current": "facebook twitter",
         "facebook": "1558004540",
         "instagram": null,
         "languages": "English",
@@ -192,7 +192,7 @@
         "twitter": "1558004541"
     },
     {
-        "current": "socialmedia",
+        "current": "instagram",
         "facebook": null,
         "instagram": "1624302539",
         "languages": "Dutch",

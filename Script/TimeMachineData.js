@@ -2044,7 +2044,7 @@ var maffin_smm = {
 }
 var chris = {
 	name: "Chris Phil",
-	current_value: "facebook",
+	current_value: "facebook twitter",
 	facebook: 1558004540,
 	twitter: 1558004541
 }
@@ -2055,7 +2055,7 @@ var lisa_smm = {
 }
 var arnaud_smm = {
 	name: "Arnaud",
-	current_value: "facebook",
+	current_value: "facebook twitter",
 	facebook: 1578826940,
 	twitter: 1605105445
 }
@@ -2084,7 +2084,7 @@ var crush_smm = {
 }
 var duden_smm = {
 	name: "Duden",
-	current_value: "instagram",
+	current_value: "instagram twitter",
 	instagram: 1573556540,
 	twitter: 1605105445
 }
