@@ -337,7 +337,7 @@ async function show_user_info(user_data) {
             let role_data = role_db.find((elmt) => elmt.name == role.from)
             new_role.innerHTML = `No longer was a ${role_data.display_name}`
 
-        } else {
+        } else if (role.name != "socialmedia") { // exclude socialmedia because it'll be added by the media role directly (easiest way to do it unfortunately)
             role_to_link(new_role, role.name, role_db)
         }
 
