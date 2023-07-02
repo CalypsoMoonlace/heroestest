@@ -406,16 +406,16 @@ let role_descriptions = {
 	mod: 'Moderators can ban users from the discord. They manage the staff team and events.<br><br>They also take care of most <a href="http://bit.ly/RewardsGuideline" class="yellow" target="_blank">badges</a> and some game-related topics.',
 	megamod: 'They are the admins of the server. They manage all staff and focus on things such as rules, bans from the server, and other related topics. Megamod is the highest rank in staff and also the hardest one to get.',
 	guardian: 'Guardians take care of ingame reports and bans. They also handle GuardianChat tickets.<br><br>All guardians are over 18, speak english and never had any ingame ban.<br><br>Guardians are picked by the <a class="role_link">guardian manager</a> and <a class="role_link">guardian manager helper</a>.',
-	guardianmanagerhelper: 'The guardian manager helpers handles <a class="role_link">guardian</a>-related reports.<br><br>They help the <a class="role_link">guardian manager</a> manage the <a class="role_link">guardian</a> team.',
-	guardianmanager: 'The guardian manager handles <a class="role_link">guardian</a>-related reports.<br><br>They manage the team and decide if it is necessary to open <a class="role_link">guardian</a> applications.',
+	guardianmanagerhelper: 'The guardian manager helpers handle <a class="role_link">guardian</a>-related reports.<br><br>They help the <a class="role_link">guardian manager</a> manage the <a class="role_link">guardian</a> team.',
+	guardianmanager: 'The guardian managers handle <a class="role_link">guardian</a>-related reports.<br><br>They manage the team and decide if it is necessary to open <a class="role_link">guardian</a> applications.',
 	mentor: 'Mentors answer game-related questions via mentor chat. This is via another platform than discord.<br><br>All mentors are over 18 and speak english.<br><br>Mentors are picked by the <a class="role_link">mentor manager</a> and <a class="role_link">mentor manager helper</a>',
-	mentormanagerhelper: 'The mentor manager helpers handles <a class="role_link">mentor</a>-related reports.<br><br>They help the <a class="role_link">mentor manager</a> manage the <a class="role_link">mentor</a> team.',
+	mentormanagerhelper: 'The mentor manager helpers handle <a class="role_link">mentor</a>-related reports.<br><br>They help the <a class="role_link">mentor manager</a> manage the <a class="role_link">mentor</a> team.',
 	mentormanager: 'The mentor managers handle the <a class="role_link">mentor</a> team and take care of more aspects of it.<br><br>They manage the team and decide if it is necessary to open <a class="role_link">mentor</a> applications.',
-	socialmedia: 'Each social media manager handles one of the official account/platform on <a class="role_link">twitter</a>, <a class="role_link">reddit</a>, <a class="role_link">instagram</a> or <a class="role_link">facebook</a>',
-	twitter: 'They take care of the official <a href="https://twitter.com/wolvesville_app" target="_blank" class="yellow">twitter</a> account.',
-	facebook: 'They take care of the official <a href="https://www.facebook.com/wolvesville.wov/" target="_blank" class="yellow">facebook</a> account.',
-	instagram: 'They take care of the official <a href="https://www.instagram.com/wolvesville.wov/" target="_blank" class="yellow">instagram</a> account.',
-	reddit: 'They take care of the official <a href="https://www.reddit.com/r/werewolfonline/" target="_blank" class="yellow">subreddit</a>.',
+	socialmedia: 'Each social media manager handles one or more of the official account/platform on <a class="role_link">twitter</a>, <a class="role_link">reddit</a>, <a class="role_link">instagram</a> or <a class="role_link">facebook</a>',
+	twitter: 'The <a class="role_link">social media manager</a> team who takes care of the official <a href="https://twitter.com/wolvesville_app" target="_blank" class="yellow">twitter</a> account.',
+	facebook: 'The <a class="role_link">social media manager</a> team who takes care of the official <a href="https://www.facebook.com/wolvesville.wov/" target="_blank" class="yellow">facebook</a> account.',
+	instagram: 'The <a class="role_link">social media manager</a> team who takes care of the official <a href="https://www.instagram.com/wolvesville.wov/" target="_blank" class="yellow">instagram</a> account.',
+	reddit: 'The <a class="role_link">social media manager</a> team who takes care of the official <a href="https://www.reddit.com/r/werewolfonline/" target="_blank" class="yellow">subreddit</a>.',
 	dev: 'The game!<br><br>They are ones behind all new features and evil bugs, if they\'re not busy looking for squids.',
 	tc_mod: 'They handle tests of weird and funky scenarios in the <a href="https://discord.gg/SDujygY" target="_blank" class="yellow">Tester Club</a> sideserver and the server in itself.',
 	tc_admin: 'They take care of the <a href="https://discord.gg/SDujygY" target="_blank" class="yellow">Tester Club</a> sideserver with almost all permissions.',
@@ -471,7 +471,7 @@ let display_names = {
 	resigned: "This user no longer has any staff role."
 }
 
-exclude_show_higher = ["trialhelper","helper","trialminimod","minimod"]
+exclude_show_higher = ["trialhelper","helper","trialminimod","minimod", "guardianmanagerhelper", "mentormanagerhelper"]
 
 Object.keys(role_colours).forEach(key => {
 	Role.create({

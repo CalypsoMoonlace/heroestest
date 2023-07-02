@@ -3,7 +3,7 @@
         "category": "Discord",
         "colour": "#d7bf4c",
         "creation": 0,
-        "description": "A <a class=\"role_link\">helper<a> over time with the same rights as a <a class=\"role_link\">helper<a> to prove that they can be a good <a class=\"role_link\">helper<a>.<br><br> After a few days, higher ranked staff members will decide whether this person becomes a normal <a class=\"role_link\">helper<a> or not. <br><br> Applications for trial helpers are sometimes opened in <span style=\"color: #7289da\">#discord-announcements.</span>",
+        "description": "A <a class=\"role_link\" href=\"\">helper</a> over time with the same rights as a <a class=\"role_link\">helper</a> to prove that they can be a good <a class=\"role_link\">helper</a>.<br><br> After a few days, higher ranked staff members will decide whether this person becomes a normal <a class=\"role_link\">helper</a> or not. <br><br> Applications for trial helpers are sometimes opened in <span style=\"color: #7289da\">#discord-announcements.</span>",
         "display_name": "Trial Helper",
         "name": "trialhelper",
         "show_higher": 0
@@ -12,7 +12,7 @@
         "category": "Discord",
         "colour": "#dfac39",
         "creation": 0,
-        "description": "Helpers are users who have passed the <a class=\"role_link\">trial helper<a> phase. Helpers take care of <span style=\"color: #7289da\">#feedback, #bugs</span> and <span style=\"color: #7289da\">#questions</span>. They help keeping the server a clean and safe place.",
+        "description": "Helpers are users who have passed the <a class=\"role_link\">trial helper</a> phase. Helpers take care of <span style=\"color: #7289da\">#feedback, #bugs</span> and <span style=\"color: #7289da\">#questions</span>. They help keeping the server a clean and safe place.",
         "display_name": "Helper",
         "name": "helper",
         "show_higher": 0
@@ -21,7 +21,7 @@
         "category": "Discord",
         "colour": "#ed904a",
         "creation": 0,
-        "description": "A <a class=\"role_link\">minimod<a> over time with the same rights as a <a class=\"role_link\">minimod<a> to prove that they can be a good <a class=\"role_link\">minimod<a>.<br><br> After a few days, higher ranked staff members will decide whether this person becomes a normal <a class=\"role_link\">minimod<a> or not.",
+        "description": "A <a class=\"role_link\">minimod</a> over time with the same rights as a <a class=\"role_link\">minimod</a> to prove that they can be a good <a class=\"role_link\">minimod</a>.<br><br> After a few days, higher ranked staff members will decide whether this person becomes a normal <a class=\"role_link\">minimod</a> or not.",
         "display_name": "Trial Minimod",
         "name": "trialminimod",
         "show_higher": 0
@@ -30,7 +30,7 @@
         "category": "Discord",
         "colour": "#e1823b",
         "creation": 0,
-        "description": "Minimods are users who have passed the <a class=\"role_link\">trial minimod<a> phase. Minimods have the same tasks as <a class=\"role_link\">helper<a> but can also take care of misbehaving users.<br><br>They also handle submissions for <span style=\"color: #7289da\">#vote.</span>",
+        "description": "Minimods are users who have passed the <a class=\"role_link\">trial minimod</a> phase. Minimods have the same tasks as <a class=\"role_link\">helper</a> but can also take care of misbehaving users.<br><br>They also handle submissions for <span style=\"color: #7289da\">#vote.</span>",
         "display_name": "Minimod",
         "name": "minimod",
         "show_higher": 0
@@ -39,7 +39,7 @@
         "category": "Discord",
         "colour": "#da685c",
         "creation": 0,
-        "description": "Moderators can ban users from the discord. They manage the staff team and events.<br><br>They also take care of most <a href=\"http://bit.ly/RewardsGuideline\" class=\"yellow\" target=\"_blank\">badges<a> and some game-related topics.",
+        "description": "Moderators can ban users from the discord. They manage the staff team and events.<br><br>They also take care of most <a href=\"http://bit.ly/RewardsGuideline\" class=\"yellow\" target=\"_blank\">badges</a> and some game-related topics.",
         "display_name": "Moderator",
         "name": "mod",
         "show_higher": 1
@@ -57,7 +57,7 @@
         "category": "Guardian",
         "colour": "#18d0ff",
         "creation": 0,
-        "description": "Guardians take care of ingame reports and bans. They also handle GuardianChat tickets.<br><br>All guardians are over 18, speak english and never had any ingame ban.<br><br>Guardians are picked by the <a class=\"role_link\">guardian manager<a> and <a class=\"role_link\">guardian manager helper<a>.",
+        "description": "Guardians take care of ingame reports and bans. They also handle GuardianChat tickets.<br><br>All guardians are over 18, speak english and never had any ingame ban.<br><br>Guardians are picked by the <a class=\"role_link\">guardian manager</a> and <a class=\"role_link\">guardian manager helper</a>.",
         "display_name": "Guardian",
         "name": "guardian",
         "show_higher": 1
@@ -66,16 +66,16 @@
         "category": "Guardian",
         "colour": "#18d0ff",
         "creation": 0,
-        "description": "The guardian manager helpers handles <a class=\"role_link\">guardian<a>-related reports.<br><br>They help the <a class=\"role_link\">guardian manager<a> manage the <a class=\"role_link\">guardian<a> team.",
+        "description": "The guardian manager helpers handle <a class=\"role_link\">guardian</a>-related reports.<br><br>They help the <a class=\"role_link\">guardian manager</a> manage the <a class=\"role_link\">guardian</a> team.",
         "display_name": "Guardian Manager Helper",
         "name": "guardianmanagerhelper",
-        "show_higher": 1
+        "show_higher": 0
     },
     {
         "category": "Guardian",
         "colour": "#00b1ff",
         "creation": 0,
-        "description": "The guardian manager handles <a class=\"role_link\">guardian<a>-related reports.<br><br>They manage the team and decide if it is necessary to open <a class=\"role_link\">guardian<a> applications.",
+        "description": "The guardian managers handle <a class=\"role_link\">guardian</a>-related reports.<br><br>They manage the team and decide if it is necessary to open <a class=\"role_link\">guardian</a> applications.",
         "display_name": "Guardian Manager",
         "name": "guardianmanager",
         "show_higher": 1
@@ -84,7 +84,7 @@
         "category": "Mentor",
         "colour": "#f26f93",
         "creation": 0,
-        "description": "Mentors answer game-related questions via mentor chat. This is via another platform than discord.<br><br>All mentors are over 18 and speak english.<br><br>Mentors are picked by the <a class=\"role_link\">mentor manager<a> and <a class=\"role_link\">mentor manager helper<a>",
+        "description": "Mentors answer game-related questions via mentor chat. This is via another platform than discord.<br><br>All mentors are over 18 and speak english.<br><br>Mentors are picked by the <a class=\"role_link\">mentor manager</a> and <a class=\"role_link\">mentor manager helper</a>",
         "display_name": "Mentor",
         "name": "mentor",
         "show_higher": 1
@@ -93,16 +93,16 @@
         "category": "Mentor",
         "colour": "#eb6a8c",
         "creation": 0,
-        "description": "The mentor manager helpers handles <a class=\"role_link\">mentor<a>-related reports.<br><br>They help the <a class=\"role_link\">mentor manager<a> manage the <a class=\"role_link\">mentor<a> team.",
+        "description": "The mentor manager helpers handle <a class=\"role_link\">mentor</a>-related reports.<br><br>They help the <a class=\"role_link\">mentor manager</a> manage the <a class=\"role_link\">mentor</a> team.",
         "display_name": "Mentor Manager Helper",
         "name": "mentormanagerhelper",
-        "show_higher": 1
+        "show_higher": 0
     },
     {
         "category": "Mentor",
         "colour": "#f2557f",
         "creation": 0,
-        "description": "The mentor managers handle the <a class=\"role_link\">mentor<a> team and take care of more aspects of it.<br><br>They manage the team and decide if it is necessary to open <a class=\"role_link\">mentor<a> applications.",
+        "description": "The mentor managers handle the <a class=\"role_link\">mentor</a> team and take care of more aspects of it.<br><br>They manage the team and decide if it is necessary to open <a class=\"role_link\">mentor</a> applications.",
         "display_name": "Mentor Manager",
         "name": "mentormanager",
         "show_higher": 1
@@ -111,7 +111,7 @@
         "category": "SocialMedia",
         "colour": "#4962fd",
         "creation": 0,
-        "description": "They take care of the official <a href=\"https://www.reddit.com/r/werewolfonline/\" target=\"_blank\" class=\"yellow\">subreddit<a>.",
+        "description": "The <a class=\"role_link\">social media manager</a> team who takes care of the official <a href=\"https://www.reddit.com/r/werewolfonline/\" target=\"_blank\" class=\"yellow\">subreddit</a>.",
         "display_name": "Social media manager <img src='Pictures/reddit logo.png' class='mini_img'>",
         "name": "reddit",
         "show_higher": 1
@@ -120,7 +120,7 @@
         "category": "SocialMedia",
         "colour": "#4962fd",
         "creation": 0,
-        "description": "They take care of the official <a href=\"https://www.instagram.com/wolvesville.wov/\" target=\"_blank\" class=\"yellow\">instagram<a> account.",
+        "description": "The <a class=\"role_link\">social media manager</a> team who takes care of the official <a href=\"https://www.instagram.com/wolvesville.wov/\" target=\"_blank\" class=\"yellow\">instagram</a> account.",
         "display_name": "Social media manager <img src='Pictures/instagram logo.png' class='mini_img'>",
         "name": "instagram",
         "show_higher": 1
@@ -129,7 +129,7 @@
         "category": "SocialMedia",
         "colour": "#4962fd",
         "creation": 0,
-        "description": "They take care of the official <a href=\"https://www.facebook.com/wolvesville.wov/\" target=\"_blank\" class=\"yellow\">facebook<a> account.",
+        "description": "The <a class=\"role_link\">social media manager</a> team who takes care of the official <a href=\"https://www.facebook.com/wolvesville.wov/\" target=\"_blank\" class=\"yellow\">facebook</a> account.",
         "display_name": "Social media manager <img src='Pictures/facebook logo.png' class='mini_img'>",
         "name": "facebook",
         "show_higher": 1
@@ -138,7 +138,7 @@
         "category": "SocialMedia",
         "colour": "#4962fd",
         "creation": 0,
-        "description": "They take care of the official <a href=\"https://twitter.com/wolvesville_app\" target=\"_blank\" class=\"yellow\">twitter<a> account.",
+        "description": "The <a class=\"role_link\">social media manager</a> team who takes care of the official <a href=\"https://twitter.com/wolvesville_app\" target=\"_blank\" class=\"yellow\">twitter</a> account.",
         "display_name": "Social media manager <img src='Pictures/twitter logo.png' class='mini_img'>",
         "name": "twitter",
         "show_higher": 1
@@ -147,7 +147,7 @@
         "category": "SocialMedia",
         "colour": "#4962fd",
         "creation": 0,
-        "description": "Each social media manager handles one of the official account/platform on <a class=\"role_link\">twitter<a>, <a class=\"role_link\">reddit<a>, <a class=\"role_link\">instagram<a> or <a class=\"role_link\">facebook<a>",
+        "description": "Each social media manager handles one or more of the official account/platform on <a class=\"role_link\">twitter</a>, <a class=\"role_link\">reddit</a>, <a class=\"role_link\">instagram</a> or <a class=\"role_link\">facebook</a>",
         "display_name": "Social media manager",
         "name": "socialmedia",
         "show_higher": 1
