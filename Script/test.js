@@ -327,7 +327,12 @@ async function show_user_info(user_data) {
     })
 
     // Add role history
-    user_data.roles.forEach(role => {
+    for (var i = 0; i < user_data.roles.length; i++) {
+        role = user_data.roles[i]
+        if (role.name == "socialmedia") {
+            continue // exclude socialmedia because it'll be added by the media role directly (easiest way to do it unfortunately)
+        }
+
         // Create role item container
         let new_role = document.createElement('div')
 
@@ -337,7 +342,7 @@ async function show_user_info(user_data) {
             let role_data = role_db.find((elmt) => elmt.name == role.from)
             new_role.innerHTML = `No longer was a ${role_data.display_name}`
 
-        } else if (role.name != "socialmedia") { // exclude socialmedia because it'll be added by the media role directly (easiest way to do it unfortunately)
+        } else { 
             role_to_link(new_role, role.name, role_db)
         }
 
@@ -349,7 +354,7 @@ async function show_user_info(user_data) {
         // Append
         document.getElementsByClassName("rang")[1].appendChild(new_role)
         document.getElementsByClassName("rang")[2].appendChild(new_date)
-    })
+    }
 
     // Display languages
     let lang_string = "Languages spoken: " + user_data.languages.join(", ")
