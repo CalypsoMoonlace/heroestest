@@ -128,7 +128,7 @@ async function get_roles_from_user(user_name) {
         }
 
         if (category_data.current != "resigned") { // avoid getting "resigned" several times
-            result.current.concat(category_data.current.split(" "))
+            result.current = result.current.concat(category_data.current.split(" "))
         }
     }
 
