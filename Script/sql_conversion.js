@@ -349,6 +349,10 @@ Role.init({
         type: DataTypes.TEXT,
         allowNull: false
     },
+    show_higher: {
+        type: DataTypes.BOOLEAN,
+        allowNull: false
+    },
     creation: {
         type: DataTypes.INTEGER,
         allowNull: false
@@ -467,6 +471,8 @@ let display_names = {
 	resigned: "This user no longer has any staff role."
 }
 
+exclude_show_higher = ["trialhelper","helper","trialminimod","minimod"]
+
 Object.keys(role_colours).forEach(key => {
 	Role.create({
 		name: key,
@@ -474,6 +480,7 @@ Object.keys(role_colours).forEach(key => {
 		display_name: display_names[key],
 		description: role_descriptions[key],
 		colour: role_colours[key],
+		show_higher: (!exclude_show_higher.includes(key)), // if in exclude list, set to false, otherwise set to true
 		creation: 0
 	})
 })

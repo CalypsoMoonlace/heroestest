@@ -442,7 +442,8 @@ async function show_role_info(role_joins, role_name, sort_type) {
     // Add to current
     let current_staff = 0
     role_joins.forEach(user => {
-        if (user.current != "resigned") {
+        if (user.current == role_name || (user.current != "resigned" && role.show_higher)) {
+            // If the user has the role now OR if they have another (higher) role and the role allows showing higher positions
             current_staff++
 
             // Create element
