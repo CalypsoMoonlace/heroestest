@@ -449,7 +449,7 @@ async function show_role_info(role_joins, role_name, sort_type) {
             // Create element
             let new_user = document.createElement('div');
             user_to_flags(new_user, user)
-            document.getElementsByClassName("rang")[0].appendChild(new_user.cloneNode(true)) // clone cause an element can only be in one place
+            document.getElementsByClassName("rang")[0].appendChild(new_user)
         }
     })
 
