@@ -40,7 +40,7 @@ function add_rank_link(role_db) {
     })
 }
 
-function add_name_link() {
+function add_member_link() {
     // pre: body is loaded and all name_link elements contain the name of a staff member
     // post: adds a link to the user page
     Array.from(document.getElementsByClassName("name_link")).forEach(link => {
