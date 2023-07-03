@@ -112,8 +112,13 @@ async function loading() {
         all_updates = await get_updates_from_teams(all_dbs) // default is to load every team
     }
 
-    // Finally, load the data
+    // Load the data
     load_updates(amount_to_load)
+
+    // Add links
+    let role_db = await get_db_from_name('Role')
+    add_rank_link(role_db)
+    add_member_link()
 }
 
 async function load_updates(amount_to_load) {
@@ -175,7 +180,6 @@ async function load_updates(amount_to_load) {
 
         // append new element
         html_parent.appendChild(html_child)
-        console.log(html_child)
     }
 
     // update loaded data

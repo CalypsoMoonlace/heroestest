@@ -50,6 +50,18 @@ function add_name_link() {
     })
 }
 
+function default_loading() {
+    /*
+    pre: body is loaded
+    post: adds rank & name links
+    note: this is the default loading function for pages that don't rely on a heavy scripting (index, overview, etc)
+    */
+    let role_db = await get_db_from_name('Role')
+    add_rank_link(role_db)
+    add_member_link()
+
+}
+
 // Mobile menu functions
 function show_menu() {
     document.getElementsByClassName('mobile_navigation')[0].style.display = "flex"
