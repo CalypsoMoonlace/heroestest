@@ -83,7 +83,7 @@ function find_previous_role(staff, unix) {
         staff[key].toString().split(" ").forEach(value => { // in case a key has 2+ values
             if (value < unix && value > last) {
                 // found a new role closer to the previous one
-                last = old
+                last = value
                 last_key = key
             }
         })
