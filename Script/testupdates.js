@@ -63,7 +63,15 @@ async function get_updates_from_teams(teams) {
                         time: value,
                         from: find_previous_role(staff, value)
                     })
-                    console.log(find_previous_role(staff,value))
+                    if (staff.name == "ClankFilippo") {
+                        console.log({
+                            staff_name: staff.name,
+                            name: key,
+                            time: value,
+                            from: find_previous_role(staff, value)
+                        })
+                    }
+                    
                 })
             }
         })
