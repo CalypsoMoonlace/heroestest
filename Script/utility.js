@@ -32,9 +32,21 @@ function add_rank_link(role_db) {
     // pre: body is loaded, role_db is the data from the Role database and all role_link elements contain the text of a role
     // post: adds a link & the colour of the role
     Array.from(document.getElementsByClassName("role_link")).forEach(link => {
-        let text = link.innerHTML.toLowerCase().trim() // avoid case sensitivity & extra spaces
+        let text = link.innerHTML
+                    .toLowerCase() // case sensitivity
+                    .trim() // extra spaces
+                    .replace(`"`,`'`) // try with ' first
 
-        let role_data = role_db.find(elmt => (elmt.display_name.toLowerCase() == text)||(elmt.name.toLowerCase() == text))
+        let role_data = role_db.find(elmt => elmt.display_name.toLowerCase() == text)
+
+        if (!role_data) {
+            // if nothing found, try again by replacing quotation marks
+            let text = link.innerHTML
+                        .toLowerCase() // case sensitivity
+                        .trim() // extra spaces
+                        .replace(`'`,`"`) // try with " second
+            let role_data = role_db.find(elmt => elmt.display_name.toLowerCase() == text)
+        }
 
         if (role_data) {
             link.href = `list?role=${role_data.name}`
