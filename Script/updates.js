@@ -42,6 +42,9 @@ async function get_updates_from_teams(teams) {
                 if (key == "languages" || key == "current" || key == "name" || key == "resigned_from") { // Those keys should not be added as they are not unix values
                     continue
                 }
+                if (key == "socialmedia") { // This key should not be added as it is included in other keys already
+                    continue
+                }
 
                 staff[key].toString().split(" ").forEach(value => { // in case a key has 2+ values
                     // Add data
