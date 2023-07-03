@@ -48,9 +48,12 @@ function add_rank_link(role_db) {
             let role_data = role_db.find(elmt => elmt.display_name.toLowerCase() == text)
         }
 
+        console.log(role_data)
+        
         if (!role_data) {
             // if still nothing found, try again with regular name
             let role_data = role_db.find(elmt => elmt.name.toLowerCase() == text)
+            console.log(role_data)
         }
 
         if (role_data && !link.href) {
