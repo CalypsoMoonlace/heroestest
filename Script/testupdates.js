@@ -52,7 +52,7 @@ async function get_updates_from_teams(teams) {
                     updates.push({
                         staff_name: staff.name,
                         name: key,
-                        time: value,
+                        time: parseInt(value),
                         from: find_previous_role(staff, value)
                     })
                 })
@@ -102,7 +102,7 @@ async function loading() {
 
     // Amount of updates that will be loaded
     if (amount_to_load && !isNaN(amount_to_load)) {
-        amount_to_load = Number.parseInt(amount_to_load)
+        amount_to_load = parseInt(amount_to_load)
     } else {
         amount_to_load = 50 // default amount is 50
     }
@@ -132,7 +132,30 @@ async function load_updates(amount_to_load) {
 
     // start from previous loaded data
     for (var i = amount_loaded; i < amount_loaded + amount_to_load; i++) {
-        // todo: add edge case if > to length
+        if (i >= all_updates.length) {
+            // nothing more to add
+            amount_loaded = all_updates.length
+            document.getElementsByClassName("bottom_button")[0].style.display = "none" // hide "show more"
+            return
+        }
+
+        // Check if we need to add this day in a title
+        if (i == 0) {
+
+            // First day
+            let html_date = document.createElement('h4')
+            html_date.innerText = unix_to_date(all_updates[i].time)
+            html_parent.appendChild(html_date)
+
+        } else if (unix_to_date(all_updates[i-1].time) != unix_to_date(all_updates[i].time)) {
+
+            // New day
+            let html_date = document.createElement('h4')
+            html_date.innerText = unix_to_date(all_updates[i].time)
+            html_parent.innerHTML += "<br>" // linebreak
+            html_parent.appendChild(html_date)
+
+        }
 
         // select update to add
         update = all_updates[i]
