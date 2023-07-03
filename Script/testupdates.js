@@ -101,7 +101,7 @@ async function loading() {
     // Verify/update parameters to avoid crashes
 
     // Amount of updates that will be loaded
-    if (!isNaN(amount_to_load)) {
+    if (amount_to_load && !isNaN(amount_to_load)) {
         amount_to_load = Number.parseInt(amount_to_load)
     } else {
         amount_to_load = 50 // default amount is 50
