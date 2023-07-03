@@ -32,7 +32,7 @@ function add_rank_link(role_db) {
     // pre: body is loaded, role_db is the data from the Role database and all role_link elements contain the text of a role
     // post: adds a link & the colour of the role
     Array.from(document.getElementsByClassName("role_link")).forEach(link => {
-        let text = elmt.innerText.toLowerCase().trim() // avoid case sensitivity & extra spaces
+        let text = link.innerText.toLowerCase().trim() // avoid case sensitivity & extra spaces
 
         let role_data = role_db.find(elmt => (elmt.display_name.toLowerCase() == text)||(elmt.name.toLowerCase() == text))
 
