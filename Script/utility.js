@@ -50,7 +50,7 @@ function add_name_link() {
     })
 }
 
-function default_loading() {
+async function default_loading() {
     /*
     pre: body is loaded
     post: adds rank & name links
