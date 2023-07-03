@@ -107,7 +107,7 @@ async function loading() {
     // Update global variable to avoid fetching everything over again when showing more
     let all_dbs = await get_all_dbs()
     if (team_to_load && all_dbs.includes(team_to_load)) {
-        all_updates = await get_updates_from_teams(team_to_load)
+        all_updates = await get_updates_from_teams([team_to_load])
     } else {
         all_updates = await get_updates_from_teams(all_dbs) // default is to load every team
     }
