@@ -14,7 +14,7 @@ function unix_to_date(timestamp) {
     // example: 0 -> "01 January 1900"
     let date_obj = new Date(timestamp*1000); // from unix to object
     
-    day = date_obj.getDate()
+    let day = date_obj.getDate()
     if (day<10) {
         day = "0" + day
     }
@@ -22,7 +22,7 @@ function unix_to_date(timestamp) {
     let months = ["January","February","March","April","May","June","July","August","September","October","November","December"]
     let month = months[date_obj.getMonth()] // going from number to string
 
-    year = date_obj.getYear() + 1900
+    let year = date_obj.getYear() + 1900
 
     result = day + " " + month + " " + year
     return result
