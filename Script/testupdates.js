@@ -38,8 +38,6 @@ async function get_updates_from_teams(teams) {
 
             for (var j = 0; j < Object.keys(staff).length; j++) { // for each key
                 key = Object.keys(staff)[j]
-                
-                console.log(key)
 
                 // Add all keys with data
                 if (staff[key] == null) { // Empty value, nothing to add
@@ -48,6 +46,8 @@ async function get_updates_from_teams(teams) {
                 if (key == "languages" || key == "current" || key == "name" || key == "resigned_from") { // Those keys should not be added as they are not unix values
                     continue
                 }
+                
+                console.log(key)
 
                 staff[key].toString().split(" ").forEach(value => { // in case a key has 2+ values
                     // Add data
