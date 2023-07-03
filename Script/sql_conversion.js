@@ -592,7 +592,11 @@ function sanitize_object(staff) {
 				})
 				
 			})
-			staff.resigned_from += " " + last_key.split("_")[0] // avoid _duplicates and so on
+
+			if (new_currents[last_key]) { // avoid _duplicates and so on
+				last_key = new_currents[last_key]
+			}
+			staff.resigned_from += " " + last_key // add here
 		})
 
 		staff.resigned_from = staff.resigned_from.trim()

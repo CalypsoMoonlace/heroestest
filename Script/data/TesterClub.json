@@ -13,7 +13,7 @@
         "languages": "Dutch",
         "name": "Sonblo",
         "resigned": 1590943986,
-        "resigned_from": "tc",
+        "resigned_from": "tc_mod",
         "tc_admin": null,
         "tc_mod": 1583247707
     },
@@ -49,7 +49,7 @@
         "languages": "French Russian",
         "name": "Milky",
         "resigned": 1554282156,
-        "resigned_from": "tc",
+        "resigned_from": "tc_admin",
         "tc_admin": 1547657586,
         "tc_mod": 1546015986
     },
@@ -76,7 +76,7 @@
         "languages": "Czech Slovak Swedish",
         "name": "Terka",
         "resigned": 1545743749,
-        "resigned_from": "tc",
+        "resigned_from": "tc_mod",
         "tc_admin": null,
         "tc_mod": 1539868549
     },
@@ -85,7 +85,7 @@
         "languages": "English",
         "name": "Miller",
         "resigned": 1539713435,
-        "resigned_from": "tc",
+        "resigned_from": "tc_admin",
         "tc_admin": 1530291186,
         "tc_mod": null
     },
@@ -94,7 +94,7 @@
         "languages": "English",
         "name": "Ubksu",
         "resigned": 1536758149,
-        "resigned_from": "tc",
+        "resigned_from": "tc_admin",
         "tc_admin": 1530291186,
         "tc_mod": null
     },
@@ -103,7 +103,7 @@
         "languages": "Slovenian",
         "name": "Icy",
         "resigned": 1572095749,
-        "resigned_from": "tc",
+        "resigned_from": "tc_admin",
         "tc_admin": 1539782149,
         "tc_mod": 1537881349
     },
@@ -112,7 +112,7 @@
         "languages": "English",
         "name": "Nathaniel",
         "resigned": 1544447749,
-        "resigned_from": "tc",
+        "resigned_from": "tc_mod",
         "tc_admin": null,
         "tc_mod": 1539868549
     },
@@ -121,7 +121,7 @@
         "languages": "English",
         "name": "Ivjo",
         "resigned": 1547657586,
-        "resigned_from": "tc",
+        "resigned_from": "tc_mod",
         "tc_admin": null,
         "tc_mod": 1537894386
     },
@@ -130,7 +130,7 @@
         "languages": "Dutch",
         "name": "Levi",
         "resigned": 1547657586,
-        "resigned_from": "tc",
+        "resigned_from": "tc_mod",
         "tc_admin": null,
         "tc_mod": 1539868549
     },
@@ -139,7 +139,7 @@
         "languages": "English",
         "name": "Melania",
         "resigned": 1542374149,
-        "resigned_from": "tc",
+        "resigned_from": "tc_mod",
         "tc_admin": null,
         "tc_mod": 1539868549
     },
@@ -148,7 +148,7 @@
         "languages": "English",
         "name": "Drakarta",
         "resigned": 1532092549,
-        "resigned_from": "tc",
+        "resigned_from": "tc_admin",
         "tc_admin": 1530291186,
         "tc_mod": null
     }
