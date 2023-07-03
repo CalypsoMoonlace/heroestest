@@ -50,7 +50,7 @@ async function get_updates_from_teams(teams) {
                 staff[key].toString().split(" ").forEach(value => { // in case a key has 2+ values
                     // Add data
                     updates.push({
-                        staff_name: staff,
+                        staff_name: staff.name,
                         name: key,
                         time: value,
                         from: find_previous_role(staff, value)
