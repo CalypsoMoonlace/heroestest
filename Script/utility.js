@@ -48,7 +48,7 @@ function add_rank_link(role_db) {
             let role_data = role_db.find(elmt => elmt.display_name.toLowerCase() == text)
         }
 
-        if (role_data) {
+        if (role_data && !link.href) {
             link.href = `list?role=${role_data.name}`
             link.style.color = role_data.colour
         }
