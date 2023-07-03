@@ -128,6 +128,7 @@ function load_updates(amount_to_load) {
     post: adds amount_to_load new updates to the page
     */
     // start from previous loaded data
+    console.log(all_updates)
     html_parent = document.getElementsByClassName('rang')[0]
 
     for (var i = amount_loaded; i < amount_loaded + amount_to_load; i++) {
@@ -150,6 +151,7 @@ function load_updates(amount_to_load) {
 
         // append new element
         html_parent.appendChild(html_child)
+        console.log(html_child)
     }
 
     // update loaded data
