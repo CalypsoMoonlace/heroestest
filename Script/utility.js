@@ -34,7 +34,7 @@ function add_rank_link(role_db) {
     Array.from(document.getElementsByClassName("role_link")).forEach(link => {
         let role_data = role_db.find(elmt => (elmt.display_name.toLowerCase() == link.innerText.toLowerCase())||(elmt.name.toLowerCase() == link.innerText.toLowerCase()))
         if (role_data) {
-            link.href = `?role=${role_data.name}`
+            link.href = `list?role=${role_data.name}`
             link.style.color = role_data.colour
         }
     })
@@ -45,7 +45,7 @@ function add_member_link() {
     // post: adds a link to the user page
     Array.from(document.getElementsByClassName("name_link")).forEach(link => {
         if (!link.href) {
-            link.href = `?member=${link.innerText}`
+            link.href = `list?member=${link.innerText}`
         }
     })
 }
