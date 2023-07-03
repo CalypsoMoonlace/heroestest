@@ -36,10 +36,6 @@ async function get_updates_from_teams(teams) {
         category_db.forEach(staff => {
             // for each staff in the category
 
-            if (staff.name == "ClankFilippo") {
-                console.log(staff)
-            }
-
             for (var j = 0; j < Object.keys(staff).length; j++) { // for each key
                 let key = Object.keys(staff)[j]
 
@@ -50,10 +46,6 @@ async function get_updates_from_teams(teams) {
                 if (key == "languages" || key == "current" || key == "name" || key == "resigned_from") { // Those keys should not be added as they are not unix values
                     continue
                 }
-                
-                if (staff.name == "ClankFilippo") {
-                    console.log(key)
-                }
 
                 staff[key].toString().split(" ").forEach(value => { // in case a key has 2+ values
                     // Add data
@@ -63,16 +55,6 @@ async function get_updates_from_teams(teams) {
                         time: value,
                         from: find_previous_role(staff, value)
                     })
-                    if (staff.name == "ClankFilippo") {
-                        console.log(key)
-                        console.log({
-                            staff_name: staff.name,
-                            name: key,
-                            time: value,
-                            from: find_previous_role(staff, value)
-                        })
-                    }
-                    
                 })
             }
         })
@@ -165,7 +147,7 @@ async function load_updates(amount_to_load) {
         // text depends on whether it's a resign, promotion or new staff member
         if (update.name == "resigned") {
             html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> no longer was <a class="role_link">${role_from.display_name}</a>`
-        } else if (update.from) {
+        } else if (update.from && update.from != "resigned") {
             html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> went from <a class="role_link">${role_from.display_name}</a>` +
                                     ` to <a class="role_link">${role_to.display_name}</a>`
         } else {
