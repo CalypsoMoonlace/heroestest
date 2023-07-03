@@ -181,7 +181,6 @@ async function load_updates(amount_to_load) {
     amount_loaded += amount_to_load
 
     // Add links
-    let role_db = await get_db_from_name('Role')
     add_rank_link(role_db)
     add_member_link()
 }
