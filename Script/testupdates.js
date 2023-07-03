@@ -120,7 +120,7 @@ async function loading() {
     load_updates(amount_to_load)
 }
 
-function load_updates(amount_to_load) {
+async function load_updates(amount_to_load) {
     /*
     pre: body is loaded
          all_updates and amount_loaded are defined globally
