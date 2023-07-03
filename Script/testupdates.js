@@ -127,12 +127,10 @@ function load_updates(amount_to_load) {
          amount_to_load is an integer
     post: adds amount_to_load new updates to the page
     */
-    // start from previous loaded data
-    console.log(all_updates)
-    console.log(amount_loaded)
-    console.log(amount_loaded+amount_to_load)
-    html_parent = document.getElementsByClassName('rang')[0]
+    let role_db = await get_db_from_name('Role')
+    let html_parent = document.getElementsByClassName('rang')[0]
 
+    // start from previous loaded data
     for (var i = amount_loaded; i < amount_loaded + amount_to_load; i++) {
         // todo: add edge case if > to length
 
@@ -142,13 +140,18 @@ function load_updates(amount_to_load) {
         // create new element
         html_child = document.createElement('div')
 
+        // get display text
+        let role_to = role_db.find((elmt) => elmt.name == update.name)
+        let role_from = role_db.find((elmt) => elmt.name == update.from)
+
         // text depends on whether it's a resign, promotion or new staff member
         if (update.name == "resigned") {
-            html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> no longer was <a class="role_link">${update.from}</a>`
+            html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> no longer was <a class="role_link">${role_from.display_name}</a>`
         } else if (update.from) {
-            html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> went from <a class="role_link">${update.from}</a> to <a class="role_link">${update.name}</a>`
+            html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> went from <a class="role_link">${role_from.display_name}</a>` +
+                                    ` to <a class="role_link">${role_to.display_name}</a>`
         } else {
-            html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> became <a class="role_link">${update.name}</a>`
+            html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> became <a class="role_link">${role_from.display_name}</a>`
         }
 
         // append new element
