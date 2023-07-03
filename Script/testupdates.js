@@ -36,6 +36,10 @@ async function get_updates_from_teams(teams) {
         category_db.forEach(staff => {
             // for each staff in the category
 
+            if (staff.name == "ClankFilippo") {
+                console.log(staff)
+            }
+
             for (var j = 0; j < Object.keys(staff).length; j++) { // for each key
                 key = Object.keys(staff)[j]
 
@@ -47,7 +51,9 @@ async function get_updates_from_teams(teams) {
                     continue
                 }
                 
-                console.log(key)
+                if (staff.name == "ClankFilippo") {
+                    console.log(key)
+                }
 
                 staff[key].toString().split(" ").forEach(value => { // in case a key has 2+ values
                     // Add data
@@ -57,6 +63,7 @@ async function get_updates_from_teams(teams) {
                         time: value,
                         from: find_previous_role(staff, value)
                     })
+                    console.log(find_previous_role(staff,value))
                 })
             }
         })
