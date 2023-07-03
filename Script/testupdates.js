@@ -151,7 +151,7 @@ async function load_updates(amount_to_load) {
             html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> went from <a class="role_link">${role_from.display_name}</a>` +
                                     ` to <a class="role_link">${role_to.display_name}</a>`
         } else {
-            html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> became <a class="role_link">${role_from.display_name}</a>`
+            html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> became <a class="role_link">${role_to.display_name}</a>`
         }
 
         // append new element
