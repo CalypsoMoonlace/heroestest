@@ -39,6 +39,8 @@ async function get_updates_from_teams(teams) {
             for (var j = 0; j < Object.keys(staff).length; j++) { // for each key
                 key = Object.keys(staff)[j]
                 
+                console.log(key)
+
                 // Add all keys with data
                 if (staff[key] == null) { // Empty value, nothing to add
                     continue
