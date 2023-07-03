@@ -135,7 +135,7 @@ async function load_updates(amount_to_load) {
             // nothing more to add
             amount_loaded = all_updates.length
             document.getElementsByClassName("bottom_button")[0].style.display = "none" // hide "show more"
-            return
+            break
         }
 
         // Check if we need to add this day in a title
@@ -168,11 +168,14 @@ async function load_updates(amount_to_load) {
 
         // text depends on whether it's a resign, promotion or new staff member
         if (update.name == "resigned") {
+            // resign
             html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> no longer was <a class="role_link">${role_from.display_name}</a>`
-        } else if (update.from && update.from != "resigned") {
+        } else if (update.from && update.from != "resigned" && update.from.category != "SocialMedia") {
+            // promotion (smms are excluded from this category because it's possible to have 2 medias at once)
             html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> went from <a class="role_link">${role_from.display_name}</a>` +
                                     ` to <a class="role_link">${role_to.display_name}</a>`
         } else {
+            // new staff member
             html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> became <a class="role_link">${role_to.display_name}</a>`
         }
 
