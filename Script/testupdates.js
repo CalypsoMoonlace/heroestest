@@ -73,7 +73,13 @@ function find_previous_role(staff, unix) {
     let last = 0
     let last_key = ""
 
-    Object.keys(staff).forEach(key => { // for each key
+    for (var i = 0; i < Object.keys(staff).length; i++) { // for each key
+        key = Object.keys(staff)[i]
+
+        if (!staff[key]) {
+            continue // move on if empty field
+        }
+
         staff[key].toString().split(" ").forEach(value => { // in case a key has 2+ values
             if (value < unix && value > last) {
                 // found a new role closer to the previous one
@@ -81,7 +87,7 @@ function find_previous_role(staff, unix) {
                 last_key = key
             }
         })
-    })
+    }
 
     return last_key
 }
