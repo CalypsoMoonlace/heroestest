@@ -129,6 +129,8 @@ function load_updates(amount_to_load) {
     */
     // start from previous loaded data
     console.log(all_updates)
+    console.log(amount_loaded)
+    console.log(amount_loaded+amount_to_load)
     html_parent = document.getElementsByClassName('rang')[0]
 
     for (var i = amount_loaded; i < amount_loaded + amount_to_load; i++) {
