@@ -41,7 +41,7 @@ async function get_updates_from_teams(teams) {
             }
 
             for (var j = 0; j < Object.keys(staff).length; j++) { // for each key
-                key = Object.keys(staff)[j]
+                let key = Object.keys(staff)[j]
 
                 // Add all keys with data
                 if (staff[key] == null) { // Empty value, nothing to add
@@ -92,7 +92,7 @@ function find_previous_role(staff, unix) {
     let last_key = ""
 
     for (var i = 0; i < Object.keys(staff).length; i++) { // for each key
-        key = Object.keys(staff)[i]
+        let key = Object.keys(staff)[i]
 
         if (!staff[key]) {
             continue // move on if empty field
