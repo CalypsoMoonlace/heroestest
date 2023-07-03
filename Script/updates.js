@@ -170,7 +170,7 @@ async function load_updates(amount_to_load) {
         if (update.name == "resigned") {
             // resign
             html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> no longer was <a class="role_link">${role_from.display_name}</a>`
-        } else if (update.from && update.from != "resigned" && update.from.category != "SocialMedia") {
+        } else if (update.from && update.from != "resigned" && role_from.category != "SocialMedia") {
             // promotion (smms are excluded from this category because it's possible to have 2 medias at once)
             html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> went from <a class="role_link">${role_from.display_name}</a>` +
                                     ` to <a class="role_link">${role_to.display_name}</a>`
