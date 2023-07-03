@@ -1,274 +1,183 @@
-let unix_today = Math.round((new Date()).getTime()); // ajd en unix
-let time_obj = new Date(unix_today); // ajd en objet
-let months = ["January","February","March","April","May","June","July","August","September","October","November","December"]
-let discord_positions = {
-	trialhelper: true, 
-	helper: true, 
-	trialminimod: true, 
-	minimod: true, 
-	mod: true,
-	megamod: true,
-	instagram: false,
-	facebook: false,
-	reddit: false,
-	twitter: false
-};
+// This file is used to load updates.html
 
-let positions_colours = {
-	trialhelper: "#d7bf4c",
-	trialhelper_duplicate: "#d7bf4c",
-	helper: "#dfac39",
-	helper_duplicate: "#dfac39",
-	trialminimod: "#ed904a",
-	minimod: "#e1823b",
-	minimod_duplicate: "#e1823b",
-	minimod_triplicate: "#e1823b",
-	mod: "#da685c",
-	mod_duplicate: "#da685c",
-	megamod: "#CF5050",
-	guardian: "#18d0ff",
-	guardian_duplicate: "#18d0ff",
-	guardianmanagerhelper: "#18d0ff",
-	guardianmanager: "#00b1ff",
-	mentor: "#f26f93",
-	mentor_duplicate: "#f26f93",
-	mentormanagerhelper: "#eb6a8c",
-	mentormanager: "#f2557f",
-	reddit: "#4962fd",
-	instagram: "#4962fd",
-	facebook: "#4962fd",
-	twitter: "#4962fd",
-	socialmedia: "#4962fd",
-	socialmediamanager: "#4962fd",
-	dev: "#F1C40F",
-	developer: "#F1C40F",
-	//wwc_dev: "#F1C40F",
-	moderator: "#00bfff",
-	tc_mod: "#00bfff",
-	tc_admin: "#17afbd",
-	admin: "#17afbd"
-	//tc_manager: "#7289DA"
-}
-let positions_result_text = {
-	trialhelper: "Trial Helper",
-	trialhelper_duplicate: "Trial Helper",
-	helper: "Helper",
-	helper_duplicate: "Helper",
-	trialminimod: "Trial Minimod",
-	minimod: "Minimod",
-	minimod_duplicate: "Minimod",
-	minimod_triplicate: "Minimod",
-	mod: "Mod",
-	mod_duplicate: "Mod",
-	megamod: "Megamod",
-	guardian: "Guardian",
-	guardian_duplicate: "Guardian",
-	guardianmanagerhelper: "Guardian Manager Helper",
-	guardianmanager: "Guardian Manager",
-	mentor: "Mentor",
-	mentor_duplicate: "Mentor",
-	mentormanagerhelper: "Mentor Manager Helper",
-	mentormanager: "Mentor Manager",
-	instagram: "Social media manager <img src='Pictures/instagram logo.png' class='mini_img'>",
-	instagram_duplicate: "Social media manager <img src='Pictures/instagram logo.png' class='mini_img'>",
-	facebook: "Social media manager <img src='Pictures/facebook logo.png' class='mini_img'>",
-	reddit: "Social media manager <img src='Pictures/reddit logo.png' class='mini_img'>",
-	twitter: "Social media manager <img src='Pictures/twitter logo.png' class='mini_img'>",
-	socialmedia: "Social media manager",
-	dev: "Developer",
-	//wwc_dev: "Developer of WWC",
-	tc_mod: "Moderator <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>",
-	tc_admin: "Admin <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>",
-	tc_manager: "Manager <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>"
-}
-let position_text_index,object_part;
-let ligne = {
-	trialhelper: false,
-	helper: false,
-	trialminimod: false,
-	minimod: false,
-	mod: false,
-	megamod: false
-};
-let page_url,staff_member,amount_of_updates,all_member_positions,team_to_load;
-let all_action_text= [],all_action_unix = [];
-let linkfix = {
-	trialhelper_duplicate: "trialhelper",
-	helper_duplicate: "helper",
-	minimod_duplicate: "minimod",
-	minimod_triplicate: "minimod",
-	mod_duplicate: "mod",
-	mentor_duplicate: "mentor",
-	guardian_duplicate: "guardian",
-	socialmediamanager: "socialmedia",
-	instagram_duplicate: "instagram",
-	moderator: "tc_mod",
-	admin: "tc_admin",
-	developer: "dev"
+// To avoid fetching everything over again when request to show more, the following variables need to be global
+let all_updates = [];
+let amount_loaded = 0;
+
+async function get_all_dbs() {
+    // pre: Role db is defined
+    // post: returns an array of all category databases, eg ["Discord", "Mentor", "Guardian", ...]
+    databases = []
+    role_db = await get_db_from_name("Role")
+    role_db.forEach(role => {
+        if (!databases.includes(role.category) && role.category) {
+            databases.push(role.category)
+        }
+    })
+    return databases
 }
 
+async function get_updates_from_teams(teams) {
+    /*
+    pre: teams is an array of role categories, eg ["Discord", "Mentor", "Guardian", ...]
+    post: returns a list of updates objects sorted by time (newest first)
+    example: [ {staff_name: "Arnaud", name: "mentormanager", time: ..., from: "mentormanagerhelper"}, ... ]
+    */
 
-function loading() {
-	// WINDOW SIZE
-	let vh = window.innerHeight * 0.01; // on load
-	document.documentElement.style.setProperty('--vh', `${vh}px`); // "--vh" = css variable, "vh" = js variable
-	window.addEventListener('resize', () => { // on resize, dynamic resize
-	let vh = window.innerHeight * 0.01;
-	document.documentElement.style.setProperty('--vh', `${vh}px`); 
-	});
-	page_url = new URLSearchParams(window.location.search);
-	if (Number(page_url.get('loading'))>0) {
-		updates_to_load = Number(page_url.get('loading'))
-	} else {
-		updates_to_load = 30
-	}
-	if ((Number(page_url.get('team'))<6)&&(page_url.get('team')!=null)) {
-		team_to_load = Number(page_url.get('team'))
-	}
-	// ADDING RANDOM BUTTON
-	let random_list = []
-	let random_obj = {} // To avoid double entries
-	for (var i = whole_staff_list.length - 1; i >= 0; i--) {
-		for (var j = whole_staff_list[i].length - 1; j >= 0; j--) {
-			staff_member = whole_staff_list[i][j]
-			if (random_obj[staff_member.name] != true) {
-				random_list[random_list.length] = staff_member
-				random_obj[staff_member.name] = true
-			}
-		}
-	}
-	document.getElementsByClassName('bottom_button')[1].href = "?member=" + random_list[Math.floor(Math.random()*random_list.length)].name
-	// SORTING ALL UPDATES
-	sort_updates(updates_to_load,team_to_load)
-	update_ready = SortingArrays(all_action_unix,all_action_text)
-	// FILLING THE PAGE
-	time_obj = new Date(all_action_unix[all_action_unix.length - 1]*1000) // format dd/mm/yyyy etc
-	day = time_obj.getDate();
-	month = months[time_obj.getMonth()];
-	year = time_obj.getYear() + 1900;
-	document.getElementsByClassName('rang')[0].innerHTML += "<br><h4>" + day + " "+ month + " " + year + "</h4>"
-	for (var i = 1;((i <= updates_to_load)&&(i<=all_action_unix.length)); i++) {
-		document.getElementsByClassName('rang')[0].innerHTML += update_ready[update_ready.length - i] + "<br>"
-		if ((all_action_unix[all_action_unix.length - i]-86400/2>all_action_unix[all_action_unix.length - 1 - i])&&(i<updates_to_load)) {
-			time_obj = new Date(all_action_unix[all_action_unix.length - 1 - i]*1000) // format dd/mm/yyyy etc
-			day = time_obj.getDate();
-			month = months[time_obj.getMonth()];
-			year = time_obj.getYear() + 1900;
-			document.getElementsByClassName('rang')[0].innerHTML += "<br><h4>" + day + " "+ month + " " + year + "</h4>"
-		}
-	}
-	adding_links()
-	amount_of_updates = updates_to_load;
+    updates = []
+
+    // for each category
+    for (var i = 0; i < teams.length; i++) {
+        category_db = await get_db_from_name(teams[i])
+        category_db.forEach(staff => {
+            // for each staff in the category
+
+            for (var j = 0; j < Object.keys(staff).length; j++) { // for each key
+                let key = Object.keys(staff)[j]
+
+                // Add all keys with data
+                if (staff[key] == null) { // Empty value, nothing to add
+                    continue
+                }
+                if (key == "languages" || key == "current" || key == "name" || key == "resigned_from") { // Those keys should not be added as they are not unix values
+                    continue
+                }
+
+                staff[key].toString().split(" ").forEach(value => { // in case a key has 2+ values
+                    // Add data
+                    updates.push({
+                        staff_name: staff.name,
+                        name: key,
+                        time: parseInt(value),
+                        from: find_previous_role(staff, value)
+                    })
+                })
+            }
+        })
+    }
+
+    updates.sort((a,b) => b.time - a.time) // sort by time, newest ones come first
+
+    return updates
 }
 
-function sort_updates(updates_to_load,team_to_load) {
-	if (team_to_load!=undefined) {
-		console.log(team_to_load)
-		for (var j = team_to_load; j < team_to_load+1; j++) {
-			for (var k = 0; k < whole_staff_list[j].length; k++) { // for all staff members
-				staff_member = whole_staff_list[j][k]
-				all_member_positions = Object.keys(staff_member) // creating an array of all updates of said staff member
-				for (var m = 2; m < all_member_positions.length; m++) {
-					if (all_member_positions[m]!="id") { // some start at m = 3
-						if (positions_result_text[all_member_positions[m-1]]!=undefined) { // If they were staff before update
-							if (all_member_positions[m].includes('no_more_staff')) { // If they left staff
-								all_action_text[all_action_text.length] = "<a class=name_link>" + [staff_member.name + "</a> no longer was <a class=role_link>"+ positions_result_text[all_member_positions[m-1]]]+"</a>" 
-							} else {
-								all_action_text[all_action_text.length] = "<a class=name_link>" + [staff_member.name +"</a> went from <a class=role_link>"+positions_result_text[all_member_positions[m-1]]+"</a> to <a class=role_link>"+positions_result_text[all_member_positions[m]]]+"</a>" 
-							}
-						} else {
-							all_action_text[all_action_text.length] = "<a class=name_link>" + [staff_member.name+"</a> became <a class=role_link>"+positions_result_text[all_member_positions[m]]] +"</a>"
-						}
-						all_action_unix[all_action_unix.length] = staff_member[all_member_positions[m]]
-					}
-				}
-			}
-		}
-	} else {
-		for (var j = 0; j < whole_staff_list.length; j++) {
-			for (var k = 0; k < whole_staff_list[j].length; k++) { // for all staff members
-				staff_member = whole_staff_list[j][k]
-				all_member_positions = Object.keys(staff_member) // creating an array of all updates of said staff member
-				for (var m = 2; m < all_member_positions.length; m++) {
-					if (all_member_positions[m]!="id") { // some start at m = 3
-						if (positions_result_text[all_member_positions[m-1]]!=undefined) { // If they were staff before update
-							if (all_member_positions[m].includes('no_more_staff')) { // If they left staff
-								all_action_text[all_action_text.length] = "<a class=name_link>" + [staff_member.name + "</a> no longer was <a class=role_link>"+ positions_result_text[all_member_positions[m-1]]]+"</a>" 
-							} else {
-								all_action_text[all_action_text.length] = "<a class=name_link>" + [staff_member.name +"</a> went from <a class=role_link>"+positions_result_text[all_member_positions[m-1]]+"</a> to <a class=role_link>"+positions_result_text[all_member_positions[m]]]+"</a>" 
-							}
-						} else {
-							all_action_text[all_action_text.length] = "<a class=name_link>" + [staff_member.name+"</a> became <a class=role_link>"+positions_result_text[all_member_positions[m]]] +"</a>"
-						}
-						all_action_unix[all_action_unix.length] = staff_member[all_member_positions[m]]
-					}
-				}
-			}
-		}
-	}
-	//((all_member_positions[m]=="trialminimod")||(all_member_positions[m]=="minimod")||(all_member_positions[m]=="trialminimod")(all_member_positions[m-1]=="minimod"))
+function find_previous_role(staff, unix) {
+    /*
+    pre: staff is an object from a category database, unix is a unix timestamp
+    post: returns the role the staff member had just before the unix value
+    */
+    let last = 0
+    let last_key = ""
+
+    for (var i = 0; i < Object.keys(staff).length; i++) { // for each key
+        let key = Object.keys(staff)[i]
+
+        if (!staff[key]) {
+            continue // move on if empty field
+        }
+
+        staff[key].toString().split(" ").forEach(value => { // in case a key has 2+ values
+            if (value < unix && value > last) {
+                // found a new role closer to the previous one
+                last = value
+                last_key = key
+            }
+        })
+    }
+
+    return last_key
 }
 
-function SortingArrays(sorter,array_to_sort) {
-	intermediate_array = []
-	sorted_array = []
-	for (var i = 0; i < sorter.length; i++) {
-		intermediate_array[i] = [sorter[i],array_to_sort[i]]
-	}
-	sorter.sort()
-	for (var i = 0; i < intermediate_array.length; i++) {
-		for (var j = 0; j < sorter.length; j++) {
-			if ((intermediate_array[i][0] == sorter[j])&&(sorted_array[j]==undefined)) { // second condition is in case there are several updates at same date
-				sorted_array[j] = intermediate_array[i][1]
-				j = sorter.length // just for performance
-			}
-		}
-	}
-	return sorted_array
+async function loading() {
+    // get url parameters
+    let page_url = new URLSearchParams(window.location.search);
+    let amount_to_load = page_url.get('loading');
+    let team_to_load = page_url.get('team');
+
+    // Verify/update parameters to avoid crashes
+
+    // Amount of updates that will be loaded
+    if (amount_to_load && !isNaN(amount_to_load)) {
+        amount_to_load = parseInt(amount_to_load)
+    } else {
+        amount_to_load = 50 // default amount is 50
+    }
+
+    // Which teams will be loaded
+    // Update global variable to avoid fetching everything over again when showing more
+    let all_dbs = await get_all_dbs()
+    if (team_to_load && all_dbs.includes(team_to_load)) {
+        all_updates = await get_updates_from_teams(team_to_load)
+    } else {
+        all_updates = await get_updates_from_teams(all_dbs) // default is to load every team
+    }
+
+    // Finally, load the data
+    load_updates(amount_to_load)
 }
 
-function adding_links() {
-	link = document.getElementsByClassName('role_link')
-	for (var i = 0; i < link.length; i++) {
-		object_part = link[i].innerText.toLowerCase().replace(/\s/g,'');  
-		if ((link[i].href=="")&&(linkfix[object_part]===undefined)) {
-			link[i].href = "https://heroes.wolvesville.com/list?role=" + object_part
-		}
-		if (linkfix[object_part]!=undefined) {
-			link[i].href = "https://heroes.wolvesville.com/list?role=" + linkfix[object_part]
-		}
-		if (link[i].style.color=="") {
-			link[i].style.color = positions_colours[object_part]
-		}
-	}
-	link = document.getElementsByClassName('name_link')
-	for (var i = 0; i < link.length; i++) {
-		if (link[i].href=="") {
-			object_part = link[i].innerText
-			link[i].href = "https://heroes.wolvesville.com/list?member=" + object_part
-		}
-	}
-}
+async function load_updates(amount_to_load) {
+    /*
+    pre: body is loaded
+         all_updates and amount_loaded are defined globally
+         amount_to_load is an integer
+    post: adds amount_to_load new updates to the page
+    */
+    let role_db = await get_db_from_name('Role')
+    let html_parent = document.getElementsByClassName('rang')[0]
 
-function show_more() {
-	time_obj = new Date(all_action_unix[all_action_unix.length - amount_of_updates]*1000) // format dd/mm/yyyy etc
-	for (var i = amount_of_updates+1;((i <= amount_of_updates+50)&&(i<=all_action_unix.length)); i++) {
-		document.getElementsByClassName('rang')[0].innerHTML += update_ready[update_ready.length - i] + "<br>"
-		if ((all_action_unix[all_action_unix.length - i]-86400/2>all_action_unix[all_action_unix.length - 1 - i])&&(i<amount_of_updates+50)) {
-			time_obj = new Date(all_action_unix[all_action_unix.length - 1 - i]*1000) // format dd/mm/yyyy etc
-			day = time_obj.getDate();
-			month = months[time_obj.getMonth()];
-			year = time_obj.getYear() + 1900;
-			document.getElementsByClassName('rang')[0].innerHTML += "<br><h4>" + day + " "+ month + " " + year + "</h4>"
-		}
-	}
-	amount_of_updates += 50;
-	adding_links()
-}
+    // start from previous loaded data
+    for (var i = amount_loaded; i < amount_loaded + amount_to_load; i++) {
+        if (i >= all_updates.length) {
+            // nothing more to add
+            amount_loaded = all_updates.length
+            document.getElementsByClassName("bottom_button")[0].style.display = "none" // hide "show more"
+            return
+        }
 
-function show_menu() {
-	document.getElementsByClassName('mobile_navigation')[0].style.display = "flex"
-}
-function hide_menu() {
-	document.getElementsByClassName('mobile_navigation')[0].style.display = "none"
+        // Check if we need to add this day in a title
+        if (i == 0) {
+
+            // First day
+            let html_date = document.createElement('h4')
+            html_date.innerText = unix_to_date(all_updates[i].time)
+            html_parent.appendChild(html_date)
+
+        } else if (unix_to_date(all_updates[i-1].time) != unix_to_date(all_updates[i].time)) {
+
+            // New day
+            let html_date = document.createElement('h4')
+            html_date.innerText = unix_to_date(all_updates[i].time)
+            html_parent.innerHTML += "<br>" // linebreak
+            html_parent.appendChild(html_date)
+
+        }
+
+        // select update to add
+        update = all_updates[i]
+
+        // create new element
+        html_child = document.createElement('div')
+
+        // get display text
+        let role_to = role_db.find((elmt) => elmt.name == update.name)
+        let role_from = role_db.find((elmt) => elmt.name == update.from)
+
+        // text depends on whether it's a resign, promotion or new staff member
+        if (update.name == "resigned") {
+            html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> no longer was <a class="role_link">${role_from.display_name}</a>`
+        } else if (update.from && update.from != "resigned") {
+            html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> went from <a class="role_link">${role_from.display_name}</a>` +
+                                    ` to <a class="role_link">${role_to.display_name}</a>`
+        } else {
+            html_child.innerHTML = `<a class="name_link">${update.staff_name}</a> became <a class="role_link">${role_to.display_name}</a>`
+        }
+
+        // append new element
+        html_parent.appendChild(html_child)
+        console.log(html_child)
+    }
+
+    // update loaded data
+    amount_loaded += amount_to_load
 }
