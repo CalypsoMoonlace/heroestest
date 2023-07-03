@@ -20,7 +20,7 @@ function unix_to_date(timestamp) {
     }
 
     let months = ["January","February","March","April","May","June","July","August","September","October","November","December"]
-    month = months[date_obj.getMonth()] // going from number to string
+    let month = months[date_obj.getMonth()] // going from number to string
 
     year = date_obj.getYear() + 1900
 
