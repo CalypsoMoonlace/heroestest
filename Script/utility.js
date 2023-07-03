@@ -35,7 +35,7 @@ function add_rank_link(role_db) {
         let text = link.innerHTML
                     .toLowerCase() // case sensitivity
                     .trim() // extra spaces
-                    .replace(`"`,`'`) // try with ' first
+                    .replace(`\"`,`\'`) // try with ' first
 
         let role_data = role_db.find(elmt => elmt.display_name.toLowerCase() == text)
 
@@ -44,7 +44,7 @@ function add_rank_link(role_db) {
             let text = link.innerHTML
                         .toLowerCase() // case sensitivity
                         .trim() // extra spaces
-                        .replace(`'`,`"`) // try with " second
+                        .replace(`\'`,`\"`) // try with " second
             let role_data = role_db.find(elmt => elmt.display_name.toLowerCase() == text)
         }
 

@@ -8,7 +8,7 @@ async function get_all_dbs() {
     // pre: Role db is defined
     // post: returns an array of all category databases, eg ["Discord", "Mentor", "Guardian", ...]
     databases = []
-    role_db = await get_db_from_name("Role")
+    let role_db = await get_db_from_name("Role")
     role_db.forEach(role => {
         if (!databases.includes(role.category) && role.category) {
             databases.push(role.category)
