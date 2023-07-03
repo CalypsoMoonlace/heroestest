@@ -36,7 +36,7 @@ async function get_updates_from_teams(teams) {
         category_db.forEach(staff => {
             // for each staff in the category
 
-            for (var j = 0; j < Object.keys(category_data).length; j++) { // for each key
+            for (var j = 0; j < Object.keys(staff).length; j++) { // for each key
                 key = Object.keys(staff)[j]
                 
                 // Add all keys with data
