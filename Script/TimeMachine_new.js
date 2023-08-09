@@ -130,7 +130,7 @@ async function load_machine_from_stamp(timestamp) {
         users_data.forEach(user => {
             // Add to HTML
             let user_html = `<a class="name_link">${user.name}</a>`;
-            document.getElementById(role.name).innerHTML += user_html;
+            document.getElementById(role.name).innerHTML += user_html + "<br>";
         })
     }
 
