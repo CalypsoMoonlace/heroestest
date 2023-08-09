@@ -104,7 +104,7 @@ async function loading() {
         category_html.appendChild(role_html)
     }
 
-    load_machine_from_stamp(simulation_time);
+    await load_machine_from_stamp(simulation_time);
 }
 
 async function load_machine_from_stamp(timestamp) {
