@@ -99,7 +99,7 @@ async function loading() {
         category_html.appendChild(role_html)
     }
 
-    //load_machine_from_stamp(unix_today);
+    load_machine_from_stamp(unix_today);
 
     // Add role & member links
     add_rank_link(role_db)
@@ -115,7 +115,7 @@ async function load_machine_from_stamp(timestamp) {
 
     for (var i = 0; i < role_db.length; i++) {
         let role = role_db[i]
-        let users = get_users_from_role(role.name,timestamp)
+        let users_data = get_users_from_role(role.name,timestamp)
 
         users_data.sort((a,b) => a.time - b.time) // sort by time
 
