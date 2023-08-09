@@ -118,6 +118,9 @@ async function load_machine_from_stamp(timestamp) {
     */
     let role_db = await get_db_from_name("Role")
 
+    // Update date
+    document.getElementById('date').innerText = `Staff on the ${unix_to_date(timestamp)}`
+
     // Erase previous data
     Array.from(document.getElementsByClassName('user_list')).forEach(html_element => {
         html_element.innerHTML = ""
@@ -152,8 +155,12 @@ async function load_machine_from_stamp(timestamp) {
         }
     })
 
-    // Update date
-    document.getElementById('date').innerText = `Staff on the ${unix_to_date(timestamp)}`
+    // Add text to empty categories
+    Array.from(document.getElementsByClassName('role_list')).forEach(html_element => {
+        if (!html_element.innerHTML) {
+            html_element.innerHTML = "This staff category did not exist back then"
+        }
+    })
 }
 
 async function change_date(delta_time) {
