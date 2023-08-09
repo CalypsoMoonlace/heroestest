@@ -88,7 +88,7 @@ async function loading() {
 
         // User list
         let user_list = `<div id=${role.name}></div>`
-        role_html.innerHTML += user_html
+        role_html.innerHTML += user_list
 
         // Add to the rest
         let category_html = document.getElementsByName(role.category)[0]
