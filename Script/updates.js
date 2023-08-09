@@ -4,19 +4,6 @@
 let all_updates = [];
 let amount_loaded = 0;
 
-async function get_all_dbs() {
-    // pre: Role db is defined
-    // post: returns an array of all category databases, eg ["Discord", "Mentor", "Guardian", ...]
-    databases = []
-    let role_db = await get_db_from_name("Role")
-    role_db.forEach(role => {
-        if (!databases.includes(role.category) && role.category) {
-            databases.push(role.category)
-        }
-    })
-    return databases
-}
-
 async function get_updates_from_teams(teams) {
     /*
     pre: teams is an array of role categories, eg ["Discord", "Mentor", "Guardian", ...]
@@ -62,33 +49,6 @@ async function get_updates_from_teams(teams) {
     updates.sort((a,b) => b.time - a.time) // sort by time, newest ones come first
 
     return updates
-}
-
-function find_previous_role(staff, unix) {
-    /*
-    pre: staff is an object from a category database, unix is a unix timestamp
-    post: returns the role the staff member had just before the unix value
-    */
-    let last = 0
-    let last_key = ""
-
-    for (var i = 0; i < Object.keys(staff).length; i++) { // for each key
-        let key = Object.keys(staff)[i]
-
-        if (!staff[key]) {
-            continue // move on if empty field
-        }
-
-        staff[key].toString().split(" ").forEach(value => { // in case a key has 2+ values
-            if (value < unix && value > last) {
-                // found a new role closer to the previous one
-                last = value
-                last_key = key
-            }
-        })
-    }
-
-    return last_key
 }
 
 async function loading() {

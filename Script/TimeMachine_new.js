@@ -1,7 +1,8 @@
 async function get_users_from_role(role_name, timestamp) {
     /* 
     pre: role_name is the name of a role (trialhelper, helper, guardian, etc)
-    post: returns a list of names, unix value, current value and languages
+         timestamp is an unix stamp corresponding to the TimeMachine's current value
+    post: returns a list of names, unix value, current value and languages of staff during that time
     
     Example:
     "guardian" returns [ {name: Lisa, time: 1598006832, current: "guardianmanagerhelper", languages: ["German", "Dutch"]}, ...]
@@ -23,21 +24,7 @@ async function get_users_from_role(role_name, timestamp) {
         if (elmt[role_name] != null) {
 
             // Get the last role the user had BEFORE the timestamp
-            last_role = ""
-            last_stamp = 0
-            Object.keys(elmt).forEach(role => {
-                if (elmt[role] != null) {
-                    elmt[role].toString().split(" ").forEach(time => { // in case of several values for a role
-                        if (time < timestamp && time > last_stamp) {
-                            last_role = role;
-                            last_stamp = time;
-                        }
-                    })
-                }
-                
-            })
-            console.log(elmt)
-            console.log(last_role,last_stamp)
+            let last_role = find_previous_role(elmt,timestamp)
 
             // Only add the user if the last role is the SAME as the role we're looking up
             if (last_role == role_name) {
@@ -61,3 +48,4 @@ async function get_users_from_role(role_name, timestamp) {
 
     return list
 }
+
