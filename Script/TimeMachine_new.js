@@ -66,7 +66,6 @@ async function loading() {
 
     for (var i = role_db.length - 1; i >= 0; i--) { // reverse to get correct order on page
         let role = role_db[i]
-        console.log(role.name)
 
         if (role.name == "socialmedia" || role.name == "resigned") {
             continue // exceptions, avoid them
@@ -154,9 +153,9 @@ async function load_machine_from_stamp(timestamp) {
     // Hide empty categories
     Array.from(document.getElementsByClassName('role_list')).forEach(html_element => {
         if (html_element.offsetHeight == 0) { // actual height == 0 means no role is displayed
-            html_element.parentElement.style.display = "none"
+            html_element.parentElement.style.visibility = "hidden"
         } else {
-            html_element.parentElement.style.display = "block"
+            html_element.parentElement.style.visibility = "visible"
         }
     })
 
@@ -171,6 +170,6 @@ async function change_date(delta_time) {
     post: updates simulation_time and the page
     */
     simulation_time += delta_time
-    simulation_time = Math.max(1518818453,simulation_time) // can't go lower than 1518818453, when the server was created
+    simulation_time = Math.max(1518818553,simulation_time) // can't go lower than 1518818553, when the server was created
     await load_machine_from_stamp(simulation_time)
 }
