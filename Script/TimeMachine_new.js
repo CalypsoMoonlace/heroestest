@@ -120,8 +120,8 @@ async function load_machine_from_stamp(timestamp) {
             continue // exceptions, avoid them
         }
 
-        let users_data = get_users_from_role(role.name,timestamp)
-        
+        let users_data = await get_users_from_role(role.name,timestamp)
+
         console.log(role)
         console.log(users_data)
 
