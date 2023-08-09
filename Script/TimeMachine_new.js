@@ -96,7 +96,7 @@ async function loading() {
         role_html.appendChild(role_title)
 
         // User list
-        let user_list = `<div id=${role.name} class="hide_if_empty"></div>`
+        let user_list = `<div id=${role.name} class="user_list"></div>`
         role_html.innerHTML += user_list
 
         // Add to the rest
@@ -117,6 +117,11 @@ async function load_machine_from_stamp(timestamp) {
     post: removes all previous names, adds new names and hides roles that don't contain any users
     */
     let role_db = await get_db_from_name("Role")
+
+    // Erase previous data
+    Array.from(document.getElementsByClassName('user_list')).forEach(html_element => {
+        html_element.innerHTML = ""
+    })
 
     // Load all data
     for (var i = 0; i < role_db.length; i++) {
@@ -139,7 +144,7 @@ async function load_machine_from_stamp(timestamp) {
     }
 
     // Hide empty roles
-    Array.from(document.getElementsByClassName('hide_if_empty')).forEach(html_element => {
+    Array.from(document.getElementsByClassName('user_list')).forEach(html_element => {
         if (html_element.innerHTML) {
             html_element.parentElement.style.display = "block"
         } else {
