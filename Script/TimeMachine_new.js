@@ -115,7 +115,15 @@ async function load_machine_from_stamp(timestamp) {
 
     for (var i = 0; i < role_db.length; i++) {
         let role = role_db[i]
+
+        if (role.name == "socialmedia" || role.name == "resigned") {
+            continue // exceptions, avoid them
+        }
+
         let users_data = get_users_from_role(role.name,timestamp)
+        
+        console.log(role)
+        console.log(users_data)
 
         users_data.sort((a,b) => a.time - b.time) // sort by time
 
