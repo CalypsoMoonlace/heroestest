@@ -59,10 +59,14 @@ async function loading() {
     let unix_today = (new Date()).getTime() / 1000; // today in unix
     let role_db = await get_db_from_name("Role")
 
-    for (var i = 0; i < role_db.length; i++) {
+    for (var i = role_db.length - 1; i >= 0; i--) { // reverse to get correct order on page
         let role = role_db[i]
         console.log(role.name)
 
+        if (role.name == "socialmedia") {
+            continue // socialmedia is an exception, avoid it
+        }
+        
         // For each role, generate the following: 
         /*
         <div class="megamod rang">
