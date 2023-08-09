@@ -18,7 +18,6 @@ async function get_users_from_role(role_name, timestamp) {
     // Get the role data
     let data = await get_db_from_name(role_category)
     data.forEach(elmt => {
-        console.log(elmt)
 
         // Did this person ever get the role?
         if (elmt[role_name] != null) {
@@ -27,7 +26,7 @@ async function get_users_from_role(role_name, timestamp) {
             last_role = ""
             last_stamp = 0
             Object.keys(elmt).forEach(role => {
-                elmt[role].toString.split(" ").forEach(time => { // in case of several values for a role
+                elmt[role].toString().split(" ").forEach(time => { // in case of several values for a role
                     if (time < timestamp && time > last_stamp) {
                         last_role = role;
                         last_stamp = time;
