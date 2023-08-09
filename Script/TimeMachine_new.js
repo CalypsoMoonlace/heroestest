@@ -158,7 +158,9 @@ async function load_machine_from_stamp(timestamp) {
     // Add text to empty categories
     Array.from(document.getElementsByClassName('role_list')).forEach(html_element => {
         if (html_element.offsetHeight == 0) { // actual height == 0 means no role is displayed
-            html_element.innerHTML = "<br><br>This staff category did not exist back then<br><br>"
+            html_element.innerText = "<br><br>This staff category did not exist back then<br><br><br>"
+        } else {
+            html_element.innerText = ""
         }
     })
 }
