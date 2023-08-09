@@ -154,9 +154,9 @@ async function load_machine_from_stamp(timestamp) {
     // Hide empty categories
     Array.from(document.getElementsByClassName('role_list')).forEach(html_element => {
         if (html_element.offsetHeight == 0) { // actual height == 0 means no role is displayed
-            html_element.parentElement.style.display = "block"
-        } else {
             html_element.parentElement.style.display = "none"
+        } else {
+            html_element.parentElement.style.display = "block"
         }
     })
 
