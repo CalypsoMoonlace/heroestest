@@ -161,7 +161,9 @@ button {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-  	display: inline-block;
+  display: inline-block;
+  position: sticky;
+  top: 30%;
 }
 
 .bouton_back {
