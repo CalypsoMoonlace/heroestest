@@ -52,6 +52,10 @@ function find_previous_role(staff, unix) {
     for (var i = 0; i < Object.keys(staff).length; i++) { // for each key
         let key = Object.keys(staff)[i]
 
+        if (key == socialmedia) {
+            continue // socialmedia is already treated by specific socialmedia fields (instagram, twitter, etc)
+        }
+
         if (!staff[key]) {
             continue // move on if empty field
         }
