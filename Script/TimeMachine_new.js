@@ -63,10 +63,10 @@ async function loading() {
         let role = role_db[i]
         console.log(role.name)
 
-        if (role.name == "socialmedia") {
-            continue // socialmedia is an exception, avoid it
+        if (role.name == "socialmedia" || role.name == "resigned") {
+            continue // exceptions, avoid them
         }
-        
+
         // For each role, generate the following: 
         /*
         <div class="megamod rang">
