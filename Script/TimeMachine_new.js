@@ -105,10 +105,6 @@ async function loading() {
     }
 
     load_machine_from_stamp(simulation_time);
-
-    // Add role & member links
-    add_rank_link(role_db)
-    add_member_link()
 }
 
 async function load_machine_from_stamp(timestamp) {
@@ -155,12 +151,18 @@ async function load_machine_from_stamp(timestamp) {
         }
     })
 
-    // Add text to empty categories
+    // Hide empty categories
     Array.from(document.getElementsByClassName('role_list')).forEach(html_element => {
         if (html_element.offsetHeight == 0) { // actual height == 0 means no role is displayed
-            html_element.innerText = "<br><br>This staff category did not exist back then<br><br><br>"
+            html_element.parentElement.style.display = "block"
+        } else {
+            html_element.parentElement.style.display = "none"
         }
     })
+
+    // Add role & member links
+    add_rank_link(role_db)
+    add_member_link()
 }
 
 async function change_date(delta_time) {
@@ -169,5 +171,6 @@ async function change_date(delta_time) {
     post: updates simulation_time and the page
     */
     simulation_time += delta_time
+    simulation_time = Math.max(1518818453,simulation_time) // can't go lower than 1518818453, when the server was created
     await load_machine_from_stamp(simulation_time)
 }
