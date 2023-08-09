@@ -18,6 +18,7 @@ async function get_users_from_role(role_name, timestamp) {
     // Get the role data
     let data = await get_db_from_name(role_category)
     data.forEach(elmt => {
+        console.log(elmt)
 
         // Did this person ever get the role?
         if (elmt[role_name] != null) {
