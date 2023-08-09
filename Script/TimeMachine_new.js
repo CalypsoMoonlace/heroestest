@@ -141,9 +141,9 @@ async function load_machine_from_stamp(timestamp) {
     // Hide empty roles
     Array.from(document.getElementsByClassName('hide_if_empty')).forEach(html_element => {
         if (html_element.innerHTML) {
-            html_element.style.visibility = "visible"
+            html_element.parentElement.style.visibility = "visible"
         } else {
-            html_element.style.visibility = "hidden"
+            html_element.parentElement.style.visibility = "hidden"
         }
     })
 
