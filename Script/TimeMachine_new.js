@@ -1,3 +1,8 @@
+// This file is used to load the timemachine.html page
+
+// global variable
+let simulation_time;
+
 async function get_users_from_role(role_name, timestamp) {
     /* 
     pre: role_name is the name of a role (trialhelper, helper, guardian, etc)
@@ -56,7 +61,7 @@ async function loading() {
     pre: body is loaded
     post: adds all relevant information on body by initialising TimeMachine to current time
     */
-    let unix_today = (new Date()).getTime() / 1000; // today in unix
+    simulation_time = (new Date()).getTime() / 1000; // today in unix
     let role_db = await get_db_from_name("Role")
 
     for (var i = role_db.length - 1; i >= 0; i--) { // reverse to get correct order on page
@@ -91,7 +96,7 @@ async function loading() {
         role_html.appendChild(role_title)
 
         // User list
-        let user_list = `<div id=${role.name}></div>`
+        let user_list = `<div id=${role.name} class="hide_if_empty"></div>`
         role_html.innerHTML += user_list
 
         // Add to the rest
@@ -99,7 +104,7 @@ async function loading() {
         category_html.appendChild(role_html)
     }
 
-    load_machine_from_stamp(unix_today);
+    load_machine_from_stamp(simulation_time);
 
     // Add role & member links
     add_rank_link(role_db)
@@ -113,6 +118,7 @@ async function load_machine_from_stamp(timestamp) {
     */
     let role_db = await get_db_from_name("Role")
 
+    // Load all data
     for (var i = 0; i < role_db.length; i++) {
         let role = role_db[i]
 
@@ -120,10 +126,8 @@ async function load_machine_from_stamp(timestamp) {
             continue // exceptions, avoid them
         }
 
+        // Get users data
         let users_data = await get_users_from_role(role.name,timestamp)
-
-        console.log(role)
-        console.log(users_data)
 
         users_data.sort((a,b) => a.time - b.time) // sort by time
 
@@ -134,5 +138,24 @@ async function load_machine_from_stamp(timestamp) {
         })
     }
 
+    // Hide empty roles
+    document.getElementsByClassName('hide_if_empty').forEach(html_element => {
+        if (html_element.innerHTML) {
+            html_element.style.visibility = "visible"
+        } else {
+            html_element.style.visibility = "hidden"
+        }
+    })
+
+    // Update date
     document.getElementById('date').innerText = `Staff on the ${unix_to_date(timestamp)}`
+}
+
+async function change_date(delta_time) {
+    /*
+    pre: simulation_time is a global variable
+    post: updates simulation_time and the page
+    */
+    simulation_time += delta_time
+    await load_machine_from_stamp(simulation_time)
 }
