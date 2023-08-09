@@ -157,7 +157,7 @@ async function load_machine_from_stamp(timestamp) {
 
     // Add text to empty categories
     Array.from(document.getElementsByClassName('role_list')).forEach(html_element => {
-        if (!html_element.innerHTML) {
+        if (!html_element.childElementCount) {
             html_element.innerHTML = "This staff category did not exist back then"
         }
     })
