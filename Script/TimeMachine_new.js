@@ -26,12 +26,15 @@ async function get_users_from_role(role_name, timestamp) {
             last_role = ""
             last_stamp = 0
             Object.keys(elmt).forEach(role => {
-                elmt[role].toString().split(" ").forEach(time => { // in case of several values for a role
-                    if (time < timestamp && time > last_stamp) {
-                        last_role = role;
-                        last_stamp = time;
-                    }
-                })
+                if (elmt[role] != null) {
+                    elmt[role].toString().split(" ").forEach(time => { // in case of several values for a role
+                        if (time < timestamp && time > last_stamp) {
+                            last_role = role;
+                            last_stamp = time;
+                        }
+                    })
+                }
+                
             })
             console.log(elmt)
             console.log(last_role,last_stamp)
