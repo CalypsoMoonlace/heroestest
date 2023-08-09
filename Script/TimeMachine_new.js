@@ -33,10 +33,12 @@ async function get_users_from_role(role_name, timestamp) {
                     }
                 })
             })
+            console.log(elmt)
+            console.log(last_role,last_stamp)
 
             // Only add the user if the last role is the SAME as the role we're looking up
             if (last_role == role_name) {
-                
+
                 if (typeof(elmt[role_name]) == "string") {
                     // only keep first occurence
                     new_time = parseInt(elmt[role_name].split(" ")[0])
