@@ -251,13 +251,11 @@ async function get_events(timestamp) {
     for(const name of current_staff) {
         
         let user_data = await get_roles_from_user(name)
-        console.log(user_data)
 
         user_data.roles.forEach(update => {
             
             // Get dd/mm format of that time
             let elmt_date_ddmm = unix_to_ddmm(update.time) // Format: 25/12 for example
-            console.log(elmt_date_ddmm)
 
             if (elmt_date_ddmm == date_ddmm && update.name != "resigned") {
                 // It's a match!
@@ -273,7 +271,6 @@ async function get_events(timestamp) {
                     // 2+ years
                     new_update = `It's been ${years} years since <a class="name_link">${name}</a> became <a class="role_link">${role_to.display_name}</a>`
                 }
-                console.log(new_update)
                 updates.push(new_update)
             }
         })
