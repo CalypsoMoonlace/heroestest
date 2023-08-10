@@ -159,6 +159,19 @@ async function load_machine_from_stamp(timestamp) {
         }
     })
 
+    // Get events for today
+    let updates = await get_events(timestamp)
+    updates.forEach(update => {
+        document.getElementsByClassName('events_log')[0].innerHTML += update + "<br>"
+    })
+
+    // Get events for tomorrow
+    let updates_tmr = await get_events(timestamp+86400)
+    updates_tmr.forEach(update => {
+        document.getElementsByClassName('events_log')[1].innerHTML += update + "<br>"
+    })
+
+
     // Add role & member links
     add_rank_link(role_db)
     add_member_link()
@@ -182,17 +195,16 @@ async function get_events(timestamp) {
     let updates = []
 
     // Get dd/mm format of simulation time
-    let date_obj = new Date(timestamp*1000); // from unix to object
+    let date_obj = new Date(timestamp*1000); // From unix to object
     let day = date_obj.getDate()
     let month = date_obj.getMonth()
     let birthday_check = day + "/" + (month+1) // Format: 25/12 for example
-    console.log(birthday_check)
 
     // Check for birthdays
-    let birthdays = await get_db_from_name("Member")
-    birthdays.forEach(member => {
+    let member_db = await get_db_from_name("Member")
+    member_db.forEach(member => {
         if (member.birthday == birthday_check) {
-            updates.push(`It's ${member.name}'s birthday!`)
+            updates.push(`It's <a class='name_link'>${member.name}</a>'s birthday!`)
         }
     })
 
