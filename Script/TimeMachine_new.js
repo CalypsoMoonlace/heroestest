@@ -233,6 +233,7 @@ async function get_events(timestamp) {
     pre: timestamp is the unix timestamp of the simulation
     post: returns a list of strings corresponding to all events to show
     */
+    let role_db = await get_db_from_name("Role")
     let updates = []
 
     // Get dd/mm format of simulation time
