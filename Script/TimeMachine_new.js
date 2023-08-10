@@ -248,7 +248,8 @@ async function get_events(timestamp) {
     })
 
     // Check for promotion anniversaries
-    current_staff.forEach(async name => {
+    for(const name of current_staff) {
+        
         let user_data = await get_roles_from_user(name)
         console.log(user_data)
 
@@ -259,7 +260,6 @@ async function get_events(timestamp) {
             console.log(elmt_date_ddmm)
 
             if (elmt_date_ddmm == date_ddmm && update.name != "resigned") {
-                console.log("It's a match")
                 // It's a match!
 
                 let role_to = role_db.find((elmt) => elmt.name == update.name)
@@ -273,10 +273,11 @@ async function get_events(timestamp) {
                     // 2+ years
                     new_update = `It's been ${years} years since <a class="name_link">${name}</a> became <a class="role_link">${role_to.display_name}</a>`
                 }
+                console.log(new_update)
                 updates.push(new_update)
             }
         })
-    })
+    }
 
     return updates
 }
