@@ -119,7 +119,6 @@ async function loading_timemachine() {
 
     // Create a list containing all current staff (names are only there once)
     current_staff = []
-    let role_db = await get_db_from_name("Role")
     let today_unix = (new Date()).getTime() / 1000
 
     // For all roles, check the staff list
