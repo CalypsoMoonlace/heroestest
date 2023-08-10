@@ -120,6 +120,9 @@ async function load_machine_from_stamp(timestamp) {
     Array.from(document.getElementsByClassName('user_list')).forEach(html_element => {
         html_element.innerHTML = ""
     })
+    Array.from(document.getElementsByClassName('events_log')).forEach(html_element => {
+        html_element.innerHTML = ""
+    })
 
     // Load all data
     for (var i = 0; i < role_db.length; i++) {
