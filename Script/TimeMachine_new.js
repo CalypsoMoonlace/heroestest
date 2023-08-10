@@ -173,3 +173,28 @@ async function change_date(delta_time) {
     simulation_time = Math.max(1518818553,simulation_time) // can't go lower than 1518818553, when the server was created
     await load_machine_from_stamp(simulation_time)
 }
+
+async function get_events(timestamp) {
+    /*
+    pre: timestamp is the unix timestamp of the simulation
+    post: returns a list of strings corresponding to all events to show
+    */
+    let updates = []
+
+    // Get dd/mm format of simulation time
+    let date_obj = new Date(timestamp*1000); // from unix to object
+    let day = date_obj.getDate()
+    let month = date_obj.getMonth()
+    let birthday_check = day + "/" + (month+1) // Format: 25/12 for example
+    console.log(birthday_check)
+
+    // Check for birthdays
+    let birthdays = await get_db_from_name("Member")
+    birthdays.forEach(member => {
+        if (member.birthday == birthday_check) {
+            updates.push(`It's ${member.name}'s birthday!`)
+        }
+    })
+
+    return updates
+}
