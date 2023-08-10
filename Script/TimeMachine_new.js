@@ -258,7 +258,9 @@ async function get_events(timestamp) {
             if (elmt_date_ddmm == date_ddmm && update.name != "resigned") {
                 // It's a match!
 
+                let role_to = role_db.find((elmt) => elmt.name == update.name)
                 let years = Math.floor((timestamp - update.time) / (86400*365))
+                
                 if (years == 1) {
                     // 1 year
                     let new_update = `It's been a year since <a class="name_link">${update.staff_name}</a> became <a class="role_link">${role_to.display_name}</a>`
