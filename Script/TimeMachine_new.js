@@ -1,9 +1,22 @@
 // This file is used to load the timemachine.html page
 
-// global variable
-let simulation_time;
+// global variables
+let simulation_time,current_staff;
 
-async function get_users_from_role(role_name, timestamp) {
+function unix_to_ddmm(timestamp) {
+    // pre: timestamp is a unix timestamp
+    // post: returns "dd/mm"
+    // example: 0 -> "1/1"
+
+    let date_obj = new Date(timestamp*1000); // From unix to object
+    let day = date_obj.getDate()
+    let month = date_obj.getMonth()
+    let date_ddmm = day + "/" + (month+1) // Format: 25/12 for example
+
+    return date_ddmm
+}
+
+async function get_users_from_role_stamp(role_name, timestamp) {
     /* 
     pre: role_name is the name of a role (trialhelper, helper, guardian, etc)
          timestamp is an unix stamp corresponding to the TimeMachine's current value
@@ -56,10 +69,11 @@ async function get_users_from_role(role_name, timestamp) {
     return list
 }
 
-async function loading() {
+async function loading_timemachine() {
     /*
     pre: body is loaded
     post: adds all relevant information on body by initialising TimeMachine to current time
+          initialises simulation_time and current_staff
     */
     simulation_time = (new Date()).getTime() / 1000; // today in unix
     let role_db = await get_db_from_name("Role")
@@ -103,6 +117,31 @@ async function loading() {
         category_html.appendChild(role_html)
     }
 
+    // Create a list containing all current staff (names are only there once)
+    current_staff = []
+    let role_db = await get_db_from_name("Role")
+    let today_unix = (new Date()).getTime() / 1000
+
+    // For all roles, check the staff list
+    for (var i = 0; i < role_db.length; i++) {
+        let role = role_db[i]
+
+        if (role.name == "socialmedia" || role.name == "resigned") {
+            continue // exceptions, avoid them
+        }
+
+        // Get users data
+        let users_data = await get_users_from_role_stamp(role.name,today_unix) // get all staff for today
+
+        // Add staff names to list
+        users_data.forEach(user => {
+            if (!current_staff.includes(user.name)) {
+                current_staff.push(user.name)
+            }
+        })
+    }
+    // Now current_staff contains all current staff names
+
     await load_machine_from_stamp(simulation_time);
 }
 
@@ -133,7 +172,7 @@ async function load_machine_from_stamp(timestamp) {
         }
 
         // Get users data
-        let users_data = await get_users_from_role(role.name,timestamp)
+        let users_data = await get_users_from_role_stamp(role.name,timestamp)
 
         users_data.sort((a,b) => a.time - b.time) // sort by time
 
@@ -198,17 +237,39 @@ async function get_events(timestamp) {
     let updates = []
 
     // Get dd/mm format of simulation time
-    let date_obj = new Date(timestamp*1000); // From unix to object
-    let day = date_obj.getDate()
-    let month = date_obj.getMonth()
-    let birthday_check = day + "/" + (month+1) // Format: 25/12 for example
+    let date_ddmm = unix_to_ddmm(timestamp) // Format: 25/12 for example
 
     // Check for birthdays
     let member_db = await get_db_from_name("Member")
     member_db.forEach(member => {
-        if (member.birthday == birthday_check) {
+        if (member.birthday == date_ddmm && current_staff.includes(member.name)) { // Only add current staff's birthdays
             updates.push(`It's <a class='name_link'>${member.name}</a>'s birthday!`)
         }
+    })
+
+    // Check for promotion anniversaries
+    current_staff.forEach(async name => {
+        let user_data = await get_roles_from_user(name)
+
+        user_data.roles.forEach(update => {
+            
+            // Get dd/mm format of that time
+            let elmt_date_ddmm = unix_to_ddmm(update.time) // Format: 25/12 for example
+
+            if (elmt_date_ddmm == date_ddmm && update.name != "resigned") {
+                // It's a match!
+
+                let years = Math.floor((timestamp - update.time) / (86400*365))
+                if (years == 1) {
+                    // 1 year
+                    let new_update = `It's been a year since <a class="name_link">${update.staff_name}</a> became <a class="role_link">${role_to.display_name}</a>`
+                } else {
+                    // 2+ years
+                    let new_update = `It's been ${years} years since <a class="name_link">${update.staff_name}</a> became <a class="role_link">${role_to.display_name}</a>`
+                }
+                updates.push(new_update)
+            }
+        })
     })
 
     return updates
