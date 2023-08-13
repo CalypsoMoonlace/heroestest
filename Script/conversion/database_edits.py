@@ -2,6 +2,8 @@
 
 import sqlite3
 import os.path
+import time 
+import math
 
 # Open database with absolute path
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -208,6 +210,9 @@ def edit_staff(names,role,value):
     #      name is not None
     # post: add staff to db
     category = get_category(role)
+
+    if value == "now": # adding an option to make it simpler
+        value = math.floor(time.time())
     
     for username in names:
         staff = cursor.execute(f"SELECT categories FROM Member WHERE name=?",(username,))
