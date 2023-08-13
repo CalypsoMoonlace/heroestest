@@ -234,7 +234,7 @@
         "trialminimod": null
     },
     {
-        "current": "helper",
+        "current": "minimod",
         "helper": 1559473413,
         "languages": "English",
         "megamod": null,
@@ -494,7 +494,7 @@
         "trialminimod": null
     },
     {
-        "current": "helper",
+        "current": "resigned",
         "helper": 1568027013,
         "languages": "French",
         "megamod": null,
@@ -1768,7 +1768,7 @@
         "trialminimod": null
     },
     {
-        "current": "helper",
+        "current": "resigned",
         "helper": 1600019090,
         "languages": "Vietnamese",
         "megamod": null,
