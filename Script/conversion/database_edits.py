@@ -234,6 +234,16 @@ def edit_staff(names,role,value):
             new_categories = (entry[0] + " " + category).strip()
             cursor.execute(f"UPDATE Member SET categories=? WHERE name=?",(new_categories,username))
             add_to_category(category,username,role)
+
+        # If the field is resigned, need to add to resigned_from too
+        # get old value
+        if role == "resigned":
+            old_resigned_from = cursor.execute(f"SELECT current,resigned_from FROM {category} WHERE name=?",(username,)).fetchone()
+            if old_resigned_from[1]:
+                resigned_from = str(old_resigned_from[1]) + " " + str(old_resigned_from[0])
+            else:
+                resigned_from = str(old_resigned_from[0])
+            cursor.execute(f"UPDATE {category} SET resigned_from=? WHERE name=?",(resigned_from,username))
         
         # get old value
         old_value = cursor.execute(f"SELECT {role} FROM {category} WHERE name=?",(username,)).fetchone()
@@ -241,16 +251,6 @@ def edit_staff(names,role,value):
             new_value = str(old_value[0]) + " " + str(value)
         else:
             new_value = value
-
-        # If the field is resigned, need to add to resigned_from too
-        # get old value
-        if role == "resigned":
-            old_value = cursor.execute(f"SELECT current,resigned_from FROM {category} WHERE name=?",(username,)).fetchone()
-            if old_value[1]:
-                new_value = str(old_value[1]) + " " + str(old_value[0])
-            else:
-                new_value = str(old_value[0])
-            cursor.execute(f"UPDATE {category} SET resigned_from=? WHERE name=?",(new_value,username))
 
         # Adding the actual value to the role field & to the current field
         cursor.execute(f"UPDATE {category} SET {role}=? WHERE name=?",(new_value,username))
