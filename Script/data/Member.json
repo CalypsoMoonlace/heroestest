@@ -1624,5 +1624,11 @@
         "categories": "Developer",
         "languages": "English German",
         "name": "Florian"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English",
+        "name": "Aurora"
     }
 ]

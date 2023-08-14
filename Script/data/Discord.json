@@ -2286,5 +2286,18 @@
         "resigned_from": null,
         "trialhelper": 1653323584,
         "trialminimod": null
+    },
+    {
+        "current": "trialhelper",
+        "helper": null,
+        "languages": "English",
+        "megamod": null,
+        "minimod": null,
+        "mod": null,
+        "name": "Aurora",
+        "resigned": null,
+        "resigned_from": null,
+        "trialhelper": 1681275600,
+        "trialminimod": null
     }
 ]
