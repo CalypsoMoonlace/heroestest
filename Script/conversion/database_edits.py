@@ -234,9 +234,16 @@ def edit_staff(names,role,value):
             new_categories = (entry[0] + " " + category).strip()
             cursor.execute(f"UPDATE Member SET categories=? WHERE name=?",(new_categories,username))
             add_to_category(category,username,role)
-            
+        
+        # get old value
+        old_value = cursor.execute(f"SELECT {role} FROM {category} WHERE name=?",(username,)).fetchone()
+        if old_value[0]:
+            new_value = str(old_value[0]) + " " + str(value)
+        else:
+            new_value = value
+
         # Adding the actual value to the role field & to the current field
-        cursor.execute(f"UPDATE {category} SET {role}=? WHERE name=?",(value,username))
+        cursor.execute(f"UPDATE {category} SET {role}=? WHERE name=?",(new_value,username))
         cursor.execute(f"UPDATE {category} SET current=? WHERE name=?",(role,username))
             
     print(f"Set {role} to {value} in the {category} table for {names}")
