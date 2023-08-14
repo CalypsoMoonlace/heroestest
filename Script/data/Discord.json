@@ -2158,15 +2158,15 @@
         "trialminimod": null
     },
     {
-        "current": "helper",
+        "current": "resigned",
         "helper": 1639308555,
         "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,
         "name": "Fawais",
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1674363600,
+        "resigned_from": "helper",
         "trialhelper": 1638617355,
         "trialminimod": null
     },
@@ -2290,7 +2290,7 @@
     {
         "current": "trialhelper",
         "helper": null,
-        "languages": "English",
+        "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,
