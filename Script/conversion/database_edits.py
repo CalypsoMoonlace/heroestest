@@ -245,6 +245,16 @@ def edit_staff(names,role,value):
         # Adding the actual value to the role field & to the current field
         cursor.execute(f"UPDATE {category} SET {role}=? WHERE name=?",(new_value,username))
         cursor.execute(f"UPDATE {category} SET current=? WHERE name=?",(role,username))
+
+        # If the field is resigned, need to add to resigned_from too
+        # get old value
+        if role == "resigned":
+            old_value = cursor.execute(f"SELECT current,resigned_from FROM {category} WHERE name=?",(username,)).fetchone()
+            if old_value[1]:
+                new_value = str(old_value[1]) + " " + str(old_value[0])
+            else:
+                new_value = str(old_value[0])
+            cursor.execute(f"UPDATE {category} SET resigned_from=? WHERE name=?",(new_value,username))
             
     print(f"Set {role} to {value} in the {category} table for {names}")
 
