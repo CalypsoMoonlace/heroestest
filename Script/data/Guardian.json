@@ -570,14 +570,14 @@
         "resigned_from": "guardian"
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": 1622028501,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "German Albanian",
         "name": "Florian9",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1667669760,
+        "resigned_from": "guardian"
     },
     {
         "current": "guardian",
