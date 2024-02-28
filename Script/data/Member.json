@@ -1016,8 +1016,8 @@
     {
         "birthday": null,
         "categories": "Discord Mentor",
-        "languages": "English German",
-        "name": "TigerPuppy"
+        "languages": "German English",
+        "name": "Tiger"
     },
     {
         "birthday": null,
@@ -1544,7 +1544,7 @@
     {
         "birthday": null,
         "categories": "Guardian",
-        "languages": "English German",
+        "languages": "English German Austrian",
         "name": "Depata"
     },
     {
@@ -1630,5 +1630,11 @@
         "categories": "Discord",
         "languages": "German",
         "name": "Aurora"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord,Mentor",
+        "languages": "German,English,Spanish",
+        "name": "Oskar"
     }
 ]
