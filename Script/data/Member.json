@@ -901,7 +901,7 @@
     },
     {
         "birthday": null,
-        "categories": "Discord Mentor",
+        "categories": "Discord Mentor Guardian",
         "languages": "English German",
         "name": "Lealand"
     },
@@ -1747,7 +1747,7 @@
     },
     {
         "birthday": null,
-        "categories": "Discord",
+        "categories": "Discord Guardian",
         "languages": "English Spanish",
         "name": "Zorinea"
     },
@@ -1777,13 +1777,13 @@
     },
     {
         "birthday": null,
-        "categories": "Discord Mentor",
+        "categories": "Discord Mentor Guardian",
         "languages": "English Dutch",
         "name": "FirePhoenix"
     },
     {
         "birthday": null,
-        "categories": "Discord",
+        "categories": "Discord Guardian",
         "languages": "English Portuguese",
         "name": "Muge"
     },
@@ -1897,7 +1897,7 @@
     },
     {
         "birthday": null,
-        "categories": "Mentor",
+        "categories": "Mentor Guardian",
         "languages": "English",
         "name": "Aeryn"
     },
@@ -1927,7 +1927,7 @@
     },
     {
         "birthday": null,
-        "categories": "Mentor",
+        "categories": "Mentor Guardian",
         "languages": "English",
         "name": "Laurel"
     },
@@ -1960,5 +1960,47 @@
         "categories": "Mentor",
         "languages": "English",
         "name": "Avocado"
+    },
+    {
+        "birthday": null,
+        "categories": "Guardian",
+        "languages": "English",
+        "name": "Hanashy"
+    },
+    {
+        "birthday": null,
+        "categories": "Guardian",
+        "languages": "English",
+        "name": "Elisa"
+    },
+    {
+        "birthday": null,
+        "categories": "Guardian",
+        "languages": "English",
+        "name": "Ifflion"
+    },
+    {
+        "birthday": null,
+        "categories": "Guardian",
+        "languages": "English",
+        "name": "ExSia"
+    },
+    {
+        "birthday": null,
+        "categories": "Guardian",
+        "languages": "English",
+        "name": "Tekyon"
+    },
+    {
+        "birthday": null,
+        "categories": "Guardian",
+        "languages": "English",
+        "name": "Slevin"
+    },
+    {
+        "birthday": null,
+        "categories": "Guardian",
+        "languages": "English",
+        "name": "Roro"
     }
 ]

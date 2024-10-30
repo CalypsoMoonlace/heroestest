@@ -958,5 +958,135 @@
         "name": "Foibos",
         "resigned": null,
         "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1727623800,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "English",
+        "name": "Hanashy",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1727623800,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "Portuguese",
+        "name": "Muge",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1727623800,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "English",
+        "name": "Elisa",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1727623800,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "German",
+        "name": "Lealand",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1727623800,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "English",
+        "name": "Aeryn",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1727623800,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "English",
+        "name": "Ifflion",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1727623800,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "Dutch",
+        "name": "FirePhoenix",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1727623800,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "English",
+        "name": "ExSia",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1727623800,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "Spanish",
+        "name": "Zorinea",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1727623800,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "English",
+        "name": "Tekyon",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1727623800,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "English",
+        "name": "Laurel",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1727623800,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "English",
+        "name": "Slevin",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1727623800,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "English",
+        "name": "Roro",
+        "resigned": null,
+        "resigned_from": null
     }
 ]
