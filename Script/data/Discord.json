@@ -2314,7 +2314,7 @@
         "trialminimod": null
     },
     {
-        "current": "helper",
+        "current": "trialminimod",
         "helper": 1666501200,
         "languages": "German",
         "megamod": null,
@@ -2324,7 +2324,7 @@
         "resigned": null,
         "resigned_from": null,
         "trialhelper": 1664254800,
-        "trialminimod": null
+        "trialminimod": 1722375720
     },
     {
         "current": "resigned",
@@ -2548,7 +2548,7 @@
         "trialminimod": null
     },
     {
-        "current": "helper",
+        "current": "trialminimod",
         "helper": 1705381200,
         "languages": "Portuguese",
         "megamod": null,
@@ -2558,7 +2558,7 @@
         "resigned": null,
         "resigned_from": null,
         "trialhelper": 1700629200,
-        "trialminimod": null
+        "trialminimod": 1722375720
     },
     {
         "current": "minimod",
