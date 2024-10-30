@@ -2314,11 +2314,11 @@
         "trialminimod": null
     },
     {
-        "current": "trialminimod",
+        "current": "minimod",
         "helper": 1666501200,
         "languages": "German",
         "megamod": null,
-        "minimod": null,
+        "minimod": 1727823300,
         "mod": null,
         "name": "Baba_Jaga",
         "resigned": null,
@@ -2548,11 +2548,11 @@
         "trialminimod": null
     },
     {
-        "current": "trialminimod",
+        "current": "minimod",
         "helper": 1705381200,
         "languages": "Portuguese",
         "megamod": null,
-        "minimod": null,
+        "minimod": 1727823300,
         "mod": null,
         "name": "Muge",
         "resigned": null,

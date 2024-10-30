@@ -940,14 +940,14 @@
         "resigned_from": "mentor"
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "German",
         "mentor": "1642100087 1723809480",
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Fremder",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1723809480,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
