@@ -1018,5 +1018,55 @@
         "name": "Wolfy",
         "resigned": 1677301200,
         "resigned_from": "mentor"
+    },
+    {
+        "current": "mentor",
+        "languages": "English",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Lilly",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "English",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Gloomyghxst",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "English",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Stara",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "German Albanian",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Florian9",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "resigned",
+        "languages": "English",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Valaias",
+        "resigned": 1727882880,
+        "resigned_from": "mentor"
     }
 ]

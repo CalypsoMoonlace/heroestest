@@ -1501,7 +1501,7 @@
     },
     {
         "birthday": null,
-        "categories": "Guardian",
+        "categories": "Guardian Mentor",
         "languages": "English German Albanian",
         "name": "Florian9"
     },
@@ -1870,5 +1870,29 @@
         "categories": "Discord",
         "languages": "English",
         "name": "Liamtuttut"
+    },
+    {
+        "birthday": null,
+        "categories": "Mentor",
+        "languages": "English",
+        "name": "Lilly"
+    },
+    {
+        "birthday": null,
+        "categories": "Mentor",
+        "languages": "English",
+        "name": "Gloomyghxst"
+    },
+    {
+        "birthday": null,
+        "categories": "Mentor",
+        "languages": "English",
+        "name": "Stara"
+    },
+    {
+        "birthday": null,
+        "categories": "Mentor",
+        "languages": "English",
+        "name": "Valaias"
     }
 ]
