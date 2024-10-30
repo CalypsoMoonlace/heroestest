@@ -4,8 +4,8 @@ var angel = {
 	trialhelper: 1545932690,
 	no_more_staff: 1546274823
 }
-var arnaud = {
-	name: "Arnaud",
+var Calypso = {
+	name: "Calypso",
 	current_value: "mod",
 	trialhelper: 1556670001,
 	helper: 1558311601,
@@ -1391,7 +1391,7 @@ var kaito = {
 	helper: 1655310784
 }
 
-var discord_staff_list = [ace,hascan,thealexgamer,alexrtm,angel,apmai,armads,arnaud,sonblo,aushy,behemoth,bestbud,blep,bluu,boyco,bryduz,brendan,
+var discord_staff_list = [ace,hascan,thealexgamer,alexrtm,angel,apmai,armads,Calypso,sonblo,aushy,behemoth,bestbud,blep,bluu,boyco,bryduz,brendan,
 					camp,captain,carol,leo,casper,cherry,cloudy,coolguy,copelia,crush,dario,devi,deniz,dievaitis,djocko,dice,doorfruit,dunzap,
 					drakarta,eyal,falvader,geekid,goati,golem,gryduz,henriql,hyde,icy,inky,imge,ivjo,ioannis,ja,jort,johnysaur,kingsho,
 					koreanking,krackjack,kryss,lextrin,lgcc,lisa,loyinhung,lucien,master,martinec,maje,majestic_pink,maya,mh,malex,miller,
@@ -1503,8 +1503,8 @@ var hyde_mentor = {
 	mentor: 1591693120,
 	no_more_staff: 1616158271
 }
-var arnaud_mentor = {
-	name: "Arnaud",
+var Calypso_mentor = {
+	name: "Calypso",
 	current_value: "mentormanagerhelper",
 	mentor: 1591693120,
 	mentormanagerhelper: 1642100087
@@ -2025,7 +2025,7 @@ var xie = {
 }
 
 var mentor_list = [mlapine,lisa_mentor,mmaarten,maffin_mentor,ratbaby,terka,leo_mentor,chee_mentor,boy,rider,jojolapin,phoenix_mentor,gui,mirreska,
-				amelia,cherry_mentor,hyde_mentor,arnaud_mentor,vasi,ocelot_mentor,sheepy_mentor,brianndm423,sonblo_mentor,prof,louveblanche,
+				amelia,cherry_mentor,hyde_mentor,Calypso_mentor,vasi,ocelot_mentor,sheepy_mentor,brianndm423,sonblo_mentor,prof,louveblanche,
 				weri_mentor,mashi_mentor,raind,tisery,seho_mentor,imge_mentor,cloudy_mentor,jackest,n0ob,ioannis_mentor,lucien_mentor,
 				sujupetalz_mentor,wepi_mentor,maya_mentor,sharon_mentor,william,misterz_mentor,apmai_mentor,johnysaur_mentor,karou,nathaniel_mentor,
 				milky_mentor,boyco_mentor,lgcc_mentor,alphaBeauchmin,dolan,khang,cinders,jort_mentor,stops,miller_mentor,casper_mentor,
@@ -2053,8 +2053,8 @@ var lisa_smm = {
 	current_value: "facebook",
 	facebook: 1578826940
 }
-var arnaud_smm = {
-	name: "Arnaud",
+var Calypso_smm = {
+	name: "Calypso",
 	current_value: "facebook twitter",
 	facebook: 1578826940,
 	twitter: 1605105445
@@ -2138,7 +2138,7 @@ var leon_smm = {
 	instagram: 1624302539
 }
 
-var social_media_list = [maffin_smm,lisa_smm,arnaud_smm,hyde_smm,camp_smm,sharon_smm,crush_smm,duden_smm,stef,bunni_smm,maya_smm,
+var social_media_list = [maffin_smm,lisa_smm,Calypso_smm,hyde_smm,camp_smm,sharon_smm,crush_smm,duden_smm,stef,bunni_smm,maya_smm,
 						lucien_smm,milky_smm,prometheus_smm,pan_smm,chris,leon_smm] // when adding something, put it **before** the last 3!
 
 // guardian list
@@ -2665,8 +2665,8 @@ var hubble_dev = {
 
 var dev_list = [philipp,emanuel,florient,hubble_dev]
 
-var arnaud_tc = {
-	name: "Arnaud",
+var Calypso_tc = {
+	name: "Calypso",
 	current_value: "tc_mod",
 	tc_mod: 1583247707
 }
@@ -2784,7 +2784,7 @@ var drakarta_tc = {
 	no_more_staff: 1532092549
 }
 
-var tc_list = [arnaud_tc,sonblo_tc,dimitri,lisa_tc,geekid_tc,milky_tc,sharon_tc,maffin_tc,terka_tc,miller_tc,ubksu_tc,icy_tc,nathaniel_tc,
+var tc_list = [Calypso_tc,sonblo_tc,dimitri,lisa_tc,geekid_tc,milky_tc,sharon_tc,maffin_tc,terka_tc,miller_tc,ubksu_tc,icy_tc,nathaniel_tc,
 				ivjo_tc,levi_tc,melania,drakarta_tc]
 
 var whole_staff_list = [discord_staff_list,mentor_list,guardian_list,social_media_list,tc_list,dev_list]
@@ -2819,7 +2819,7 @@ var staff_birthdays = {
 	Raind: "30/4",
 	Maffin: "9/5",
 	Surprise: "21/5",
-	Arnaud: "21/5",
+	Calypso: "21/5",
 	Amelia: "10/6",
 	Mayo: "12/6",
 	Captain: "21/6",
@@ -2889,7 +2889,7 @@ var staff_languages = {
 	armads: ["Filipino"],
 	wire: ["Finnish"],
 	wepi: ["Finnish"],
-	arnaud: ["French"],
+	Calypso: ["French"],
 	surprise: ["French"],
 	nexo: ["French"],
 	renardeau: ["French"],

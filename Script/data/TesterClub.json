@@ -1,11 +1,11 @@
 [
     {
-        "current": "tc_mod",
+        "current": "tc_admin",
         "languages": "French",
-        "name": "Arnaud",
+        "name": "Calypso",
         "resigned": null,
         "resigned_from": null,
-        "tc_admin": null,
+        "tc_admin": 1655132613,
         "tc_mod": 1583247707
     },
     {
@@ -18,11 +18,11 @@
         "tc_mod": 1583247707
     },
     {
-        "current": "tc_mod",
+        "current": "resigned",
         "languages": "French",
         "name": "Dimitri",
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1655651013,
+        "resigned_from": "tc_mod",
         "tc_admin": null,
         "tc_mod": 1583247707
     },
@@ -36,11 +36,11 @@
         "tc_mod": 1549206107
     },
     {
-        "current": "tc_admin",
+        "current": "resigned",
         "languages": "French",
         "name": "Geekid",
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1667315013,
+        "resigned_from": "tc_admin",
         "tc_admin": 1583081586,
         "tc_mod": 1549206107
     },
@@ -151,5 +151,50 @@
         "resigned_from": "tc_admin",
         "tc_admin": 1530291186,
         "tc_mod": null
+    },
+    {
+        "current": "tc_mod",
+        "languages": "Portuguese",
+        "name": "Dot",
+        "resigned": null,
+        "resigned_from": null,
+        "tc_admin": null,
+        "tc_mod": 1679238213
+    },
+    {
+        "current": "tc_mod",
+        "languages": "English",
+        "name": "Aero",
+        "resigned": null,
+        "resigned_from": null,
+        "tc_admin": null,
+        "tc_mod": 1679238213
+    },
+    {
+        "current": "tc_mod",
+        "languages": "Chinese",
+        "name": "VoyagerHK",
+        "resigned": null,
+        "resigned_from": null,
+        "tc_admin": null,
+        "tc_mod": 1679238213
+    },
+    {
+        "current": "tc_mod",
+        "languages": "German",
+        "name": "Depata",
+        "resigned": null,
+        "resigned_from": null,
+        "tc_admin": null,
+        "tc_mod": 1679238213
+    },
+    {
+        "current": "tc_mod",
+        "languages": "English",
+        "name": "Hyk",
+        "resigned": null,
+        "resigned_from": null,
+        "tc_admin": null,
+        "tc_mod": 1679238213
     }
 ]

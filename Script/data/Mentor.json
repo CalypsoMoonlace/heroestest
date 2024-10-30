@@ -170,12 +170,12 @@
         "resigned_from": "mentor"
     },
     {
-        "current": "mentormanagerhelper",
+        "current": "mentormanager",
         "languages": "French",
         "mentor": 1591693120,
-        "mentormanager": null,
+        "mentormanager": 1662008400,
         "mentormanagerhelper": 1642100087,
-        "name": "Arnaud",
+        "name": "Calypso",
         "resigned": null,
         "resigned_from": null
     },
@@ -210,14 +210,14 @@
         "resigned_from": "mentor"
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "French",
         "mentor": 1591693120,
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Briann",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1683954000,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
@@ -250,14 +250,14 @@
         "resigned_from": null
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "Hindi",
         "mentor": 1591693120,
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Weri",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1658120400,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -270,14 +270,14 @@
         "resigned_from": "mentor"
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "Turkish Azerbaijan",
         "mentor": 1595321920,
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Raind",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1665291600,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -302,12 +302,12 @@
     {
         "current": "resigned",
         "languages": "Turkish",
-        "mentor": "1563008320 1586271545",
+        "mentor": "1563008320 1586271545 1696741260",
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Imge",
-        "resigned": "1566377920 1617544272",
-        "resigned_from": "mentor mentor"
+        "resigned": "1566377920 1617544272 1714971600",
+        "resigned_from": "mentor mentor mentor"
     },
     {
         "current": "resigned",
@@ -700,14 +700,14 @@
         "resigned_from": "mentor"
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "German",
         "mentor": 1612694154,
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Nachti",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1660194000,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -800,9 +800,9 @@
         "resigned_from": null
     },
     {
-        "current": "resigned",
+        "current": "mentor",
         "languages": "German",
-        "mentor": 1612694154,
+        "mentor": "1612694154 1705467600",
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Eiskruemel",
@@ -830,9 +830,9 @@
         "resigned_from": "mentor"
     },
     {
-        "current": "resigned",
+        "current": "mentor",
         "languages": "Italian",
-        "mentor": 1612694154,
+        "mentor": "1612694154 1674968400",
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Foibos",
@@ -850,14 +850,14 @@
         "resigned_from": "mentor"
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "Spanish",
         "mentor": 1642100087,
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Asiabby",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1719378000,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
@@ -880,14 +880,14 @@
         "resigned_from": "mentor"
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "Chinese",
         "mentor": 1642100087,
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Dr_Raymond",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1663477200,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
@@ -895,17 +895,7 @@
         "mentor": 1642100087,
         "mentormanager": null,
         "mentormanagerhelper": null,
-        "name": "Tiger",
-        "resigned": null,
-        "resigned_from": null
-    },
-    {
-        "current": "mentor",
-        "languages": "Romanian",
-        "mentor": 1642100087,
-        "mentormanager": null,
-        "mentormanagerhelper": null,
-        "name": "WOLFY",
+        "name": "TigerPuppy",
         "resigned": null,
         "resigned_from": null
     },
@@ -940,14 +930,14 @@
         "resigned_from": "mentor"
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "Spanish",
         "mentor": 1642100087,
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Doraemon",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1683954000,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
@@ -970,14 +960,14 @@
         "resigned_from": null
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "Thai",
         "mentor": 1642100087,
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Migi_migi",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1685682000,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
@@ -990,33 +980,43 @@
         "resigned_from": null
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "Portuguese_br",
         "mentor": 1642100087,
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Saori",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1713416400,
+        "resigned_from": "mentor"
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "Italian",
         "mentor": 1642100087,
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Spultor",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1716613200,
+        "resigned_from": "mentor"
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "Malay Indonesian",
         "mentor": 1642100087,
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Xie",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1710738000,
+        "resigned_from": "mentor"
+    },
+    {
+        "current": "resigned",
+        "languages": "Romanian",
+        "mentor": 1642100087,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Wolfy",
+        "resigned": 1677301200,
+        "resigned_from": "mentor"
     }
 ]

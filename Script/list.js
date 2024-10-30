@@ -46,7 +46,7 @@ async function get_users_from_role(role_name) {
 
 async function get_roles_from_user(user_name) {
     /* 
-    pre: user_name is the name of a user (Lisa, Arnaud, etc)
+    pre: user_name is the name of a user (Lisa, Calypso, etc)
     post: returns an object with "roles", "current", "languages" and "birthday" as keys 
           -> "roles" is a list of {name, time} objects corresponding to when a role was obtained
           -> the values are split so that if there are two unix values, they are shown separately

@@ -210,14 +210,14 @@
         "resigned_from": "guardian"
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": 1575543429,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "Renardeau",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1714712400,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -320,8 +320,8 @@
         "resigned_from": "guardian"
     },
     {
-        "current": "resigned",
-        "guardian": 1597440040,
+        "current": "guardian",
+        "guardian": "1597440040 1696741200",
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "Thai",
@@ -400,9 +400,9 @@
         "resigned_from": "guardian"
     },
     {
-        "current": "guardianmanagerhelper",
+        "current": "guardianmanager",
         "guardian": 1598006832,
-        "guardianmanager": null,
+        "guardianmanager": 1719637201,
         "guardianmanagerhelper": 1624787350,
         "languages": "German French",
         "name": "Lisa",
@@ -440,14 +440,14 @@
         "resigned_from": "guardian"
     },
     {
-        "current": "guardianmanager",
+        "current": "resigned",
         "guardian": 1606670873,
         "guardianmanager": 1632251219,
         "guardianmanagerhelper": 1624787350,
         "languages": "Hindi",
         "name": "Weri",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1719637200,
+        "resigned_from": "guardianmanager"
     },
     {
         "current": "guardian",
@@ -470,8 +470,8 @@
         "resigned_from": "guardian"
     },
     {
-        "current": "resigned",
-        "guardian": 1606670873,
+        "current": "guardian",
+        "guardian": "1606670873 1710046800",
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "Italian",
@@ -510,14 +510,14 @@
         "resigned_from": "guardian guardian"
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": 1622028501,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "Spanish",
         "name": "Doraemon",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1683954000,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -530,18 +530,18 @@
         "resigned_from": "guardian"
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": 1622028501,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "Chinese",
         "name": "Dr_Raymond",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1663477200,
+        "resigned_from": "guardian"
     },
     {
-        "current": "resigned",
-        "guardian": 1622028501,
+        "current": "guardian",
+        "guardian": "1622028501 1686114000",
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "Russian",
@@ -570,13 +570,13 @@
         "resigned_from": "guardian"
     },
     {
-        "current": "resigned",
-        "guardian": 1622028501,
+        "current": "guardian",
+        "guardian": "1622028501 1675141200",
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "German Albanian",
         "name": "Florian9",
-        "resigned": 1667669760,
+        "resigned": 1667624400,
         "resigned_from": "guardian"
     },
     {
@@ -590,14 +590,14 @@
         "resigned_from": null
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": 1622028501,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "Thai",
         "name": "Migi_migi",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1685682000,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -620,14 +620,14 @@
         "resigned_from": "guardian"
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": 1645180009,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "Yurii",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1695273000,
+        "resigned_from": "guardian"
     },
     {
         "current": "guardian",
@@ -640,24 +640,24 @@
         "resigned_from": null
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": 1645180009,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "Turkish",
         "name": "Imge",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1714971600,
+        "resigned_from": "guardian"
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": 1645180009,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "Portuguese_br",
         "name": "Saori",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1713416400,
+        "resigned_from": "guardian"
     },
     {
         "current": "guardian",
@@ -694,7 +694,7 @@
         "guardian": 1655397184,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
-        "languages": "German Austrian",
+        "languages": "German",
         "name": "Depata",
         "resigned": null,
         "resigned_from": null
@@ -730,24 +730,24 @@
         "resigned_from": null
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": 1655397184,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "Nexo",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1664254800,
+        "resigned_from": "guardian"
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": 1655397184,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "Romanian",
         "name": "Wolfy",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1677301200,
+        "resigned_from": "guardian"
     },
     {
         "current": "guardian",
@@ -760,14 +760,14 @@
         "resigned_from": null
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": 1655397184,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "Portuguese_br",
         "name": "Shadow",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1667883600,
+        "resigned_from": "guardian"
     },
     {
         "current": "guardian",
@@ -780,22 +780,182 @@
         "resigned_from": null
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": 1655397184,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "Turkish",
         "name": "Uxy",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1672635600,
+        "resigned_from": "guardian"
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": 1655397184,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "Italian",
         "name": "Spultor",
+        "resigned": 1716613200,
+        "resigned_from": "guardian"
+    },
+    {
+        "current": "guardian",
+        "guardian": 1666328400,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "English",
+        "name": "Daruma",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "resigned",
+        "guardian": 1666328400,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "Spanish Russian",
+        "name": "Duplo",
+        "resigned": 1713502800,
+        "resigned_from": "guardian"
+    },
+    {
+        "current": "resigned",
+        "guardian": 1666328400,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "Turkish",
+        "name": "Tisery",
+        "resigned": 1716613500,
+        "resigned_from": "guardian"
+    },
+    {
+        "current": "guardian",
+        "guardian": 1704603600,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "English",
+        "name": "Aero",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1704603600,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "Vietnamese",
+        "name": "Wargrey",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1704603600,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "Dutch",
+        "name": "Sonblo",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1704603600,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "German",
+        "name": "Aurora",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1704603600,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "Portuguese",
+        "name": "Aniela",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1704603600,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "Spanish",
+        "name": "Sin",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "resigned",
+        "guardian": 1704603600,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "Spanish",
+        "name": "Asiabby",
+        "resigned": 1719378000,
+        "resigned_from": "guardian"
+    },
+    {
+        "current": "guardian",
+        "guardian": 1704603600,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "Turkish",
+        "name": "Kahvalti",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1704603600,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "Portuguese",
+        "name": "Dot",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1704603600,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "French German Portuguese",
+        "name": "Miki",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1704603600,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "Turkish",
+        "name": "Selin",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1704603600,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "German Italian",
+        "name": "Sanny",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1704603600,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "Italian",
+        "name": "Foibos",
         "resigned": null,
         "resigned_from": null
     }

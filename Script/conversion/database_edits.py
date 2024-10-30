@@ -12,6 +12,7 @@ conn = sqlite3.connect(db_path)
 
 # Use cursor to send instructions
 cursor = conn.cursor()
+    
 
 def show_instructions():
     print('''
@@ -172,9 +173,10 @@ def get_category(role):
     else:
         raise ValueError(f"{role} is not a valid role")
 
-def add_to_category(category,username,current):
+def add_to_category(category,username,current,extra_field=0):
     # pre: category & username are strings
     #      username is in Member table
+    #      extra_field is in case there is another field that can't be empty (socialmedia)
     # post: add staff to category table
     staff = cursor.execute(f"SELECT languages FROM Member WHERE name=?",(username,))
     entry = staff.fetchone()
@@ -185,7 +187,11 @@ def add_to_category(category,username,current):
         languages = entry[0].replace("English","")
         languages = languages.replace("  "," ").strip() # avoid extra spaces
     
-    cursor.execute(f"INSERT INTO {category} (name,current,languages) VALUES ( ?,?,? )",(username,current,languages))
+    if category == "SocialMedia": # override because social media has one more field that can't be null
+        cursor.execute(f"INSERT INTO {category} (name,current,languages,socialmedia) VALUES ( ?,?,?,? )",(username,current,languages,extra_field))
+    else:
+        cursor.execute(f"INSERT INTO {category} (name,current,languages) VALUES ( ?,?,? )",(username,current,languages))
+
     print(f"Added {username} into the {category} table")
 
 def add_staff(name,category,languages,birthday):
@@ -222,18 +228,18 @@ def edit_staff(names,role,value):
         if entry is None:
             # staff not in Member
             add_staff(username,category,"English",None)
-            add_to_category(category,username,role)
+            add_to_category(category,username,role,value)
             
         elif (entry[0] is None):
             # staff in Member but doesn't have any category yet
             cursor.execute(f"UPDATE Member SET categories=? WHERE name=?",(category,username))
-            add_to_category(category,username,role)
+            add_to_category(category,username,role,value)
         
         elif (category not in entry[0]):
             # staff in Member but doesn't have corresponding category yet
             new_categories = (entry[0] + " " + category).strip()
             cursor.execute(f"UPDATE Member SET categories=? WHERE name=?",(new_categories,username))
-            add_to_category(category,username,role)
+            add_to_category(category,username,role,value)
 
         # If the field is resigned, need to add to resigned_from too
         # get old value
@@ -499,15 +505,14 @@ def find_latest(row):
 
 
 # Start main program
-show_instructions()
-running()
+if __name__ == "__main__":
+    show_instructions()
+    running()
 
-# Save modifications
-print("Saving all changes...")
-conn.commit()
+    # Save modifications
+    print("Saving all changes...")
+    conn.commit()
 
-# Close database
-conn.close()
-print("All changes saved")
-
-
+    # Close database
+    conn.close()
+    print("All changes saved")

@@ -466,9 +466,9 @@ let display_names = {
 	twitter: "Social media manager <img src='Pictures/twitter logo.png' class='mini_img'>",
 	socialmedia: "Social media manager",
 	dev: "Developer",
-	tc_mod: "Moderator <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>",
-	tc_admin: "Admin <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>",
-	tc_manager: "Manager <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>",
+	tc_mod: "Moderator <img src='Pictures/TesterClub.webp' class='mini_img'>",
+	tc_admin: "Admin <img src='Pictures/TesterClub.webp' class='mini_img'>",
+	tc_manager: "Manager <img src='Pictures/TesterClub.webp' class='mini_img'>",
 	resigned: "This user no longer has any staff role."
 }
 

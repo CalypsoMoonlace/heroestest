@@ -267,7 +267,7 @@ async function get_events(timestamp) {
                 if (years == 1) {
                     // 1 year
                     new_update = `It's been a year since <a class="name_link">${name}</a> became <a class="role_link">${role_to.display_name}</a>`
-                } else {
+                } else if (years >= 2) {
                     // 2+ years
                     new_update = `It's been ${years} years since <a class="name_link">${name}</a> became <a class="role_link">${role_to.display_name}</a>`
                 }

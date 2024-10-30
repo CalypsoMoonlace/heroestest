@@ -147,7 +147,7 @@
         "category": "TesterClub",
         "colour": "#00bfff",
         "description": "They handle tests of weird and funky scenarios in the <a href=\"https://discord.gg/SDujygY\" target=\"_blank\" class=\"yellow\">Tester Club</a> sideserver and the server in itself.",
-        "display_name": "Moderator <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>",
+        "display_name": "Moderator <img src='Pictures/TesterClub.webp' class='mini_img'>",
         "name": "tc_mod",
         "show_higher": 1
     },
@@ -155,7 +155,7 @@
         "category": "TesterClub",
         "colour": "#17afbd",
         "description": "They take care of the <a href=\"https://discord.gg/SDujygY\" target=\"_blank\" class=\"yellow\">Tester Club</a> sideserver with almost all permissions.",
-        "display_name": "Admin <img src='https://cdn.discordapp.com/attachments/587307618155102257/758745910187786280/Testers_Club.png' class='mini_img'>",
+        "display_name": "Admin <img src='Pictures/TesterClub.webp' class='mini_img'>",
         "name": "tc_admin",
         "show_higher": 1
     },

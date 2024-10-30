@@ -8,7 +8,7 @@ async function get_updates_from_teams(teams) {
     /*
     pre: teams is an array of role categories, eg ["Discord", "Mentor", "Guardian", ...]
     post: returns a list of updates objects sorted by time (newest first)
-    example: [ {staff_name: "Arnaud", name: "mentormanager", time: ..., from: "mentormanagerhelper"}, ... ]
+    example: [ {staff_name: "Calypso", name: "mentormanager", time: ..., from: "mentormanagerhelper"}, ... ]
     */
 
     updates = []

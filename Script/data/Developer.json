@@ -24,11 +24,11 @@
         "resigned_from": null
     },
     {
-        "current": "dev",
+        "current": "resigned",
         "dev": 1619618273,
         "languages": "French",
         "name": "Hubble",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1676437200,
+        "resigned_from": "dev"
     }
 ]
