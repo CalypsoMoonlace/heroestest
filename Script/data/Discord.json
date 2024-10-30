@@ -1963,15 +1963,15 @@
         "trialminimod": 1643812552
     },
     {
-        "current": "mod",
+        "current": "resigned",
         "helper": 1624526243,
         "languages": "Hindi",
         "megamod": null,
         "minimod": 1627912921,
         "mod": 1679374800,
         "name": "Riya",
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1721833260,
+        "resigned_from": "mod",
         "trialhelper": 1623670101,
         "trialminimod": 1626968555
     },
@@ -2015,15 +2015,15 @@
         "trialminimod": null
     },
     {
-        "current": "helper",
+        "current": "resigned",
         "helper": 1624526243,
         "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,
         "name": "Eiskruemel",
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1721833260,
+        "resigned_from": "helper",
         "trialhelper": 1623670101,
         "trialminimod": null
     },
@@ -2589,7 +2589,7 @@
     {
         "current": "resigned",
         "helper": null,
-        "languages": "English",
+        "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2641,7 +2641,7 @@
     {
         "current": "trialhelper",
         "helper": null,
-        "languages": "English",
+        "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,

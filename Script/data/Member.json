@@ -1832,7 +1832,7 @@
     {
         "birthday": null,
         "categories": "Discord",
-        "languages": "English",
+        "languages": "English German",
         "name": "Melodie"
     },
     {
@@ -1848,9 +1848,9 @@
         "name": "Zoro"
     },
     {
-        "birthday": null,
+        "birthday": "22/2",
         "categories": "Discord",
-        "languages": "English",
+        "languages": "English German",
         "name": "BlackWither"
     }
 ]
