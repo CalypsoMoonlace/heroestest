@@ -2652,15 +2652,15 @@
         "trialminimod": null
     },
     {
-        "current": "trialhelper",
+        "current": "resigned",
         "helper": null,
         "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
         "name": "Elva",
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1723283640,
+        "resigned_from": "trialhelper",
         "trialhelper": 1721845200,
         "trialminimod": null
     },
