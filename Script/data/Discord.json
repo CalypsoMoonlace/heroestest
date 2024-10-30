@@ -2650,5 +2650,57 @@
         "resigned_from": null,
         "trialhelper": 1720501200,
         "trialminimod": null
+    },
+    {
+        "current": "trialhelper",
+        "helper": null,
+        "languages": "English",
+        "megamod": null,
+        "minimod": null,
+        "mod": null,
+        "name": "Elva",
+        "resigned": null,
+        "resigned_from": null,
+        "trialhelper": 1721845200,
+        "trialminimod": null
+    },
+    {
+        "current": "trialhelper",
+        "helper": null,
+        "languages": "English",
+        "megamod": null,
+        "minimod": null,
+        "mod": null,
+        "name": "Pomerode",
+        "resigned": null,
+        "resigned_from": null,
+        "trialhelper": 1721845200,
+        "trialminimod": null
+    },
+    {
+        "current": "trialhelper",
+        "helper": null,
+        "languages": "German",
+        "megamod": null,
+        "minimod": null,
+        "mod": null,
+        "name": "Depata",
+        "resigned": null,
+        "resigned_from": null,
+        "trialhelper": 1721845200,
+        "trialminimod": null
+    },
+    {
+        "current": "trialhelper",
+        "helper": null,
+        "languages": "English",
+        "megamod": null,
+        "minimod": null,
+        "mod": null,
+        "name": "Liamtuttut",
+        "resigned": null,
+        "resigned_from": null,
+        "trialhelper": 1721845200,
+        "trialminimod": null
     }
 ]

@@ -1537,7 +1537,7 @@
     },
     {
         "birthday": null,
-        "categories": "Guardian TesterClub",
+        "categories": "Guardian TesterClub Discord",
         "languages": "English German",
         "name": "Depata"
     },
@@ -1852,5 +1852,23 @@
         "categories": "Discord",
         "languages": "English German",
         "name": "BlackWither"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English",
+        "name": "Elva"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English",
+        "name": "Pomerode"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English",
+        "name": "Liamtuttut"
     }
 ]
