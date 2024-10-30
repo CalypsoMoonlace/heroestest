@@ -1068,5 +1068,175 @@
         "name": "Valaias",
         "resigned": 1727882880,
         "resigned_from": "mentor"
+    },
+    {
+        "current": "mentor",
+        "languages": "German",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Aurora",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "English",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Aeryn",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "English",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Croxing",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "German",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Depata",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "English",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Austen",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "English",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Costa",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "English",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Amy",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "English",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Laurel",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "English",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Sirius",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "Dutch",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "FirePhoenix",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "English",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Aero",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "English",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Flame",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "English",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Hyk",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "English",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Luca",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "English",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "PurpleSnake",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "English",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Noor",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "mentor",
+        "languages": "English",
+        "mentor": 1725997860,
+        "mentormanager": null,
+        "mentormanagerhelper": null,
+        "name": "Avocado",
+        "resigned": null,
+        "resigned_from": null
     }
 ]

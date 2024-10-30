@@ -1033,7 +1033,7 @@
     },
     {
         "birthday": null,
-        "categories": "Discord TesterClub",
+        "categories": "Discord TesterClub Mentor",
         "languages": "English",
         "name": "Hyk"
     },
@@ -1537,7 +1537,7 @@
     },
     {
         "birthday": null,
-        "categories": "Guardian TesterClub Discord",
+        "categories": "Guardian TesterClub Discord Mentor",
         "languages": "English German",
         "name": "Depata"
     },
@@ -1621,7 +1621,7 @@
     },
     {
         "birthday": null,
-        "categories": "Discord Guardian",
+        "categories": "Discord Guardian Mentor",
         "languages": "English German",
         "name": "Aurora"
     },
@@ -1699,7 +1699,7 @@
     },
     {
         "birthday": null,
-        "categories": "Discord",
+        "categories": "Discord Mentor",
         "languages": "English",
         "name": "Flame"
     },
@@ -1753,7 +1753,7 @@
     },
     {
         "birthday": null,
-        "categories": "Discord TesterClub Guardian",
+        "categories": "Discord TesterClub Guardian Mentor",
         "languages": "English",
         "name": "Aero"
     },
@@ -1777,7 +1777,7 @@
     },
     {
         "birthday": null,
-        "categories": "Discord",
+        "categories": "Discord Mentor",
         "languages": "English Dutch",
         "name": "FirePhoenix"
     },
@@ -1894,5 +1894,71 @@
         "categories": "Mentor",
         "languages": "English",
         "name": "Valaias"
+    },
+    {
+        "birthday": null,
+        "categories": "Mentor",
+        "languages": "English",
+        "name": "Aeryn"
+    },
+    {
+        "birthday": null,
+        "categories": "Mentor",
+        "languages": "English",
+        "name": "Croxing"
+    },
+    {
+        "birthday": null,
+        "categories": "Mentor",
+        "languages": "English",
+        "name": "Austen"
+    },
+    {
+        "birthday": null,
+        "categories": "Mentor",
+        "languages": "English",
+        "name": "Costa"
+    },
+    {
+        "birthday": null,
+        "categories": "Mentor",
+        "languages": "English",
+        "name": "Amy"
+    },
+    {
+        "birthday": null,
+        "categories": "Mentor",
+        "languages": "English",
+        "name": "Laurel"
+    },
+    {
+        "birthday": null,
+        "categories": "Mentor",
+        "languages": "English",
+        "name": "Sirius"
+    },
+    {
+        "birthday": null,
+        "categories": "Mentor",
+        "languages": "English",
+        "name": "Luca"
+    },
+    {
+        "birthday": null,
+        "categories": "Mentor",
+        "languages": "English",
+        "name": "PurpleSnake"
+    },
+    {
+        "birthday": null,
+        "categories": "Mentor",
+        "languages": "English",
+        "name": "Noor"
+    },
+    {
+        "birthday": null,
+        "categories": "Mentor",
+        "languages": "English",
+        "name": "Avocado"
     }
 ]
