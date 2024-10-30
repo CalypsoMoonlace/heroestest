@@ -2587,15 +2587,15 @@
         "trialminimod": null
     },
     {
-        "current": "trialhelper",
+        "current": "resigned",
         "helper": null,
         "languages": "English",
         "megamod": null,
         "minimod": null,
         "mod": null,
         "name": "Melodie",
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1721328600,
+        "resigned_from": "trialhelper",
         "trialhelper": 1720501200,
         "trialminimod": null
     },
