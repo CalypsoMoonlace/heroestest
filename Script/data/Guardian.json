@@ -420,8 +420,8 @@
         "resigned_from": "guardian"
     },
     {
-        "current": "resigned",
-        "guardian": 1606670873,
+        "current": "guardian",
+        "guardian": "1606670873 1730844540",
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "German Romanian",

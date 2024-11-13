@@ -50,9 +50,9 @@
         "resigned_from": "mentor"
     },
     {
-        "current": "resigned",
+        "current": "mentor",
         "languages": "Czech Slovak Swedish",
-        "mentor": 1570611520,
+        "mentor": "1570611520 1730048880",
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Terka",
