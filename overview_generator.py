@@ -17,7 +17,7 @@ generated_overview = overview_template_file.read()
 print(generated_overview)
 
 roles_list = ["trialhelper","helper","trialminimod","minimod","mod","megamod","mentor","mentormanagerhelper",
-              "mentormanager","guardian","guardianmanager","reddit","facebook","instagram","twitter","tc_mod","tc_admin"]
+              "mentormanager","guardian","guardianmanagerhelper","guardianmanager","reddit","facebook","instagram","twitter","tc_mod","tc_admin"]
 # Dev is not included, this one has to be done manually
 
 
