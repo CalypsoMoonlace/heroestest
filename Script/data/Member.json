@@ -920,7 +920,7 @@
     {
         "birthday": null,
         "categories": "Discord Mentor SocialMedia",
-        "languages": "English German",
+        "languages": "English German French",
         "name": "Marie"
     },
     {
@@ -944,7 +944,7 @@
     {
         "birthday": null,
         "categories": "Discord Mentor",
-        "languages": "English Hindi French",
+        "languages": "English Hindi French Malayalam",
         "name": "Tekisui"
     },
     {
@@ -1017,7 +1017,7 @@
         "birthday": null,
         "categories": "Discord Mentor",
         "languages": "English German",
-        "name": "TigerPuppy"
+        "name": "Tiger"
     },
     {
         "birthday": null,
@@ -1034,7 +1034,7 @@
     {
         "birthday": null,
         "categories": "Discord TesterClub Mentor",
-        "languages": "English",
+        "languages": "English Italian",
         "name": "Hyk"
     },
     {
@@ -1634,7 +1634,7 @@
     {
         "birthday": null,
         "categories": "Discord",
-        "languages": "English German",
+        "languages": "English German Bulgarian",
         "name": "Baba_Jaga"
     },
     {
@@ -1651,14 +1651,14 @@
     },
     {
         "birthday": null,
-        "categories": "Discord TesterClub Guardian",
+        "categories": "Discord TesterClub Guardian SocialMedia",
         "languages": "English Portuguese",
         "name": "Dot"
     },
     {
         "birthday": null,
         "categories": "Guardian",
-        "languages": "English",
+        "languages": "English Turkish",
         "name": "Daruma"
     },
     {
@@ -1766,7 +1766,7 @@
     {
         "birthday": null,
         "categories": "SocialMedia Discord",
-        "languages": "English",
+        "languages": "English Dutch",
         "name": "Dust"
     },
     {
@@ -1838,20 +1838,20 @@
     {
         "birthday": null,
         "categories": "Discord",
-        "languages": "English",
+        "languages": "English Spanish",
         "name": "EstofadoDemesa"
     },
     {
         "birthday": null,
         "categories": "Discord",
-        "languages": "English",
+        "languages": "English Vietnamese",
         "name": "Zoro"
     },
     {
         "birthday": "22/2",
         "categories": "Discord",
         "languages": "English German",
-        "name": "BlackWither"
+        "name": "Black_Wither"
     },
     {
         "birthday": null,
@@ -1862,13 +1862,13 @@
     {
         "birthday": null,
         "categories": "Discord",
-        "languages": "English",
+        "languages": "English Portuguese",
         "name": "Pomerode"
     },
     {
         "birthday": null,
         "categories": "Discord",
-        "languages": "English",
+        "languages": "English German",
         "name": "Liamtuttut"
     },
     {
@@ -1897,9 +1897,9 @@
     },
     {
         "birthday": null,
-        "categories": "Mentor Guardian",
-        "languages": "English",
-        "name": "Aeryn"
+        "categories": "Mentor Guardian Discord",
+        "languages": "English Turkish",
+        "name": "Faeryn"
     },
     {
         "birthday": null,
@@ -1928,7 +1928,7 @@
     {
         "birthday": null,
         "categories": "Mentor Guardian",
-        "languages": "English",
+        "languages": "English Spanish",
         "name": "Laurel"
     },
     {
@@ -1957,14 +1957,14 @@
     },
     {
         "birthday": null,
-        "categories": "Mentor",
-        "languages": "English",
+        "categories": "Mentor Discord",
+        "languages": "English Vietnamese",
         "name": "Avocado"
     },
     {
         "birthday": null,
         "categories": "Guardian",
-        "languages": "English",
+        "languages": "English French",
         "name": "Hanashy"
     },
     {
@@ -1976,31 +1976,79 @@
     {
         "birthday": null,
         "categories": "Guardian",
-        "languages": "English",
+        "languages": "English Turkish",
         "name": "Ifflion"
     },
     {
         "birthday": null,
         "categories": "Guardian",
-        "languages": "English",
+        "languages": "English Thai",
         "name": "ExSia"
     },
     {
         "birthday": null,
         "categories": "Guardian",
-        "languages": "English",
+        "languages": "English Portuguese_br",
         "name": "Tekyon"
     },
     {
         "birthday": null,
         "categories": "Guardian",
-        "languages": "English",
+        "languages": "English Italian",
         "name": "Slevin"
     },
     {
         "birthday": null,
         "categories": "Guardian",
-        "languages": "English",
+        "languages": "English French",
         "name": "Roro"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "Thai",
+        "name": "Balthazar"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English French Polish Slovak",
+        "name": "Kae"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English Dutch",
+        "name": "Kyle"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English German Korean Thai",
+        "name": "Kosh"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English Dutch",
+        "name": "xSqueak"
+    },
+    {
+        "birthday": "30/9",
+        "categories": "Discord",
+        "languages": "English German Korean",
+        "name": "Eggy"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English German Polish Russian",
+        "name": "Joshi"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English Italian",
+        "name": "Speko"
     }
 ]

@@ -243,7 +243,7 @@
         "current": "instagram",
         "facebook": null,
         "instagram": "1673931600",
-        "languages": "German",
+        "languages": "German French",
         "name": "Marie",
         "reddit": null,
         "resigned": null,
@@ -351,12 +351,24 @@
         "current": "instagram",
         "facebook": null,
         "instagram": "1696741320",
-        "languages": "English",
+        "languages": "Dutch",
         "name": "Dust",
         "reddit": null,
         "resigned": null,
         "resigned_from": null,
         "socialmedia": "1696741320",
+        "twitter": null
+    },
+    {
+        "current": "instagram",
+        "facebook": null,
+        "instagram": "1742572440",
+        "languages": "Portuguese",
+        "name": "Dot",
+        "reddit": null,
+        "resigned": null,
+        "resigned_from": null,
+        "socialmedia": "1742572440",
         "twitter": null
     }
 ]

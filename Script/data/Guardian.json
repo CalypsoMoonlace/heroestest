@@ -690,14 +690,14 @@
         "resigned_from": null
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": 1655397184,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "German",
         "name": "Depata",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1738625220,
+        "resigned_from": "guardian"
     },
     {
         "current": "guardian",
@@ -720,14 +720,14 @@
         "resigned_from": null
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": 1655397184,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "Meduza",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1737358020,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",
@@ -804,7 +804,7 @@
         "guardian": 1666328400,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
-        "languages": "English",
+        "languages": "Turkish",
         "name": "Daruma",
         "resigned": null,
         "resigned_from": null
@@ -964,7 +964,7 @@
         "guardian": 1727623800,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
-        "languages": "English",
+        "languages": "French",
         "name": "Hanashy",
         "resigned": null,
         "resigned_from": null
@@ -1004,8 +1004,8 @@
         "guardian": 1727623800,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
-        "languages": "English",
-        "name": "Aeryn",
+        "languages": "Turkish",
+        "name": "Faeryn",
         "resigned": null,
         "resigned_from": null
     },
@@ -1014,7 +1014,7 @@
         "guardian": 1727623800,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
-        "languages": "English",
+        "languages": "Turkish",
         "name": "Ifflion",
         "resigned": null,
         "resigned_from": null
@@ -1034,7 +1034,7 @@
         "guardian": 1727623800,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
-        "languages": "English",
+        "languages": "Thai",
         "name": "ExSia",
         "resigned": null,
         "resigned_from": null
@@ -1054,7 +1054,7 @@
         "guardian": 1727623800,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
-        "languages": "English",
+        "languages": "Portuguese_br",
         "name": "Tekyon",
         "resigned": null,
         "resigned_from": null
@@ -1064,7 +1064,7 @@
         "guardian": 1727623800,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
-        "languages": "English",
+        "languages": "Spanish",
         "name": "Laurel",
         "resigned": null,
         "resigned_from": null
@@ -1074,7 +1074,7 @@
         "guardian": 1727623800,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
-        "languages": "English",
+        "languages": "Italian",
         "name": "Slevin",
         "resigned": null,
         "resigned_from": null
@@ -1084,7 +1084,7 @@
         "guardian": 1727623800,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
-        "languages": "English",
+        "languages": "French",
         "name": "Roro",
         "resigned": null,
         "resigned_from": null

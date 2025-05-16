@@ -559,12 +559,12 @@
         "trialminimod": null
     },
     {
-        "current": "resigned",
+        "current": "mod",
         "helper": 1552748345,
         "languages": "German Romanian",
         "megamod": null,
         "minimod": 1572799623,
-        "mod": 1579392000,
+        "mod": "1579392000 1740382800",
         "name": "Hyde",
         "resigned": 1616158268,
         "resigned_from": "mod",
@@ -1885,17 +1885,17 @@
         "trialminimod": 1542971013
     },
     {
-        "current": "helper",
+        "current": "minimod",
         "helper": 1618754271,
         "languages": "Dutch",
         "megamod": null,
-        "minimod": null,
+        "minimod": 1746906480,
         "mod": null,
         "name": "Annelotte",
         "resigned": null,
         "resigned_from": null,
         "trialhelper": 1618149471,
-        "trialminimod": null
+        "trialminimod": 1744448580
     },
     {
         "current": "resigned",
@@ -1989,15 +1989,15 @@
         "trialminimod": 1626968555
     },
     {
-        "current": "minimod",
+        "current": "resigned",
         "helper": 1624526243,
-        "languages": "German",
+        "languages": "German French",
         "megamod": null,
         "minimod": 1645367752,
         "mod": null,
         "name": "Marie",
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1740838200,
+        "resigned_from": "minimod",
         "trialhelper": 1623670101,
         "trialminimod": 1643812552
     },
@@ -2043,7 +2043,7 @@
     {
         "current": "minimod",
         "helper": 1630868939,
-        "languages": "Hindi French",
+        "languages": "Hindi French Malayalam",
         "megamod": null,
         "minimod": 1638444555,
         "mod": null,
@@ -2054,7 +2054,7 @@
         "trialminimod": 1635802582
     },
     {
-        "current": "resigned",
+        "current": "trialhelper",
         "helper": 1635706305,
         "languages": "Malay",
         "megamod": null,
@@ -2063,7 +2063,7 @@
         "name": "Danish",
         "resigned": 1649082952,
         "resigned_from": "helper",
-        "trialhelper": 1634376829,
+        "trialhelper": "1634376829 1746270960",
         "trialminimod": null
     },
     {
@@ -2203,7 +2203,7 @@
         "megamod": null,
         "minimod": 1716786000,
         "mod": null,
-        "name": "TigerPuppy",
+        "name": "Tiger",
         "resigned": null,
         "resigned_from": null,
         "trialhelper": 1653323584,
@@ -2238,7 +2238,7 @@
     {
         "current": "minimod",
         "helper": 1655310784,
-        "languages": "English",
+        "languages": "Italian",
         "megamod": null,
         "minimod": 1681966800,
         "mod": null,
@@ -2262,12 +2262,12 @@
         "trialminimod": null
     },
     {
-        "current": "minimod",
+        "current": "mod",
         "helper": 1655310784,
         "languages": "English",
         "megamod": null,
         "minimod": 1681966800,
-        "mod": null,
+        "mod": 1741799760,
         "name": "WerewolfofNether",
         "resigned": null,
         "resigned_from": null,
@@ -2316,7 +2316,7 @@
     {
         "current": "minimod",
         "helper": 1666501200,
-        "languages": "German",
+        "languages": "German Bulgarian",
         "megamod": null,
         "minimod": 1727823300,
         "mod": null,
@@ -2602,7 +2602,7 @@
     {
         "current": "helper",
         "helper": 1721845080,
-        "languages": "English",
+        "languages": "Spanish",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2615,7 +2615,7 @@
     {
         "current": "helper",
         "helper": 1721845080,
-        "languages": "English",
+        "languages": "Dutch",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2628,7 +2628,7 @@
     {
         "current": "helper",
         "helper": 1721845080,
-        "languages": "English",
+        "languages": "Vietnamese",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2639,17 +2639,17 @@
         "trialminimod": null
     },
     {
-        "current": "helper",
+        "current": "minimod",
         "helper": 1721845080,
         "languages": "German",
         "megamod": null,
-        "minimod": null,
+        "minimod": 1746906480,
         "mod": null,
-        "name": "BlackWither",
+        "name": "Black_Wither",
         "resigned": null,
         "resigned_from": null,
         "trialhelper": 1720501200,
-        "trialminimod": null
+        "trialminimod": 1744448580
     },
     {
         "current": "resigned",
@@ -2667,7 +2667,7 @@
     {
         "current": "helper",
         "helper": 1723837680,
-        "languages": "English",
+        "languages": "Portuguese",
         "megamod": null,
         "minimod": null,
         "mod": null,
@@ -2678,13 +2678,26 @@
         "trialminimod": null
     },
     {
-        "current": "helper",
+        "current": "resigned",
         "helper": 1723837680,
         "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,
         "name": "Depata",
+        "resigned": 1738625220,
+        "resigned_from": "helper",
+        "trialhelper": 1721845200,
+        "trialminimod": null
+    },
+    {
+        "current": "helper",
+        "helper": 1723837680,
+        "languages": "German",
+        "megamod": null,
+        "minimod": null,
+        "mod": null,
+        "name": "Liamtuttut",
         "resigned": null,
         "resigned_from": null,
         "trialhelper": 1721845200,
@@ -2693,14 +2706,131 @@
     {
         "current": "helper",
         "helper": 1723837680,
-        "languages": "English",
+        "languages": "Thai",
         "megamod": null,
         "minimod": null,
         "mod": null,
-        "name": "Liamtuttut",
+        "name": "Balthazar",
         "resigned": null,
         "resigned_from": null,
         "trialhelper": 1721845200,
+        "trialminimod": null
+    },
+    {
+        "current": "helper",
+        "helper": 1746270900,
+        "languages": "French Polish Slovak",
+        "megamod": null,
+        "minimod": null,
+        "mod": null,
+        "name": "Kae",
+        "resigned": null,
+        "resigned_from": null,
+        "trialhelper": 1745054220,
+        "trialminimod": null
+    },
+    {
+        "current": "helper",
+        "helper": 1746270900,
+        "languages": "Dutch",
+        "megamod": null,
+        "minimod": null,
+        "mod": null,
+        "name": "Kyle",
+        "resigned": null,
+        "resigned_from": null,
+        "trialhelper": 1745054220,
+        "trialminimod": null
+    },
+    {
+        "current": "helper",
+        "helper": 1746270900,
+        "languages": "German Korean Thai",
+        "megamod": null,
+        "minimod": null,
+        "mod": null,
+        "name": "Kosh",
+        "resigned": null,
+        "resigned_from": null,
+        "trialhelper": 1745054220,
+        "trialminimod": null
+    },
+    {
+        "current": "helper",
+        "helper": 1746270900,
+        "languages": "Dutch",
+        "megamod": null,
+        "minimod": null,
+        "mod": null,
+        "name": "xSqueak",
+        "resigned": null,
+        "resigned_from": null,
+        "trialhelper": 1745054220,
+        "trialminimod": null
+    },
+    {
+        "current": "helper",
+        "helper": 1746270900,
+        "languages": "Turkish",
+        "megamod": null,
+        "minimod": null,
+        "mod": null,
+        "name": "Faeryn",
+        "resigned": null,
+        "resigned_from": null,
+        "trialhelper": 1745054220,
+        "trialminimod": null
+    },
+    {
+        "current": "trialhelper",
+        "helper": null,
+        "languages": "Vietnamese",
+        "megamod": null,
+        "minimod": null,
+        "mod": null,
+        "name": "Avocado",
+        "resigned": null,
+        "resigned_from": null,
+        "trialhelper": 1746270960,
+        "trialminimod": null
+    },
+    {
+        "current": "trialhelper",
+        "helper": null,
+        "languages": "German Korean",
+        "megamod": null,
+        "minimod": null,
+        "mod": null,
+        "name": "Eggy",
+        "resigned": null,
+        "resigned_from": null,
+        "trialhelper": 1746270960,
+        "trialminimod": null
+    },
+    {
+        "current": "trialhelper",
+        "helper": null,
+        "languages": "German Polish Russian",
+        "megamod": null,
+        "minimod": null,
+        "mod": null,
+        "name": "Joshi",
+        "resigned": null,
+        "resigned_from": null,
+        "trialhelper": 1746270960,
+        "trialminimod": null
+    },
+    {
+        "current": "trialhelper",
+        "helper": null,
+        "languages": "Italian",
+        "megamod": null,
+        "minimod": null,
+        "mod": null,
+        "name": "Speko",
+        "resigned": null,
+        "resigned_from": null,
+        "trialhelper": 1746270960,
         "trialminimod": null
     }
 ]

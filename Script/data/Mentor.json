@@ -780,14 +780,14 @@
         "resigned_from": null
     },
     {
-        "current": "mentor",
-        "languages": "German",
+        "current": "resigned",
+        "languages": "German French",
         "mentor": 1612694154,
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Marie",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1740838200,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
@@ -800,14 +800,14 @@
         "resigned_from": null
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "German",
         "mentor": "1612694154 1705467600",
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Eiskruemel",
-        "resigned": 1646231752,
-        "resigned_from": "mentor"
+        "resigned": "1646231752 1733410500",
+        "resigned_from": "mentor mentor"
     },
     {
         "current": "resigned",
@@ -895,7 +895,7 @@
         "mentor": 1642100087,
         "mentormanager": null,
         "mentormanagerhelper": null,
-        "name": "TigerPuppy",
+        "name": "Tiger",
         "resigned": null,
         "resigned_from": null
     },
@@ -971,7 +971,7 @@
     },
     {
         "current": "mentor",
-        "languages": "Hindi French",
+        "languages": "Hindi French Malayalam",
         "mentor": 1642100087,
         "mentormanager": null,
         "mentormanagerhelper": null,
@@ -1081,11 +1081,11 @@
     },
     {
         "current": "mentor",
-        "languages": "English",
+        "languages": "Turkish",
         "mentor": 1725997860,
         "mentormanager": null,
         "mentormanagerhelper": null,
-        "name": "Aeryn",
+        "name": "Faeryn",
         "resigned": null,
         "resigned_from": null
     },
@@ -1100,14 +1100,14 @@
         "resigned_from": null
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "German",
         "mentor": 1725997860,
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Depata",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1738625220,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
@@ -1141,7 +1141,7 @@
     },
     {
         "current": "mentor",
-        "languages": "English",
+        "languages": "Spanish",
         "mentor": 1725997860,
         "mentormanager": null,
         "mentormanagerhelper": null,
@@ -1191,7 +1191,7 @@
     },
     {
         "current": "mentor",
-        "languages": "English",
+        "languages": "Italian",
         "mentor": 1725997860,
         "mentormanager": null,
         "mentormanagerhelper": null,
@@ -1231,7 +1231,7 @@
     },
     {
         "current": "mentor",
-        "languages": "English",
+        "languages": "Vietnamese",
         "mentor": 1725997860,
         "mentormanager": null,
         "mentormanagerhelper": null,
