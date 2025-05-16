@@ -322,7 +322,11 @@ Developer.init({
     dev: {
         type: DataTypes.INTEGER,
         allowNull: false
-    }
+    },
+	minidev: {
+        type: DataTypes.INTEGER,
+        allowNull: true
+    },
 }, {sequelize});
 
 class Role extends Model{}
@@ -395,6 +399,7 @@ let role_categories = {
 	twitter: "SocialMedia",
 	socialmedia: "SocialMedia",
 	dev: "Developer",
+	minidev: "Developer",
 	tc_mod: "TesterClub",
 	tc_admin: "TesterClub"
 }
@@ -418,6 +423,7 @@ let role_descriptions = {
 	instagram: 'The <a class="role_link">social media manager</a> team who takes care of the official <a href="https://www.instagram.com/wolvesville.wov/" target="_blank" class="yellow">instagram</a> account.',
 	reddit: 'The <a class="role_link">social media manager</a> team who takes care of the official <a href="https://www.reddit.com/r/werewolfonline/" target="_blank" class="yellow">subreddit</a>.',
 	dev: 'The game!<br><br>They are ones behind all new features and evil bugs, if they\'re not busy looking for squids.',
+	minidev: 'The game!<br><br>They are ones behind all new features and evil bugs, if they\'re not busy looking for squids.',
 	tc_mod: 'They handle tests of weird and funky scenarios in the <a href="https://discord.gg/SDujygY" target="_blank" class="yellow">Tester Club</a> sideserver and the server in itself.',
 	tc_admin: 'They take care of the <a href="https://discord.gg/SDujygY" target="_blank" class="yellow">Tester Club</a> sideserver with almost all permissions.',
 	resigned: 'They no longer are a staff member.'
@@ -442,6 +448,7 @@ let role_colours = {
 	twitter: "#4962fd",
 	socialmedia: "#4962fd",
 	dev: "#F1C40F",
+	minidev: "FFF50A",
 	tc_mod: "#00bfff",
 	tc_admin: "#17afbd",
 	resigned: "#FFFFFF"
@@ -466,6 +473,7 @@ let display_names = {
 	twitter: "Social media manager <img src='Pictures/twitter logo.png' class='mini_img'>",
 	socialmedia: "Social media manager",
 	dev: "Developer",
+	minidev: "Mini Dev",
 	tc_mod: "Moderator <img src='Pictures/TesterClub.webp' class='mini_img'>",
 	tc_admin: "Admin <img src='Pictures/TesterClub.webp' class='mini_img'>",
 	tc_manager: "Manager <img src='Pictures/TesterClub.webp' class='mini_img'>",
@@ -725,6 +733,7 @@ whole_staff_list[5].forEach(staff => {
 		name: sane_staff.name,
 		current: sane_staff.current_value,
 		dev: sane_staff.dev,
+		minidev: sane_staff.minidev,
 		resigned: sane_staff.no_more_staff,
 		resigned_from: sane_staff.resigned_from,
 		languages: sane_staff.languages
