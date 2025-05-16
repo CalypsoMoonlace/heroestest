@@ -3,6 +3,7 @@
         "current": "dev",
         "dev": 1518818453,
         "languages": "German",
+        "minidev": null,
         "name": "Philipp",
         "resigned": null,
         "resigned_from": null
@@ -11,6 +12,7 @@
         "current": "resigned",
         "dev": 1518818453,
         "languages": "German",
+        "minidev": null,
         "name": "Emanuel",
         "resigned": 1619445473,
         "resigned_from": "dev"
@@ -19,6 +21,7 @@
         "current": "dev",
         "dev": 1606407988,
         "languages": "German",
+        "minidev": null,
         "name": "Florian",
         "resigned": null,
         "resigned_from": null
@@ -27,8 +30,18 @@
         "current": "resigned",
         "dev": 1619618273,
         "languages": "French",
+        "minidev": null,
         "name": "Hubble",
         "resigned": 1676437200,
         "resigned_from": "dev"
+    },
+    {
+        "current": "minidev",
+        "dev": null,
+        "languages": "German",
+        "minidev": 1747386180,
+        "name": "Black_Wither",
+        "resigned": null,
+        "resigned_from": null
     }
 ]

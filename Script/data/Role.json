@@ -166,5 +166,13 @@
         "display_name": "This user no longer has any staff role.",
         "name": "resigned",
         "show_higher": 1
+    },
+    {
+        "category": "Developer",
+        "colour": "#FFF50A",
+        "description": "The game!<br><br>They are ones behind all new features and evil bugs, if they're not busy looking for squids.",
+        "display_name": "Mini Dev",
+        "name": "minidev",
+        "show_higher": 1
     }
 ]

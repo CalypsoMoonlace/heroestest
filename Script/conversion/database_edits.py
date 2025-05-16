@@ -341,7 +341,7 @@ def add_role(name,category,display,description,colour,show_higher):
         show_higher = 0
 
     # add to Role db
-    cursor.execute("INSERT INTO Role(name,category,display_name,description,colour,show_higher) VALUES( ?,?,?,?,?,?,? )",(name,category,display,description,colour,show_higher))
+    cursor.execute("INSERT INTO Role(name,category,display_name,description,colour,show_higher) VALUES( ?,?,?,?,?,? )",(name,category,display,description,colour,show_higher))
     print(f"Added {name} into the database Role")
 
     # modify category database to add a field for that role
