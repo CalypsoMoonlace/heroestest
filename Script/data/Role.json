@@ -43,7 +43,7 @@
         "category": "Discord",
         "colour": "#CF5050",
         "description": "They are the admins of the server. They manage all staff and focus on things such as rules, bans from the server, and other related topics. Megamod is the highest rank in staff and also the hardest one to get.",
-        "display_name": "Megamod",
+        "display_name": "Manager",
         "name": "megamod",
         "show_higher": 1
     },

@@ -52,7 +52,7 @@ def running():
         print("ADDING A NEW STAFF MEMBER")
         
         name = input("\tName: ")
-        categories = input("\Categories: ")
+        categories = input("\tCategories: ")
         languages = input("\tLanguage(s): ")
         birthday = input("\tBirthday (optional): ")
         
