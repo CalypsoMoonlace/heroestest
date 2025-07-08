@@ -2,7 +2,7 @@
     {
         "category": "Discord",
         "colour": "#d7bf4c",
-        "description": "A <a class=\"role_link\" href=\"\">helper</a> over time with the same rights as a <a class=\"role_link\">helper</a> to prove that they can be a good <a class=\"role_link\">helper</a>.<br><br> After a few days, higher ranked staff members will decide whether this person becomes a normal <a class=\"role_link\">helper</a> or not. <br><br> Applications for trial helpers are sometimes opened in <span style=\"color: #7289da\">#discord-announcements.</span>",
+        "description": "A <a class=\"role_link\" href=\"\">helper</a> over time with the same rights as a <a class=\"role_link\">helper</a> to prove that they can be a good <a class=\"role_link\">helper</a>.<br><br> After a few days, higher ranked staff members will decide whether this person becomes a normal <a class=\"role_link\">helper</a> or not. <br><br> Applications for trial helpers are sometimes opened in <span style=\"color: #7289da\">#community-announcements.</span>",
         "display_name": "Trial Helper",
         "name": "trialhelper",
         "show_higher": 0
@@ -26,7 +26,7 @@
     {
         "category": "Discord",
         "colour": "#e1823b",
-        "description": "Minimods are users who have passed the <a class=\"role_link\">trial minimod</a> phase. Minimods have the same tasks as <a class=\"role_link\">helper</a> but can also take care of misbehaving users.<br><br>They also handle submissions for <span style=\"color: #7289da\">#vote.</span>",
+        "description": "Minimods are users who have passed the <a class=\"role_link\">trial minimod</a> phase. Minimods have the same tasks as <a class=\"role_link\">helper</a> but can also take care of misbehaving users.<br><br>They also handle submissions for <span style=\"color: #7289da\">#role-vote</span> and <span style=\"color: #7289da\">#design-vote</span>.",
         "display_name": "Minimod",
         "name": "minimod",
         "show_higher": 0

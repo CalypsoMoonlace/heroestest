@@ -404,6 +404,7 @@ async function show_role_info(role_joins, role_name, sort_type) {
     pre: body is loaded
          role_joins is a list of user objects (keys: name, roles, current, languages, birthday)
          => see get_users_from_role
+         role_name is a role name (e.g. "trialhelper") 
          sort_type is the selected sort type 
 
     post: adds all the data to the "rang" class elements
