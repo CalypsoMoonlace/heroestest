@@ -1909,7 +1909,7 @@
     },
     {
         "birthday": null,
-        "categories": "Mentor",
+        "categories": "Mentor Discord",
         "languages": "English",
         "name": "Austen"
     },
@@ -1945,8 +1945,8 @@
     },
     {
         "birthday": null,
-        "categories": "Mentor",
-        "languages": "English",
+        "categories": "Mentor Discord",
+        "languages": "English Dutch",
         "name": "PurpleSnake"
     },
     {
@@ -2056,5 +2056,59 @@
         "categories": "Developer",
         "languages": "English",
         "name": "Thomas"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English Turkish",
+        "name": "Zyneak"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English Croatian",
+        "name": "Masha"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English Swedish",
+        "name": "Zopilop"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English Vietnamese",
+        "name": "Sunnypearly"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English Dutch",
+        "name": "Dea"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English Dutch",
+        "name": "Alita"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English Thai",
+        "name": "Rudolph"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English",
+        "name": "fcsux"
+    },
+    {
+        "birthday": null,
+        "categories": "Discord",
+        "languages": "English German",
+        "name": "IvsYou"
     }
 ]

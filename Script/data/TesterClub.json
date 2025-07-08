@@ -153,11 +153,11 @@
         "tc_mod": null
     },
     {
-        "current": "tc_mod",
+        "current": "resigned",
         "languages": "Portuguese",
         "name": "Dot",
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1725028380,
+        "resigned_from": "tc_mod",
         "tc_admin": null,
         "tc_mod": 1679238213
     },
@@ -180,11 +180,11 @@
         "tc_mod": 1679238213
     },
     {
-        "current": "tc_mod",
+        "current": "resigned",
         "languages": "German",
         "name": "Depata",
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1738708200,
+        "resigned_from": "tc_mod",
         "tc_admin": null,
         "tc_mod": 1679238213
     },

@@ -19,8 +19,6 @@ print(generated_overview)
 roles_list = ["trialhelper","helper","trialminimod","minimod","mod","megamod","mentor","mentormanagerhelper",
               "mentormanager","guardian","guardianmanagerhelper","guardianmanager","reddit","facebook","instagram","twitter","tc_mod","tc_admin",
               "minidev", "dev"]
-# Dev is not included, this one has to be done manually
-
 
 for role in roles_list:
     # Fetch data

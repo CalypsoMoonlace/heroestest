@@ -970,14 +970,14 @@
         "resigned_from": "mentor"
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "Hindi French Malayalam",
         "mentor": 1642100087,
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Tekisui",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1747428600,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -1211,7 +1211,7 @@
     },
     {
         "current": "mentor",
-        "languages": "English",
+        "languages": "Dutch",
         "mentor": 1725997860,
         "mentormanager": null,
         "mentormanagerhelper": null,

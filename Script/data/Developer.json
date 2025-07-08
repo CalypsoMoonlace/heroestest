@@ -28,12 +28,12 @@
     },
     {
         "current": "resigned",
-        "dev": 1619618273,
+        "dev": null,
         "languages": "French",
-        "minidev": null,
+        "minidev": 1619618273,
         "name": "Hubble",
         "resigned": 1676437200,
-        "resigned_from": "dev"
+        "resigned_from": "minidev"
     },
     {
         "current": "minidev",
@@ -48,7 +48,7 @@
         "current": "minidev",
         "dev": null,
         "languages": "English",
-        "minidev": 1740783600,
+        "minidev": 1742256000,
         "name": "Thomas",
         "resigned": null,
         "resigned_from": null
