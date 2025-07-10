@@ -30,14 +30,14 @@
         "resigned_from": "mentormanager"
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "German",
         "mentor": 1540737760,
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Maffin",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1700825621,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",

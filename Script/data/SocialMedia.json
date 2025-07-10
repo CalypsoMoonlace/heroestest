@@ -1,13 +1,13 @@
 [
     {
-        "current": "reddit",
+        "current": "resigned",
         "facebook": null,
         "instagram": null,
         "languages": "German",
         "name": "Maffin",
         "reddit": "1563015740",
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1700825621,
+        "resigned_from": "reddit",
         "socialmedia": "1563015740",
         "twitter": null
     },
@@ -24,14 +24,14 @@
         "twitter": null
     },
     {
-        "current": "facebook twitter",
+        "current": "resigned",
         "facebook": "1578826940",
         "instagram": null,
         "languages": "French",
         "name": "Calypso",
         "reddit": null,
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1696764821,
+        "resigned_from": "twitter",
         "socialmedia": "1578826940 1605105445",
         "twitter": "1605105445"
     },
@@ -84,14 +84,14 @@
         "twitter": null
     },
     {
-        "current": "instagram twitter",
+        "current": "resigned",
         "facebook": null,
         "instagram": "1573556540",
         "languages": "German",
         "name": "Duden",
         "reddit": null,
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1696764821,
+        "resigned_from": "twitter",
         "socialmedia": "1573556540 1605105445",
         "twitter": "1605105445"
     },

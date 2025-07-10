@@ -54,11 +54,11 @@
         "tc_mod": 1546015986
     },
     {
-        "current": "tc_admin",
+        "current": "resigned",
         "languages": "Dutch",
         "name": "Sharon",
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1695296021,
+        "resigned_from": "tc_admin",
         "tc_admin": 1537894386,
         "tc_mod": 1530291186
     },
