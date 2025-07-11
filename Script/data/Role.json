@@ -101,7 +101,7 @@
         "description": "The <a class=\"role_link\">social media manager</a> team who takes care of the official <a href=\"https://www.reddit.com/r/werewolfonline/\" target=\"_blank\" class=\"yellow\">subreddit</a>.",
         "display_name": "Social media manager <img src='Pictures/reddit logo.png' class='mini_img'>",
         "name": "reddit",
-        "show_higher": 1
+        "show_higher": 0
     },
     {
         "category": "SocialMedia",
@@ -109,7 +109,7 @@
         "description": "The <a class=\"role_link\">social media manager</a> team who takes care of the official <a href=\"https://www.instagram.com/wolvesville.wov/\" target=\"_blank\" class=\"yellow\">instagram</a> account.",
         "display_name": "Social media manager <img src='Pictures/instagram logo.png' class='mini_img'>",
         "name": "instagram",
-        "show_higher": 1
+        "show_higher": 0
     },
     {
         "category": "SocialMedia",
@@ -117,7 +117,7 @@
         "description": "The <a class=\"role_link\">social media manager</a> team who takes care of the official <a href=\"https://www.facebook.com/wolvesville.wov/\" target=\"_blank\" class=\"yellow\">facebook</a> account.",
         "display_name": "Social media manager <img src='Pictures/facebook logo.png' class='mini_img'>",
         "name": "facebook",
-        "show_higher": 1
+        "show_higher": 0
     },
     {
         "category": "SocialMedia",
@@ -125,7 +125,7 @@
         "description": "The <a class=\"role_link\">social media manager</a> team who takes care of the official <a href=\"https://twitter.com/wolvesville_app\" target=\"_blank\" class=\"yellow\">twitter</a> account.",
         "display_name": "Social media manager <img src='Pictures/twitter logo.png' class='mini_img'>",
         "name": "twitter",
-        "show_higher": 1
+        "show_higher": 0
     },
     {
         "category": "SocialMedia",
