@@ -336,14 +336,14 @@
         "twitter": "1673932500"
     },
     {
-        "current": "instagram",
+        "current": "resigned",
         "facebook": null,
         "instagram": "1675487100",
         "languages": "German",
         "name": "Bomber",
         "reddit": null,
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1752494700,
+        "resigned_from": "instagram",
         "socialmedia": "1675487100",
         "twitter": null
     },

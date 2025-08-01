@@ -73,7 +73,7 @@
     },
     {
         "current": "resigned",
-        "languages": "Czech Slovak Swedish",
+        "languages": "Czech Slovak",
         "name": "Terka",
         "resigned": 1545743749,
         "resigned_from": "tc_mod",

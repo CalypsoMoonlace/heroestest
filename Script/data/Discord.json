@@ -2197,15 +2197,15 @@
         "trialminimod": null
     },
     {
-        "current": "minimod",
+        "current": "resigned",
         "helper": 1655310784,
         "languages": "German",
         "megamod": null,
         "minimod": 1716786000,
         "mod": null,
         "name": "Tiger",
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1751840760,
+        "resigned_from": "minimod",
         "trialhelper": 1653323584,
         "trialminimod": 1714713000
     },
@@ -2535,15 +2535,15 @@
         "trialminimod": 1714713000
     },
     {
-        "current": "helper",
+        "current": "resigned",
         "helper": 1705381200,
         "languages": "German",
         "megamod": null,
         "minimod": null,
         "mod": null,
         "name": "Bomber",
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1752494700,
+        "resigned_from": "helper",
         "trialhelper": 1700629200,
         "trialminimod": null
     },
