@@ -2795,15 +2795,15 @@
         "trialminimod": null
     },
     {
-        "current": "helper",
+        "current": "resigned",
         "helper": 1747588320,
         "languages": "German Korean",
         "megamod": null,
         "minimod": null,
         "mod": null,
         "name": "Eggy",
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1754060065,
+        "resigned_from": "helper",
         "trialhelper": 1746270960,
         "trialminimod": null
     },

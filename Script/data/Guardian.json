@@ -180,14 +180,14 @@
         "resigned_from": "guardian"
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": 1568026629,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "Vietnamese",
         "name": "Boy",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1754232865,
+        "resigned_from": "guardian"
     },
     {
         "current": "resigned",

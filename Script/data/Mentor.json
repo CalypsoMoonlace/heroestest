@@ -80,14 +80,14 @@
         "resigned_from": "mentor"
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "Vietnamese",
         "mentor": 1570611520,
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Boy",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1754232865,
+        "resigned_from": "mentor"
     },
     {
         "current": "resigned",
@@ -1150,14 +1150,14 @@
         "resigned_from": null
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "English",
         "mentor": 1725997860,
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Sirius",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1754319329,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
