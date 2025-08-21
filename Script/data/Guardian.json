@@ -320,14 +320,14 @@
         "resigned_from": "guardian"
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": "1597440040 1696741200",
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "Thai",
         "name": "Master",
-        "resigned": 1616248272,
-        "resigned_from": "guardian"
+        "resigned": "1616248272 1754590380",
+        "resigned_from": "guardian guardian"
     },
     {
         "current": "resigned",
@@ -804,7 +804,7 @@
         "guardian": 1666328400,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
-        "languages": "Turkish",
+        "languages": "Vietnamese",
         "name": "Daruma",
         "resigned": null,
         "resigned_from": null
@@ -1010,14 +1010,14 @@
         "resigned_from": null
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": 1727623800,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "Turkish",
         "name": "Ifflion",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1737975675,
+        "resigned_from": "guardian"
     },
     {
         "current": "guardian",

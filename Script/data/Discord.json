@@ -2704,15 +2704,15 @@
         "trialminimod": null
     },
     {
-        "current": "helper",
+        "current": "resigned",
         "helper": 1723837680,
         "languages": "Thai",
         "megamod": null,
         "minimod": null,
         "mod": null,
         "name": "Balthazar",
-        "resigned": null,
-        "resigned_from": null,
+        "resigned": 1754593260,
+        "resigned_from": "helper",
         "trialhelper": 1721845200,
         "trialminimod": null
     },

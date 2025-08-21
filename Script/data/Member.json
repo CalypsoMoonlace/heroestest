@@ -1658,7 +1658,7 @@
     {
         "birthday": null,
         "categories": "Guardian",
-        "languages": "English Turkish",
+        "languages": "English Vietnamese",
         "name": "Daruma"
     },
     {
@@ -2054,7 +2054,7 @@
     {
         "birthday": null,
         "categories": "Developer",
-        "languages": "English",
+        "languages": "English German",
         "name": "Thomas"
     },
     {
@@ -2110,5 +2110,11 @@
         "categories": "Discord",
         "languages": "English German",
         "name": "IvsYou"
+    },
+    {
+        "birthday": "20/5",
+        "categories": "Developer",
+        "languages": "English German",
+        "name": "Alucard"
     }
 ]

@@ -47,9 +47,18 @@
     {
         "current": "minidev",
         "dev": null,
-        "languages": "English",
+        "languages": "German",
         "minidev": 1742256000,
         "name": "Thomas",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "minidev",
+        "dev": null,
+        "languages": "German",
+        "minidev": 1755031320,
+        "name": "Alucard",
         "resigned": null,
         "resigned_from": null
     }
