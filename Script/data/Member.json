@@ -1687,7 +1687,7 @@
     },
     {
         "birthday": null,
-        "categories": "SocialMedia",
+        "categories": "SocialMedia TesterClub",
         "languages": "English",
         "name": "Dino"
     },
@@ -1729,7 +1729,7 @@
     },
     {
         "birthday": null,
-        "categories": "Discord",
+        "categories": "Discord TesterClub",
         "languages": "English German",
         "name": "Moonchild"
     },
@@ -1777,7 +1777,7 @@
     },
     {
         "birthday": null,
-        "categories": "Discord Mentor Guardian",
+        "categories": "Discord Mentor Guardian TesterClub",
         "languages": "English Dutch",
         "name": "FirePhoenix"
     },
@@ -1957,7 +1957,7 @@
     },
     {
         "birthday": null,
-        "categories": "Mentor Discord",
+        "categories": "Mentor Discord Guardian",
         "languages": "English Vietnamese",
         "name": "Avocado"
     },
@@ -2059,7 +2059,7 @@
     },
     {
         "birthday": null,
-        "categories": "Discord",
+        "categories": "Discord TesterClub",
         "languages": "English Turkish",
         "name": "Zyneak"
     },
@@ -2116,5 +2116,23 @@
         "categories": "Developer",
         "languages": "English German",
         "name": "Alucard"
+    },
+    {
+        "birthday": null,
+        "categories": "TesterClub",
+        "languages": "English",
+        "name": "Alaska"
+    },
+    {
+        "birthday": null,
+        "categories": "TesterClub",
+        "languages": "English",
+        "name": "Zothecat"
+    },
+    {
+        "birthday": null,
+        "categories": "TesterClub",
+        "languages": "English",
+        "name": "Yvonj"
     }
 ]

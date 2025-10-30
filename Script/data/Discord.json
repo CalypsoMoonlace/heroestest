@@ -1924,15 +1924,15 @@
         "trialminimod": null
     },
     {
-        "current": "mod",
+        "current": "resigned",
         "helper": 1618754271,
         "languages": "German",
         "megamod": null,
         "minimod": 1627912921,
         "mod": "1641227509 1681189200",
         "name": "Ro5in",
-        "resigned": 1675573200,
-        "resigned_from": "mod",
+        "resigned": "1675573200 1757893620",
+        "resigned_from": "mod mod",
         "trialhelper": 1618149471,
         "trialminimod": 1626968555
     },

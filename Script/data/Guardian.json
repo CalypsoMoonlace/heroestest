@@ -860,14 +860,14 @@
         "resigned_from": null
     },
     {
-        "current": "guardian",
+        "current": "resigned",
         "guardian": 1704603600,
         "guardianmanager": null,
         "guardianmanagerhelper": null,
         "languages": "German",
         "name": "Aurora",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1757542260,
+        "resigned_from": "guardian"
     },
     {
         "current": "guardian",
@@ -1086,6 +1086,16 @@
         "guardianmanagerhelper": null,
         "languages": "French",
         "name": "Roro",
+        "resigned": null,
+        "resigned_from": null
+    },
+    {
+        "current": "guardian",
+        "guardian": 1758190680,
+        "guardianmanager": null,
+        "guardianmanagerhelper": null,
+        "languages": "Vietnamese",
+        "name": "Avocado",
         "resigned": null,
         "resigned_from": null
     }

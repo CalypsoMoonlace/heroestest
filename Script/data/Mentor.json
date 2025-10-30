@@ -1070,14 +1070,14 @@
         "resigned_from": "mentor"
     },
     {
-        "current": "mentor",
+        "current": "resigned",
         "languages": "German",
         "mentor": 1725997860,
         "mentormanager": null,
         "mentormanagerhelper": null,
         "name": "Aurora",
-        "resigned": null,
-        "resigned_from": null
+        "resigned": 1757542260,
+        "resigned_from": "mentor"
     },
     {
         "current": "mentor",
